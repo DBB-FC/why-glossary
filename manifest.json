@@ -1,0 +1,11 @@
+{
+  "id": "why-glossary",
+  "name": "Why Glossary",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Bilingual EN↔ES pocket glossary: search a term in either language, see plain and technical definitions, hover, study, and add your own terms.",
+  "author": "Felipe Córdova",
+  "isDesktopOnly": false,
+  "authorUrl": "https://dontbuybuild.cl",
+  "fundingUrl": "https://www.buymeacoffee.com/DbbLabs"
+}

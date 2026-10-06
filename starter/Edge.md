@@ -1,0 +1,32 @@
+---
+en: "Edge"
+es: "Borde de la red (edge)"
+aliases: ["Borde de la red (edge)"]
+dominio: "03 · Desarrollo web y arquitectura de software"
+simple_es: "Menos latencia, más restricciones de lo que se puede correr ahí."
+tecnica_es: "Ejecución de código en nodos cercanos al usuario."
+simple_en: "Less latency, but more limits on what can run there."
+tecnica_en: "Execution of code on nodes close to the user."
+ejemplo_es: "Corremos el middleware en el edge."
+ejemplo_en: "We run the middleware at the edge."
+ver_tambien: [110, 123, 88]
+n: 122
+verificar: false
+---
+# Edge · Borde de la red (edge)
+
+**En simple.** Menos latencia, más restricciones de lo que se puede correr ahí.
+
+**Técnica.** Ejecución de código en nodos cercanos al usuario.
+
+**Ejemplo de uso.** _Corremos el middleware en el edge._
+
+---
+
+**In simple.** Less latency, but more limits on what can run there.
+
+**Technical.** Execution of code on nodes close to the user.
+
+**Example.** _We run the middleware at the edge._
+
+**Ver también.** [[CDN|CDN ↔ Red de distribución de contenidos]] · [[Cold Start|Cold Start ↔ Arranque en frío]] · [[Serverless|Serverless ↔ Sin servidor]]

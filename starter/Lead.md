@@ -3,9 +3,9 @@ en: "Lead"
 es: "Prospecto"
 aliases: ["Prospecto"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Prospecto todavía no calificado."
+simple_es: "Una persona o empresa interesada que todavía no está calificada como cliente."
 tecnica_es: "Persona u organización identificada como potencial cliente."
-simple_en: "A prospect not yet qualified."
+simple_en: "An interested person or company not yet qualified as a customer."
 tecnica_en: "A person or organisation identified as a potential customer."
 ejemplo_es: "Llegaron diez leads esta semana."
 ejemplo_en: "Ten leads came in this week."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Lead · Prospecto
 
-**En simple.** Prospecto todavía no calificado.
+**En simple.** Una persona o empresa interesada que todavía no está calificada como cliente.
 
 **Técnica.** Persona u organización identificada como potencial cliente.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A prospect not yet qualified.
+**In simple.** An interested person or company not yet qualified as a customer.
 
 **Technical.** A person or organisation identified as a potential customer.
 

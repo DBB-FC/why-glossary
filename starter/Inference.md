@@ -3,9 +3,9 @@ en: "Inference"
 es: "Inferencia"
 aliases: ["Inferencia"]
 dominio: "09 · IA y automatización"
-simple_es: "Cada vez que el modelo procesa una petición."
+simple_es: "Cada vez que un modelo procesa una petición y genera una respuesta."
 tecnica_es: "Ejecución de un modelo ya entrenado para producir una salida."
-simple_en: "Every time the model processes a request."
+simple_en: "Every time a model processes a request and produces an answer."
 tecnica_en: "Running an already-trained model to produce an output."
 ejemplo_es: "Cada inferencia tiene un costo en tokens."
 ejemplo_en: "Each inference has a cost in tokens."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Inference · Inferencia
 
-**En simple.** Cada vez que el modelo procesa una petición.
+**En simple.** Cada vez que un modelo procesa una petición y genera una respuesta.
 
 **Técnica.** Ejecución de un modelo ya entrenado para producir una salida.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Every time the model processes a request.
+**In simple.** Every time a model processes a request and produces an answer.
 
 **Technical.** Running an already-trained model to produce an output.
 

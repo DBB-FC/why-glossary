@@ -3,9 +3,9 @@ en: "Model Card / System Card"
 es: "Ficha de modelo / ficha de sistema"
 aliases: ["Model Card", "Ficha de modelo / ficha de sistema", "System Card", "Ficha de modelo", "ficha de sistema"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Lo que se lee antes de confiarle algo."
+simple_es: "Un documento que describe para qué sirve un modelo de IA, sus límites y sus riesgos."
 tecnica_es: "Documento que declara capacidades, límites y riesgos de un modelo o sistema."
-simple_en: "What you read before trusting it with something."
+simple_en: "A document describing what an AI model is for, its limits and its risks."
 tecnica_en: "A document stating a model's or system's capabilities, limits and risks."
 ejemplo_es: "Leímos la ficha del modelo antes de integrarlo."
 ejemplo_en: "We read the model card before integrating it."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Model Card / System Card · Ficha de modelo / ficha de sistema
 
-**En simple.** Lo que se lee antes de confiarle algo.
+**En simple.** Un documento que describe para qué sirve un modelo de IA, sus límites y sus riesgos.
 
 **Técnica.** Documento que declara capacidades, límites y riesgos de un modelo o sistema.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** What you read before trusting it with something.
+**In simple.** A document describing what an AI model is for, its limits and its risks.
 
 **Technical.** A document stating a model's or system's capabilities, limits and risks.
 

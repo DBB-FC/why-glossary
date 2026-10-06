@@ -3,9 +3,9 @@ en: "Authorization (payments)"
 es: "Autorización de pago"
 aliases: ["Autorización", "Autorización de pago"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "«La tarjeta tiene cupo y el titular existe.»"
+simple_es: "La confirmación del banco de que la tarjeta es válida y tiene saldo disponible."
 tecnica_es: "Aprobación del emisor que reserva fondos sin cobrarlos aún."
-simple_en: "\"The card has available limit and the holder exists.\""
+simple_en: "The bank's confirmation that the card is valid and has funds available."
 tecnica_en: "The issuer's approval that reserves funds without charging them yet."
 ejemplo_es: "La autorización salió bien, pero aún no capturamos."
 ejemplo_en: "The authorization went through, but we haven't captured yet."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Authorization (payments) · Autorización de pago
 
-**En simple.** «La tarjeta tiene cupo y el titular existe.»
+**En simple.** La confirmación del banco de que la tarjeta es válida y tiene saldo disponible.
 
 **Técnica.** Aprobación del emisor que reserva fondos sin cobrarlos aún.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** "The card has available limit and the holder exists."
+**In simple.** The bank's confirmation that the card is valid and has funds available.
 
 **Technical.** The issuer's approval that reserves funds without charging them yet.
 

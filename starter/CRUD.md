@@ -3,9 +3,9 @@ en: "CRUD"
 es: "Crear, leer, actualizar y eliminar"
 aliases: ["Crear, leer, actualizar y eliminar"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Crear, consultar, editar y borrar."
+simple_es: "Las cuatro operaciones básicas sobre datos: crear, leer, actualizar y borrar."
 tecnica_es: "Create, Read, Update, Delete: operaciones básicas sobre datos."
-simple_en: "Create, look up, edit and delete."
+simple_en: "The four basic operations on data: create, read, update and delete."
 tecnica_en: "Create, Read, Update, Delete: the basic operations on data."
 ejemplo_es: "El módulo es un CRUD simple de clientes."
 ejemplo_en: "The module is a simple customer CRUD."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # CRUD · Crear, leer, actualizar y eliminar
 
-**En simple.** Crear, consultar, editar y borrar.
+**En simple.** Las cuatro operaciones básicas sobre datos: crear, leer, actualizar y borrar.
 
 **Técnica.** Create, Read, Update, Delete: operaciones básicas sobre datos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Create, look up, edit and delete.
+**In simple.** The four basic operations on data: create, read, update and delete.
 
 **Technical.** Create, Read, Update, Delete: the basic operations on data.
 

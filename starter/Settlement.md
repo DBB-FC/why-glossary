@@ -3,7 +3,7 @@ en: "Settlement"
 es: "Liquidación"
 aliases: ["Settlement / Liquidación", "Liquidación"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "La venta fue el lunes; la plata llega el miércoles. Son dos fechas y no hay que confundirlas."
+simple_es: "La venta fue el lunes; el dinero llega el miércoles. Son dos fechas y no hay que confundirlas."
 tecnica_es: "Transferencia efectiva de fondos al comercio, normalmente días después de la venta."
 simple_en: "The sale was on Monday; the money arrives on Wednesday. Two different dates; don't mix them up."
 tecnica_en: "The actual transfer of funds to the merchant, usually days after the sale."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Settlement · Liquidación
 
-**En simple.** La venta fue el lunes; la plata llega el miércoles. Son dos fechas y no hay que confundirlas.
+**En simple.** La venta fue el lunes; el dinero llega el miércoles. Son dos fechas y no hay que confundirlas.
 
 **Técnica.** Transferencia efectiva de fondos al comercio, normalmente días después de la venta.
 

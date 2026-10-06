@@ -3,9 +3,9 @@ en: "Roadmap"
 es: "Hoja de ruta"
 aliases: ["Hoja de ruta"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Qué construimos ahora y qué viene después."
+simple_es: "El plan de qué se construye ahora y qué viene después."
 tecnica_es: "Plan de evolución de producto o tecnología organizado por etapas y prioridades."
-simple_en: "What we build now and what comes next."
+simple_en: "The plan of what is built now and what comes next."
 tecnica_en: "A plan for how a product or technology evolves, organised by stages and priorities."
 ejemplo_es: "La hoja de ruta pone primero los pagos."
 ejemplo_en: "The roadmap puts payments first."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Roadmap · Hoja de ruta
 
-**En simple.** Qué construimos ahora y qué viene después.
+**En simple.** El plan de qué se construye ahora y qué viene después.
 
 **Técnica.** Plan de evolución de producto o tecnología organizado por etapas y prioridades.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** What we build now and what comes next.
+**In simple.** The plan of what is built now and what comes next.
 
 **Technical.** A plan for how a product or technology evolves, organised by stages and priorities.
 

@@ -3,9 +3,9 @@ en: "Test Case"
 es: "Caso de prueba"
 aliases: ["Caso de prueba"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Prueba concreta y repetible."
+simple_es: "Una prueba concreta y repetible con un resultado esperado."
 tecnica_es: "Conjunto definido de condiciones, pasos y resultados esperados."
-simple_en: "A specific, repeatable test."
+simple_en: "A specific, repeatable test with an expected result."
 tecnica_en: "A defined set of conditions, steps and expected results."
 ejemplo_es: "Escribimos un caso de prueba para el cobro con tarjeta."
 ejemplo_en: "We wrote a test case for card payment."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Test Case · Caso de prueba
 
-**En simple.** Prueba concreta y repetible.
+**En simple.** Una prueba concreta y repetible con un resultado esperado.
 
 **Técnica.** Conjunto definido de condiciones, pasos y resultados esperados.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A specific, repeatable test.
+**In simple.** A specific, repeatable test with an expected result.
 
 **Technical.** A defined set of conditions, steps and expected results.
 

@@ -3,9 +3,9 @@ en: "Cron / Scheduled Job"
 es: "Tarea programada"
 aliases: ["Cron / Job Programado", "Cron", "Tarea programada", "Scheduled Job"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "«Todas las mañanas a las 05:30». Distinto de un Trigger, que responde a un evento y no a un reloj."
+simple_es: "Una tarea que se ejecuta sola según un horario, como «todas las mañanas a las 05:30»."
 tecnica_es: "Tarea que se ejecuta automáticamente según un calendario."
-simple_en: "\"Every morning at 05:30\". Different from a Trigger, which responds to an event, not a clock."
+simple_en: "A task that runs by itself on a schedule, like \"every morning at 05:30\"."
 tecnica_en: "A task that runs automatically on a schedule."
 ejemplo_es: "La tarea programada genera el reporte cada madrugada."
 ejemplo_en: "The scheduled job generates the report every early morning."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Cron / Scheduled Job · Tarea programada
 
-**En simple.** «Todas las mañanas a las 05:30». Distinto de un Trigger, que responde a un evento y no a un reloj.
+**En simple.** Una tarea que se ejecuta sola según un horario, como «todas las mañanas a las 05:30».
 
 **Técnica.** Tarea que se ejecuta automáticamente según un calendario.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** "Every morning at 05:30". Different from a Trigger, which responds to an event, not a clock.
+**In simple.** A task that runs by itself on a schedule, like "every morning at 05:30".
 
 **Technical.** A task that runs automatically on a schedule.
 

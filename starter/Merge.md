@@ -3,9 +3,9 @@ en: "Merge"
 es: "Fusión"
 aliases: ["Fusión"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Incorporar trabajo aprobado."
+simple_es: "Incorporar los cambios de una rama a otra."
 tecnica_es: "Integración de cambios entre ramas."
-simple_en: "Bringing in approved work."
+simple_en: "Bringing the changes from one branch into another."
 tecnica_en: "The integration of changes between branches."
 ejemplo_es: "Hicimos la fusión después de la revisión."
 ejemplo_en: "We merged after the review."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Merge · Fusión
 
-**En simple.** Incorporar trabajo aprobado.
+**En simple.** Incorporar los cambios de una rama a otra.
 
 **Técnica.** Integración de cambios entre ramas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Bringing in approved work.
+**In simple.** Bringing the changes from one branch into another.
 
 **Technical.** The integration of changes between branches.
 

@@ -3,9 +3,9 @@ en: "API Key"
 es: "Clave de API"
 aliases: ["Clave de API"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Llave digital de integración."
+simple_es: "Una clave secreta que identifica a tu aplicación ante un servicio."
 tecnica_es: "Credencial utilizada para identificar/autenticar acceso programático a una API."
-simple_en: "A digital key for integration."
+simple_en: "A secret key that identifies your application to a service."
 tecnica_en: "A credential used to identify or authenticate programmatic access to an API."
 ejemplo_es: "Generamos una clave de API para el proveedor de pagos."
 ejemplo_en: "We generated an API key for the payment provider."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # API Key · Clave de API
 
-**En simple.** Llave digital de integración.
+**En simple.** Una clave secreta que identifica a tu aplicación ante un servicio.
 
 **Técnica.** Credencial utilizada para identificar/autenticar acceso programático a una API.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A digital key for integration.
+**In simple.** A secret key that identifies your application to a service.
 
 **Technical.** A credential used to identify or authenticate programmatic access to an API.
 

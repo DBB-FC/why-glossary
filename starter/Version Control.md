@@ -3,9 +3,9 @@ en: "Version Control"
 es: "Control de versiones"
 aliases: ["Control de versiones"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Poder saber qué cambió y volver atrás."
+simple_es: "Registrar los cambios para saber qué cambió y poder volver atrás."
 tecnica_es: "Gestión histórica y trazable de cambios en archivos/código."
-simple_en: "Being able to know what changed and go back."
+simple_en: "Recording changes so you know what changed and can go back."
 tecnica_en: "Historical, traceable management of changes to files and code."
 ejemplo_es: "Gracias al control de versiones recuperamos el archivo."
 ejemplo_en: "Thanks to version control we recovered the file."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Version Control · Control de versiones
 
-**En simple.** Poder saber qué cambió y volver atrás.
+**En simple.** Registrar los cambios para saber qué cambió y poder volver atrás.
 
 **Técnica.** Gestión histórica y trazable de cambios en archivos/código.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Being able to know what changed and go back.
+**In simple.** Recording changes so you know what changed and can go back.
 
 **Technical.** Historical, traceable management of changes to files and code.
 

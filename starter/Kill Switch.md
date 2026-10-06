@@ -3,9 +3,9 @@ en: "Kill Switch"
 es: "Interruptor de emergencia"
 aliases: ["Interruptor de emergencia"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "«Apagar los retiros» tiene que ser un dato consultable, no una línea que alguien edita."
+simple_es: "Un interruptor para apagar rápidamente una función o proceso sin cambiar el código."
 tecnica_es: "Mecanismo que deshabilita operaciones sin desplegar código."
-simple_en: "\"Turning off withdrawals\" must be queryable data, not a line someone edits."
+simple_en: "A switch to quickly turn off a feature or process without changing code."
 tecnica_en: "A mechanism that disables operations without deploying code."
 ejemplo_es: "Activamos el interruptor de emergencia mientras investigábamos."
 ejemplo_en: "We flipped the kill switch while we investigated."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Kill Switch · Interruptor de emergencia
 
-**En simple.** «Apagar los retiros» tiene que ser un dato consultable, no una línea que alguien edita.
+**En simple.** Un interruptor para apagar rápidamente una función o proceso sin cambiar el código.
 
 **Técnica.** Mecanismo que deshabilita operaciones sin desplegar código.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** "Turning off withdrawals" must be queryable data, not a line someone edits.
+**In simple.** A switch to quickly turn off a feature or process without changing code.
 
 **Technical.** A mechanism that disables operations without deploying code.
 

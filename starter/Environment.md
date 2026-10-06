@@ -3,9 +3,9 @@ en: "Environment"
 es: "Entorno"
 aliases: ["Entorno"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Local, staging y producción."
+simple_es: "Cada lugar donde corre el software: local, pruebas y producción."
 tecnica_es: "Instancia/configuración separada destinada a una etapa del ciclo de software."
-simple_en: "Local, staging and production."
+simple_en: "Each place where software runs: local, testing and production."
 tecnica_en: "A separate instance or configuration meant for one stage of the software lifecycle."
 ejemplo_es: "Cada entorno tiene sus propias claves."
 ejemplo_en: "Each environment has its own keys."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Environment · Entorno
 
-**En simple.** Local, staging y producción.
+**En simple.** Cada lugar donde corre el software: local, pruebas y producción.
 
 **Técnica.** Instancia/configuración separada destinada a una etapa del ciclo de software.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Local, staging and production.
+**In simple.** Each place where software runs: local, testing and production.
 
 **Technical.** A separate instance or configuration meant for one stage of the software lifecycle.
 

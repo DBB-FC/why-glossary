@@ -3,9 +3,9 @@ en: "Endpoint"
 es: "Punto de acceso"
 aliases: ["Punto de acceso"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Una \"puerta\" concreta dentro de la API."
+simple_es: "Una dirección concreta de una API a la que se le puede pedir algo."
 tecnica_es: "Dirección específica de una API que expone una operación o recurso."
-simple_en: "One specific \"door\" inside the API."
+simple_en: "A specific address of an API that you can ask for something."
 tecnica_en: "A specific address of an API that exposes an operation or resource."
 ejemplo_es: "El endpoint /clientes devuelve la lista."
 ejemplo_en: "The /customers endpoint returns the list."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Endpoint · Punto de acceso
 
-**En simple.** Una "puerta" concreta dentro de la API.
+**En simple.** Una dirección concreta de una API a la que se le puede pedir algo.
 
 **Técnica.** Dirección específica de una API que expone una operación o recurso.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** One specific "door" inside the API.
+**In simple.** A specific address of an API that you can ask for something.
 
 **Technical.** A specific address of an API that exposes an operation or resource.
 

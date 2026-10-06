@@ -3,9 +3,9 @@ en: "CVE"
 es: "Vulnerabilidades y exposiciones comunes"
 aliases: ["Vulnerabilidades y exposiciones comunes"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "«Esa dependencia tiene un CVE crítico» es un dato verificable, no una opinión."
+simple_es: "Un identificador público para una vulnerabilidad de seguridad conocida."
 tecnica_es: "Common Vulnerabilities and Exposures: identificador público de una vulnerabilidad conocida."
-simple_en: "\"That dependency has a critical CVE\" is a verifiable fact, not an opinion."
+simple_en: "A public identifier for a known security vulnerability."
 tecnica_en: "Common Vulnerabilities and Exposures: a public identifier for a known vulnerability."
 ejemplo_es: "Esa librería tiene un CVE crítico y hay que actualizarla."
 ejemplo_en: "That library has a critical CVE and needs updating."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # CVE · Vulnerabilidades y exposiciones comunes
 
-**En simple.** «Esa dependencia tiene un CVE crítico» es un dato verificable, no una opinión.
+**En simple.** Un identificador público para una vulnerabilidad de seguridad conocida.
 
 **Técnica.** Common Vulnerabilities and Exposures: identificador público de una vulnerabilidad conocida.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** "That dependency has a critical CVE" is a verifiable fact, not an opinion.
+**In simple.** A public identifier for a known security vulnerability.
 
 **Technical.** Common Vulnerabilities and Exposures: a public identifier for a known vulnerability.
 

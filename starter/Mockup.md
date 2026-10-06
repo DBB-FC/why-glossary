@@ -3,9 +3,9 @@ en: "Mockup"
 es: "Maqueta visual"
 aliases: ["Maqueta visual"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Cómo se verá el producto."
+simple_es: "Una imagen de cómo se verá el producto terminado."
 tecnica_es: "Representación visual de mayor fidelidad, normalmente no funcional."
-simple_en: "How the product will look."
+simple_en: "An image of how the finished product will look."
 tecnica_en: "A higher-fidelity visual representation, usually non-functional."
 ejemplo_es: "El mockup de la home quedó aprobado."
 ejemplo_en: "The homepage mockup was approved."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Mockup · Maqueta visual
 
-**En simple.** Cómo se verá el producto.
+**En simple.** Una imagen de cómo se verá el producto terminado.
 
 **Técnica.** Representación visual de mayor fidelidad, normalmente no funcional.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** How the product will look.
+**In simple.** An image of how the finished product will look.
 
 **Technical.** A higher-fidelity visual representation, usually non-functional.
 

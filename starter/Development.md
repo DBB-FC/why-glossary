@@ -3,9 +3,9 @@ en: "Development"
 es: "Desarrollo"
 aliases: ["Development / Dev", "Desarrollo"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Donde se desarrolla."
+simple_es: "El entorno donde se construye y prueba el software."
 tecnica_es: "Entorno destinado a construcción e integración temprana."
-simple_en: "Where development happens."
+simple_en: "The environment where software is built and tested."
 tecnica_en: "An environment meant for building and early integration."
 ejemplo_es: "Los cambios van primero al entorno de desarrollo."
 ejemplo_en: "Changes go to the development environment first."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Development · Desarrollo
 
-**En simple.** Donde se desarrolla.
+**En simple.** El entorno donde se construye y prueba el software.
 
 **Técnica.** Entorno destinado a construcción e integración temprana.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Where development happens.
+**In simple.** The environment where software is built and tested.
 
 **Technical.** An environment meant for building and early integration.
 

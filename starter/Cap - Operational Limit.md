@@ -3,9 +3,9 @@ en: "Cap / Operational Limit"
 es: "Tope / límite operacional"
 aliases: ["Tope / Límite operacional", "Tope", "Tope / límite operacional", "Cap", "Operational Limit", "límite operacional"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Un permiso sin tope es un cheque en blanco."
+simple_es: "Un límite máximo para lo que un permiso o proceso puede hacer."
 tecnica_es: "Monto máximo que una identidad puede mover por operación o por período."
-simple_en: "A permission with no cap is a blank check."
+simple_en: "A maximum limit on what a permission or process can do."
 tecnica_en: "The maximum amount an identity may move per operation or per period."
 ejemplo_es: "El tope diario limita cuánto puede retirar cada cliente."
 ejemplo_en: "The daily cap limits how much each client can withdraw."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Cap / Operational Limit · Tope / límite operacional
 
-**En simple.** Un permiso sin tope es un cheque en blanco.
+**En simple.** Un límite máximo para lo que un permiso o proceso puede hacer.
 
 **Técnica.** Monto máximo que una identidad puede mover por operación o por período.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A permission with no cap is a blank check.
+**In simple.** A maximum limit on what a permission or process can do.
 
 **Technical.** The maximum amount an identity may move per operation or per period.
 

@@ -3,9 +3,9 @@ en: "RBAC"
 es: "Control de acceso basado en roles"
 aliases: ["Control de acceso basado en roles"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Administrador, vendedor, operador, cliente."
+simple_es: "Dar permisos según el rol de cada persona, como administrador o vendedor."
 tecnica_es: "Role-Based Access Control: permisos asignados según roles."
-simple_en: "Administrator, salesperson, operator, customer."
+simple_en: "Granting permissions by each person's role, such as administrator or salesperson."
 tecnica_en: "Role-Based Access Control: permissions assigned according to roles."
 ejemplo_es: "Definimos cuatro roles con RBAC."
 ejemplo_en: "We defined four roles with RBAC."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # RBAC · Control de acceso basado en roles
 
-**En simple.** Administrador, vendedor, operador, cliente.
+**En simple.** Dar permisos según el rol de cada persona, como administrador o vendedor.
 
 **Técnica.** Role-Based Access Control: permisos asignados según roles.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Administrator, salesperson, operator, customer.
+**In simple.** Granting permissions by each person's role, such as administrator or salesperson.
 
 **Technical.** Role-Based Access Control: permissions assigned according to roles.
 

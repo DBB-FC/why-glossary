@@ -3,9 +3,9 @@ en: "Patch"
 es: "Parche"
 aliases: ["Parche"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Actualización correctiva."
+simple_es: "Una actualización que corrige un error."
 tecnica_es: "Cambio destinado a corregir un defecto o vulnerabilidad."
-simple_en: "A corrective update."
+simple_en: "An update that fixes a bug."
 tecnica_en: "A change intended to fix a defect or vulnerability."
 ejemplo_es: "Aplicamos el parche esa misma noche."
 ejemplo_en: "We applied the patch that same night."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Patch · Parche
 
-**En simple.** Actualización correctiva.
+**En simple.** Una actualización que corrige un error.
 
 **Técnica.** Cambio destinado a corregir un defecto o vulnerabilidad.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A corrective update.
+**In simple.** An update that fixes a bug.
 
 **Technical.** A change intended to fix a defect or vulnerability.
 

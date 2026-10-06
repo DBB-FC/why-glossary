@@ -3,9 +3,9 @@ en: "Issuer"
 es: "Emisor"
 aliases: ["Emisor"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "El banco de la tarjeta del cliente."
+simple_es: "El banco que emitió la tarjeta del cliente."
 tecnica_es: "Entidad que emitió el medio de pago del comprador."
-simple_en: "The bank of the customer's card."
+simple_en: "The bank that issued the customer's card."
 tecnica_en: "The entity that issued the buyer's payment instrument."
 ejemplo_es: "El emisor rechazó la tarjeta por falta de cupo."
 ejemplo_en: "The issuer declined the card for insufficient limit."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Issuer · Emisor
 
-**En simple.** El banco de la tarjeta del cliente.
+**En simple.** El banco que emitió la tarjeta del cliente.
 
 **Técnica.** Entidad que emitió el medio de pago del comprador.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The bank of the customer's card.
+**In simple.** The bank that issued the customer's card.
 
 **Technical.** The entity that issued the buyer's payment instrument.
 

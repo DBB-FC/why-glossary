@@ -3,9 +3,9 @@ en: "MCP Client"
 es: "Cliente MCP"
 aliases: ["Cliente MCP"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Claude, ChatGPT, Cursor."
+simple_es: "La aplicación de IA que usa herramientas externas mediante MCP, como un asistente o un editor."
 tecnica_es: "Aplicación que consume un servidor MCP."
-simple_en: "Claude, ChatGPT, Cursor."
+simple_en: "The AI application that uses external tools through MCP, such as an assistant or an editor."
 tecnica_en: "An application that consumes an MCP server."
 ejemplo_es: "El cliente MCP descubre las herramientas del servidor."
 ejemplo_en: "The MCP client discovers the server's tools."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # MCP Client · Cliente MCP
 
-**En simple.** Claude, ChatGPT, Cursor.
+**En simple.** La aplicación de IA que usa herramientas externas mediante MCP, como un asistente o un editor.
 
 **Técnica.** Aplicación que consume un servidor MCP.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Claude, ChatGPT, Cursor.
+**In simple.** The AI application that uses external tools through MCP, such as an assistant or an editor.
 
 **Technical.** An application that consumes an MCP server.
 

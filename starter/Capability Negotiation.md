@@ -3,9 +3,9 @@ en: "Capability Negotiation"
 es: "Negociación de capacidades"
 aliases: ["Negociación de capacidades"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Se ponen de acuerdo antes de trabajar."
+simple_es: "El paso en que dos sistemas acuerdan qué pueden hacer antes de trabajar juntos."
 tecnica_es: "Acuerdo inicial sobre qué soporta cada lado de la conexión."
-simple_en: "They agree before working."
+simple_en: "The step where two systems agree on what they can do before working together."
 tecnica_en: "The initial agreement on what each side of the connection supports."
 ejemplo_es: "La negociación de capacidades define qué puede hacer cada lado."
 ejemplo_en: "Capability negotiation defines what each side can do."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Capability Negotiation · Negociación de capacidades
 
-**En simple.** Se ponen de acuerdo antes de trabajar.
+**En simple.** El paso en que dos sistemas acuerdan qué pueden hacer antes de trabajar juntos.
 
 **Técnica.** Acuerdo inicial sobre qué soporta cada lado de la conexión.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** They agree before working.
+**In simple.** The step where two systems agree on what they can do before working together.
 
 **Technical.** The initial agreement on what each side of the connection supports.
 

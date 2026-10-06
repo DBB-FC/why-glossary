@@ -3,9 +3,9 @@ en: "Branch"
 es: "Rama"
 aliases: ["Rama"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Trabajar en una función sin romper main."
+simple_es: "Una línea de trabajo paralela para cambiar código sin afectar la versión principal."
 tecnica_es: "Línea independiente de desarrollo dentro de Git."
-simple_en: "Working on a feature without breaking main."
+simple_en: "A parallel line of work for changing code without affecting the main version."
 tecnica_en: "An independent line of development within Git."
 ejemplo_es: "Abrí una rama para el módulo de reportes."
 ejemplo_en: "I opened a branch for the reports module."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Branch · Rama
 
-**En simple.** Trabajar en una función sin romper main.
+**En simple.** Una línea de trabajo paralela para cambiar código sin afectar la versión principal.
 
 **Técnica.** Línea independiente de desarrollo dentro de Git.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Working on a feature without breaking main.
+**In simple.** A parallel line of work for changing code without affecting the main version.
 
 **Technical.** An independent line of development within Git.
 

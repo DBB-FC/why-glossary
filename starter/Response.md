@@ -3,9 +3,9 @@ en: "Response"
 es: "Respuesta"
 aliases: ["Respuesta"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "La contestación del sistema."
+simple_es: "Lo que el sistema contesta a una petición."
 tecnica_es: "Resultado devuelto por un servicio ante una solicitud."
-simple_en: "The system's answer."
+simple_en: "What the system answers to a request."
 tecnica_en: "The result a service returns for a request."
 ejemplo_es: "La response devolvió un error 500."
 ejemplo_en: "The response came back with a 500 error."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Response · Respuesta
 
-**En simple.** La contestación del sistema.
+**En simple.** Lo que el sistema contesta a una petición.
 
 **Técnica.** Resultado devuelto por un servicio ante una solicitud.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The system's answer.
+**In simple.** What the system answers to a request.
 
 **Technical.** The result a service returns for a request.
 

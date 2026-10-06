@@ -3,9 +3,9 @@ en: "HTTP"
 es: "Protocolo de transferencia de hipertexto"
 aliases: ["Protocolo de transferencia de hipertexto"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Lenguaje base de intercambio en la web."
+simple_es: "El protocolo con el que se intercambia información en la web."
 tecnica_es: "Protocolo principal para comunicación web."
-simple_en: "The basic language of exchange on the web."
+simple_en: "The protocol used to exchange information on the web."
 tecnica_en: "The main protocol for web communication."
 ejemplo_es: "El sitio todavía se sirve por HTTP."
 ejemplo_en: "The site is still served over HTTP."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # HTTP · Protocolo de transferencia de hipertexto
 
-**En simple.** Lenguaje base de intercambio en la web.
+**En simple.** El protocolo con el que se intercambia información en la web.
 
 **Técnica.** Protocolo principal para comunicación web.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The basic language of exchange on the web.
+**In simple.** The protocol used to exchange information on the web.
 
 **Technical.** The main protocol for web communication.
 

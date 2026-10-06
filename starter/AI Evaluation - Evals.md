@@ -3,9 +3,9 @@ en: "AI Evaluation / Evals"
 es: "Evaluación de IA"
 aliases: ["AI Evaluation", "Evaluación de IA", "Evals"]
 dominio: "09 · IA y automatización"
-simple_es: "QA para IA."
+simple_es: "Pruebas que miden si una IA responde bien, como un control de calidad."
 tecnica_es: "Pruebas sistemáticas para medir calidad, seguridad y consistencia de sistemas de IA."
-simple_en: "QA for AI."
+simple_en: "Tests that measure whether an AI answers well, like quality control."
 tecnica_en: "Systematic tests to measure the quality, safety and consistency of AI systems."
 ejemplo_es: "Corremos evaluaciones antes de cambiar el prompt."
 ejemplo_en: "We run evals before changing the prompt."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # AI Evaluation / Evals · Evaluación de IA
 
-**En simple.** QA para IA.
+**En simple.** Pruebas que miden si una IA responde bien, como un control de calidad.
 
 **Técnica.** Pruebas sistemáticas para medir calidad, seguridad y consistencia de sistemas de IA.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** QA for AI.
+**In simple.** Tests that measure whether an AI answers well, like quality control.
 
 **Technical.** Systematic tests to measure the quality, safety and consistency of AI systems.
 

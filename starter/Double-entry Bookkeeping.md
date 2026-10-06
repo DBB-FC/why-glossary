@@ -3,7 +3,7 @@ en: "Double-entry Bookkeeping"
 es: "Partida doble"
 aliases: ["Partida doble"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Un abono al cliente es un cargo a otra cuenta: nunca aparece plata de la nada."
+simple_es: "Un abono al cliente es un cargo a otra cuenta: nunca aparece dinero de la nada."
 tecnica_es: "Principio contable donde todo movimiento tiene contrapartida."
 simple_en: "A credit to the customer is a debit to another account: money never appears from nowhere."
 tecnica_en: "An accounting principle where every movement has a counterpart."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Double-entry Bookkeeping · Partida doble
 
-**En simple.** Un abono al cliente es un cargo a otra cuenta: nunca aparece plata de la nada.
+**En simple.** Un abono al cliente es un cargo a otra cuenta: nunca aparece dinero de la nada.
 
 **Técnica.** Principio contable donde todo movimiento tiene contrapartida.
 

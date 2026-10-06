@@ -3,9 +3,9 @@ en: "Information Architecture"
 es: "Arquitectura de la información"
 aliases: ["Arquitectura de la información"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Dónde vive cada cosa y cómo se encuentra."
+simple_es: "Cómo se organiza y etiqueta el contenido para poder encontrarlo."
 tecnica_es: "Organización estructural del contenido y navegación."
-simple_en: "Where each thing lives and how it is found."
+simple_en: "How content is organised and labelled so it can be found."
 tecnica_en: "The structural organisation of content and navigation."
 ejemplo_es: "Reordenamos la arquitectura de la información del menú."
 ejemplo_en: "We reorganised the menu's information architecture."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Information Architecture · Arquitectura de la información
 
-**En simple.** Dónde vive cada cosa y cómo se encuentra.
+**En simple.** Cómo se organiza y etiqueta el contenido para poder encontrarlo.
 
 **Técnica.** Organización estructural del contenido y navegación.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Where each thing lives and how it is found.
+**In simple.** How content is organised and labelled so it can be found.
 
 **Technical.** The structural organisation of content and navigation.
 

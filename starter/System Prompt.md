@@ -3,9 +3,9 @@ en: "System Prompt"
 es: "Instrucción de sistema"
 aliases: ["Instrucción de sistema"]
 dominio: "09 · IA y automatización"
-simple_es: "Las reglas base del agente."
+simple_es: "Las instrucciones base que definen cómo se comporta una IA."
 tecnica_es: "Instrucción de alto nivel que define comportamiento, rol y restricciones de un modelo."
-simple_en: "The agent's base rules."
+simple_en: "The base instructions that define how an AI behaves."
 tecnica_en: "A high-level instruction that defines a model's behavior, role and constraints."
 ejemplo_es: "La instrucción de sistema le prohíbe inventar precios."
 ejemplo_en: "The system prompt forbids it from making up prices."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # System Prompt · Instrucción de sistema
 
-**En simple.** Las reglas base del agente.
+**En simple.** Las instrucciones base que definen cómo se comporta una IA.
 
 **Técnica.** Instrucción de alto nivel que define comportamiento, rol y restricciones de un modelo.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The agent's base rules.
+**In simple.** The base instructions that define how an AI behaves.
 
 **Technical.** A high-level instruction that defines a model's behavior, role and constraints.
 

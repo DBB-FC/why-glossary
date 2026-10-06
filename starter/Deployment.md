@@ -3,9 +3,9 @@ en: "Deployment"
 es: "Despliegue"
 aliases: ["Deployment / Deploy", "Despliegue"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Subir una versión nueva."
+simple_es: "Publicar una versión nueva de un sistema."
 tecnica_es: "Proceso de publicar una versión de software en un entorno."
-simple_en: "Putting a new version online."
+simple_en: "Putting a new version of a system online."
 tecnica_en: "The process of publishing a software version to an environment."
 ejemplo_es: "El despliegue de hoy salió sin incidentes."
 ejemplo_en: "Today's deployment went out without incidents."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Deployment · Despliegue
 
-**En simple.** Subir una versión nueva.
+**En simple.** Publicar una versión nueva de un sistema.
 
 **Técnica.** Proceso de publicar una versión de software en un entorno.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Putting a new version online.
+**In simple.** Putting a new version of a system online.
 
 **Technical.** The process of publishing a software version to an environment.
 

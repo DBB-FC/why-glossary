@@ -3,9 +3,9 @@ en: "REST API"
 es: "API REST"
 aliases: ["API REST"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Forma muy común de integrar plataformas."
+simple_es: "Un estilo muy común de API web para que los sistemas se comuniquen."
 tecnica_es: "Estilo de API basado habitualmente en HTTP, recursos y métodos estandarizados."
-simple_en: "A very common way to integrate platforms."
+simple_en: "A very common web API style for systems to communicate."
 tecnica_en: "An API style usually built on HTTP, resources and standard methods."
 ejemplo_es: "La API REST expone clientes y pedidos."
 ejemplo_en: "The REST API exposes customers and orders."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # REST API · API REST
 
-**En simple.** Forma muy común de integrar plataformas.
+**En simple.** Un estilo muy común de API web para que los sistemas se comuniquen.
 
 **Técnica.** Estilo de API basado habitualmente en HTTP, recursos y métodos estandarizados.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A very common way to integrate platforms.
+**In simple.** A very common web API style for systems to communicate.
 
 **Technical.** An API style usually built on HTTP, resources and standard methods.
 

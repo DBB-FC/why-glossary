@@ -3,9 +3,9 @@ en: "User Journey"
 es: "Recorrido del usuario"
 aliases: ["Recorrido del usuario"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "El camino completo del usuario."
+simple_es: "La experiencia completa del usuario, de principio a fin."
 tecnica_es: "Representación de etapas e interacciones de un usuario para lograr un objetivo."
-simple_en: "The user's whole path."
+simple_en: "The user's whole experience, from start to finish."
 tecnica_en: "A representation of the stages and interactions a user goes through to reach a goal."
 ejemplo_es: "El user journey va desde descubrir la marca hasta renovar."
 ejemplo_en: "The user journey runs from discovering the brand to renewing."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # User Journey · Recorrido del usuario
 
-**En simple.** El camino completo del usuario.
+**En simple.** La experiencia completa del usuario, de principio a fin.
 
 **Técnica.** Representación de etapas e interacciones de un usuario para lograr un objetivo.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The user's whole path.
+**In simple.** The user's whole experience, from start to finish.
 
 **Technical.** A representation of the stages and interactions a user goes through to reach a goal.
 

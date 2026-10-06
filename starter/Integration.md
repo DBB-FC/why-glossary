@@ -3,9 +3,9 @@ en: "Integration"
 es: "Integración"
 aliases: ["Integración"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "CRM conversa con ERP, WhatsApp, pagos, etc."
+simple_es: "Conectar dos sistemas para que intercambien datos, por ejemplo un CRM con un ERP."
 tecnica_es: "Conexión entre sistemas para intercambiar datos o ejecutar procesos coordinados."
-simple_en: "The CRM talks to the ERP, WhatsApp, payments, etc."
+simple_en: "Connecting two systems so they exchange data, for example a CRM with an ERP."
 tecnica_en: "A connection between systems to exchange data or run coordinated processes."
 ejemplo_es: "La integración sincroniza los clientes entre el CRM y el ERP."
 ejemplo_en: "The integration syncs customers between the CRM and the ERP."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Integration · Integración
 
-**En simple.** CRM conversa con ERP, WhatsApp, pagos, etc.
+**En simple.** Conectar dos sistemas para que intercambien datos, por ejemplo un CRM con un ERP.
 
 **Técnica.** Conexión entre sistemas para intercambiar datos o ejecutar procesos coordinados.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The CRM talks to the ERP, WhatsApp, payments, etc.
+**In simple.** Connecting two systems so they exchange data, for example a CRM with an ERP.
 
 **Technical.** A connection between systems to exchange data or run coordinated processes.
 

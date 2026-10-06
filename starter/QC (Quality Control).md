@@ -3,9 +3,9 @@ en: "QC (Quality Control)"
 es: "Control de calidad"
 aliases: ["QC", "Control de calidad"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Revisar lo construido."
+simple_es: "Revisar lo construido para detectar fallas."
 tecnica_es: "Quality Control: inspección del resultado para verificar conformidad."
-simple_en: "Checking what has been built."
+simple_en: "Checking what was built to catch defects."
 tecnica_en: "Quality Control: inspection of the result to verify conformity."
 ejemplo_es: "El control de calidad rechazó la entrega por dos fallas."
 ejemplo_en: "Quality control rejected the delivery over two failures."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # QC (Quality Control) · Control de calidad
 
-**En simple.** Revisar lo construido.
+**En simple.** Revisar lo construido para detectar fallas.
 
 **Técnica.** Quality Control: inspección del resultado para verificar conformidad.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Checking what has been built.
+**In simple.** Checking what was built to catch defects.
 
 **Technical.** Quality Control: inspection of the result to verify conformity.
 

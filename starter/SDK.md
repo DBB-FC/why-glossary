@@ -3,9 +3,9 @@ en: "SDK"
 es: "Kit de desarrollo de software"
 aliases: ["Kit de desarrollo de software"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Kit técnico que facilita usar un servicio."
+simple_es: "Un kit de herramientas para usar un servicio desde tu código."
 tecnica_es: "Software Development Kit: herramientas y librerías para integrar/desarrollar sobre una plataforma."
-simple_en: "A technical kit that makes a service easier to use."
+simple_en: "A toolkit for using a service from your code."
 tecnica_en: "Software Development Kit: tools and libraries to integrate with or build on a platform."
 ejemplo_es: "Usamos el SDK del proveedor de pagos."
 ejemplo_en: "We use the payment provider's SDK."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # SDK · Kit de desarrollo de software
 
-**En simple.** Kit técnico que facilita usar un servicio.
+**En simple.** Un kit de herramientas para usar un servicio desde tu código.
 
 **Técnica.** Software Development Kit: herramientas y librerías para integrar/desarrollar sobre una plataforma.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A technical kit that makes a service easier to use.
+**In simple.** A toolkit for using a service from your code.
 
 **Technical.** Software Development Kit: tools and libraries to integrate with or build on a platform.
 

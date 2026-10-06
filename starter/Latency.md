@@ -3,9 +3,9 @@ en: "Latency"
 es: "Latencia"
 aliases: ["Latencia"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Demora percibida."
+simple_es: "El tiempo de espera entre pedir algo y recibir la respuesta."
 tecnica_es: "Tiempo transcurrido entre una solicitud y su respuesta."
-simple_en: "The delay you perceive."
+simple_en: "The waiting time between asking for something and getting the answer."
 tecnica_en: "The time elapsed between a request and its response."
 ejemplo_es: "La latencia sube cuando el servidor está lejos."
 ejemplo_en: "Latency goes up when the server is far away."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Latency · Latencia
 
-**En simple.** Demora percibida.
+**En simple.** El tiempo de espera entre pedir algo y recibir la respuesta.
 
 **Técnica.** Tiempo transcurrido entre una solicitud y su respuesta.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The delay you perceive.
+**In simple.** The waiting time between asking for something and getting the answer.
 
 **Technical.** The time elapsed between a request and its response.
 

@@ -3,9 +3,9 @@ en: "MCP Server"
 es: "Servidor MCP"
 aliases: ["Servidor MCP"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Lo que se conecta: GitHub, Supabase, Vercel."
+simple_es: "El programa que ofrece herramientas o datos a una IA mediante MCP, como el de GitHub."
 tecnica_es: "Proceso que expone herramientas, recursos y prompts a un cliente MCP."
-simple_en: "What you connect: GitHub, Supabase, Vercel."
+simple_en: "The program that offers tools or data to an AI through MCP, like GitHub's."
 tecnica_en: "A process that exposes tools, resources and prompts to an MCP client."
 ejemplo_es: "El servidor MCP de Supabase expone la base de datos."
 ejemplo_en: "The Supabase MCP server exposes the database."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # MCP Server · Servidor MCP
 
-**En simple.** Lo que se conecta: GitHub, Supabase, Vercel.
+**En simple.** El programa que ofrece herramientas o datos a una IA mediante MCP, como el de GitHub.
 
 **Técnica.** Proceso que expone herramientas, recursos y prompts a un cliente MCP.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** What you connect: GitHub, Supabase, Vercel.
+**In simple.** The program that offers tools or data to an AI through MCP, like GitHub's.
 
 **Technical.** A process that exposes tools, resources and prompts to an MCP client.
 

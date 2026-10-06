@@ -3,9 +3,9 @@ en: "Client-Server"
 es: "Cliente-servidor"
 aliases: ["Cliente-servidor"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "El navegador pide información al backend."
+simple_es: "Un modelo donde un cliente, como el navegador, pide información a un servidor."
 tecnica_es: "Modelo donde clientes solicitan recursos o servicios a servidores."
-simple_en: "The browser asks the backend for information."
+simple_en: "A model where a client, like the browser, asks a server for information."
 tecnica_en: "A model where clients request resources or services from servers."
 ejemplo_es: "En cliente-servidor, el navegador pide y el servidor responde."
 ejemplo_en: "In client-server, the browser asks and the server answers."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Client-Server · Cliente-servidor
 
-**En simple.** El navegador pide información al backend.
+**En simple.** Un modelo donde un cliente, como el navegador, pide información a un servidor.
 
 **Técnica.** Modelo donde clientes solicitan recursos o servicios a servidores.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The browser asks the backend for information.
+**In simple.** A model where a client, like the browser, asks a server for information.
 
 **Technical.** A model where clients request resources or services from servers.
 

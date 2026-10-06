@@ -3,9 +3,9 @@ en: "Native Integration"
 es: "Integración nativa"
 aliases: ["Integración nativa"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Conexión lista para usar."
+simple_es: "Una conexión que ya viene incluida y lista para usar."
 tecnica_es: "Integración incorporada oficialmente por una plataforma."
-simple_en: "A ready-to-use connection."
+simple_en: "A connection that comes built in and ready to use."
 tecnica_en: "An integration officially built into a platform."
 ejemplo_es: "Usamos la integración nativa con Google Calendar."
 ejemplo_en: "We use the native Google Calendar integration."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Native Integration · Integración nativa
 
-**En simple.** Conexión lista para usar.
+**En simple.** Una conexión que ya viene incluida y lista para usar.
 
 **Técnica.** Integración incorporada oficialmente por una plataforma.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A ready-to-use connection.
+**In simple.** A connection that comes built in and ready to use.
 
 **Technical.** An integration officially built into a platform.
 

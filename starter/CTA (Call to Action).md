@@ -3,9 +3,9 @@ en: "CTA (Call to Action)"
 es: "Llamado a la acción"
 aliases: ["CTA", "Llamado a la acción"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "\"Cotizar\", \"Agendar reunión\", \"Comprar\"."
+simple_es: "Un botón o frase que invita a actuar, como «Comprar» o «Reservar»."
 tecnica_es: "Call to Action: elemento que busca provocar una acción específica."
-simple_en: "\"Get a quote\", \"Book a meeting\", \"Buy\"."
+simple_en: "A button or phrase that invites action, like \"Buy\" or \"Book\"."
 tecnica_en: "Call to Action: an element meant to prompt a specific action."
 ejemplo_es: "Cambiamos el CTA a «Cotizar gratis»."
 ejemplo_en: "We changed the CTA to \"Get a free quote\"."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # CTA (Call to Action) · Llamado a la acción
 
-**En simple.** "Cotizar", "Agendar reunión", "Comprar".
+**En simple.** Un botón o frase que invita a actuar, como «Comprar» o «Reservar».
 
 **Técnica.** Call to Action: elemento que busca provocar una acción específica.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** "Get a quote", "Book a meeting", "Buy".
+**In simple.** A button or phrase that invites action, like "Buy" or "Book".
 
 **Technical.** Call to Action: an element meant to prompt a specific action.
 

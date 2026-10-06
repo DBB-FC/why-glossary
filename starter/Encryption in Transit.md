@@ -3,9 +3,9 @@ en: "Encryption in Transit"
 es: "Cifrado en tránsito"
 aliases: ["Cifrado en tránsito"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "HTTPS/TLS protege datos mientras viajan."
+simple_es: "Cifrar los datos mientras viajan por la red."
 tecnica_es: "Cifrado durante transmisión entre sistemas."
-simple_en: "HTTPS/TLS protects data while it travels."
+simple_en: "Encrypting data while it travels over the network."
 tecnica_en: "Encryption during transmission between systems."
 ejemplo_es: "El sitio exige cifrado en tránsito con HTTPS."
 ejemplo_en: "The site requires encryption in transit via HTTPS."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Encryption in Transit · Cifrado en tránsito
 
-**En simple.** HTTPS/TLS protege datos mientras viajan.
+**En simple.** Cifrar los datos mientras viajan por la red.
 
 **Técnica.** Cifrado durante transmisión entre sistemas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** HTTPS/TLS protects data while it travels.
+**In simple.** Encrypting data while it travels over the network.
 
 **Technical.** Encryption during transmission between systems.
 

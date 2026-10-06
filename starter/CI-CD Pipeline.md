@@ -3,9 +3,9 @@ en: "CI/CD Pipeline"
 es: "Canal de CI/CD"
 aliases: ["Canal de CI/CD"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "La línea de montaje del software."
+simple_es: "Una cadena automática que prueba y publica el software, como una línea de montaje."
 tecnica_es: "Flujo automatizado de compilación, pruebas y despliegue."
-simple_en: "The software assembly line."
+simple_en: "An automatic chain that tests and releases software, like an assembly line."
 tecnica_en: "An automated flow of build, test and deployment."
 ejemplo_es: "El canal falló en la etapa de pruebas."
 ejemplo_en: "The pipeline failed at the testing stage."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # CI/CD Pipeline · Canal de CI/CD
 
-**En simple.** La línea de montaje del software.
+**En simple.** Una cadena automática que prueba y publica el software, como una línea de montaje.
 
 **Técnica.** Flujo automatizado de compilación, pruebas y despliegue.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The software assembly line.
+**In simple.** An automatic chain that tests and releases software, like an assembly line.
 
 **Technical.** An automated flow of build, test and deployment.
 

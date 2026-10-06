@@ -3,9 +3,9 @@ en: "Codebase"
 es: "Base de código"
 aliases: ["Base de código"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Todo el código del sistema."
+simple_es: "Todo el código fuente de un sistema."
 tecnica_es: "Conjunto total de código fuente de un producto."
-simple_en: "All of the system's code."
+simple_en: "All of a system's source code."
 tecnica_en: "The total source code of a product."
 ejemplo_es: "La base de código tiene unas 80 mil líneas."
 ejemplo_en: "The codebase has about 80,000 lines."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Codebase · Base de código
 
-**En simple.** Todo el código del sistema.
+**En simple.** Todo el código fuente de un sistema.
 
 **Técnica.** Conjunto total de código fuente de un producto.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** All of the system's code.
+**In simple.** All of a system's source code.
 
 **Technical.** The total source code of a product.
 

@@ -3,9 +3,9 @@ en: "Git"
 es: "Git"
 aliases: []
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Registra quién cambió qué y cuándo."
+simple_es: "Un sistema que registra quién cambió qué y cuándo en el código."
 tecnica_es: "Sistema distribuido de control de versiones."
-simple_en: "Records who changed what and when."
+simple_en: "A system that records who changed what and when in the code."
 tecnica_en: "A distributed version control system."
 ejemplo_es: "Todo el código vive en un repositorio Git."
 ejemplo_en: "All the code lives in a Git repository."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Git · Git
 
-**En simple.** Registra quién cambió qué y cuándo.
+**En simple.** Un sistema que registra quién cambió qué y cuándo en el código.
 
 **Técnica.** Sistema distribuido de control de versiones.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Records who changed what and when.
+**In simple.** A system that records who changed what and when in the code.
 
 **Technical.** A distributed version control system.
 

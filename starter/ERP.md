@@ -3,9 +3,9 @@ en: "ERP"
 es: "Planificación de recursos empresariales"
 aliases: ["Planificación de recursos empresariales"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Finanzas, inventario, compras, ventas, etc."
+simple_es: "Un sistema que reúne finanzas, inventario, compras y ventas de una empresa."
 tecnica_es: "Enterprise Resource Planning: sistema integrado para procesos operacionales/administrativos."
-simple_en: "Finance, inventory, purchasing, sales, etc."
+simple_en: "A system that brings together a company's finance, inventory, purchasing and sales."
 tecnica_en: "Enterprise Resource Planning: an integrated system for operational and administrative processes."
 ejemplo_es: "El ERP controla el inventario y las compras."
 ejemplo_en: "The ERP controls inventory and purchasing."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # ERP · Planificación de recursos empresariales
 
-**En simple.** Finanzas, inventario, compras, ventas, etc.
+**En simple.** Un sistema que reúne finanzas, inventario, compras y ventas de una empresa.
 
 **Técnica.** Enterprise Resource Planning: sistema integrado para procesos operacionales/administrativos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Finance, inventory, purchasing, sales, etc.
+**In simple.** A system that brings together a company's finance, inventory, purchasing and sales.
 
 **Technical.** Enterprise Resource Planning: an integrated system for operational and administrative processes.
 

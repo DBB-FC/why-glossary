@@ -3,9 +3,9 @@ en: "Decision Maker"
 es: "Tomador de decisión"
 aliases: ["Tomador de decisión"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "El que finalmente puede decir \"vamos\"."
+simple_es: "La persona con autoridad para aprobar una decisión."
 tecnica_es: "Persona con autoridad para aprobar una compra o decisión."
-simple_en: "The one who can finally say \"let's go\"."
+simple_en: "The person with the authority to approve a decision."
 tecnica_en: "The person with authority to approve a purchase or decision."
 ejemplo_es: "El gerente general es el tomador de decisión."
 ejemplo_en: "The general manager is the decision maker."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Decision Maker · Tomador de decisión
 
-**En simple.** El que finalmente puede decir "vamos".
+**En simple.** La persona con autoridad para aprobar una decisión.
 
 **Técnica.** Persona con autoridad para aprobar una compra o decisión.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The one who can finally say "let's go".
+**In simple.** The person with the authority to approve a decision.
 
 **Technical.** The person with authority to approve a purchase or decision.
 

@@ -3,9 +3,9 @@ en: "Red Team"
 es: "Equipo rojo"
 aliases: ["Equipo rojo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Romperlo a propósito antes de que lo rompan."
+simple_es: "Un equipo que intenta romper un sistema a propósito para hallar fallas antes que otros."
 tecnica_es: "Ejercicio de ataque deliberado para encontrar fallos antes que un tercero."
-simple_en: "Break it on purpose before someone else does."
+simple_en: "A team that tries to break a system on purpose to find flaws before others do."
 tecnica_en: "A deliberate attack exercise to find flaws before a third party does."
 ejemplo_es: "El equipo rojo encontró una inyección antes del lanzamiento."
 ejemplo_en: "The red team found an injection before launch."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Red Team · Equipo rojo
 
-**En simple.** Romperlo a propósito antes de que lo rompan.
+**En simple.** Un equipo que intenta romper un sistema a propósito para hallar fallas antes que otros.
 
 **Técnica.** Ejercicio de ataque deliberado para encontrar fallos antes que un tercero.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Break it on purpose before someone else does.
+**In simple.** A team that tries to break a system on purpose to find flaws before others do.
 
 **Technical.** A deliberate attack exercise to find flaws before a third party does.
 

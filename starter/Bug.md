@@ -3,9 +3,9 @@ en: "Bug"
 es: "Error (bug)"
 aliases: ["Error (bug)"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Error del software."
+simple_es: "Un error en el software que hace que no funcione como debería."
 tecnica_es: "Defecto que produce comportamiento incorrecto o inesperado."
-simple_en: "A software error."
+simple_en: "A software error that makes it behave differently than it should."
 tecnica_en: "A defect that causes incorrect or unexpected behavior."
 ejemplo_es: "Encontramos un error que duplicaba las facturas."
 ejemplo_en: "We found a bug that duplicated invoices."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Bug · Error (bug)
 
-**En simple.** Error del software.
+**En simple.** Un error en el software que hace que no funcione como debería.
 
 **Técnica.** Defecto que produce comportamiento incorrecto o inesperado.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A software error.
+**In simple.** A software error that makes it behave differently than it should.
 
 **Technical.** A defect that causes incorrect or unexpected behavior.
 

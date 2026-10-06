@@ -3,9 +3,9 @@ en: "Main Branch"
 es: "Rama principal"
 aliases: ["Main / Main Branch", "Main", "Rama principal"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "La línea central del código."
+simple_es: "La línea principal del código, la versión estable."
 tecnica_es: "Rama principal que representa el estado integrado del proyecto."
-simple_en: "The central line of the code."
+simple_en: "The main line of the code, the stable version."
 tecnica_en: "The primary branch that represents the integrated state of the project."
 ejemplo_es: "Nada se sube directo a la rama principal."
 ejemplo_en: "Nothing gets pushed straight to the main branch."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Main Branch · Rama principal
 
-**En simple.** La línea central del código.
+**En simple.** La línea principal del código, la versión estable.
 
 **Técnica.** Rama principal que representa el estado integrado del proyecto.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The central line of the code.
+**In simple.** The main line of the code, the stable version.
 
 **Technical.** The primary branch that represents the integrated state of the project.
 

@@ -3,9 +3,9 @@ en: "Encryption at Rest"
 es: "Cifrado en reposo"
 aliases: ["Cifrado en reposo"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Protege información guardada."
+simple_es: "Cifrar los datos mientras están guardados."
 tecnica_es: "Cifrado de datos almacenados."
-simple_en: "Protects stored information."
+simple_en: "Encrypting data while it is stored."
 tecnica_en: "Encryption of stored data."
 ejemplo_es: "El disco tiene cifrado en reposo."
 ejemplo_en: "The disk has encryption at rest."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Encryption at Rest · Cifrado en reposo
 
-**En simple.** Protege información guardada.
+**En simple.** Cifrar los datos mientras están guardados.
 
 **Técnica.** Cifrado de datos almacenados.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Protects stored information.
+**In simple.** Encrypting data while it is stored.
 
 **Technical.** Encryption of stored data.
 

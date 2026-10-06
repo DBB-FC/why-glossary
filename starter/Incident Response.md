@@ -3,9 +3,9 @@ en: "Incident Response"
 es: "Respuesta a incidentes"
 aliases: ["Respuesta a incidentes"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Qué hacemos cuando la seguridad falla."
+simple_es: "El plan para actuar cuando ocurre un incidente de seguridad."
 tecnica_es: "Proceso para detectar, contener, investigar, recuperar y aprender de incidentes."
-simple_en: "What we do when security fails."
+simple_en: "The plan for acting when a security incident happens."
 tecnica_en: "A process to detect, contain, investigate, recover from and learn from incidents."
 ejemplo_es: "El plan de respuesta a incidentes define quién avisa al cliente."
 ejemplo_en: "The incident response plan defines who notifies the client."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Incident Response · Respuesta a incidentes
 
-**En simple.** Qué hacemos cuando la seguridad falla.
+**En simple.** El plan para actuar cuando ocurre un incidente de seguridad.
 
 **Técnica.** Proceso para detectar, contener, investigar, recuperar y aprender de incidentes.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** What we do when security fails.
+**In simple.** The plan for acting when a security incident happens.
 
 **Technical.** A process to detect, contain, investigate, recover from and learn from incidents.
 

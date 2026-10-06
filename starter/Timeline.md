@@ -3,9 +3,9 @@ en: "Timeline"
 es: "Cronograma"
 aliases: ["Cronograma"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Calendario general de ejecución."
+simple_es: "El calendario general de ejecución de un proyecto."
 tecnica_es: "Secuencia temporal prevista de actividades e hitos."
-simple_en: "The overall execution calendar."
+simple_en: "A project's overall execution calendar."
 tecnica_en: "The planned sequence of activities and milestones over time."
 ejemplo_es: "El cronograma termina el 15 de diciembre."
 ejemplo_en: "The timeline ends on December 15."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Timeline · Cronograma
 
-**En simple.** Calendario general de ejecución.
+**En simple.** El calendario general de ejecución de un proyecto.
 
 **Técnica.** Secuencia temporal prevista de actividades e hitos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The overall execution calendar.
+**In simple.** A project's overall execution calendar.
 
 **Technical.** The planned sequence of activities and milestones over time.
 

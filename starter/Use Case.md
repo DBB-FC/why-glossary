@@ -3,9 +3,9 @@ en: "Use Case"
 es: "Caso de uso"
 aliases: ["Caso de uso"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "\"El vendedor crea una cotización desde el CRM.\""
+simple_es: "Un escenario concreto de uso, como «el vendedor crea una cotización»."
 tecnica_es: "Descripción de cómo un actor utiliza un sistema para alcanzar un objetivo."
-simple_en: "A scenario such as \"a salesperson creates a quote from the CRM\"."
+simple_en: "A concrete scenario of use, such as \"a salesperson creates a quote\"."
 tecnica_en: "A description of how an actor uses a system to reach a goal."
 ejemplo_es: "El caso de uso principal es que el vendedor genere una cotización."
 ejemplo_en: "The main use case is a salesperson generating a quote."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Use Case · Caso de uso
 
-**En simple.** "El vendedor crea una cotización desde el CRM."
+**En simple.** Un escenario concreto de uso, como «el vendedor crea una cotización».
 
 **Técnica.** Descripción de cómo un actor utiliza un sistema para alcanzar un objetivo.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A scenario such as "a salesperson creates a quote from the CRM".
+**In simple.** A concrete scenario of use, such as "a salesperson creates a quote".
 
 **Technical.** A description of how an actor uses a system to reach a goal.
 

@@ -3,9 +3,9 @@ en: "ELT"
 es: "Extraer, cargar y transformar"
 aliases: ["Extraer, cargar y transformar"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Variante moderna frecuente en cloud."
+simple_es: "Cargar los datos primero y transformarlos después, dentro del almacén de datos."
 tecnica_es: "Extract, Load, Transform: cargar datos y transformarlos posteriormente en destino."
-simple_en: "A modern variant common in the cloud."
+simple_en: "Loading data first and transforming it afterwards, inside the data warehouse."
 tecnica_en: "Extract, Load, Transform: data is loaded first and transformed later at the destination."
 ejemplo_es: "Con ELT cargamos todo y transformamos en el almacén."
 ejemplo_en: "With ELT we load everything and transform in the warehouse."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # ELT · Extraer, cargar y transformar
 
-**En simple.** Variante moderna frecuente en cloud.
+**En simple.** Cargar los datos primero y transformarlos después, dentro del almacén de datos.
 
 **Técnica.** Extract, Load, Transform: cargar datos y transformarlos posteriormente en destino.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A modern variant common in the cloud.
+**In simple.** Loading data first and transforming it afterwards, inside the data warehouse.
 
 **Technical.** Extract, Load, Transform: data is loaded first and transformed later at the destination.
 

@@ -3,9 +3,9 @@ en: "Data Warehouse"
 es: "Almacén de datos"
 aliases: ["Almacén de datos"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Base central preparada para BI."
+simple_es: "Una base central que reúne datos de varias fuentes para analizarlos."
 tecnica_es: "Repositorio optimizado para análisis integrado e histórico."
-simple_en: "A central database prepared for BI."
+simple_en: "A central database that gathers data from several sources for analysis."
 tecnica_en: "A repository optimised for integrated, historical analysis."
 ejemplo_es: "El almacén de datos alimenta los dashboards."
 ejemplo_en: "The data warehouse feeds the dashboards."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Data Warehouse · Almacén de datos
 
-**En simple.** Base central preparada para BI.
+**En simple.** Una base central que reúne datos de varias fuentes para analizarlos.
 
 **Técnica.** Repositorio optimizado para análisis integrado e histórico.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A central database prepared for BI.
+**In simple.** A central database that gathers data from several sources for analysis.
 
 **Technical.** A repository optimised for integrated, historical analysis.
 

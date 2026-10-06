@@ -3,9 +3,9 @@ en: "Recurring Revenue"
 es: "Ingreso recurrente"
 aliases: ["Ingreso recurrente"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Soporte, SaaS o mantención mensual."
+simple_es: "Ingresos que se repiten, como suscripciones o mantenimiento mensual."
 tecnica_es: "Ingreso que se repite periódicamente de manera previsible."
-simple_en: "Support, SaaS or monthly maintenance."
+simple_en: "Income that repeats, like subscriptions or monthly maintenance."
 tecnica_en: "Income that repeats periodically in a predictable way."
 ejemplo_es: "El ingreso recurrente cubre los costos fijos."
 ejemplo_en: "Recurring revenue covers the fixed costs."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Recurring Revenue · Ingreso recurrente
 
-**En simple.** Soporte, SaaS o mantención mensual.
+**En simple.** Ingresos que se repiten, como suscripciones o mantenimiento mensual.
 
 **Técnica.** Ingreso que se repite periódicamente de manera previsible.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Support, SaaS or monthly maintenance.
+**In simple.** Income that repeats, like subscriptions or monthly maintenance.
 
 **Technical.** Income that repeats periodically in a predictable way.
 

@@ -3,7 +3,7 @@ en: "Capture"
 es: "Captura"
 aliases: ["Captura"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "El momento en que la plata se compromete de verdad."
+simple_es: "El momento en que el dinero se compromete de verdad."
 tecnica_es: "Cobro efectivo de una autorización previamente aprobada."
 simple_en: "The moment the money is actually committed."
 tecnica_en: "The actual charge of a previously approved authorization."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Capture · Captura
 
-**En simple.** El momento en que la plata se compromete de verdad.
+**En simple.** El momento en que el dinero se compromete de verdad.
 
 **Técnica.** Cobro efectivo de una autorización previamente aprobada.
 

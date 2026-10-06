@@ -3,9 +3,9 @@ en: "Package"
 es: "Paquete"
 aliases: ["Paquete"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Módulo instalable."
+simple_es: "Un módulo de código listo para instalar."
 tecnica_es: "Unidad distribuible de código reutilizable."
-simple_en: "An installable module."
+simple_en: "A code module ready to install."
 tecnica_en: "A distributable unit of reusable code."
 ejemplo_es: "Instalamos el paquete con npm."
 ejemplo_en: "We installed the package with npm."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Package · Paquete
 
-**En simple.** Módulo instalable.
+**En simple.** Un módulo de código listo para instalar.
 
 **Técnica.** Unidad distribuible de código reutilizable.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An installable module.
+**In simple.** A code module ready to install.
 
 **Technical.** A distributable unit of reusable code.
 

@@ -3,9 +3,9 @@ en: "Authentication (AuthN)"
 es: "Autenticación"
 aliases: ["Authentication / AuthN", "Authentication", "Autenticación"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "\"¿Quién eres?\""
+simple_es: "Comprobar que quien entra es quien dice ser."
 tecnica_es: "Proceso de verificar la identidad de un usuario o sistema."
-simple_en: "\"Who are you?\""
+simple_en: "Checking that whoever signs in is who they claim to be."
 tecnica_en: "The process of verifying the identity of a user or system."
 ejemplo_es: "La autenticación falla si la clave es incorrecta."
 ejemplo_en: "Authentication fails if the password is wrong."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Authentication (AuthN) · Autenticación
 
-**En simple.** "¿Quién eres?"
+**En simple.** Comprobar que quien entra es quien dice ser.
 
 **Técnica.** Proceso de verificar la identidad de un usuario o sistema.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** "Who are you?"
+**In simple.** Checking that whoever signs in is who they claim to be.
 
 **Technical.** The process of verifying the identity of a user or system.
 

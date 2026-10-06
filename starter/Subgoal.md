@@ -3,9 +3,9 @@ en: "Subgoal"
 es: "Subobjetivo"
 aliases: ["Subobjetivo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Trocear el problema."
+simple_es: "Dividir un problema grande en pasos más pequeños."
 tecnica_es: "Objetivo intermedio derivado del objetivo principal."
-simple_en: "Chopping the problem into pieces."
+simple_en: "Splitting a big problem into smaller steps."
 tecnica_en: "An intermediate goal derived from the main goal."
 ejemplo_es: "Cada subobjetivo se resuelve por separado."
 ejemplo_en: "Each subgoal is solved separately."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Subgoal · Subobjetivo
 
-**En simple.** Trocear el problema.
+**En simple.** Dividir un problema grande en pasos más pequeños.
 
 **Técnica.** Objetivo intermedio derivado del objetivo principal.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Chopping the problem into pieces.
+**In simple.** Splitting a big problem into smaller steps.
 
 **Technical.** An intermediate goal derived from the main goal.
 

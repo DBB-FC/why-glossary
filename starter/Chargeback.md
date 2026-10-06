@@ -3,7 +3,7 @@ en: "Chargeback"
 es: "Contracargo"
 aliases: ["Chargeback / Contracargo", "Contracargo"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "El cliente desconoce el cargo y el banco quita la plata. Se pierde por defecto si no hay evidencia."
+simple_es: "El cliente desconoce el cargo y el banco quita el dinero. Se pierde por defecto si no hay evidencia."
 tecnica_es: "Reverso forzado por el emisor a solicitud del titular."
 simple_en: "The customer disowns the charge and the bank takes the money back. You lose by default if you have no evidence."
 tecnica_en: "A reversal forced by the issuer at the cardholder's request."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Chargeback · Contracargo
 
-**En simple.** El cliente desconoce el cargo y el banco quita la plata. Se pierde por defecto si no hay evidencia.
+**En simple.** El cliente desconoce el cargo y el banco quita el dinero. Se pierde por defecto si no hay evidencia.
 
 **Técnica.** Reverso forzado por el emisor a solicitud del titular.
 

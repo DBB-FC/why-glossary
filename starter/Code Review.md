@@ -3,9 +3,9 @@ en: "Code Review"
 es: "Revisión de código"
 aliases: ["Revisión de código"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Un segundo control sobre lo construido."
+simple_es: "Que otra persona revise el código antes de aceptarlo."
 tecnica_es: "Revisión técnica de cambios de código antes de integrarlos."
-simple_en: "A second check on what was built."
+simple_en: "Having another person check the code before it is accepted."
 tecnica_en: "Technical review of code changes before they are integrated."
 ejemplo_es: "La revisión de código detectó un error de seguridad."
 ejemplo_en: "The code review caught a security flaw."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Code Review · Revisión de código
 
-**En simple.** Un segundo control sobre lo construido.
+**En simple.** Que otra persona revise el código antes de aceptarlo.
 
 **Técnica.** Revisión técnica de cambios de código antes de integrarlos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A second check on what was built.
+**In simple.** Having another person check the code before it is accepted.
 
 **Technical.** Technical review of code changes before they are integrated.
 

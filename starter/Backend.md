@@ -3,9 +3,9 @@ en: "Backend"
 es: "Capa de servidor (backend)"
 aliases: ["Capa de servidor (backend)"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "El motor que trabaja detrás."
+simple_es: "La parte del sistema que trabaja detrás y que el usuario no ve."
 tecnica_es: "Servicios, lógica de negocio, acceso a datos e integraciones ejecutados del lado servidor."
-simple_en: "The engine working behind the scenes."
+simple_en: "The part of a system that works behind the scenes, unseen by the user."
 tecnica_en: "Services, business logic, data access and integrations running on the server side."
 ejemplo_es: "El backend valida el pago y guarda el pedido."
 ejemplo_en: "The backend validates the payment and saves the order."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Backend · Capa de servidor (backend)
 
-**En simple.** El motor que trabaja detrás.
+**En simple.** La parte del sistema que trabaja detrás y que el usuario no ve.
 
 **Técnica.** Servicios, lógica de negocio, acceso a datos e integraciones ejecutados del lado servidor.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The engine working behind the scenes.
+**In simple.** The part of a system that works behind the scenes, unseen by the user.
 
 **Technical.** Services, business logic, data access and integrations running on the server side.
 

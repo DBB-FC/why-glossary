@@ -3,9 +3,9 @@ en: "ARR (Annual Recurring Revenue)"
 es: "Ingreso anual recurrente"
 aliases: ["ARR", "Ingreso anual recurrente"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "MRR × 12, con los ajustes correspondientes."
+simple_es: "Los ingresos recurrentes de un año: el ingreso mensual por suscripciones multiplicado por 12."
 tecnica_es: "Annual Recurring Revenue: ingreso recurrente anualizado."
-simple_en: "MRR × 12, with the relevant adjustments."
+simple_en: "A year's recurring revenue: monthly subscription income multiplied by 12."
 tecnica_en: "Annual Recurring Revenue: recurring income expressed on an annual basis."
 ejemplo_es: "El ARR cerró el año en 120 millones."
 ejemplo_en: "ARR closed the year at 120 million."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # ARR (Annual Recurring Revenue) · Ingreso anual recurrente
 
-**En simple.** MRR × 12, con los ajustes correspondientes.
+**En simple.** Los ingresos recurrentes de un año: el ingreso mensual por suscripciones multiplicado por 12.
 
 **Técnica.** Annual Recurring Revenue: ingreso recurrente anualizado.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** MRR × 12, with the relevant adjustments.
+**In simple.** A year's recurring revenue: monthly subscription income multiplied by 12.
 
 **Technical.** Annual Recurring Revenue: recurring income expressed on an annual basis.
 

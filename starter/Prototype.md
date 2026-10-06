@@ -3,9 +3,9 @@ en: "Prototype"
 es: "Prototipo"
 aliases: ["Prototipo"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Simulación navegable."
+simple_es: "Una simulación navegable del producto, antes de construirlo."
 tecnica_es: "Modelo interactivo utilizado para validar comportamiento y experiencia antes de desarrollar."
-simple_en: "A clickable simulation."
+simple_en: "A clickable simulation of the product, before building it."
 tecnica_en: "An interactive model used to validate behaviour and experience before development."
 ejemplo_es: "Probamos el prototipo con cinco usuarios."
 ejemplo_en: "We tested the prototype with five users."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Prototype · Prototipo
 
-**En simple.** Simulación navegable.
+**En simple.** Una simulación navegable del producto, antes de construirlo.
 
 **Técnica.** Modelo interactivo utilizado para validar comportamiento y experiencia antes de desarrollar.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A clickable simulation.
+**In simple.** A clickable simulation of the product, before building it.
 
 **Technical.** An interactive model used to validate behaviour and experience before development.
 

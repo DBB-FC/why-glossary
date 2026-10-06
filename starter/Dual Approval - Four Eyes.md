@@ -3,7 +3,7 @@ en: "Dual Approval / Four Eyes"
 es: "Doble aprobación / cuatro ojos"
 aliases: ["Doble aprobación / Cuatro ojos", "Doble aprobación", "Doble aprobación / cuatro ojos", "Dual Approval", "Four Eyes", "cuatro ojos"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Nadie mueve plata solo, y nadie revisa su propia cuenta."
+simple_es: "Nadie mueve dinero solo, y nadie revisa su propia cuenta."
 tecnica_es: "Control donde una persona propone y otra distinta confirma."
 simple_en: "Nobody moves money alone, and nobody reviews their own account."
 tecnica_en: "A control where one person proposes and a different one confirms."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Dual Approval / Four Eyes · Doble aprobación / cuatro ojos
 
-**En simple.** Nadie mueve plata solo, y nadie revisa su propia cuenta.
+**En simple.** Nadie mueve dinero solo, y nadie revisa su propia cuenta.
 
 **Técnica.** Control donde una persona propone y otra distinta confirma.
 

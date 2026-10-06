@@ -3,9 +3,9 @@ en: "Faithfulness"
 es: "Fidelidad"
 aliases: ["Fidelidad"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Mide si inventó."
+simple_es: "Mide si una respuesta se apoya en las fuentes dadas o si se inventó."
 tecnica_es: "Grado en que la respuesta se apega a las fuentes entregadas."
-simple_en: "Measures whether it made things up."
+simple_en: "Measures whether an answer is grounded in the given sources or was made up."
 tecnica_en: "The degree to which the answer sticks to the sources provided."
 ejemplo_es: "La fidelidad cayó: el agente inventó una cifra."
 ejemplo_en: "Faithfulness dropped: the agent invented a figure."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Faithfulness · Fidelidad
 
-**En simple.** Mide si inventó.
+**En simple.** Mide si una respuesta se apoya en las fuentes dadas o si se inventó.
 
 **Técnica.** Grado en que la respuesta se apega a las fuentes entregadas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Measures whether it made things up.
+**In simple.** Measures whether an answer is grounded in the given sources or was made up.
 
 **Technical.** The degree to which the answer sticks to the sources provided.
 

@@ -3,9 +3,9 @@ en: "E-commerce"
 es: "Comercio electrónico"
 aliases: ["Comercio electrónico"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Tienda online y sus procesos asociados."
+simple_es: "Vender productos por Internet, con la tienda y sus procesos."
 tecnica_es: "Sistema digital para comercializar productos o servicios y gestionar transacciones."
-simple_en: "An online store and its related processes."
+simple_en: "Selling products online, with the store and its processes."
 tecnica_en: "A digital system to sell products or services and manage transactions."
 ejemplo_es: "Lanzamos el comercio electrónico en tres semanas."
 ejemplo_en: "We launched the e-commerce store in three weeks."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # E-commerce · Comercio electrónico
 
-**En simple.** Tienda online y sus procesos asociados.
+**En simple.** Vender productos por Internet, con la tienda y sus procesos.
 
 **Técnica.** Sistema digital para comercializar productos o servicios y gestionar transacciones.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An online store and its related processes.
+**In simple.** Selling products online, with the store and its processes.
 
 **Technical.** A digital system to sell products or services and manage transactions.
 

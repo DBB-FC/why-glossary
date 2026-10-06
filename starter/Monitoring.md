@@ -3,9 +3,9 @@ en: "Monitoring"
 es: "Monitoreo"
 aliases: ["Monitoreo"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Vigilar salud y desempeño."
+simple_es: "Vigilar la salud y el rendimiento de un sistema."
 tecnica_es: "Supervisión continua de métricas y estados."
-simple_en: "Watching health and performance."
+simple_en: "Watching a system's health and performance."
 tecnica_en: "Continuous supervision of metrics and statuses."
 ejemplo_es: "El monitoreo marca la CPU en rojo."
 ejemplo_en: "Monitoring shows the CPU in red."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Monitoring · Monitoreo
 
-**En simple.** Vigilar salud y desempeño.
+**En simple.** Vigilar la salud y el rendimiento de un sistema.
 
 **Técnica.** Supervisión continua de métricas y estados.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Watching health and performance.
+**In simple.** Watching a system's health and performance.
 
 **Technical.** Continuous supervision of metrics and statuses.
 

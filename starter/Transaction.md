@@ -3,9 +3,9 @@ en: "Transaction"
 es: "Transacción"
 aliases: ["Transacción"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Si falla la mitad, se deshace entera."
+simple_es: "Un conjunto de operaciones que se completan todas o ninguna."
 tecnica_es: "Conjunto de operaciones que se aplican todas o ninguna."
-simple_en: "If half fails, the whole thing is undone."
+simple_en: "A group of operations that either all complete or none do."
 tecnica_en: "A set of operations that are all applied or none."
 ejemplo_es: "El traspaso es una transacción: o ocurren los dos movimientos o ninguno."
 ejemplo_en: "The transfer is a transaction: both movements happen or neither does."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Transaction · Transacción
 
-**En simple.** Si falla la mitad, se deshace entera.
+**En simple.** Un conjunto de operaciones que se completan todas o ninguna.
 
 **Técnica.** Conjunto de operaciones que se aplican todas o ninguna.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** If half fails, the whole thing is undone.
+**In simple.** A group of operations that either all complete or none do.
 
 **Technical.** A set of operations that are all applied or none.
 

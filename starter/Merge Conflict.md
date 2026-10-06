@@ -3,9 +3,9 @@ en: "Merge Conflict"
 es: "Conflicto de fusión"
 aliases: ["Conflicto de fusión"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Dos cambios chocaron y alguien debe decidir."
+simple_es: "Ocurre cuando dos cambios tocan lo mismo y alguien debe decidir cuál queda."
 tecnica_es: "Incompatibilidad que Git no puede resolver automáticamente."
-simple_en: "Two changes collided and someone has to decide."
+simple_en: "Happens when two changes touch the same thing and someone has to decide which stays."
 tecnica_en: "An incompatibility Git cannot resolve automatically."
 ejemplo_es: "Hubo un conflicto de fusión en el archivo de configuración."
 ejemplo_en: "There was a merge conflict in the config file."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Merge Conflict · Conflicto de fusión
 
-**En simple.** Dos cambios chocaron y alguien debe decidir.
+**En simple.** Ocurre cuando dos cambios tocan lo mismo y alguien debe decidir cuál queda.
 
 **Técnica.** Incompatibilidad que Git no puede resolver automáticamente.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Two changes collided and someone has to decide.
+**In simple.** Happens when two changes touch the same thing and someone has to decide which stays.
 
 **Technical.** An incompatibility Git cannot resolve automatically.
 

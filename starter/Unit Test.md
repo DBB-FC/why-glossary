@@ -3,11 +3,11 @@ en: "Unit Test"
 es: "Prueba unitaria"
 aliases: ["Prueba unitaria"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Verifica piezas individuales."
+simple_es: "Una prueba que verifica una pieza individual del código."
 tecnica_es: "Prueba automatizada de una unidad pequeña y aislada de código."
-simple_en: "Checks individual pieces."
+simple_en: "A test that checks one individual piece of code."
 tecnica_en: "An automated test of a small, isolated unit of code."
-ejemplo_es: "La prueba unitaria valida el cálculo del IVA."
+ejemplo_es: "La prueba unitaria valida el cálculo del impuesto."
 ejemplo_en: "The unit test validates the VAT calculation."
 ver_tambien: [214, 215, 212]
 n: 213
@@ -15,15 +15,15 @@ verificar: false
 ---
 # Unit Test · Prueba unitaria
 
-**En simple.** Verifica piezas individuales.
+**En simple.** Una prueba que verifica una pieza individual del código.
 
 **Técnica.** Prueba automatizada de una unidad pequeña y aislada de código.
 
-**Ejemplo de uso.** _La prueba unitaria valida el cálculo del IVA._
+**Ejemplo de uso.** _La prueba unitaria valida el cálculo del impuesto._
 
 ---
 
-**In simple.** Checks individual pieces.
+**In simple.** A test that checks one individual piece of code.
 
 **Technical.** An automated test of a small, isolated unit of code.
 

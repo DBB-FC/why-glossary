@@ -3,9 +3,9 @@ en: "Data Minimization"
 es: "Minimización de datos"
 aliases: ["Minimización de datos"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Si no lo necesitas, no lo pidas."
+simple_es: "Recolectar solo los datos que realmente necesitas."
 tecnica_es: "Principio de recopilar solo los datos necesarios para una finalidad."
-simple_en: "If you don't need it, don't ask for it."
+simple_en: "Collecting only the data you actually need."
 tecnica_en: "The principle of collecting only the data needed for a purpose."
 ejemplo_es: "Por minimización de datos, no pedimos la fecha de nacimiento."
 ejemplo_en: "Following data minimization, we don't ask for the date of birth."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Data Minimization · Minimización de datos
 
-**En simple.** Si no lo necesitas, no lo pidas.
+**En simple.** Recolectar solo los datos que realmente necesitas.
 
 **Técnica.** Principio de recopilar solo los datos necesarios para una finalidad.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** If you don't need it, don't ask for it.
+**In simple.** Collecting only the data you actually need.
 
 **Technical.** The principle of collecting only the data needed for a purpose.
 

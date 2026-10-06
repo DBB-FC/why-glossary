@@ -3,9 +3,9 @@ en: "Business Case"
 es: "Caso de negocio"
 aliases: ["Caso de negocio"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Por qué conviene hacer el proyecto."
+simple_es: "El argumento que explica por qué vale la pena hacer un proyecto."
 tecnica_es: "Justificación económica y estratégica de una inversión."
-simple_en: "Why the project is worth doing."
+simple_en: "The argument that explains why a project is worth doing."
 tecnica_en: "The economic and strategic justification for an investment."
 ejemplo_es: "El caso de negocio muestra que el proyecto se paga en un año."
 ejemplo_en: "The business case shows the project pays for itself in a year."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Business Case · Caso de negocio
 
-**En simple.** Por qué conviene hacer el proyecto.
+**En simple.** El argumento que explica por qué vale la pena hacer un proyecto.
 
 **Técnica.** Justificación económica y estratégica de una inversión.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Why the project is worth doing.
+**In simple.** The argument that explains why a project is worth doing.
 
 **Technical.** The economic and strategic justification for an investment.
 

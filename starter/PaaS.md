@@ -3,9 +3,9 @@ en: "PaaS"
 es: "Plataforma como servicio"
 aliases: ["Plataforma como servicio"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Infraestructura de desarrollo ya preparada."
+simple_es: "Un servicio que entrega la infraestructura lista para desplegar aplicaciones."
 tecnica_es: "Platform as a Service: plataforma administrada para desarrollar y ejecutar aplicaciones."
-simple_en: "Development infrastructure already set up."
+simple_en: "A service that provides ready-made infrastructure for deploying applications."
 tecnica_en: "Platform as a Service: a managed platform to develop and run applications."
 ejemplo_es: "Desplegamos en una PaaS para no administrar servidores."
 ejemplo_en: "We deploy on a PaaS so we don't manage servers."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # PaaS · Plataforma como servicio
 
-**En simple.** Infraestructura de desarrollo ya preparada.
+**En simple.** Un servicio que entrega la infraestructura lista para desplegar aplicaciones.
 
 **Técnica.** Platform as a Service: plataforma administrada para desarrollar y ejecutar aplicaciones.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Development infrastructure already set up.
+**In simple.** A service that provides ready-made infrastructure for deploying applications.
 
 **Technical.** Platform as a Service: a managed platform to develop and run applications.
 

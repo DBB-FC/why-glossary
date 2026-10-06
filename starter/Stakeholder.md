@@ -3,9 +3,9 @@ en: "Stakeholder"
 es: "Parte interesada"
 aliases: ["Parte interesada"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Dueño, gerente, usuarios, TI, finanzas, etc."
+simple_es: "Cualquier persona o grupo afectado por un proyecto o que influye en él."
 tecnica_es: "Persona o grupo afectado por el proyecto o con capacidad de influir en él."
-simple_en: "Owner, manager, users, IT, finance, etc."
+simple_en: "Anyone affected by a project or able to influence it."
 tecnica_en: "A person or group affected by the project or able to influence it."
 ejemplo_es: "Identificamos a todos los stakeholders antes de empezar."
 ejemplo_en: "We identified all the stakeholders before starting."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Stakeholder · Parte interesada
 
-**En simple.** Dueño, gerente, usuarios, TI, finanzas, etc.
+**En simple.** Cualquier persona o grupo afectado por un proyecto o que influye en él.
 
 **Técnica.** Persona o grupo afectado por el proyecto o con capacidad de influir en él.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Owner, manager, users, IT, finance, etc.
+**In simple.** Anyone affected by a project or able to influence it.
 
 **Technical.** A person or group affected by the project or able to influence it.
 

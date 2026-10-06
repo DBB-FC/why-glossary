@@ -3,9 +3,9 @@ en: "Pull Request (PR)"
 es: "Solicitud de integración (pull request)"
 aliases: ["Solicitud de integración (pull request)"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Control previo antes de meter código a main."
+simple_es: "Una propuesta de cambio que se revisa antes de incorporarse a la rama principal."
 tecnica_es: "Solicitud formal para revisar e integrar cambios entre ramas."
-simple_en: "A check before code gets into main."
+simple_en: "A proposed change that is reviewed before joining the main branch."
 tecnica_en: "A formal request to review and integrate changes between branches."
 ejemplo_es: "Abrí un PR y esperé la revisión."
 ejemplo_en: "I opened a PR and waited for review."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Pull Request (PR) · Solicitud de integración (pull request)
 
-**En simple.** Control previo antes de meter código a main.
+**En simple.** Una propuesta de cambio que se revisa antes de incorporarse a la rama principal.
 
 **Técnica.** Solicitud formal para revisar e integrar cambios entre ramas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A check before code gets into main.
+**In simple.** A proposed change that is reviewed before joining the main branch.
 
 **Technical.** A formal request to review and integrate changes between branches.
 

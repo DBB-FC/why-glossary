@@ -3,9 +3,9 @@ en: "Deployment Idempotence"
 es: "Idempotencia de despliegue"
 aliases: ["Idempotencia de despliegue"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Volver a correrlo no debería romper nada."
+simple_es: "Poder repetir un despliegue sin que nada se rompa ni se duplique."
 tecnica_es: "Que aplicar el mismo despliegue dos veces deje el mismo estado."
-simple_en: "Running it again shouldn't break anything."
+simple_en: "Being able to repeat a deployment without breaking or duplicating anything."
 tecnica_en: "Applying the same deployment twice leaves the same state."
 ejemplo_es: "El script de despliegue es idempotente."
 ejemplo_en: "The deployment script is idempotent."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Deployment Idempotence · Idempotencia de despliegue
 
-**En simple.** Volver a correrlo no debería romper nada.
+**En simple.** Poder repetir un despliegue sin que nada se rompa ni se duplique.
 
 **Técnica.** Que aplicar el mismo despliegue dos veces deje el mismo estado.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Running it again shouldn't break anything.
+**In simple.** Being able to repeat a deployment without breaking or duplicating anything.
 
 **Technical.** Applying the same deployment twice leaves the same state.
 

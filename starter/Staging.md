@@ -3,9 +3,9 @@ en: "Staging"
 es: "Preproducción"
 aliases: ["Preproducción"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Ensayo general antes de salir al público."
+simple_es: "Un entorno de ensayo igual al real, antes de publicar."
 tecnica_es: "Entorno similar a producción usado para pruebas previas."
-simple_en: "A dress rehearsal before going public."
+simple_en: "A rehearsal environment identical to the real one, before going live."
 tecnica_en: "A production-like environment used for pre-release testing."
 ejemplo_es: "Validamos con el cliente en preproducción."
 ejemplo_en: "We validated with the client in staging."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Staging · Preproducción
 
-**En simple.** Ensayo general antes de salir al público.
+**En simple.** Un entorno de ensayo igual al real, antes de publicar.
 
 **Técnica.** Entorno similar a producción usado para pruebas previas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A dress rehearsal before going public.
+**In simple.** A rehearsal environment identical to the real one, before going live.
 
 **Technical.** A production-like environment used for pre-release testing.
 

@@ -3,9 +3,9 @@ en: "Cross-selling"
 es: "Venta cruzada"
 aliases: ["Venta cruzada"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Web + branding + CRM + automatización."
+simple_es: "Ofrecer a un cliente productos o servicios complementarios a lo que ya compra."
 tecnica_es: "Venta de servicios complementarios."
-simple_en: "Website + branding + CRM + automation."
+simple_en: "Offering a customer products or services that complement what they already buy."
 tecnica_en: "Selling complementary services."
 ejemplo_es: "Con venta cruzada sumamos branding a la web."
 ejemplo_en: "Through cross-selling we added branding to the website."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Cross-selling · Venta cruzada
 
-**En simple.** Web + branding + CRM + automatización.
+**En simple.** Ofrecer a un cliente productos o servicios complementarios a lo que ya compra.
 
 **Técnica.** Venta de servicios complementarios.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Website + branding + CRM + automation.
+**In simple.** Offering a customer products or services that complement what they already buy.
 
 **Technical.** Selling complementary services.
 

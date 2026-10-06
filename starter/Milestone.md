@@ -3,9 +3,9 @@ en: "Milestone"
 es: "Hito"
 aliases: ["Hito"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Punto de control importante del proyecto."
+simple_es: "Un hito: un punto de control importante dentro de un proyecto."
 tecnica_es: "Hito verificable dentro del cronograma."
-simple_en: "An important checkpoint in the project."
+simple_en: "A milestone: an important checkpoint within a project."
 tecnica_en: "A verifiable milestone in the schedule."
 ejemplo_es: "El hito de la semana 4 es la demo al cliente."
 ejemplo_en: "The week-4 milestone is the demo for the client."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Milestone · Hito
 
-**En simple.** Punto de control importante del proyecto.
+**En simple.** Un hito: un punto de control importante dentro de un proyecto.
 
 **Técnica.** Hito verificable dentro del cronograma.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An important checkpoint in the project.
+**In simple.** A milestone: an important checkpoint within a project.
 
 **Technical.** A verifiable milestone in the schedule.
 

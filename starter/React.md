@@ -3,9 +3,9 @@ en: "React"
 es: "React"
 aliases: []
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Base habitual de interfaces modernas."
+simple_es: "Una biblioteca de JavaScript muy usada para construir interfaces."
 tecnica_es: "Biblioteca JavaScript orientada a construir interfaces mediante componentes."
-simple_en: "The usual foundation of modern interfaces."
+simple_en: "A widely used JavaScript library for building interfaces."
 tecnica_en: "A JavaScript library for building interfaces out of components."
 ejemplo_es: "Migramos la interfaz a React."
 ejemplo_en: "We migrated the interface to React."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # React · React
 
-**En simple.** Base habitual de interfaces modernas.
+**En simple.** Una biblioteca de JavaScript muy usada para construir interfaces.
 
 **Técnica.** Biblioteca JavaScript orientada a construir interfaces mediante componentes.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The usual foundation of modern interfaces.
+**In simple.** A widely used JavaScript library for building interfaces.
 
 **Technical.** A JavaScript library for building interfaces out of components.
 

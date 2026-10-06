@@ -3,9 +3,9 @@ en: "Provisioned Throughput"
 es: "Capacidad aprovisionada"
 aliases: ["Capacidad aprovisionada"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Para carga constante y predecible."
+simple_es: "Capacidad reservada de un modelo, para carga constante y predecible."
 tecnica_es: "Capacidad reservada con rendimiento garantizado."
-simple_en: "For constant, predictable load."
+simple_en: "Reserved model capacity, for constant and predictable load."
 tecnica_en: "Reserved capacity with guaranteed throughput."
 ejemplo_es: "Contratamos capacidad aprovisionada para la carga estable."
 ejemplo_en: "We contracted provisioned throughput for the steady load."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Provisioned Throughput · Capacidad aprovisionada
 
-**En simple.** Para carga constante y predecible.
+**En simple.** Capacidad reservada de un modelo, para carga constante y predecible.
 
 **Técnica.** Capacidad reservada con rendimiento garantizado.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** For constant, predictable load.
+**In simple.** Reserved model capacity, for constant and predictable load.
 
 **Technical.** Reserved capacity with guaranteed throughput.
 

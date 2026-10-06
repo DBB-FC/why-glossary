@@ -3,9 +3,9 @@ en: "Performance"
 es: "Rendimiento"
 aliases: ["Rendimiento"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Qué tan rápido y eficiente funciona."
+simple_es: "Qué tan rápido y eficiente funciona un sistema."
 tecnica_es: "Eficiencia del sistema respecto de velocidad, recursos y capacidad de respuesta."
-simple_en: "How fast and efficiently it works."
+simple_en: "How fast and efficiently a system works."
 tecnica_en: "The system's efficiency in terms of speed, resources and responsiveness."
 ejemplo_es: "Mejoramos el rendimiento de la home a la mitad."
 ejemplo_en: "We cut the homepage's load time in half."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Performance · Rendimiento
 
-**En simple.** Qué tan rápido y eficiente funciona.
+**En simple.** Qué tan rápido y eficiente funciona un sistema.
 
 **Técnica.** Eficiencia del sistema respecto de velocidad, recursos y capacidad de respuesta.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** How fast and efficiently it works.
+**In simple.** How fast and efficiently a system works.
 
 **Technical.** The system's efficiency in terms of speed, resources and responsiveness.
 

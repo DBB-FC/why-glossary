@@ -3,9 +3,9 @@ en: "Commit"
 es: "Confirmación de cambios (commit)"
 aliases: ["Confirmación de cambios (commit)"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Una fotografía identificable del avance."
+simple_es: "Un punto guardado del avance, con una nota de qué cambió."
 tecnica_es: "Registro versionado de un conjunto de cambios."
-simple_en: "An identifiable snapshot of progress."
+simple_en: "A saved point of progress, with a note about what changed."
 tecnica_en: "A versioned record of a set of changes."
 ejemplo_es: "Cada confirmación explica qué cambió y por qué."
 ejemplo_en: "Each commit explains what changed and why."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Commit · Confirmación de cambios (commit)
 
-**En simple.** Una fotografía identificable del avance.
+**En simple.** Un punto guardado del avance, con una nota de qué cambió.
 
 **Técnica.** Registro versionado de un conjunto de cambios.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An identifiable snapshot of progress.
+**In simple.** A saved point of progress, with a note about what changed.
 
 **Technical.** A versioned record of a set of changes.
 

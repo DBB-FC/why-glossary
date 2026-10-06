@@ -3,9 +3,9 @@ en: "Definition of Done (DoD)"
 es: "Definición de terminado"
 aliases: ["Definición de terminado"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "\"Funciona\" no basta: debe estar probado, revisado y documentado."
+simple_es: "La lista que define cuándo un trabajo está realmente terminado: probado, revisado y documentado."
 tecnica_es: "Criterios comunes que determinan cuándo un trabajo se considera terminado."
-simple_en: "\"It works\" isn't enough: it must be tested, reviewed and documented."
+simple_en: "The checklist that defines when work is truly finished: tested, reviewed and documented."
 tecnica_en: "Common criteria that determine when a piece of work is considered finished."
 ejemplo_es: "La definición de terminado incluye prueba y revisión."
 ejemplo_en: "The definition of done includes testing and review."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Definition of Done (DoD) · Definición de terminado
 
-**En simple.** "Funciona" no basta: debe estar probado, revisado y documentado.
+**En simple.** La lista que define cuándo un trabajo está realmente terminado: probado, revisado y documentado.
 
 **Técnica.** Criterios comunes que determinan cuándo un trabajo se considera terminado.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** "It works" isn't enough: it must be tested, reviewed and documented.
+**In simple.** The checklist that defines when work is truly finished: tested, reviewed and documented.
 
 **Technical.** Common criteria that determine when a piece of work is considered finished.
 

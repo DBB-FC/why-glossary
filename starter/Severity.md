@@ -3,9 +3,9 @@ en: "Severity"
 es: "Severidad"
 aliases: ["Severidad"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Qué tan grave es."
+simple_es: "Qué tan grave es un problema."
 tecnica_es: "Magnitud del impacto técnico/operacional de un defecto."
-simple_en: "How serious it is."
+simple_en: "How serious a problem is."
 tecnica_en: "The magnitude of a defect's technical or operational impact."
 ejemplo_es: "La severidad es crítica: nadie puede pagar."
 ejemplo_en: "Severity is critical: nobody can pay."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Severity · Severidad
 
-**En simple.** Qué tan grave es.
+**En simple.** Qué tan grave es un problema.
 
 **Técnica.** Magnitud del impacto técnico/operacional de un defecto.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** How serious it is.
+**In simple.** How serious a problem is.
 
 **Technical.** The magnitude of a defect's technical or operational impact.
 

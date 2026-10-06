@@ -3,9 +3,9 @@ en: "Acceptance Criteria"
 es: "Criterios de aceptación"
 aliases: ["Criterios de aceptación"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Cómo sabemos objetivamente que quedó bien."
+simple_es: "Las condiciones concretas que deben cumplirse para dar algo por terminado."
 tecnica_es: "Condiciones verificables que debe cumplir una funcionalidad."
-simple_en: "How we objectively know it's right."
+simple_en: "The concrete conditions that must be met to call something done."
 tecnica_en: "Verifiable conditions a feature must meet."
 ejemplo_es: "Los criterios de aceptación dicen cuándo se puede cerrar la tarea."
 ejemplo_en: "The acceptance criteria say when the task can be closed."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Acceptance Criteria · Criterios de aceptación
 
-**En simple.** Cómo sabemos objetivamente que quedó bien.
+**En simple.** Las condiciones concretas que deben cumplirse para dar algo por terminado.
 
 **Técnica.** Condiciones verificables que debe cumplir una funcionalidad.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** How we objectively know it's right.
+**In simple.** The concrete conditions that must be met to call something done.
 
 **Technical.** Verifiable conditions a feature must meet.
 

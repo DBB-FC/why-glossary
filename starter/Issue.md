@@ -3,9 +3,9 @@ en: "Issue"
 es: "Incidencia"
 aliases: ["Incidencia"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Tarea trazable; no necesariamente es un bug."
+simple_es: "El registro de una tarea o problema que se puede seguir; no siempre es un bug."
 tecnica_es: "Unidad registrada de trabajo, problema, mejora o defecto."
-simple_en: "A trackable task; not necessarily a bug."
+simple_en: "A record of a task or problem that can be tracked; not always a bug."
 tecnica_en: "A recorded unit of work, problem, improvement or defect."
 ejemplo_es: "Abrimos una incidencia para el ajuste del reporte."
 ejemplo_en: "We opened an issue for the report tweak."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Issue · Incidencia
 
-**En simple.** Tarea trazable; no necesariamente es un bug.
+**En simple.** El registro de una tarea o problema que se puede seguir; no siempre es un bug.
 
 **Técnica.** Unidad registrada de trabajo, problema, mejora o defecto.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A trackable task; not necessarily a bug.
+**In simple.** A record of a task or problem that can be tracked; not always a bug.
 
 **Technical.** A recorded unit of work, problem, improvement or defect.
 

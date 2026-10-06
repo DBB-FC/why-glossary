@@ -3,9 +3,9 @@ en: "Procedural Memory"
 es: "Memoria procedimental"
 aliases: ["Memoria procedimental"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "El runbook del agente."
+simple_es: "El conocimiento sobre cómo hacer tareas, como el manual de procedimientos de un agente."
 tecnica_es: "Cómo se hace algo, aprendido y reutilizable."
-simple_en: "The agent's runbook."
+simple_en: "Knowledge about how to do tasks, like an agent's procedures manual."
 tecnica_en: "How to do something, learned and reusable."
 ejemplo_es: "La memoria procedimental guarda cómo desplegar."
 ejemplo_en: "Procedural memory stores how to deploy."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Procedural Memory · Memoria procedimental
 
-**En simple.** El runbook del agente.
+**En simple.** El conocimiento sobre cómo hacer tareas, como el manual de procedimientos de un agente.
 
 **Técnica.** Cómo se hace algo, aprendido y reutilizable.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The agent's runbook.
+**In simple.** Knowledge about how to do tasks, like an agent's procedures manual.
 
 **Technical.** How to do something, learned and reusable.
 

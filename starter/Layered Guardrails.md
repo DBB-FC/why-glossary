@@ -3,9 +3,9 @@ en: "Layered Guardrails"
 es: "Barreras en capas"
 aliases: ["Guardrail en capas", "Barreras en capas"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Una sola baranda no alcanza."
+simple_es: "Usar varios controles de seguridad superpuestos, porque uno solo no basta."
 tecnica_es: "Combinación de validación de entrada, filtrado de salida, clasificación de riesgo por herramienta y disparadores de intervención humana."
-simple_en: "One railing isn't enough."
+simple_en: "Using several overlapping safety controls, because one alone isn't enough."
 tecnica_en: "A combination of input validation, output filtering, per-tool risk rating and human-intervention triggers."
 ejemplo_es: "Usamos barreras en capas: validación, filtro y aprobación."
 ejemplo_en: "We use layered guardrails: validation, filtering and approval."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Layered Guardrails · Barreras en capas
 
-**En simple.** Una sola baranda no alcanza.
+**En simple.** Usar varios controles de seguridad superpuestos, porque uno solo no basta.
 
 **Técnica.** Combinación de validación de entrada, filtrado de salida, clasificación de riesgo por herramienta y disparadores de intervención humana.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** One railing isn't enough.
+**In simple.** Using several overlapping safety controls, because one alone isn't enough.
 
 **Technical.** A combination of input validation, output filtering, per-tool risk rating and human-intervention triggers.
 

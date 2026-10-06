@@ -3,9 +3,9 @@ en: "Working Memory"
 es: "Memoria de trabajo"
 aliases: ["Memoria de trabajo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Su mesa de trabajo."
+simple_es: "Lo que un modelo tiene a mano en este momento para trabajar."
 tecnica_es: "Lo que el agente tiene presente en la interacción actual."
-simple_en: "Its work desk."
+simple_en: "What a model has at hand right now to work with."
 tecnica_en: "What the agent holds in mind during the current interaction."
 ejemplo_es: "La memoria de trabajo se vacía al terminar la sesión."
 ejemplo_en: "Working memory empties when the session ends."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Working Memory · Memoria de trabajo
 
-**En simple.** Su mesa de trabajo.
+**En simple.** Lo que un modelo tiene a mano en este momento para trabajar.
 
 **Técnica.** Lo que el agente tiene presente en la interacción actual.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Its work desk.
+**In simple.** What a model has at hand right now to work with.
 
 **Technical.** What the agent holds in mind during the current interaction.
 

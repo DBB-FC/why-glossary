@@ -3,9 +3,9 @@ en: "CI (Continuous Integration)"
 es: "Integración continua"
 aliases: ["CI", "Integración continua"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Cada cambio se prueba antes de mezclarse."
+simple_es: "Probar automáticamente cada cambio de código antes de incorporarlo."
 tecnica_es: "Continuous Integration: integración frecuente de cambios con validaciones automáticas."
-simple_en: "Every change is tested before being merged."
+simple_en: "Automatically testing every code change before merging it."
 tecnica_en: "Continuous Integration: frequent integration of changes with automated checks."
 ejemplo_es: "La integración continua corre las pruebas en cada PR."
 ejemplo_en: "Continuous integration runs the tests on every PR."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # CI (Continuous Integration) · Integración continua
 
-**En simple.** Cada cambio se prueba antes de mezclarse.
+**En simple.** Probar automáticamente cada cambio de código antes de incorporarlo.
 
 **Técnica.** Continuous Integration: integración frecuente de cambios con validaciones automáticas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Every change is tested before being merged.
+**In simple.** Automatically testing every code change before merging it.
 
 **Technical.** Continuous Integration: frequent integration of changes with automated checks.
 

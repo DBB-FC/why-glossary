@@ -3,9 +3,9 @@ en: "MCP Transport"
 es: "Transporte MCP"
 aliases: ["Transporte MCP"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Local o remoto."
+simple_es: "El canal por el que se comunican cliente y servidor MCP, local o remoto."
 tecnica_es: "Canal de comunicación entre cliente y servidor: stdio o HTTP."
-simple_en: "Local or remote."
+simple_en: "The channel through which an MCP client and server communicate, local or remote."
 tecnica_en: "The communication channel between client and server: stdio or HTTP."
 ejemplo_es: "Usamos transporte local para el servidor de pruebas."
 ejemplo_en: "We use local transport for the test server."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # MCP Transport · Transporte MCP
 
-**En simple.** Local o remoto.
+**En simple.** El canal por el que se comunican cliente y servidor MCP, local o remoto.
 
 **Técnica.** Canal de comunicación entre cliente y servidor: stdio o HTTP.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Local or remote.
+**In simple.** The channel through which an MCP client and server communicate, local or remote.
 
 **Technical.** The communication channel between client and server: stdio or HTTP.
 

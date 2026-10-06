@@ -3,9 +3,9 @@ en: "Penetration Test"
 es: "Prueba de penetración"
 aliases: ["Prueba de penetración"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Ataque controlado por especialistas."
+simple_es: "Un ataque simulado y autorizado para encontrar fallas de seguridad."
 tecnica_es: "Evaluación autorizada que intenta explotar vulnerabilidades para medir riesgo real."
-simple_en: "A controlled attack by specialists."
+simple_en: "A simulated, authorised attack to find security flaws."
 tecnica_en: "An authorized assessment that tries to exploit vulnerabilities to measure real risk."
 ejemplo_es: "Contratamos una prueba de penetración antes de salir a producción."
 ejemplo_en: "We hired a penetration test before going to production."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Penetration Test · Prueba de penetración
 
-**En simple.** Ataque controlado por especialistas.
+**En simple.** Un ataque simulado y autorizado para encontrar fallas de seguridad.
 
 **Técnica.** Evaluación autorizada que intenta explotar vulnerabilidades para medir riesgo real.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A controlled attack by specialists.
+**In simple.** A simulated, authorised attack to find security flaws.
 
 **Technical.** An authorized assessment that tries to exploit vulnerabilities to measure real risk.
 

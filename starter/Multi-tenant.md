@@ -3,9 +3,9 @@ en: "Multi-tenant"
 es: "Multiinquilino"
 aliases: ["Multiinquilino"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Una plataforma, muchos clientes separados."
+simple_es: "Una misma plataforma que atiende a muchos clientes con sus datos separados."
 tecnica_es: "Arquitectura donde una instancia sirve a múltiples clientes manteniendo aislamiento lógico."
-simple_en: "One platform, many separate customers."
+simple_en: "One platform serving many customers with their data kept separate."
 tecnica_en: "An architecture where a single instance serves multiple customers while keeping logical isolation."
 ejemplo_es: "La plataforma es multiinquilino: cada cliente ve solo sus datos."
 ejemplo_en: "The platform is multi-tenant: each customer sees only their own data."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Multi-tenant · Multiinquilino
 
-**En simple.** Una plataforma, muchos clientes separados.
+**En simple.** Una misma plataforma que atiende a muchos clientes con sus datos separados.
 
 **Técnica.** Arquitectura donde una instancia sirve a múltiples clientes manteniendo aislamiento lógico.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** One platform, many separate customers.
+**In simple.** One platform serving many customers with their data kept separate.
 
 **Technical.** An architecture where a single instance serves multiple customers while keeping logical isolation.
 

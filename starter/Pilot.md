@@ -3,9 +3,9 @@ en: "Pilot"
 es: "Piloto"
 aliases: ["Piloto"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Probar la solución en una parte del negocio."
+simple_es: "Probar una solución en una parte pequeña antes de extenderla."
 tecnica_es: "Implementación controlada con usuarios o entorno real antes del despliegue general."
-simple_en: "Trying the solution in one part of the business."
+simple_en: "Trying a solution on a small part before rolling it out."
 tecnica_en: "A controlled implementation with real users or environment before general rollout."
 ejemplo_es: "Hicimos un piloto en una sola sucursal."
 ejemplo_en: "We ran a pilot in a single branch."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Pilot · Piloto
 
-**En simple.** Probar la solución en una parte del negocio.
+**En simple.** Probar una solución en una parte pequeña antes de extenderla.
 
 **Técnica.** Implementación controlada con usuarios o entorno real antes del despliegue general.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Trying the solution in one part of the business.
+**In simple.** Trying a solution on a small part before rolling it out.
 
 **Technical.** A controlled implementation with real users or environment before general rollout.
 

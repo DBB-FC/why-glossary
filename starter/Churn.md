@@ -3,9 +3,9 @@ en: "Churn"
 es: "Tasa de cancelación de clientes"
 aliases: ["Tasa de cancelación de clientes"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Cuántos clientes dejan el servicio."
+simple_es: "El porcentaje de clientes que dejan un servicio en un período."
 tecnica_es: "Tasa de pérdida de clientes o ingresos recurrentes."
-simple_en: "How many customers leave the service."
+simple_en: "The share of customers who leave a service in a period."
 tecnica_en: "The rate at which customers or recurring revenue are lost."
 ejemplo_es: "El churn bajó a 2% mensual."
 ejemplo_en: "Churn fell to 2% a month."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Churn · Tasa de cancelación de clientes
 
-**En simple.** Cuántos clientes dejan el servicio.
+**En simple.** El porcentaje de clientes que dejan un servicio en un período.
 
 **Técnica.** Tasa de pérdida de clientes o ingresos recurrentes.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** How many customers leave the service.
+**In simple.** The share of customers who leave a service in a period.
 
 **Technical.** The rate at which customers or recurring revenue are lost.
 

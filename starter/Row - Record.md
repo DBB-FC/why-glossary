@@ -3,9 +3,9 @@ en: "Row / Record"
 es: "Fila / registro"
 aliases: ["Row", "Fila / registro", "Record", "Fila", "registro"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Un cliente específico."
+simple_es: "Un registro individual de una tabla, por ejemplo un cliente."
 tecnica_es: "Instancia individual almacenada en una tabla."
-simple_en: "One specific customer."
+simple_en: "One individual record in a table, for example a customer."
 tecnica_en: "An individual instance stored in a table."
 ejemplo_es: "Cada fila es un cliente distinto."
 ejemplo_en: "Each row is a different customer."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Row / Record · Fila / registro
 
-**En simple.** Un cliente específico.
+**En simple.** Un registro individual de una tabla, por ejemplo un cliente.
 
 **Técnica.** Instancia individual almacenada en una tabla.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** One specific customer.
+**In simple.** One individual record in a table, for example a customer.
 
 **Technical.** An individual instance stored in a table.
 

@@ -3,9 +3,9 @@ en: "Mobile First"
 es: "Móvil primero"
 aliases: ["Móvil primero"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Priorizar primero la experiencia móvil."
+simple_es: "Diseñar primero para el teléfono y después para las pantallas grandes."
 tecnica_es: "Estrategia de diseño que comienza por pantallas pequeñas y escala hacia mayores."
-simple_en: "Designing for the phone first."
+simple_en: "Designing for the phone first and for larger screens afterwards."
 tecnica_en: "A design strategy that starts with small screens and scales up to larger ones."
 ejemplo_es: "Partimos móvil primero porque el 80% entra desde el celular."
 ejemplo_en: "We went mobile first because 80% of visits come from phones."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Mobile First · Móvil primero
 
-**En simple.** Priorizar primero la experiencia móvil.
+**En simple.** Diseñar primero para el teléfono y después para las pantallas grandes.
 
 **Técnica.** Estrategia de diseño que comienza por pantallas pequeñas y escala hacia mayores.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Designing for the phone first.
+**In simple.** Designing for the phone first and for larger screens afterwards.
 
 **Technical.** A design strategy that starts with small screens and scales up to larger ones.
 

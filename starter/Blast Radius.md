@@ -3,9 +3,9 @@ en: "Blast Radius"
 es: "Radio de impacto"
 aliases: ["Radio de impacto"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Se diseña para que un error toque poco."
+simple_es: "Cuánto daño puede causar un error; se diseña para que sea el menor posible."
 tecnica_es: "Alcance del daño si una acción sale mal."
-simple_en: "You design so one mistake touches little."
+simple_en: "How much damage a mistake can cause; systems are designed to keep it small."
 tecnica_en: "The scope of damage if an action goes wrong."
 ejemplo_es: "Limitamos el radio de impacto con permisos mínimos."
 ejemplo_en: "We limit the blast radius with minimal permissions."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Blast Radius · Radio de impacto
 
-**En simple.** Se diseña para que un error toque poco.
+**En simple.** Cuánto daño puede causar un error; se diseña para que sea el menor posible.
 
 **Técnica.** Alcance del daño si una acción sale mal.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** You design so one mistake touches little.
+**In simple.** How much damage a mistake can cause; systems are designed to keep it small.
 
 **Technical.** The scope of damage if an action goes wrong.
 

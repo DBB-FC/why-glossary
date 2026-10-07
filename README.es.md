@@ -6,7 +6,7 @@
 
 **Un glosario de bolsillo que habla los dos idiomas: busca un término en inglés o en español y léelo en palabras simples.**
 
-392 términos listos · agrega los tuyos · funciona con cualquier vault
+casi 400 términos listos · agrega los tuyos · funciona con cualquier vault
 
 [![versión](https://img.shields.io/github/v/release/DBB-FC/why-glossary?label=versi%C3%B3n&color=1FC8B4&style=flat-square)](https://github.com/DBB-FC/why-glossary/releases/latest)
 [![Obsidian 1.4.0+](https://img.shields.io/badge/Obsidian-1.4.0+-B79CFF?style=flat-square)](https://obsidian.md)
@@ -17,6 +17,10 @@
 *Español · [Read in English](README.md)*
 
 <a href="https://www.buymeacoffee.com/DbbLabs" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&emoji=%F0%9F%8D%BA&slug=DbbLabs&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Invítame una cerveza" height="46"></a>
+
+<img src="docs/imagenes/01-glosario.webp" alt="Why Glossary: la pantalla A–Z con el buscador y los términos bilingües" width="60%">
+
+<sub>Capturas reales de una bóveda real, sin maquetas. Busca en español o en inglés; cada término muestra los dos nombres y la definición simple.</sub>
 
 </div>
 
@@ -38,6 +42,17 @@ leer, editar y ampliar.
 
 ## Qué hace
 
+<table>
+<tr><td width="50%"><img src="docs/imagenes/01-glosario.webp" alt="La pantalla A–Z, con el buscador arriba"></td><td width="50%"><img src="docs/imagenes/04-vista-previa.webp" alt="El panel de vista previa del término que apuntas"></td></tr>
+<tr><td><b>Una pantalla, dos idiomas.</b> Escribe <code>latency</code> o <code>latencia</code>: el resultado muestra los dos nombres, la definición simple y los términos relacionados.</td><td><b>Vista previa sin abrir.</b> Haz clic en cualquier fila y el panel de la derecha muestra la versión simple, la técnica y el ejemplo.</td></tr>
+<tr><td><img src="docs/imagenes/02-ficha-es.webp" alt="Ficha de un término en español"></td><td><img src="docs/imagenes/03-ficha-en.webp" alt="La misma ficha en inglés"></td></tr>
+<tr><td><b>Primero lo simple.</b> Una explicación de una línea que cualquiera sigue, un botón para copiarla a tu nota, y después la versión técnica y un ejemplo.</td><td><b>Cambia de idioma con un clic.</b> La misma ficha, con las definiciones en español o en inglés; los términos relacionados son enlaces.</td></tr>
+</table>
+
+<img src="docs/imagenes/05-termino-del-dia.webp" alt="Tarjeta del término del día" width="100%">
+
+<sub><b>Término del día.</b> Una tarjeta en la pantalla del glosario trae un término al día, para que el glosario enseñe también cuando no buscas nada.</sub>
+
 - **Busca en cualquiera de los dos idiomas.** Escribe `latency` o `latencia`, con o sin tildes.
   Un resultado muestra ambos nombres y la definición en el idioma que elegiste.
 - **Dos niveles de definición.** Una *simple* que cualquiera puede seguir, una *técnica* para cuando
@@ -46,6 +61,15 @@ leer, editar y ampliar.
   apunta uno y aparece su tarjeta, sin salir de la página.
 - **Modo estudio.** Tarjetas de tu propio glosario, en sesiones del tamaño que elijas, y las que
   fallaste vuelven primero.
+
+<details>
+<summary><b>Más vistas</b></summary>
+
+<img src="docs/imagenes/06-lista-az.webp" alt="La lista A–Z con la selección del teclado resaltada" width="100%">
+
+<sub>La lista A–Z: la fila oscura es la selección con el teclado, y cada fila muestra los dos nombres y la definición simple.</sub>
+
+</details>
 
 Y además: una pantalla A–Z con filtros por dominio · un panel lateral que sigue abierto mientras
 escribes · **español e inglés**, un solo ajuste · **el celular**, mismas pantallas, sin una build aparte.
@@ -79,7 +103,7 @@ No hace falta nada más: esos tres archivos son todo el plugin.
 ## La primera vez, en un minuto
 
 1. **Activa el plugin.** El glosario base se instala solo en una carpeta `Why Glossary/` —
-   392 notas, sin asistente, sin clave, sin red.
+   casi 400 notas, sin asistente, sin clave, sin red.
 2. **Abre el glosario** desde la barra lateral y escribe cualquier palabra: `chargeback`, `contracargo`, `latency`.
 3. **Haz clic en un resultado** para leer la definición simple, la técnica y el ejemplo.
 4. **Apunta un término subrayado** en cualquier nota en modo lectura para ver su tarjeta.
@@ -118,7 +142,7 @@ Todos los campos menos `en` y `es` son opcionales.
 
 ## Qué trae el glosario base
 
-**392 términos** en once áreas: agentes de IA y economía de tokens, desarrollo web y arquitectura de
+**Casi 400 términos** en once áreas: agentes de IA y economía de tokens, desarrollo web y arquitectura de
 software, trabajo comercial y de consultoría, datos y bases de datos, seguridad y privacidad, nube y
 DevOps, IA y automatización, producto y diseño, pagos, QA, y SaaS e integraciones.
 
@@ -180,6 +204,8 @@ redistribuirlo, conservando el aviso de copyright. El plugin no cobra nada y no 
 
 Errores e ideas: [issues de GitHub](https://github.com/DBB-FC/why-glossary/issues). Incluye tu
 versión de Obsidian y tu plataforma.
+
+[Cómo contribuir](CONTRIBUTING.es.md) · [Código de conducta](CODE_OF_CONDUCT.es.md) · [Seguridad](SECURITY.es.md) · [Licencia MIT](LICENSE)
 
 ---
 

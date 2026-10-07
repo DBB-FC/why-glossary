@@ -92,10 +92,10 @@ export function recorta(s: string, max = 150): string {
 export function dominioCorto(d: string) { return d.replace(/^\d+\s*·\s*/, ""); }
 
 /** Parsea el frontmatter simple que genera scripts/generar_notas.py (clave: valor JSON o booleano). */
-export function parseFrontmatter(text: string): Record<string, any> | null {
+export function parseFrontmatter(text: string): Record<string, unknown> | null {
   const m = text.match(/^---\n([\s\S]*?)\n---/);
   if (!m) return null;
-  const fm: Record<string, any> = {};
+  const fm: Record<string, unknown> = {};
   for (const line of m[1].split("\n")) {
     const i = line.indexOf(": ");
     if (i < 0) continue;
@@ -105,16 +105,18 @@ export function parseFrontmatter(text: string): Record<string, any> | null {
   return fm;
 }
 
-export function termFromFrontmatter(path: string, fm: Record<string, any>): Term | null {
+const str = (v: unknown): string => (typeof v === "string" ? v : typeof v === "number" || typeof v === "boolean" ? String(v) : "");
+
+export function termFromFrontmatter(path: string, fm: Record<string, unknown>): Term | null {
   if (!fm?.en || !fm?.es) return null;
-  const arr = (v: any) => (Array.isArray(v) ? v.map(String) : typeof v === "string" && v ? [v] : []);
+  const arr = (v: unknown) => (Array.isArray(v) ? v.map(str) : typeof v === "string" && v ? [v] : []);
   return {
-    path, en: String(fm.en), es: String(fm.es), aliases: arr(fm.aliases), dominio: String(fm.dominio ?? ""),
-    simple_es: String(fm.simple_es ?? ""), tecnica_es: String(fm.tecnica_es ?? ""),
-    simple_en: String(fm.simple_en ?? ""), tecnica_en: String(fm.tecnica_en ?? ""),
-    ejemplo_es: String(fm.ejemplo_es ?? ""), ejemplo_en: String(fm.ejemplo_en ?? ""),
-    ver_tambien: Array.isArray(fm.ver_tambien) ? fm.ver_tambien.map(Number).filter(Number.isInteger) : [],
-    n: Number.isInteger(fm.n) ? fm.n : -1, verificar: fm.verificar === true,
+    path, en: str(fm.en), es: str(fm.es), aliases: arr(fm.aliases), dominio: str(fm.dominio),
+    simple_es: str(fm.simple_es), tecnica_es: str(fm.tecnica_es),
+    simple_en: str(fm.simple_en), tecnica_en: str(fm.tecnica_en),
+    ejemplo_es: str(fm.ejemplo_es), ejemplo_en: str(fm.ejemplo_en),
+    ver_tambien: Array.isArray(fm.ver_tambien) ? (fm.ver_tambien as unknown[]).map(Number).filter(Number.isInteger) : [],
+    n: typeof fm.n === "number" && Number.isInteger(fm.n) ? fm.n : -1, verificar: fm.verificar === true,
   };
 }
 

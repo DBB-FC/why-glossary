@@ -9,7 +9,7 @@
 casi 400 términos listos · agrega los tuyos · funciona con cualquier vault
 
 [![versión](https://img.shields.io/github/v/release/DBB-FC/why-glossary?label=versi%C3%B3n&color=1FC8B4&style=flat-square)](https://github.com/DBB-FC/why-glossary/releases/latest)
-[![Obsidian 1.4.0+](https://img.shields.io/badge/Obsidian-1.4.0+-B79CFF?style=flat-square)](https://obsidian.md)
+[![Obsidian 1.8.7+](https://img.shields.io/badge/Obsidian-1.8.7+-B79CFF?style=flat-square)](https://obsidian.md)
 [![escritorio y celular](https://img.shields.io/badge/escritorio-%2B%20celular-5B95FF?style=flat-square)](#instalar)
 [![MIT](https://img.shields.io/badge/licencia-MIT-F7931A?style=flat-square)](LICENSE)
 [![sin telemetría](https://img.shields.io/badge/telemetr%C3%ADa-ninguna-2A3566?style=flat-square)](#todo-lo-dem%C3%A1s)

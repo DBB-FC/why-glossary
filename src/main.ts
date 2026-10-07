@@ -1,4 +1,4 @@
-import { App, ItemView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TFile, setIcon, WorkspaceLeaf } from "obsidian";
+import { App, ItemView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, setIcon, WorkspaceLeaf } from "obsidian";
 import {
   ABC, Index, Lang, Session, Term, agrupaAZ, buildDeck, clave, dominioCorto, ejemplo, letra, norm,
   NuevoTermino, nombreArchivo, notaDeTermino, parseFrontmatter, recorta, simple, summarize, tecnica, termFromFrontmatter,
@@ -20,17 +20,17 @@ export default class WhyGlossary extends Plugin {
   private tip: HTMLElement | null = null;
 
   async onload() {
-    const saved = await this.loadData();
+    const saved = (await this.loadData()) as Partial<Settings> | null;
     this.settings = Object.assign({}, DEFAULTS, saved, { historial: saved?.historial ?? [], falladas: saved?.falladas ?? [] });
     this.registerView(VIEW_PANEL, leaf => new PanelView(leaf, this));
     this.registerView(VIEW_MAIN, leaf => new MainView(leaf, this));
-    this.addRibbonIcon("book-a", "Why Glossary: abrir glosario", () => this.abrirGlosario());
-    this.addCommand({ id: "glosario", name: "Abrir glosario", callback: () => this.abrirGlosario() });
+    this.addRibbonIcon("book-a", "Abrir glosario", () => { void this.abrirGlosario(); });
+    this.addCommand({ id: "glosario", name: "Abrir glosario", callback: () => { void this.abrirGlosario(); } });
     this.addCommand({ id: "buscar", name: "Buscar término", callback: () => this.buscar() });
-    this.addCommand({ id: "panel", name: "Abrir panel del glosario", callback: () => this.abrirPanel() });
+    this.addCommand({ id: "panel", name: "Abrir panel del glosario", callback: () => { void this.abrirPanel(); } });
     this.addCommand({ id: "estudiar", name: "Modo estudio", callback: () => this.estudiar() });
-    this.addCommand({ id: "agregar", name: "Ingresá tus términos (agregar uno nuevo)", callback: () => this.agregar() });
-    this.addCommand({ id: "base", name: "Instalar el glosario base", callback: () => this.instalarBase(true) });
+    this.addCommand({ id: "agregar", name: "Ingresá tus términos (agregar uno nuevo)", callback: () => { void this.agregar(); } });
+    this.addCommand({ id: "base", name: "Instalar el glosario base", callback: () => { void this.instalarBase(true); } });
     this.addSettingTab(new SettingsTab(this.app, this));
     this.registerMarkdownPostProcessor(el => this.marcarTerminos(el));
 
@@ -53,18 +53,18 @@ export default class WhyGlossary extends Plugin {
       if (!this.settings.baseInstalada) { this.settings.baseInstalada = true; await this.saveSettings(); if (!this.notasDelGlosario().length) await this.instalarBase(false); }
       await this.recargar();
       // Instala y abre: el glosario aparece solo al iniciar Obsidian.
-      if (this.settings.abrirAlInicio && !this.app.workspace.getLeavesOfType(VIEW_MAIN).length) this.abrirGlosario();
+      if (this.settings.abrirAlInicio && !this.app.workspace.getLeavesOfType(VIEW_MAIN).length) await this.abrirGlosario();
     });
     const dentro = (f: TFile) => f.path.startsWith(this.settings.carpeta.replace(/\/$/, "") + "/");
     for (const ev of ["modify", "create", "delete", "rename"] as const)
-      this.registerEvent((this.app.vault as any).on(ev, (f: TFile) => { if (f instanceof TFile && dentro(f)) this.recargarPronto(); }));
+      this.registerEvent(this.app.vault.on(ev as "modify", (f: TAbstractFile) => { if (f instanceof TFile && dentro(f)) this.recargarPronto(); }));
   }
 
   onunload() { this.ocultaTip(); }
   async saveSettings() { await this.saveData(this.settings); }
 
   private t: number | undefined;
-  recargarPronto() { window.clearTimeout(this.t); this.t = window.setTimeout(() => this.recargar(), 800); }
+  recargarPronto() { window.clearTimeout(this.t); this.t = window.setTimeout(() => { void this.recargar(); }, 800); }
 
   private notasDelGlosario(): TFile[] {
     const prefijo = this.settings.carpeta.replace(/\/$/, "") + "/";
@@ -110,7 +110,7 @@ export default class WhyGlossary extends Plugin {
     this.byPath = new Map(terms.map(t => [t.path, t]));
     this.hoverMap = this.index.hoverMap();
     const keys = [...this.hoverMap.keys()].sort((a, b) => b.length - a.length).map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/ /g, "\\s+"));
-    this.hoverRe = keys.length ? new RegExp("(?<![\\p{L}\\p{N}])(" + keys.join("|") + ")(?![\\p{L}\\p{N}])", "giu") : null;
+    this.hoverRe = keys.length ? new RegExp("(^|[^\\p{L}\\p{N}])(" + keys.join("|") + ")(?![\\p{L}\\p{N}])", "giu") : null;
     for (const type of [VIEW_PANEL, VIEW_MAIN]) this.app.workspace.getLeavesOfType(type).forEach(l => (l.view as unknown as GlossaryLeaf).refrescar());
   }
 
@@ -124,17 +124,17 @@ export default class WhyGlossary extends Plugin {
   async abrirGlosario() {
     let leaf = this.app.workspace.getLeavesOfType(VIEW_MAIN)[0];
     if (!leaf) { leaf = this.app.workspace.getLeaf(true); await leaf.setViewState({ type: VIEW_MAIN, active: true }); }
-    this.app.workspace.revealLeaf(leaf);
+    await this.app.workspace.revealLeaf(leaf);
   }
   async abrirPanel() {
     let leaf = this.app.workspace.getLeavesOfType(VIEW_PANEL)[0];
     if (!leaf) { leaf = this.app.workspace.getRightLeaf(false)!; await leaf.setViewState({ type: VIEW_PANEL, active: true }); }
-    this.app.workspace.revealLeaf(leaf);
+    await this.app.workspace.revealLeaf(leaf);
   }
   ficha(t: Term) { new CardModal(this.app, this, t).open(); }
   abrirNota(t: Term) {
     const f = this.app.vault.getAbstractFileByPath(t.path);
-    if (f instanceof TFile) this.app.workspace.getLeaf(false).openFile(f);
+    if (f instanceof TFile) void this.app.workspace.getLeaf(false).openFile(f);
   }
 
   // ---- Hover (modo lectura) ----
@@ -149,13 +149,14 @@ export default class WhyGlossary extends Plugin {
       const txt = n.data; this.hoverRe.lastIndex = 0;
       let m: RegExpExecArray | null, last = 0, frag: DocumentFragment | null = null;
       while ((m = this.hoverRe.exec(txt))) {
-        const t = this.hoverMap.get(norm(m[1])); if (!t) continue;
-        frag ??= document.createDocumentFragment();
-        frag.append(txt.slice(last, m.index));
-        const s = createSpan({ cls: "wg-term", text: m[1] });
+        const t = this.hoverMap.get(norm(m[2])); if (!t) continue;
+        const ini = m.index + m[1].length;
+        frag ??= createFragment();
+        frag.append(txt.slice(last, ini));
+        const s = createSpan({ cls: "wg-term", text: m[2] });
         s.dataset.wg = t.path; s.tabIndex = 0; s.setAttr("role", "button");
         frag.append(s);
-        last = m.index + m[1].length;
+        last = ini + m[2].length;
       }
       if (frag) { frag.append(txt.slice(last)); n.replaceWith(frag); }
     }
@@ -177,7 +178,7 @@ export default class WhyGlossary extends Plugin {
 }
 
 function termEl(e: Event): HTMLElement | null {
-  return ((e.target as HTMLElement)?.closest?.(".wg-term") as HTMLElement | null) ?? null;
+  return (e.target as HTMLElement)?.closest?.<HTMLElement>(".wg-term") ?? null;
 }
 
 interface GlossaryLeaf { refrescar(): void; }
@@ -241,7 +242,7 @@ class CardModal extends Modal {
     const bt = pie.createEl("button", { cls: "wg-ghost", text: es ? "Copiar técnica" : "Copy technical" }); bt.onclick = () => copiar(tecnica(t, lang));
     pie.createEl("button", { cls: "wg-ghost", text: es ? "Abrir nota" : "Open note" }).onclick = () => { this.close(); this.p.abrirNota(t); };
     const v = pie.createEl("button", { cls: "wg-link wg-mono wg-push", text: es ? "← VOLVER AL GLOSARIO" : "← BACK TO GLOSSARY" });
-    v.onclick = () => { this.close(); this.p.abrirGlosario(); };
+    v.onclick = () => { this.close(); void this.p.abrirGlosario(); };
   }
 }
 
@@ -347,7 +348,7 @@ class MainView extends ItemView implements GlossaryLeaf {
       tit.createDiv({ cls: "wg-kicker", text: "WHY GLOSSARY · EN ↔ ES" });
       tit.createDiv({ cls: "wg-title", text: "Entiende cualquier término, en dos idiomas." });
       const nuevo = marca.createEl("button", { cls: "wg-primary wg-add-btn", text: "＋ Ingresá tus términos" });
-      nuevo.onclick = () => this.p.agregar();
+      nuevo.onclick = () => { void this.p.agregar(); };
       const ord = marca.createDiv({ cls: "wg-order" });
       ord.createSpan({ cls: "wg-lbl wg-mut", text: "Orden" });
       for (const l of ["en", "es"] as Lang[]) {
@@ -362,7 +363,7 @@ class MainView extends ItemView implements GlossaryLeaf {
       inp.oninput = () => { this.q = inp.value; this.letraSel = ""; this.pinta(); };
       inp.onkeydown = e => {
         if (e.key === "Enter") { const t = this.primero(); if (t) this.p.ficha(t); }
-        else if (e.key === "ArrowDown") { e.preventDefault(); (this.lista.querySelector(".wg-entry") as HTMLElement | null)?.focus(); }
+        else if (e.key === "ArrowDown") { e.preventDefault(); this.lista.querySelector<HTMLElement>(".wg-entry")?.focus(); }
         else if (e.key === "Escape" && inp.value) { inp.value = ""; this.q = ""; this.pinta(); }
       };
       h.createDiv({ cls: "wg-mono wg-mut wg-count" });
@@ -392,8 +393,8 @@ class MainView extends ItemView implements GlossaryLeaf {
     if (!todos.length) {
       const e = this.lista.createDiv({ cls: "wg-empty" });
       e.createDiv({ text: "Tu glosario está vacío." });
-      const b1 = e.createEl("button", { cls: "wg-primary", text: "Ingresá tus términos" }); b1.onclick = () => this.p.agregar();
-      const b2 = e.createEl("button", { cls: "wg-toggle", text: "Instalar el glosario base" }); b2.onclick = () => this.p.instalarBase(true);
+      const b1 = e.createEl("button", { cls: "wg-primary", text: "Ingresá tus términos" }); b1.onclick = () => { void this.p.agregar(); };
+      const b2 = e.createEl("button", { cls: "wg-toggle", text: "Instalar el glosario base" }); b2.onclick = () => { void this.p.instalarBase(true); };
     } else if (!visibles.length) this.lista.createDiv({ cls: "wg-empty", text: "Sin resultados." });
     if (!this.sel || !todos.includes(this.sel)) {
       const d = new Date(); this.sel = todos.length ? todos[(d.getFullYear() * 372 + d.getMonth() * 31 + d.getDate()) % todos.length] : null;
@@ -583,7 +584,7 @@ class AddTermModal extends Modal {
       if (!this.v.en.trim() || !this.v.es.trim()) { new Notice("Escribe el término en inglés y en español."); return; }
       const f = await this.p.crearTermino({ ...this.v, en: this.v.en.trim(), es: this.v.es.trim() });
       new Notice(`«${nombreArchivo(this.v.en)}» agregado a tu glosario.`);
-      this.close(); this.p.app.workspace.getLeaf(false).openFile(f);
+      this.close(); void this.p.app.workspace.getLeaf(false).openFile(f);
     };
     window.setTimeout(() => primero.focus(), 50);
   }
@@ -603,10 +604,10 @@ class SettingsTab extends PluginSettingTab {
     new Setting(el).setName("Abrir el glosario al iniciar Obsidian").setDesc("La pantalla del glosario aparece sola al abrir la bóveda.")
       .addToggle(t => t.setValue(this.p.settings.abrirAlInicio).onChange(async v => { this.p.settings.abrirAlInicio = v; await this.p.saveSettings(); }));
     new Setting(el).setName("Tus términos").setDesc("Agrega un término propio. Se guarda como una nota en «Mis términos», dentro de la carpeta del glosario.")
-      .addButton(b => b.setButtonText("Ingresá tus términos").setCta().onClick(() => this.p.agregar()));
+      .addButton(b => b.setButtonText("Ingresá tus términos").setCta().onClick(() => { void this.p.agregar(); }));
     new Setting(el).setName("Glosario base").setDesc("Instala o repone los términos generales (tecnología, negocio, diseño). No pisa tus notas ni tus cambios.")
-      .addButton(b => b.setButtonText("Instalar glosario base").onClick(() => this.p.instalarBase(true)));
+      .addButton(b => b.setButtonText("Instalar glosario base").onClick(() => { void this.p.instalarBase(true); }));
     new Setting(el).setName("Tarjetas por sesión de estudio")
-      .addSlider(s => s.setLimits(5, 30, 5).setValue(this.p.settings.mazo).setDynamicTooltip().onChange(async v => { this.p.settings.mazo = v; await this.p.saveSettings(); }));
+      .addSlider(s => s.setLimits(5, 30, 5).setValue(this.p.settings.mazo).onChange(async v => { this.p.settings.mazo = v; await this.p.saveSettings(); }));
   }
 }

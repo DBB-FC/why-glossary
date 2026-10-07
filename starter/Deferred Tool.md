@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Deferred Tool"
 es: "Herramienta diferida"
 aliases: ["Herramienta diferida"]

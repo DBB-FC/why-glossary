@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Double-entry Bookkeeping"
 es: "Partida doble"
 aliases: ["Partida doble"]

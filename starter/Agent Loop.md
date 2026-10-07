@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Agent Loop"
 es: "Ciclo del agente"
 aliases: ["Ciclo del agente"]

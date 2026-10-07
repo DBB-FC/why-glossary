@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "RBAC"
 es: "Control de acceso basado en roles"
 aliases: ["Control de acceso basado en roles"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CDN"
 es: "Red de distribución de contenidos"
 aliases: ["Red de distribución de contenidos"]

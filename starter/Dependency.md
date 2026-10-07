@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Dependency"
 es: "Dependencia"
 aliases: ["Dependencia"]

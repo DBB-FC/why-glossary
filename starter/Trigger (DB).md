@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Trigger (DB)"
 es: "Disparador (base de datos)"
 aliases: ["Trigger (BD)", "Disparador (base de datos)"]

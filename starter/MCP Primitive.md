@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MCP Primitive"
 es: "Primitiva MCP"
 aliases: ["Primitiva MCP"]

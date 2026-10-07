@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "IaaS"
 es: "Infraestructura como servicio"
 aliases: ["Infraestructura como servicio"]

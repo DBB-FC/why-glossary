@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Legacy System"
 es: "Sistema heredado"
 aliases: ["Sistema heredado"]

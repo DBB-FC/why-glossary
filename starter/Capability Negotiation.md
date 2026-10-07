@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Capability Negotiation"
 es: "Negociación de capacidades"
 aliases: ["Negociación de capacidades"]

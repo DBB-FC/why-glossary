@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ARR (Annual Recurring Revenue)"
 es: "Ingreso anual recurrente"
 aliases: ["ARR", "Ingreso anual recurrente"]

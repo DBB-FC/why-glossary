@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Merge Conflict"
 es: "Conflicto de fusión"
 aliases: ["Conflicto de fusión"]

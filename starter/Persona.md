@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Persona"
 es: "Persona (arquetipo de usuario)"
 aliases: ["Persona (arquetipo de usuario)"]

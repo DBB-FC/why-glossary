@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Hierarchical Agent"
 es: "Agente jerárquico"
 aliases: ["Agente jerárquico"]

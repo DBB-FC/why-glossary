@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SSL/TLS Certificate"
 es: "Certificado SSL/TLS"
 aliases: ["Certificado SSL/TLS"]

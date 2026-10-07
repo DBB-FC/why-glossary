@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cost per Successful Task"
 es: "Costo por tarea exitosa"
 aliases: ["Costo por tarea exitosa"]

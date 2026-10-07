@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "RLS (Row-Level Security)"
 es: "Seguridad a nivel de fila"
 aliases: ["RLS", "Seguridad a nivel de fila"]

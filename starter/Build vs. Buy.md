@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Build vs. Buy"
 es: "Construir vs. comprar"
 aliases: ["Construir vs. comprar"]

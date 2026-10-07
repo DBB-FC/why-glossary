@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ERP"
 es: "Planificación de recursos empresariales"
 aliases: ["Planificación de recursos empresariales"]

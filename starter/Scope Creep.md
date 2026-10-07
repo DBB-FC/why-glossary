@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Scope Creep"
 es: "Crecimiento descontrolado del alcance"
 aliases: ["Crecimiento descontrolado del alcance"]

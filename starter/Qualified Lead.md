@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Qualified Lead"
 es: "Prospecto calificado"
 aliases: ["Prospecto calificado"]

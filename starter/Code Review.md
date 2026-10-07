@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Code Review"
 es: "Revisión de código"
 aliases: ["Revisión de código"]

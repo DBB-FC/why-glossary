@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Buffer / Reserve"
 es: "Colchón / reserva"
 aliases: ["Colchón / Reserva", "Colchón", "Colchón / reserva", "Buffer", "Reserve", "reserva"]

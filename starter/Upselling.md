@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Upselling"
 es: "Venta de mejora (upselling)"
 aliases: ["Venta de mejora (upselling)"]

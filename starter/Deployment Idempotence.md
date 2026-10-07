@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Deployment Idempotence"
 es: "Idempotencia de despliegue"
 aliases: ["Idempotencia de despliegue"]

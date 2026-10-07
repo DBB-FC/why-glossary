@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Tool Calling"
 es: "Llamada a herramientas"
 aliases: ["Llamada a herramientas"]

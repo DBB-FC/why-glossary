@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Constraint"
 es: "Restricción"
 aliases: ["Restricción"]

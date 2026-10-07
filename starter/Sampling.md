@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Sampling"
 es: "Muestreo"
 aliases: ["Muestreo"]

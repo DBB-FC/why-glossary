@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Jailbreak"
 es: "Jailbreak (evasión de restricciones)"
 aliases: ["Jailbreak (evasión de restricciones)"]

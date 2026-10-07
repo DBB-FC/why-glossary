@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Recurring Revenue"
 es: "Ingreso recurrente"
 aliases: ["Ingreso recurrente"]

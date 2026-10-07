@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Provisioned Throughput"
 es: "Capacidad aprovisionada"
 aliases: ["Capacidad aprovisionada"]

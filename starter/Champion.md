@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Champion"
 es: "Promotor interno (champion)"
 aliases: ["Promotor interno (champion)"]

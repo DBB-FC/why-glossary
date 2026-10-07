@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Alerting"
 es: "Alertas"
 aliases: ["Alertas"]

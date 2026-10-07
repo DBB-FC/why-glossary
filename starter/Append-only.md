@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Append-only"
 es: "Solo agregar (append-only)"
 aliases: ["Solo agregar (append-only)"]

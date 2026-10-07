@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Integration Test"
 es: "Prueba de integración"
 aliases: ["Prueba de integración"]

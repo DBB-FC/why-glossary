@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Timeline"
 es: "Cronograma"
 aliases: ["Cronograma"]

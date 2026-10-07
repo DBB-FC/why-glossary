@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Seed"
 es: "Datos semilla"
 aliases: ["Datos semilla"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Pipeline"
 es: "Canal de datos"
 aliases: ["Canal de datos"]

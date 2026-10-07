@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Commit"
 es: "Confirmación de cambios (commit)"
 aliases: ["Confirmación de cambios (commit)"]

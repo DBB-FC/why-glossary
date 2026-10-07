@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Production"
 es: "Producción"
 aliases: ["Production / Prod", "Producción"]

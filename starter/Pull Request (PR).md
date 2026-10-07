@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Pull Request (PR)"
 es: "Solicitud de integración (pull request)"
 aliases: ["Solicitud de integración (pull request)"]

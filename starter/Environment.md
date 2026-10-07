@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Environment"
 es: "Entorno"
 aliases: ["Entorno"]

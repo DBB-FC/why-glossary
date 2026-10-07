@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Memory Write / Recall"
 es: "Escritura / recuperación de memoria"
 aliases: ["Memory Write", "Escritura / recuperación de memoria", "Recall", "Escritura", "recuperación de memoria"]

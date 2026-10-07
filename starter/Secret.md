@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Secret"
 es: "Secreto"
 aliases: ["Secreto"]

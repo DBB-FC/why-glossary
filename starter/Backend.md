@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Backend"
 es: "Capa de servidor (backend)"
 aliases: ["Capa de servidor (backend)"]

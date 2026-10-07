@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Design System"
 es: "Sistema de diseño"
 aliases: ["Sistema de diseño"]

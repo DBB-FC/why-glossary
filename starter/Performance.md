@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Performance"
 es: "Rendimiento"
 aliases: ["Rendimiento"]

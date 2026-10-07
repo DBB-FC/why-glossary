@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Ledger"
 es: "Libro contable"
 aliases: ["Ledger / Libro contable", "Libro contable"]

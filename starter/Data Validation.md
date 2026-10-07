@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Validation"
 es: "Validación de datos"
 aliases: ["Validación de datos"]

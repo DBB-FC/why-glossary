@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Incident Response"
 es: "Respuesta a incidentes"
 aliases: ["Respuesta a incidentes"]

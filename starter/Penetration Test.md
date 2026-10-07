@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Penetration Test"
 es: "Prueba de penetración"
 aliases: ["Prueba de penetración"]

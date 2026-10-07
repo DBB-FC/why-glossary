@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "DBMS"
 es: "Sistema de gestión de bases de datos"
 aliases: ["Sistema de gestión de bases de datos"]

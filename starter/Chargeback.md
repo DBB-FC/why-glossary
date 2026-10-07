@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Chargeback"
 es: "Contracargo"
 aliases: ["Chargeback / Contracargo", "Contracargo"]

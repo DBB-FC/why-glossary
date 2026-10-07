@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Restore"
 es: "Restauración"
 aliases: ["Restauración"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Tool Schema"
 es: "Esquema de herramienta"
 aliases: ["Esquema de herramienta"]

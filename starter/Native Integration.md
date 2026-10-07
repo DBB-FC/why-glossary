@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Native Integration"
 es: "Integración nativa"
 aliases: ["Integración nativa"]

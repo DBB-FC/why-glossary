@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Retention"
 es: "Retención de datos"
 aliases: ["Retención de datos"]

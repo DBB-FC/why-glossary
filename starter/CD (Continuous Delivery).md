@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CD (Continuous Delivery)"
 es: "Entrega continua"
 aliases: ["Entrega continua"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "RFP"
 es: "Solicitud de propuesta"
 aliases: ["Solicitud de propuesta"]

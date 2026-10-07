@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "A/B Testing"
 es: "Prueba A/B"
 aliases: ["Prueba A/B"]

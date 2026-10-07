@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Approval Gate"
 es: "Punto de aprobación"
 aliases: ["Punto de aprobación"]

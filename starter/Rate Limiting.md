@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Rate Limiting"
 es: "Limitación de tasa de solicitudes"
 aliases: ["Limitación de tasa de solicitudes"]

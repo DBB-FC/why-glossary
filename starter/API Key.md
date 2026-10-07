@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "API Key"
 es: "Clave de API"
 aliases: ["Clave de API"]

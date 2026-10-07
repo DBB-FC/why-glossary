@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Bug"
 es: "Error (bug)"
 aliases: ["Error (bug)"]

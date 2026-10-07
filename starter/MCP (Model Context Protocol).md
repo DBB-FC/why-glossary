@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MCP (Model Context Protocol)"
 es: "Protocolo de contexto de modelos"
 aliases: ["MCP", "Protocolo de contexto de modelos"]

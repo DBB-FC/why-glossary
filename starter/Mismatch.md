@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Mismatch"
 es: "Descuadre"
 aliases: ["Descuadre"]

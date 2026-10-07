@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Materialized View"
 es: "Vista materializada"
 aliases: ["Vista materializada"]

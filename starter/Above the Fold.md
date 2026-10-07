@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Above the Fold"
 es: "Parte superior de la página, sin hacer scroll"
 aliases: ["Parte superior de la página, sin hacer scroll"]

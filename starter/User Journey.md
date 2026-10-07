@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "User Journey"
 es: "Recorrido del usuario"
 aliases: ["Recorrido del usuario"]

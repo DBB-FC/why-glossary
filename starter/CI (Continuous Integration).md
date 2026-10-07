@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CI (Continuous Integration)"
 es: "Integración continua"
 aliases: ["CI", "Integración continua"]

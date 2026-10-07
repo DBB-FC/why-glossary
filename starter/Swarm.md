@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Swarm"
 es: "Enjambre"
 aliases: ["Enjambre"]

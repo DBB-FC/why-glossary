@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cross-selling"
 es: "Venta cruzada"
 aliases: ["Venta cruzada"]

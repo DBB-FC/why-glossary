@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Database"
 es: "Base de datos"
 aliases: ["Database / DB", "Base de datos"]

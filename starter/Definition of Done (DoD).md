@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Definition of Done (DoD)"
 es: "Definición de terminado"
 aliases: ["Definición de terminado"]

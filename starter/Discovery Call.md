@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Discovery Call"
 es: "Llamada de descubrimiento"
 aliases: ["Llamada de descubrimiento"]

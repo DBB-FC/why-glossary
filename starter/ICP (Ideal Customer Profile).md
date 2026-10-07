@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ICP (Ideal Customer Profile)"
 es: "Perfil de cliente ideal"
 aliases: ["ICP", "Perfil de cliente ideal"]

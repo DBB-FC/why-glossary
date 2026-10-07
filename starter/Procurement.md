@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Procurement"
 es: "Compras y adquisiciones"
 aliases: ["Compras y adquisiciones"]

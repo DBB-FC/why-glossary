@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "HTTPS"
 es: "HTTP seguro"
 aliases: ["HTTP seguro"]

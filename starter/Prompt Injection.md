@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Prompt Injection"
 es: "Inyección de instrucciones"
 aliases: ["Inyección de instrucciones"]

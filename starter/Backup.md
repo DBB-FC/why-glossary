@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Backup"
 es: "Respaldo"
 aliases: ["Respaldo"]

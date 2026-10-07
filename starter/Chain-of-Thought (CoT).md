@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Chain-of-Thought (CoT)"
 es: "Cadena de pensamiento"
 aliases: ["Cadena de pensamiento"]

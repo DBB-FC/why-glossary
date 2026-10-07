@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Row / Record"
 es: "Fila / registro"
 aliases: ["Row", "Fila / registro", "Record", "Fila", "registro"]

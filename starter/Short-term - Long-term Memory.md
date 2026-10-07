@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Short-term / Long-term Memory"
 es: "Memoria de corto / largo plazo"
 aliases: ["Short-term", "Memoria de corto / largo plazo", "Long-term Memory", "Memoria de corto", "largo plazo"]

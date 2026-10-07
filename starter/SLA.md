@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SLA"
 es: "Acuerdo de nivel de servicio"
 aliases: ["Acuerdo de nivel de servicio"]

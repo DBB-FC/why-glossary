@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Adjustment"
 es: "Ajuste"
 aliases: ["Ajuste"]

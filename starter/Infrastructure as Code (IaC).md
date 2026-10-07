@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Infrastructure as Code (IaC)"
 es: "Infraestructura como código"
 aliases: ["Infraestructura como código"]

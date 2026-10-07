@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Runtime"
 es: "Entorno de ejecución"
 aliases: ["Entorno de ejecución"]

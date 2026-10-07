@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cache TTL"
 es: "Tiempo de vida del caché"
 aliases: ["Tiempo de vida del caché"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Severity"
 es: "Severidad"
 aliases: ["Severidad"]

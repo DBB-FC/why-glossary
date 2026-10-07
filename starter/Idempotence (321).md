@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Idempotence"
 es: "Idempotencia"
 aliases: ["Idempotencia"]

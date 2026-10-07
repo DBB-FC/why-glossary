@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "LLM-as-Judge"
 es: "LLM como juez"
 aliases: ["LLM como juez"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Encryption at Rest"
 es: "Cifrado en reposo"
 aliases: ["Cifrado en reposo"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Wireframe"
 es: "Boceto de estructura (wireframe)"
 aliases: ["Boceto de estructura (wireframe)"]

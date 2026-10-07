@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Business Case"
 es: "Caso de negocio"
 aliases: ["Caso de negocio"]

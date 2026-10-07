@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "RFQ"
 es: "Solicitud de cotización"
 aliases: ["Solicitud de cotización"]

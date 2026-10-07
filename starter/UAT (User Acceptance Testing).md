@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "UAT (User Acceptance Testing)"
 es: "Pruebas de aceptación de usuario"
 aliases: ["UAT", "Pruebas de aceptación de usuario"]

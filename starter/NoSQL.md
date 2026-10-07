@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "NoSQL"
 es: "NoSQL"
 aliases: []

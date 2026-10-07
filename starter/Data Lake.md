@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Lake"
 es: "Lago de datos"
 aliases: ["Lago de datos"]

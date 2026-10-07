@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Migration"
 es: "Migración"
 aliases: ["Migración"]

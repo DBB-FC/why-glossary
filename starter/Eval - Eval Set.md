@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Eval / Eval Set"
 es: "Evaluación / conjunto de evaluación"
 aliases: ["Eval", "Evaluación / conjunto de evaluación", "Eval Set", "Evaluación", "conjunto de evaluación"]

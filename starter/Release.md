@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Release"
 es: "Lanzamiento de versión"
 aliases: ["Lanzamiento de versión"]

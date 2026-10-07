@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CRUD"
 es: "Crear, leer, actualizar y eliminar"
 aliases: ["Crear, leer, actualizar y eliminar"]

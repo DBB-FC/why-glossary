@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SQL Injection"
 es: "Inyección SQL"
 aliases: ["Inyección SQL"]

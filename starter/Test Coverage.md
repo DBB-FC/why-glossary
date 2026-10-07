@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Test Coverage"
 es: "Cobertura de pruebas"
 aliases: ["Cobertura de pruebas"]

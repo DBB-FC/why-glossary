@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Connection Pool"
 es: "Grupo de conexiones"
 aliases: ["Grupo de conexiones"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MCP Transport"
 es: "Transporte MCP"
 aliases: ["Transporte MCP"]

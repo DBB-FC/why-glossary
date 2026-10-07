@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CD (Continuous Deployment)"
 es: "Despliegue continuo"
 aliases: ["Despliegue continuo"]

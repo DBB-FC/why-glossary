@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Serverless"
 es: "Sin servidor"
 aliases: ["Sin servidor"]

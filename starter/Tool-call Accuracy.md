@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Tool-call Accuracy"
 es: "Precisión de llamadas a herramientas"
 aliases: ["Precisión de llamadas a herramientas"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "React"
 es: "React"
 aliases: []

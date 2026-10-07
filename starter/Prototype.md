@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Prototype"
 es: "Prototipo"
 aliases: ["Prototipo"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Milestone"
 es: "Hito"
 aliases: ["Hito"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Next.js"
 es: "Next.js"
 aliases: []

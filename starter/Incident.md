@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Incident"
 es: "Incidente"
 aliases: ["Incidente"]

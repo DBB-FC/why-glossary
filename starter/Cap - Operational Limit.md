@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cap / Operational Limit"
 es: "Tope / límite operacional"
 aliases: ["Tope / Límite operacional", "Tope", "Tope / límite operacional", "Cap", "Operational Limit", "límite operacional"]

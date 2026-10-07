@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Regression Test"
 es: "Prueba de regresión"
 aliases: ["Prueba de regresión"]

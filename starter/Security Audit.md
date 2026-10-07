@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Security Audit"
 es: "Auditoría de seguridad"
 aliases: ["Auditoría de seguridad"]

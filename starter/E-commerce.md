@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "E-commerce"
 es: "Comercio electrónico"
 aliases: ["Comercio electrónico"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Privacy by Design"
 es: "Privacidad desde el diseño"
 aliases: ["Privacidad desde el diseño"]

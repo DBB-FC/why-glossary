@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "High-risk AI System"
 es: "Sistema de IA de alto riesgo"
 aliases: ["Sistema de IA de Alto Riesgo", "Sistema de IA de alto riesgo"]

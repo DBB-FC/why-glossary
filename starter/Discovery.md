@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Discovery"
 es: "Descubrimiento (fase de discovery)"
 aliases: ["Descubrimiento (fase de discovery)"]

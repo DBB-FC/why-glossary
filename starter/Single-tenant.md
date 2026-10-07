@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Single-tenant"
 es: "Inquilino único"
 aliases: ["Inquilino único"]

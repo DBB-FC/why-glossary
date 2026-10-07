@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Halt Condition"
 es: "Condición de parada"
 aliases: ["Condición de parada"]

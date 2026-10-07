@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Ticket"
 es: "Ticket (solicitud de soporte)"
 aliases: ["Ticket (solicitud de soporte)"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "HTTP"
 es: "Protocolo de transferencia de hipertexto"
 aliases: ["Protocolo de transferencia de hipertexto"]

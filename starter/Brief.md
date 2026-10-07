@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Brief"
 es: "Resumen del encargo (brief)"
 aliases: ["Resumen del encargo (brief)"]

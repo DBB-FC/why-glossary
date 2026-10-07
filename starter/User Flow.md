@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "User Flow"
 es: "Flujo de usuario"
 aliases: ["Flujo de usuario"]

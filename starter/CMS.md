@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CMS"
 es: "Sistema de gestión de contenidos"
 aliases: ["Sistema de gestión de contenidos"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Faithfulness"
 es: "Fidelidad"
 aliases: ["Fidelidad"]

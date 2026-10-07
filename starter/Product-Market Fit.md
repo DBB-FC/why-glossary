@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Product-Market Fit"
 es: "Ajuste producto-mercado"
 aliases: ["Ajuste producto-mercado"]

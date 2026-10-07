@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Edge"
 es: "Borde de la red (edge)"
 aliases: ["Borde de la red (edge)"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Proposal"
 es: "Propuesta"
 aliases: ["Propuesta"]

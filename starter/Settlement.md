@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Settlement"
 es: "Liquidación"
 aliases: ["Settlement / Liquidación", "Liquidación"]

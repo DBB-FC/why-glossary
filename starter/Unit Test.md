@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Unit Test"
 es: "Prueba unitaria"
 aliases: ["Prueba unitaria"]

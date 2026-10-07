@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "PaaS"
 es: "Plataforma como servicio"
 aliases: ["Plataforma como servicio"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Deliverable"
 es: "Entregable"
 aliases: ["Entregable"]

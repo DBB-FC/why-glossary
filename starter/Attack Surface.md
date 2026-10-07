@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Attack Surface"
 es: "Superficie de ataque"
 aliases: ["Superficie de ataque"]

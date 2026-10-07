@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Working Memory"
 es: "Memoria de trabajo"
 aliases: ["Memoria de trabajo"]

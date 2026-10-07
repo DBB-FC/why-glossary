@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Brand Guidelines"
 es: "Manual de marca"
 aliases: ["Manual de marca"]

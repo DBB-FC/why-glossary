@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Issuer"
 es: "Emisor"
 aliases: ["Emisor"]

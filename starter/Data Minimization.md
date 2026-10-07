@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Minimization"
 es: "Minimización de datos"
 aliases: ["Minimización de datos"]

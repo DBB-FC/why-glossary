@@ -219,3 +219,13 @@
 .wg-termview .wg-tv-card { max-width: 760px; margin: 0 auto; background: var(--wg-bg2); border: 1px solid var(--wg-line); border-radius: 12px; overflow: hidden; }
 .wg-termview .wg-head { padding-right: 24px; }
 .wg-scope.wg-add .wg-actions { display: flex; gap: 10px; margin-top: 14px; }
+
+/* ---------- Nivel 1: la nota misma (cssclasses: wg-nota), en lectura y edición ---------- */
+.wg-nota .metadata-container { display: none; }
+.wg-nota .inline-title { font-weight: 700; letter-spacing: -.01em; }
+.wg-nota h1 { margin: .2em 0 .6em; font-size: 1.7em; }
+.wg-nota p { line-height: 1.65; }
+.wg-nota strong { color: var(--text-accent); font-weight: 600; }
+.wg-nota em { color: var(--text-muted); }
+.wg-nota hr { margin: 1.6em 0; border: 0; border-top: 1px solid var(--background-modifier-border); }
+.wg-nota a.internal-link { text-decoration: none; background: var(--background-modifier-hover); padding: 1px 8px; border-radius: 999px; font-size: .92em; }

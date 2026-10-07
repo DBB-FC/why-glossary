@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Decode"
 es: "Decodificación"
 aliases: ["Decodificación"]

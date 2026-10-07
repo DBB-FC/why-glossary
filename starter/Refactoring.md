@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Refactoring"
 es: "Refactorización"
 aliases: ["Refactorización"]

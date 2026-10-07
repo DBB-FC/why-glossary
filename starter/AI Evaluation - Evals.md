@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "AI Evaluation / Evals"
 es: "Evaluación de IA"
 aliases: ["AI Evaluation", "Evaluación de IA", "Evals"]

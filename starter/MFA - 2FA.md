@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MFA / 2FA"
 es: "Autenticación multifactor / de dos factores"
 aliases: ["MFA", "Autenticación multifactor / de dos factores", "2FA", "Autenticación multifactor", "de dos factores"]

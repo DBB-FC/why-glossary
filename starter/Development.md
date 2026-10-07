@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Development"
 es: "Desarrollo"
 aliases: ["Development / Dev", "Desarrollo"]

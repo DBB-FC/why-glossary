@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Subgoal"
 es: "Subobjetivo"
 aliases: ["Subobjetivo"]

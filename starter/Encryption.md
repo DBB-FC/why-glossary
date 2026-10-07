@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Encryption"
 es: "Cifrado"
 aliases: ["Cifrado"]

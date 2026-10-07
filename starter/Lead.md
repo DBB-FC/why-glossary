@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Lead"
 es: "Prospecto"
 aliases: ["Prospecto"]

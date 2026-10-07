@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Soft Delete"
 es: "Eliminación lógica"
 aliases: ["Eliminación lógica"]

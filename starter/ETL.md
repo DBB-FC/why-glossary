@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ETL"
 es: "Extraer, transformar y cargar"
 aliases: ["Extraer, transformar y cargar"]

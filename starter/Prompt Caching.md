@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Prompt Caching"
 es: "Caché de instrucciones"
 aliases: ["Caché de instrucciones"]

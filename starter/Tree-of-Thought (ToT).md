@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Tree-of-Thought (ToT)"
 es: "Árbol de pensamiento"
 aliases: ["Árbol de pensamiento"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Main Branch"
 es: "Rama principal"
 aliases: ["Main / Main Branch", "Main", "Rama principal"]

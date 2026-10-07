@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Conversion Rate"
 es: "Tasa de conversión"
 aliases: ["Tasa de conversión"]

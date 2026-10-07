@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Rebranding"
 es: "Rediseño de marca"
 aliases: ["Rediseño de marca"]

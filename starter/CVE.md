@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CVE"
 es: "Vulnerabilidades y exposiciones comunes"
 aliases: ["Vulnerabilidades y exposiciones comunes"]

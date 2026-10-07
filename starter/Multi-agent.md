@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Multi-agent"
 es: "Multiagente"
 aliases: ["Multi-agente", "Multiagente"]

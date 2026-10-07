@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Sales Funnel"
 es: "Embudo de ventas"
 aliases: ["Embudo de ventas"]

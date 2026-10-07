@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Proof of Concept (PoC)"
 es: "Prueba de concepto"
 aliases: ["Prueba de concepto"]

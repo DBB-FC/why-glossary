@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cron / Scheduled Job"
 es: "Tarea programada"
 aliases: ["Cron / Job Programado", "Cron", "Tarea programada", "Scheduled Job"]

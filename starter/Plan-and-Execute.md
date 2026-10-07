@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Plan-and-Execute"
 es: "Planificar y ejecutar"
 aliases: ["Planificar y ejecutar"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Out of Scope"
 es: "Fuera de alcance"
 aliases: ["Fuera de alcance"]

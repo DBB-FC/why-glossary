@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Schema"
 es: "Esquema"
 aliases: ["Esquema"]

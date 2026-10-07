@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Idempotency Key"
 es: "Clave de idempotencia"
 aliases: ["Clave de idempotencia"]

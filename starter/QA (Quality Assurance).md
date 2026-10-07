@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "QA (Quality Assurance)"
 es: "Aseguramiento de calidad"
 aliases: ["QA", "Aseguramiento de calidad"]

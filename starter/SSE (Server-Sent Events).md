@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SSE (Server-Sent Events)"
 es: "Eventos enviados por el servidor"
 aliases: ["SSE", "Eventos enviados por el servidor"]

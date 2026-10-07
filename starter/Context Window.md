@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Context Window"
 es: "Ventana de contexto"
 aliases: ["Ventana de contexto"]

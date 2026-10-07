@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Rubric"
 es: "Rúbrica"
 aliases: ["Rúbrica"]

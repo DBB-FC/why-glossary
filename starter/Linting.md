@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Linting"
 es: "Análisis estático de código"
 aliases: ["Análisis estático de código"]

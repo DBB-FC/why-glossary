@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Build"
 es: "Compilación (build)"
 aliases: ["Compilación (build)"]

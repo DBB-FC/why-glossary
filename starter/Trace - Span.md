@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Trace / Span"
 es: "Traza / tramo"
 aliases: ["Trace", "Traza / tramo", "Span", "Traza", "tramo"]

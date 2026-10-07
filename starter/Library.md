@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Library"
 es: "Biblioteca de código (librería)"
 aliases: ["Biblioteca de código (librería)"]

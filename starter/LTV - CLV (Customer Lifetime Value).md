@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "LTV / CLV (Customer Lifetime Value)"
 es: "Valor de vida del cliente"
 aliases: ["LTV / CLV", "LTV", "Valor de vida del cliente", "CLV (Customer Lifetime Value)"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Automation vs. AI"
 es: "Automatización vs. IA"
 aliases: ["Automatización vs. IA"]

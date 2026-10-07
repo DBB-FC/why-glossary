@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Acceptance Criteria"
 es: "Criterios de aceptación"
 aliases: ["Criterios de aceptación"]

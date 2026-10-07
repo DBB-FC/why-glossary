@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "API"
 es: "Interfaz de programación de aplicaciones"
 aliases: ["Interfaz de programación de aplicaciones"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Prefix Cache"
 es: "Caché de prefijo"
 aliases: ["Caché de prefijo"]

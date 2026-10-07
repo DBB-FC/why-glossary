@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Procedural Memory"
 es: "Memoria procedimental"
 aliases: ["Memoria procedimental"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Compaction"
 es: "Compactación"
 aliases: ["Compactación"]

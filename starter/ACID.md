@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ACID"
 es: "ACID (atomicidad, consistencia, aislamiento, durabilidad)"
 aliases: ["ACID (atomicidad, consistencia, aislamiento, durabilidad)"]

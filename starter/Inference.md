@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Inference"
 es: "Inferencia"
 aliases: ["Inferencia"]

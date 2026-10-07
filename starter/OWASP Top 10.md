@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "OWASP Top 10"
 es: "OWASP Top 10 (los diez riesgos principales)"
 aliases: ["OWASP Top 10 (los diez riesgos principales)"]

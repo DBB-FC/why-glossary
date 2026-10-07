@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Context Relevance"
 es: "Relevancia del contexto"
 aliases: ["Relevancia del contexto"]

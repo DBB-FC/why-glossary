@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Table"
 es: "Tabla"
 aliases: ["Tabla"]

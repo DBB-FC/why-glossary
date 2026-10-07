@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ROI"
 es: "Retorno de la inversión"
 aliases: ["Retorno de la inversión"]

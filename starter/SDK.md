@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SDK"
 es: "Kit de desarrollo de software"
 aliases: ["Kit de desarrollo de software"]

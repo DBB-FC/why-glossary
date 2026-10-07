@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Acquirer"
 es: "Adquirente"
 aliases: ["Adquirente"]

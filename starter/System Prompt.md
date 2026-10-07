@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "System Prompt"
 es: "Instrucción de sistema"
 aliases: ["Instrucción de sistema"]

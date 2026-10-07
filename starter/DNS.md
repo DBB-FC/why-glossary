@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "DNS"
 es: "Sistema de nombres de dominio"
 aliases: ["Sistema de nombres de dominio"]

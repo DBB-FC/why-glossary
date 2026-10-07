@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Payment Webhook"
 es: "Webhook de pago"
 aliases: ["Webhook de pago"]

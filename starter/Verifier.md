@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Verifier"
 es: "Verificador"
 aliases: ["Verificador"]

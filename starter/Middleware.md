@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Middleware"
 es: "Software intermedio (middleware)"
 aliases: ["Software intermedio (middleware)"]

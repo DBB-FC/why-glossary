@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Mobile First"
 es: "Móvil primero"
 aliases: ["Móvil primero"]

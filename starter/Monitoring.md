@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Monitoring"
 es: "Monitoreo"
 aliases: ["Monitoreo"]

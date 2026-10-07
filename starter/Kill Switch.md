@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Kill Switch"
 es: "Interruptor de emergencia"
 aliases: ["Interruptor de emergencia"]

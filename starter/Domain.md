@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Domain"
 es: "Dominio"
 aliases: ["Dominio"]

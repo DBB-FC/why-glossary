@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "RAG (Retrieval-Augmented Generation)"
 es: "Generación aumentada por recuperación"
 aliases: ["RAG", "Generación aumentada por recuperación"]

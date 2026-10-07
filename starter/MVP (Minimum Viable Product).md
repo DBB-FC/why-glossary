@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MVP (Minimum Viable Product)"
 es: "Producto mínimo viable"
 aliases: ["MVP", "Producto mínimo viable"]

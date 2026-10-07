@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Authorization (payments)"
 es: "Autorización de pago"
 aliases: ["Autorización", "Autorización de pago"]

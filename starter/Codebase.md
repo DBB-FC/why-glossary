@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Codebase"
 es: "Base de código"
 aliases: ["Base de código"]

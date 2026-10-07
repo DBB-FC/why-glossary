@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Repository"
 es: "Repositorio"
 aliases: ["Repository / Repo", "Repositorio"]

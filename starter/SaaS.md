@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SaaS"
 es: "Software como servicio"
 aliases: ["Software como servicio"]

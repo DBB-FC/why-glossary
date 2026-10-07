@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "JWT (JSON Web Token)"
 es: "Token web JSON"
 aliases: ["JWT", "Token web JSON"]

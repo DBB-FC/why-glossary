@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Model Card / System Card"
 es: "Ficha de modelo / ficha de sistema"
 aliases: ["Model Card", "Ficha de modelo / ficha de sistema", "System Card", "Ficha de modelo", "ficha de sistema"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Idempotent Method"
 es: "Método idempotente"
 aliases: ["Método idempotente"]

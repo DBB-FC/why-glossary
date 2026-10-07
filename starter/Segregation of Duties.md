@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Segregation of Duties"
 es: "Segregación de funciones"
 aliases: ["Segregación de funciones"]

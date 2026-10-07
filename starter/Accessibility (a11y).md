@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Accessibility (a11y)"
 es: "Accesibilidad"
 aliases: ["Accesibilidad"]

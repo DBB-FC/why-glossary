@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Red Team"
 es: "Equipo rojo"
 aliases: ["Equipo rojo"]

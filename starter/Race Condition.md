@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Race Condition"
 es: "Condición de carrera"
 aliases: ["Condición de carrera"]

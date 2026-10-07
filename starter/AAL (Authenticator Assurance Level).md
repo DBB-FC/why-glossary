@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "AAL (Authenticator Assurance Level)"
 es: "Nivel de garantía del autenticador"
 aliases: ["AAL", "Nivel de garantía del autenticador"]

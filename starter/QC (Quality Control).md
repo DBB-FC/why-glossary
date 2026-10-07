@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "QC (Quality Control)"
 es: "Control de calidad"
 aliases: ["QC", "Control de calidad"]

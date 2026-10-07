@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Issue"
 es: "Incidencia"
 aliases: ["Incidencia"]

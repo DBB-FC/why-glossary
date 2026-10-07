@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Mockup"
 es: "Maqueta visual"
 aliases: ["Maqueta visual"]

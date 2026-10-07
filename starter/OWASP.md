@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "OWASP"
 es: "OWASP (Proyecto Abierto de Seguridad en Aplicaciones Web)"
 aliases: ["OWASP (Proyecto Abierto de Seguridad en Aplicaciones Web)"]

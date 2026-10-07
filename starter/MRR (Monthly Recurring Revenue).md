@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MRR (Monthly Recurring Revenue)"
 es: "Ingreso mensual recurrente"
 aliases: ["MRR", "Ingreso mensual recurrente"]

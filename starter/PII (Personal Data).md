@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "PII (Personal Data)"
 es: "Datos personales"
 aliases: ["PII / Personal Data", "PII", "Datos personales"]

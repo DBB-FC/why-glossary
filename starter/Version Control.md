@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Version Control"
 es: "Control de versiones"
 aliases: ["Control de versiones"]

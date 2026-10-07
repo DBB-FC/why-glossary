@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Pilot"
 es: "Piloto"
 aliases: ["Piloto"]

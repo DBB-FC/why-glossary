@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SSO (Single Sign-On)"
 es: "Inicio de sesión único"
 aliases: ["SSO", "Inicio de sesión único"]

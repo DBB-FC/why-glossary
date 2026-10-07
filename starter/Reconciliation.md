@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Reconciliation"
 es: "Conciliación"
 aliases: ["Conciliación"]

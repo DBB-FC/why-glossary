@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Encryption in Transit"
 es: "Cifrado en tránsito"
 aliases: ["Cifrado en tránsito"]

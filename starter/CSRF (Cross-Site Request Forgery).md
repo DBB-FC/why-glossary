@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CSRF (Cross-Site Request Forgery)"
 es: "Falsificación de petición entre sitios"
 aliases: ["CSRF", "Falsificación de petición entre sitios"]

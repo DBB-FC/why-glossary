@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Deployment"
 es: "Despliegue"
 aliases: ["Deployment / Deploy", "Despliegue"]

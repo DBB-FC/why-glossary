@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Claim"
 es: "Declaración (claim)"
 aliases: ["Declaración (claim)"]

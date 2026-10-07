@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Go-to-Market (GTM)"
 es: "Estrategia de salida al mercado"
 aliases: ["Estrategia de salida al mercado"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Polling"
 es: "Sondeo"
 aliases: ["Sondeo"]

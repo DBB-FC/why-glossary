@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Information Architecture"
 es: "Arquitectura de la información"
 aliases: ["Arquitectura de la información"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Container"
 es: "Contenedor"
 aliases: ["Contenedor"]

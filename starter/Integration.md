@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Integration"
 es: "Integración"
 aliases: ["Integración"]

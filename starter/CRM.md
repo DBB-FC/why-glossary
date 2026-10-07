@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CRM"
 es: "Gestión de relaciones con clientes"
 aliases: ["Gestión de relaciones con clientes"]

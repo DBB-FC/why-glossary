@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Caching"
 es: "Almacenamiento en caché"
 aliases: ["Almacenamiento en caché"]

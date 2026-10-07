@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Pain Point"
 es: "Punto de dolor"
 aliases: ["Punto de dolor"]

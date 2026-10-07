@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Supabase"
 es: "Supabase"
 aliases: []

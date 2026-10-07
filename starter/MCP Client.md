@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MCP Client"
 es: "Cliente MCP"
 aliases: ["Cliente MCP"]

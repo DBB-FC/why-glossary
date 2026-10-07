@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Responsive Design"
 es: "Diseño adaptable"
 aliases: ["Diseño adaptable"]

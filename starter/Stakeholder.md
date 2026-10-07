@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Stakeholder"
 es: "Parte interesada"
 aliases: ["Parte interesada"]

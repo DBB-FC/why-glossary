@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "XSS (Cross-Site Scripting)"
 es: "Secuencias de comandos entre sitios"
 aliases: ["XSS", "Secuencias de comandos entre sitios"]

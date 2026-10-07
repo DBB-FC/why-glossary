@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ELT"
 es: "Extraer, cargar y transformar"
 aliases: ["Extraer, cargar y transformar"]

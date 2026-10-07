@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Component"
 es: "Componente"
 aliases: ["Componente"]

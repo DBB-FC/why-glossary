@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Success Rate"
 es: "Tasa de éxito"
 aliases: ["Tasa de éxito"]

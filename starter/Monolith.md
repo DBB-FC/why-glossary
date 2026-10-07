@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Monolith"
 es: "Monolito"
 aliases: ["Monolito"]

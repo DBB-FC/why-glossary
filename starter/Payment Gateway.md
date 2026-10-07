@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Payment Gateway"
 es: "Pasarela de pago"
 aliases: ["Pasarela de pago"]

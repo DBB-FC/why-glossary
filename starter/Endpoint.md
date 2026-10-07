@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Endpoint"
 es: "Punto de acceso"
 aliases: ["Punto de acceso"]

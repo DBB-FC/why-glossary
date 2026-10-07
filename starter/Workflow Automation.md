@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Workflow Automation"
 es: "Automatización de flujos de trabajo"
 aliases: ["Automatización de flujos de trabajo"]

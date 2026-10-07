@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Tool Call / Tool Result"
 es: "Llamada / resultado de herramienta"
 aliases: ["Tool Call", "Llamada / resultado de herramienta", "Tool Result", "Llamada", "resultado de herramienta"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Package"
 es: "Paquete"
 aliases: ["Paquete"]

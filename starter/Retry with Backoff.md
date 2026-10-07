@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Retry with Backoff"
 es: "Reintento con espera creciente"
 aliases: ["Reintento con backoff", "Reintento con espera creciente"]

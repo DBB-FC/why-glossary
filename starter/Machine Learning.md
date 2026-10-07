@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Machine Learning"
 es: "Aprendizaje automático"
 aliases: ["Aprendizaje automático"]

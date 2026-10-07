@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "PostgreSQL"
 es: "PostgreSQL"
 aliases: []

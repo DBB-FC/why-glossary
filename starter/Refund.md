@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Refund"
 es: "Devolución"
 aliases: ["Refund / Devolución", "Devolución"]

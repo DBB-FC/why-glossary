@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Step"
 es: "Paso"
 aliases: ["Paso"]

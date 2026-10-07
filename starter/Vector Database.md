@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Vector Database"
 es: "Base de datos vectorial"
 aliases: ["Base de datos vectorial"]

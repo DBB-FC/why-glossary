@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "API Model Provider"
 es: "Proveedor de modelos por API"
 aliases: ["Proveedor de modelos por API"]

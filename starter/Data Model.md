@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Model"
 es: "Modelo de datos"
 aliases: ["Modelo de datos"]

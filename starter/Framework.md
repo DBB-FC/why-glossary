@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Framework"
 es: "Marco de trabajo"
 aliases: ["Marco de trabajo"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cache Hit / Miss"
 es: "Acierto / fallo de caché"
 aliases: ["Cache Hit", "Acierto / fallo de caché", "Miss", "Acierto", "fallo de caché"]

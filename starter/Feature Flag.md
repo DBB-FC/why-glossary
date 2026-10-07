@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Feature Flag"
 es: "Interruptor de funcionalidad"
 aliases: ["Interruptor de funcionalidad"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Prompt"
 es: "Instrucción (prompt)"
 aliases: ["Instrucción (prompt)"]

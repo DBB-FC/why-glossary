@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Eventual Consistency"
 es: "Consistencia eventual"
 aliases: ["Consistencia eventual"]

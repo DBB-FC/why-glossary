@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "UX Research"
 es: "Investigación de usuarios"
 aliases: ["Investigación de usuarios"]

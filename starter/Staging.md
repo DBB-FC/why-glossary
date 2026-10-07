@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Staging"
 es: "Preproducción"
 aliases: ["Preproducción"]

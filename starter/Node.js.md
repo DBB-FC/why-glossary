@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Node.js"
 es: "Node.js"
 aliases: []

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Microservices"
 es: "Microservicios"
 aliases: ["Microservicios"]

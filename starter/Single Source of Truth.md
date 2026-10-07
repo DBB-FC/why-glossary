@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Single Source of Truth"
 es: "Fuente única de verdad"
 aliases: ["Fuente única de verdad"]

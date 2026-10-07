@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Token"
 es: "Token"
 aliases: []

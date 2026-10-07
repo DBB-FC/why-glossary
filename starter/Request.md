@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Request"
 es: "Solicitud"
 aliases: ["Solicitud"]

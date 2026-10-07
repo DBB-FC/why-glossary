@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Requirement"
 es: "Requerimiento"
 aliases: ["Requirement / Requerimiento", "Requerimiento"]

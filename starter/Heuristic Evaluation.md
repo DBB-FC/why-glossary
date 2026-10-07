@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Heuristic Evaluation"
 es: "Evaluación heurística"
 aliases: ["Evaluación heurística"]

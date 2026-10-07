@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Patch"
 es: "Parche"
 aliases: ["Parche"]

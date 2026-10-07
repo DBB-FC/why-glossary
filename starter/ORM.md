@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ORM"
 es: "Mapeo objeto-relacional"
 aliases: ["Mapeo objeto-relacional"]

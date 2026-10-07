@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Primary Key"
 es: "Clave primaria"
 aliases: ["Clave primaria"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Local Environment"
 es: "Entorno local"
 aliases: ["Entorno local"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Fine-tuning"
 es: "Ajuste fino"
 aliases: ["Ajuste fino"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "A2A (Agent-to-Agent)"
 es: "Agente a agente"
 aliases: ["A2A", "Agente a agente"]

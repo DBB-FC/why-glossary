@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Authentication (AuthN)"
 es: "Autenticación"
 aliases: ["Authentication / AuthN", "Authentication", "Autenticación"]

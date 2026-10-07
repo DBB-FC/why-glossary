@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cursor Pagination"
 es: "Paginación por cursor"
 aliases: ["Paginación por cursor"]

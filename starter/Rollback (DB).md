@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Rollback (DB)"
 es: "Reversión (base de datos)"
 aliases: ["Rollback (BD)", "Reversión (base de datos)"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Foreign Key"
 es: "Clave foránea"
 aliases: ["Clave foránea"]

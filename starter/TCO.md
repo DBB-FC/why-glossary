@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "TCO"
 es: "Costo total de propiedad"
 aliases: ["Costo total de propiedad"]

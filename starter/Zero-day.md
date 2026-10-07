@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Zero-day"
 es: "Día cero"
 aliases: ["Día cero"]

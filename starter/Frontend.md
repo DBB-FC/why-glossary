@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Frontend"
 es: "Capa visual (frontend)"
 aliases: ["Capa visual (frontend)"]

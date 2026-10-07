@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "UTC"
 es: "Tiempo universal coordinado"
 aliases: ["Tiempo universal coordinado"]

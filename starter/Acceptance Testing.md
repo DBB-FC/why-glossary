@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Acceptance Testing"
 es: "Pruebas de aceptación"
 aliases: ["Pruebas de aceptación"]

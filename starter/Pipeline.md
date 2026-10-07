@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Pipeline"
 es: "Embudo de oportunidades"
 aliases: ["Embudo de oportunidades"]

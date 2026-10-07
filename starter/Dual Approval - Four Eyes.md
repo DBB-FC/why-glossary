@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Dual Approval / Four Eyes"
 es: "Doble aprobación / cuatro ojos"
 aliases: ["Doble aprobación / Cuatro ojos", "Doble aprobación", "Doble aprobación / cuatro ojos", "Dual Approval", "Four Eyes", "cuatro ojos"]

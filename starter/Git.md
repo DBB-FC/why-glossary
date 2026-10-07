@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Git"
 es: "Git"
 aliases: []

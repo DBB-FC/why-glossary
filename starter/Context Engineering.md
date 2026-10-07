@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Context Engineering"
 es: "Ingeniería de contexto"
 aliases: ["Ingeniería de contexto"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Client-Server"
 es: "Cliente-servidor"
 aliases: ["Cliente-servidor"]

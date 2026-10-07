@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Merge"
 es: "Fusión"
 aliases: ["Fusión"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Agent"
 es: "Agente"
 aliases: ["Agent / Agente", "Agente"]

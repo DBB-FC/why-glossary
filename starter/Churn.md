@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Churn"
 es: "Tasa de cancelación de clientes"
 aliases: ["Tasa de cancelación de clientes"]

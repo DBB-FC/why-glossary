@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Migration Idempotence"
 es: "Idempotencia de migración"
 aliases: ["Idempotencia de migración"]

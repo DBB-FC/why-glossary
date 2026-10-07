@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Brand Identity"
 es: "Identidad de marca"
 aliases: ["Identidad de marca"]

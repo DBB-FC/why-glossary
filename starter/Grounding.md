@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Grounding"
 es: "Anclaje a fuentes"
 aliases: ["Anclaje a fuentes"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Integrity"
 es: "Integridad de datos"
 aliases: ["Integridad de datos"]

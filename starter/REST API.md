@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "REST API"
 es: "API REST"
 aliases: ["API REST"]

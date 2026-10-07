@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Generative AI"
 es: "IA generativa"
 aliases: ["IA generativa"]

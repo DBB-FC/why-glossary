@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cybersecurity"
 es: "Ciberseguridad"
 aliases: ["Ciberseguridad"]

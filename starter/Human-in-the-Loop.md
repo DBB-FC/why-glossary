@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Human-in-the-Loop"
 es: "Humano en el circuito"
 aliases: ["Humano en el circuito"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "UI (User Interface)"
 es: "Interfaz de usuario"
 aliases: ["UI", "Interfaz de usuario"]

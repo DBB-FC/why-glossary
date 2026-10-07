@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CAC (Customer Acquisition Cost)"
 es: "Costo de adquisición de cliente"
 aliases: ["CAC", "Costo de adquisición de cliente"]

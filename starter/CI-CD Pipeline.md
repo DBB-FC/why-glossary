@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CI/CD Pipeline"
 es: "Canal de CI/CD"
 aliases: ["Canal de CI/CD"]

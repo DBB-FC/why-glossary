@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Episodic Memory"
 es: "Memoria episódica"
 aliases: ["Memoria episódica"]

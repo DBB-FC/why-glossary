@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Blended Rate"
 es: "Tarifa combinada"
 aliases: ["Tarifa combinada"]

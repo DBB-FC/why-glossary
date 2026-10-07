@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "High Availability (HA)"
 es: "Alta disponibilidad"
 aliases: ["Alta Disponibilidad (HA)", "Alta disponibilidad"]

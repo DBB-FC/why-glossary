@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Step Budget"
 es: "Presupuesto de pasos"
 aliases: ["Presupuesto de pasos"]

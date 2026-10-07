@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SSR / SSG / ISR"
 es: "Renderizado en servidor / generación estática / regeneración incremental"
 aliases: ["SSR", "Renderizado en servidor / generación estática / regeneración incremental", "SSG", "ISR", "Renderizado en servidor", "generación estática", "regeneración incremental"]

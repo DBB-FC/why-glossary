@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Least Privilege"
 es: "Mínimo privilegio"
 aliases: ["Mínimo privilegio"]

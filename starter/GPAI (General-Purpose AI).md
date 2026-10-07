@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "GPAI (General-Purpose AI)"
 es: "IA de propósito general"
 aliases: ["GPAI", "IA de propósito general"]

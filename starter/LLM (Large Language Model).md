@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "LLM (Large Language Model)"
 es: "Modelo de lenguaje grande"
 aliases: ["LLM", "Modelo de lenguaje grande"]

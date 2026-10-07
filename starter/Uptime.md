@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Uptime"
 es: "Tiempo de disponibilidad"
 aliases: ["Tiempo de disponibilidad"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "NDA"
 es: "Acuerdo de confidencialidad"
 aliases: ["Acuerdo de confidencialidad"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Use Case"
 es: "Caso de uso"
 aliases: ["Caso de uso"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Authorization (AuthZ)"
 es: "Autorización"
 aliases: ["Authorization / AuthZ", "Authorization", "Autorización"]

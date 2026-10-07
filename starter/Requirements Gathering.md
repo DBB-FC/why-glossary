@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Requirements Gathering"
 es: "Levantamiento de requerimientos"
 aliases: ["Levantamiento de requerimientos"]

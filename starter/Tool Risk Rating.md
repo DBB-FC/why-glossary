@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Tool Risk Rating"
 es: "Clasificación de riesgo de herramientas"
 aliases: ["Clasificación de riesgo de herramientas"]

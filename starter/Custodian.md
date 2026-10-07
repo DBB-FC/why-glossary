@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Custodian"
 es: "Custodio"
 aliases: ["Custodio"]

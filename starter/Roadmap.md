@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Roadmap"
 es: "Hoja de ruta"
 aliases: ["Hoja de ruta"]

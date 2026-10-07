@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Multi-tenant"
 es: "Multiinquilino"
 aliases: ["Multiinquilino"]

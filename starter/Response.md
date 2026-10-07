@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Response"
 es: "Respuesta"
 aliases: ["Respuesta"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Hallucination"
 es: "Alucinación"
 aliases: ["Alucinación"]

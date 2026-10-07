@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Scratchpad"
 es: "Borrador de trabajo"
 aliases: ["Borrador de trabajo"]

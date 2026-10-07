@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cloud Computing"
 es: "Computación en la nube"
 aliases: ["Computación en la nube"]

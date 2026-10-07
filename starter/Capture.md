@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Capture"
 es: "Captura"
 aliases: ["Captura"]

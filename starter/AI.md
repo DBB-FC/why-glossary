@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "AI"
 es: "Inteligencia artificial (IA)"
 aliases: ["AI / IA", "Inteligencia artificial (IA)"]

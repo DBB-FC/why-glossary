@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Salt"
 es: "Sal criptográfica"
 aliases: ["Sal criptográfica"]

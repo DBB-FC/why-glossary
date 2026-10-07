@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Upsert"
 es: "Insertar o actualizar (upsert)"
 aliases: ["Insertar o actualizar (upsert)"]

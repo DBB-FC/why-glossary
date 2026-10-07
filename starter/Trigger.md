@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Trigger"
 es: "Disparador"
 aliases: ["Disparador"]

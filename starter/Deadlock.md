@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Deadlock"
 es: "Interbloqueo"
 aliases: ["Interbloqueo"]

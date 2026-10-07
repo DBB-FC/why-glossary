@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Hashing"
 es: "Hash (resumen criptográfico)"
 aliases: ["Hash (resumen criptográfico)"]

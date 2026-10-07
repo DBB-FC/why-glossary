@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Usability"
 es: "Usabilidad"
 aliases: ["Usabilidad"]

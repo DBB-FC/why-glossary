@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Layered Guardrails"
 es: "Barreras en capas"
 aliases: ["Guardrail en capas", "Barreras en capas"]

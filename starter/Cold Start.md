@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cold Start"
 es: "Arranque en frío"
 aliases: ["Arranque en frío"]

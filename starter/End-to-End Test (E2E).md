@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "End-to-End Test (E2E)"
 es: "Prueba de extremo a extremo"
 aliases: ["Prueba de extremo a extremo"]

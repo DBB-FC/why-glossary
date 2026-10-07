@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "View"
 es: "Vista"
 aliases: ["Vista"]

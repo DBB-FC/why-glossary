@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Architecture"
 es: "Arquitectura"
 aliases: ["Arquitectura"]

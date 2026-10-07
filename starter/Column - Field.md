@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Column / Field"
 es: "Columna / campo"
 aliases: ["Column", "Columna / campo", "Field", "Columna", "campo"]

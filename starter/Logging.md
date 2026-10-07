@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Logging"
 es: "Registro de eventos"
 aliases: ["Registro de eventos"]

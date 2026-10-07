@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Data Warehouse"
 es: "Almacén de datos"
 aliases: ["Almacén de datos"]

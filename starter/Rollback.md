@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Rollback"
 es: "Reversión"
 aliases: ["Reversión"]

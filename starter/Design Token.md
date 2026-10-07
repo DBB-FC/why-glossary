@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Design Token"
 es: "Token de diseño"
 aliases: ["Token de diseño"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CTA (Call to Action)"
 es: "Llamado a la acción"
 aliases: ["CTA", "Llamado a la acción"]

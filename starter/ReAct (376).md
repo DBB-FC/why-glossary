@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ReAct"
 es: "ReAct (razonar y actuar)"
 aliases: ["ReAct (razonar y actuar)"]

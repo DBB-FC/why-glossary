@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CORS"
 es: "Compartición de recursos entre orígenes"
 aliases: ["Compartición de recursos entre orígenes"]

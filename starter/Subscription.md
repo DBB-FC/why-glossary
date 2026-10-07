@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Subscription"
 es: "Suscripción"
 aliases: ["Suscripción"]

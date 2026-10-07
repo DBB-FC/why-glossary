@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "UX (User Experience)"
 es: "Experiencia de usuario"
 aliases: ["UX", "Experiencia de usuario"]

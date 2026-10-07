@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Query"
 es: "Consulta"
 aliases: ["Consulta"]

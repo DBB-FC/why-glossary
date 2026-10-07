@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "WCAG"
 es: "Pautas de accesibilidad para el contenido web"
 aliases: ["Pautas de accesibilidad para el contenido web"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Guardrail"
 es: "Barrera de protección"
 aliases: ["Barrera de protección"]

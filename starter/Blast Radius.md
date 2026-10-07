@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Blast Radius"
 es: "Radio de impacto"
 aliases: ["Radio de impacto"]

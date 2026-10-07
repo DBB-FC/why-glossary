@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Smoke Test"
 es: "Prueba de humo"
 aliases: ["Prueba de humo"]

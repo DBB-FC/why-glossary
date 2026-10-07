@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "GraphQL"
 es: "GraphQL"
 aliases: []

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Journal Entry"
 es: "Asiento contable"
 aliases: ["Asiento / Transaction", "Asiento", "Asiento contable"]

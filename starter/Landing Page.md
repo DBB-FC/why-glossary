@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Landing Page"
 es: "Página de aterrizaje"
 aliases: ["Página de aterrizaje"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Technical Debt"
 es: "Deuda técnica"
 aliases: ["Deuda técnica"]

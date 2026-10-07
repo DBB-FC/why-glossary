@@ -176,7 +176,7 @@ export function notaDeTermino(t: NuevoTermino, n: number, c?: Conservado): { nom
   const j = JSON.stringify;
   const dominio = t.dominio.trim() || "Mis términos";
   const fm = [
-    "---", `en: ${j(t.en)}`, `es: ${j(t.es)}`, `aliases: ${j(c?.aliases ?? [])}`, `dominio: ${j(dominio)}`,
+    "---", `cssclasses: ["wg-nota"]`, `en: ${j(t.en)}`, `es: ${j(t.es)}`, `aliases: ${j(c?.aliases ?? [])}`, `dominio: ${j(dominio)}`,
     `simple_es: ${j(t.simple_es)}`, `tecnica_es: ${j(t.tecnica_es)}`, `simple_en: ${j(t.simple_en)}`, `tecnica_en: ${j(t.tecnica_en)}`,
     `ejemplo_es: ${j(t.ejemplo_es)}`, `ejemplo_en: ${j(t.ejemplo_en)}`, `ver_tambien: ${j(c?.ver_tambien ?? [])}`, `n: ${n}`, `verificar: ${c?.verificar ? "true" : "false"}`, "---",
   ];

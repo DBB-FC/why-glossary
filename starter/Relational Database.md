@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Relational Database"
 es: "Base de datos relacional"
 aliases: ["Base de datos relacional"]

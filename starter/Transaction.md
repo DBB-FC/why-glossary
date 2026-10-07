@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Transaction"
 es: "Transacción"
 aliases: ["Transacción"]

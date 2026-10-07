@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Reasoning Effort / Thinking Budget"
 es: "Esfuerzo de razonamiento / presupuesto de pensamiento"
 aliases: ["Reasoning Effort", "Esfuerzo de razonamiento / presupuesto de pensamiento", "Thinking Budget", "Esfuerzo de razonamiento", "presupuesto de pensamiento"]

@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Full Stack"
 es: "Full stack (todas las capas)"
 aliases: ["Full stack (todas las capas)"]

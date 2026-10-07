@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SQL"
 es: "Lenguaje de consulta estructurado"
 aliases: ["Lenguaje de consulta estructurado"]

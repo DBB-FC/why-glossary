@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Decision Maker"
 es: "Tomador de decisión"
 aliases: ["Tomador de decisión"]

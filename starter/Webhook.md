@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Webhook"
 es: "Webhook (aviso automático entre sistemas)"
 aliases: ["Webhook (aviso automático entre sistemas)"]

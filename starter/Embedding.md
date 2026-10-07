@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Embedding"
 es: "Incrustación (embedding)"
 aliases: ["Incrustación (embedding)"]

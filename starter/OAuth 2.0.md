@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "OAuth 2.0"
 es: "OAuth 2.0"
 aliases: []

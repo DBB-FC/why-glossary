@@ -1,4 +1,5 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Docker"
 es: "Docker"
 aliases: []

@@ -1,7 +1,7 @@
 {
   "id": "why-glossary-bilingual",
   "name": "Why Glossary",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "minAppVersion": "1.8.7",
   "description": "Bilingual EN↔ES pocket glossary: search a term in either language, see plain and technical definitions, hover, study, and add your own terms.",
   "author": "Felipe Córdova",

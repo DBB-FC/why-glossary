@@ -1,4 +1,4 @@
-import { App, ItemView, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, ViewStateResult, ViewState, setIcon, WorkspaceLeaf } from "obsidian";
+import { App, ItemView, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, ViewStateResult, setIcon, WorkspaceLeaf } from "obsidian";
 import {
   ABC, Index, Lang, Session, Term, agrupaAZ, buildDeck, clave, dominioNombre, ejemplo, letra, norm,
   Conservado, NuevoTermino, nombreArchivo, notaDeTermino, parseFrontmatter, recorta, simple, summarize, tecnica, termFromFrontmatter,
@@ -27,7 +27,6 @@ export default class WhyGlossary extends Plugin {
     this.registerView(VIEW_PANEL, leaf => new PanelView(leaf, this));
     this.registerView(VIEW_MAIN, leaf => new MainView(leaf, this));
     this.registerView(VIEW_TERM, leaf => new TermView(leaf, this));
-    this.interceptarApertura();
     this.addRibbonIcon("book-a", this.tx("Abrir glosario", "Open glossary"), () => { void this.abrirGlosario(); });
     this.addCommand({ id: "glosario", name: this.tx("Abrir glosario", "Open glossary"), callback: () => { void this.abrirGlosario(); } });
     this.addCommand({ id: "buscar", name: this.tx("Buscar término", "Search term"), callback: () => this.buscar() });
@@ -67,7 +66,7 @@ export default class WhyGlossary extends Plugin {
       this.registerEvent(this.app.vault.on(ev as "modify", (f: TAbstractFile) => { if (f instanceof TFile && dentro(f)) this.recargarPronto(); }));
   }
 
-  onunload() { this.ocultaTip(); this.restaurarApertura?.(); }
+  onunload() { this.ocultaTip(); }
   tx(es: string, en: string) { return tr(this.settings.idioma, es, en); }
   refrescaVistas() { for (const type of [VIEW_PANEL, VIEW_MAIN, VIEW_TERM]) this.app.workspace.getLeavesOfType(type).forEach(l => (l.view as unknown as GlossaryLeaf).refrescar()); }
   async cambiaIdioma(l: Lang) { this.settings.idioma = l; await this.saveSettings(); this.refrescaVistas(); }
@@ -152,23 +151,6 @@ export default class WhyGlossary extends Plugin {
     void leaf.openFile(f);
   }
   private comoTexto = new Set<string>();
-  private restaurarApertura?: () => void;
-  directo = new Set<string>();
-  /** Abre las notas del glosario directo como tarjeta, sin pasar antes por la vista de texto. */
-  private interceptarApertura() {
-    const proto = WorkspaceLeaf.prototype;
-    const original = proto.setViewState;
-    const plugin = this;
-    proto.setViewState = function (this: WorkspaceLeaf, vs: ViewState, eState?: unknown) {
-      try {
-        const ruta = (vs?.state as { file?: string } | undefined)?.file;
-        if (vs?.type === "markdown" && ruta && plugin.settings.tarjeta && plugin.byPath.has(ruta) && !plugin.comoTexto.has(ruta))
-          { vs = { ...vs, type: VIEW_TERM, state: { file: ruta } }; plugin.directo.add(ruta); }
-      } catch { /* si algo falla, se abre como siempre */ }
-      return original.call(this, vs, eState);
-    };
-    this.restaurarApertura = () => { proto.setViewState = original; };
-  }
   /** Nivel 3: al abrir la nota de un término, se muestra como tarjeta. */
   private async alAbrir(f: TFile | null) {
     if (!f) return;
@@ -336,11 +318,9 @@ class TermView extends ItemView implements GlossaryLeaf {
   getDisplayText() { const t = this.p.termPorRuta(this.ruta); return t ? t.en : this.p.tx("Término", "Term"); }
   getState() { return { file: this.ruta }; }
   async setState(state: unknown, result: ViewStateResult) {
-    const t0 = performance.now();
     this.ruta = (state as { file?: string } | null)?.file ?? "";
     await super.setState(state, result);
     this.pinta();
-    if (this.p.directo.delete(this.ruta)) new Notice(`Tarjeta directa · ${Math.round(performance.now() - t0)} ms`); else if (this.ruta) new Notice(`Tarjeta convertida (pasó antes por texto) · ${Math.round(performance.now() - t0)} ms`);
   }
   onOpen() { this.contentEl.addClass("wg-scope", "wg-termview"); return Promise.resolve(); }
   refrescar() { this.pinta(); }
@@ -551,7 +531,7 @@ class PanelView extends ItemView implements GlossaryLeaf {
   private lista!: HTMLElement; private az!: HTMLElement; private det!: HTMLElement; private cuenta!: HTMLElement;
   constructor(leaf: WorkspaceLeaf, private p: WhyGlossary) { super(leaf); }
   getViewType() { return VIEW_PANEL; }
-  getDisplayText() { return "Why Glossary"; }
+  getDisplayText() { return "Why glossary"; }
   getIcon() { return "book-a"; }
   async onOpen() { this.refrescar(); }
 

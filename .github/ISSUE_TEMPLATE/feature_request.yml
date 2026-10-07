@@ -1,0 +1,16 @@
+name: Feature request · Proponer una idea
+description: An idea to make the glossary more useful · Una idea para que el glosario sirva más
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do? · ¿Qué estás tratando de hacer?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help · Qué te ayudaría
+    validations:
+      required: true

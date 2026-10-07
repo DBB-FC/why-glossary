@@ -13,7 +13,10 @@
     "@types/node": "^26.6.4",
     "builtin-modules": "^5.4.0",
     "esbuild": "^0.28.2",
+    "eslint": "^9.39.5",
+    "eslint-plugin-obsidianmd": "^0.4.2",
     "obsidian": "^1.13.1",
-    "typescript": "^7.0.2"
+    "typescript": "~5.9",
+    "typescript-eslint": "^8.71.1"
   }
 }

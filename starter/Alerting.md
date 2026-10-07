@@ -3,9 +3,9 @@ en: "Alerting"
 es: "Alertas"
 aliases: ["Alertas"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Avisar automáticamente cuando algo falla o supera un límite."
+simple_es: "Son avisos automáticos que se envían cuando un sistema falla o pasa un límite definido, para que alguien reaccione antes de que lo note el cliente."
 tecnica_es: "Generación automática de avisos ante condiciones relevantes."
-simple_en: "Automatically warning when something fails or crosses a limit."
+simple_en: "Automatic notices sent when a system fails or crosses a defined limit, so someone can react before the customer notices."
 tecnica_en: "Automatic generation of notifications on relevant conditions."
 ejemplo_es: "Una alerta nos avisó que la API no respondía."
 ejemplo_en: "An alert told us the API wasn't responding."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Alerting · Alertas
 
-**En simple.** Avisar automáticamente cuando algo falla o supera un límite.
+**En simple.** Son avisos automáticos que se envían cuando un sistema falla o pasa un límite definido, para que alguien reaccione antes de que lo note el cliente.
 
 **Técnica.** Generación automática de avisos ante condiciones relevantes.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Automatically warning when something fails or crosses a limit.
+**In simple.** Automatic notices sent when a system fails or crosses a defined limit, so someone can react before the customer notices.
 
 **Technical.** Automatic generation of notifications on relevant conditions.
 

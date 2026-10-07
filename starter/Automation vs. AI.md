@@ -3,9 +3,9 @@ en: "Automation vs. AI"
 es: "Automatización vs. IA"
 aliases: ["Automatización vs. IA"]
 dominio: "09 · IA y automatización"
-simple_es: "No todo lo automatizado necesita IA. Meter IA donde basta un if suele ser una forma cara de complicarse."
+simple_es: "La automatización sigue reglas fijas que tú defines, y la IA interpreta o genera cuando el caso no es exacto. Si basta una regla simple, usar IA solo agrega costo y complejidad."
 tecnica_es: "Automatización sigue reglas/flujo; IA interpreta o genera bajo incertidumbre."
-simple_en: "Not everything automated needs AI. Putting AI where an if is enough is usually an expensive way to complicate things."
+simple_en: "Automation follows fixed rules you define, while AI interprets or generates when the case is not exact. If a simple rule is enough, using AI only adds cost and complexity."
 tecnica_en: "Automation follows rules or a flow; AI interprets or generates under uncertainty."
 ejemplo_es: "Esto se resuelve con automatización, no con IA."
 ejemplo_en: "This is solved with automation, not AI."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Automation vs. AI · Automatización vs. IA
 
-**En simple.** No todo lo automatizado necesita IA. Meter IA donde basta un if suele ser una forma cara de complicarse.
+**En simple.** La automatización sigue reglas fijas que tú defines, y la IA interpreta o genera cuando el caso no es exacto. Si basta una regla simple, usar IA solo agrega costo y complejidad.
 
 **Técnica.** Automatización sigue reglas/flujo; IA interpreta o genera bajo incertidumbre.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Not everything automated needs AI. Putting AI where an if is enough is usually an expensive way to complicate things.
+**In simple.** Automation follows fixed rules you define, while AI interprets or generates when the case is not exact. If a simple rule is enough, using AI only adds cost and complexity.
 
 **Technical.** Automation follows rules or a flow; AI interprets or generates under uncertainty.
 

@@ -3,9 +3,9 @@ en: "Idempotent Method"
 es: "Método idempotente"
 aliases: ["Método idempotente"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "POST no lo es, y por eso los cobros necesitan clave de idempotencia."
+simple_es: "Es una operación web que da el mismo resultado se repita o no, como GET, PUT o DELETE. POST no lo es, por eso los cobros necesitan una clave de idempotencia."
 tecnica_es: "Verbo HTTP cuya repetición no cambia el resultado: GET, PUT, DELETE."
-simple_en: "POST is not, which is why payments need an idempotency key."
+simple_en: "A web operation that gives the same result whether repeated or not, such as GET, PUT or DELETE. POST is not, which is why payments need an idempotency key."
 tecnica_en: "An HTTP verb whose repetition does not change the result: GET, PUT, DELETE."
 ejemplo_es: "Reintentar un PUT es seguro porque es idempotente."
 ejemplo_en: "Retrying a PUT is safe because it is idempotent."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Idempotent Method · Método idempotente
 
-**En simple.** POST no lo es, y por eso los cobros necesitan clave de idempotencia.
+**En simple.** Es una operación web que da el mismo resultado se repita o no, como GET, PUT o DELETE. POST no lo es, por eso los cobros necesitan una clave de idempotencia.
 
 **Técnica.** Verbo HTTP cuya repetición no cambia el resultado: GET, PUT, DELETE.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** POST is not, which is why payments need an idempotency key.
+**In simple.** A web operation that gives the same result whether repeated or not, such as GET, PUT or DELETE. POST is not, which is why payments need an idempotency key.
 
 **Technical.** An HTTP verb whose repetition does not change the result: GET, PUT, DELETE.
 

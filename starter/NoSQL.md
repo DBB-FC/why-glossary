@@ -3,9 +3,9 @@ en: "NoSQL"
 es: "NoSQL"
 aliases: []
 dominio: "04 · Datos y bases de datos"
-simple_es: "Alternativa a tablas relacionales para ciertos problemas."
+simple_es: "Es una familia de bases de datos que no usan tablas relacionales, sino documentos, pares clave-valor o grafos. Sirven para ciertos problemas que no encajan bien en tablas."
 tecnica_es: "Familia de bases no relacionales con modelos como documentos, clave-valor o grafos."
-simple_en: "An alternative to relational tables for certain problems."
+simple_en: "A family of databases that do not use relational tables, but documents, key-value pairs or graphs. They suit certain problems that do not fit well into tables."
 tecnica_en: "A family of non-relational databases with models such as documents, key-value or graphs."
 ejemplo_es: "Guardamos los logs en una base NoSQL."
 ejemplo_en: "We keep the logs in a NoSQL database."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # NoSQL · NoSQL
 
-**En simple.** Alternativa a tablas relacionales para ciertos problemas.
+**En simple.** Es una familia de bases de datos que no usan tablas relacionales, sino documentos, pares clave-valor o grafos. Sirven para ciertos problemas que no encajan bien en tablas.
 
 **Técnica.** Familia de bases no relacionales con modelos como documentos, clave-valor o grafos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An alternative to relational tables for certain problems.
+**In simple.** A family of databases that do not use relational tables, but documents, key-value pairs or graphs. They suit certain problems that do not fit well into tables.
 
 **Technical.** A family of non-relational databases with models such as documents, key-value or graphs.
 

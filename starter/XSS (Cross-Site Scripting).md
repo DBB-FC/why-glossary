@@ -3,9 +3,9 @@ en: "XSS (Cross-Site Scripting)"
 es: "Secuencias de comandos entre sitios"
 aliases: ["XSS", "Secuencias de comandos entre sitios"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Código malicioso que termina ejecutándose en el navegador de otro usuario."
+simple_es: "Es un ataque en que alguien logra que código malicioso se ejecute en el navegador de otra persona al visitar una página legítima, y así puede robar sus datos o su sesión."
 tecnica_es: "Cross-Site Scripting: inyección de contenido ejecutable en interfaces web."
-simple_en: "Malicious code that ends up running in another user's browser."
+simple_en: "An attack where someone gets malicious code to run in another person's browser when they visit a legitimate page, and so can steal their data or session."
 tecnica_en: "Cross-Site Scripting: injection of executable content into web interfaces."
 ejemplo_es: "Escapamos el contenido para prevenir XSS."
 ejemplo_en: "We escape content to prevent XSS."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # XSS (Cross-Site Scripting) · Secuencias de comandos entre sitios
 
-**En simple.** Código malicioso que termina ejecutándose en el navegador de otro usuario.
+**En simple.** Es un ataque en que alguien logra que código malicioso se ejecute en el navegador de otra persona al visitar una página legítima, y así puede robar sus datos o su sesión.
 
 **Técnica.** Cross-Site Scripting: inyección de contenido ejecutable en interfaces web.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Malicious code that ends up running in another user's browser.
+**In simple.** An attack where someone gets malicious code to run in another person's browser when they visit a legitimate page, and so can steal their data or session.
 
 **Technical.** Cross-Site Scripting: injection of executable content into web interfaces.
 

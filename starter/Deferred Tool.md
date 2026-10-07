@@ -3,9 +3,9 @@ en: "Deferred Tool"
 es: "Herramienta diferida"
 aliases: ["Herramienta diferida"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Con cientos de herramientas, cargarlas todas llena el contexto de ruido."
+simple_es: "Es una herramienta cuya descripción solo se carga cuando se necesita. Con cientos de herramientas, cargarlas todas llenaría el contexto de ruido."
 tecnica_es: "Herramienta cuyo esquema se carga solo cuando hace falta."
-simple_en: "With hundreds of tools, loading them all fills the context with noise."
+simple_en: "A tool whose description is only loaded when it is needed. With hundreds of tools, loading them all would fill the context with noise."
 tecnica_en: "A tool whose schema is loaded only when needed."
 ejemplo_es: "Las herramientas diferidas ahorran contexto."
 ejemplo_en: "Deferred tools save context."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Deferred Tool · Herramienta diferida
 
-**En simple.** Con cientos de herramientas, cargarlas todas llena el contexto de ruido.
+**En simple.** Es una herramienta cuya descripción solo se carga cuando se necesita. Con cientos de herramientas, cargarlas todas llenaría el contexto de ruido.
 
 **Técnica.** Herramienta cuyo esquema se carga solo cuando hace falta.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** With hundreds of tools, loading them all fills the context with noise.
+**In simple.** A tool whose description is only loaded when it is needed. With hundreds of tools, loading them all would fill the context with noise.
 
 **Technical.** A tool whose schema is loaded only when needed.
 

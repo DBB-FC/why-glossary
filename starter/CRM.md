@@ -3,9 +3,9 @@ en: "CRM"
 es: "Gestión de relaciones con clientes"
 aliases: ["Gestión de relaciones con clientes"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "La memoria comercial estructurada de la empresa."
+simple_es: "Es un sistema donde la empresa registra a sus clientes y todo el trato con ellos: contactos, oportunidades de venta y conversaciones. Es la memoria comercial del negocio."
 tecnica_es: "Customer Relationship Management: sistema para gestionar relaciones, oportunidades y actividad comercial."
-simple_en: "The company's structured sales memory."
+simple_en: "A system where a company records its customers and every dealing with them: contacts, sales opportunities and conversations. It is the business's sales memory."
 tecnica_en: "Customer Relationship Management: a system to manage relationships, opportunities and sales activity."
 ejemplo_es: "Todo contacto queda registrado en el CRM."
 ejemplo_en: "Every contact is logged in the CRM."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # CRM · Gestión de relaciones con clientes
 
-**En simple.** La memoria comercial estructurada de la empresa.
+**En simple.** Es un sistema donde la empresa registra a sus clientes y todo el trato con ellos: contactos, oportunidades de venta y conversaciones. Es la memoria comercial del negocio.
 
 **Técnica.** Customer Relationship Management: sistema para gestionar relaciones, oportunidades y actividad comercial.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The company's structured sales memory.
+**In simple.** A system where a company records its customers and every dealing with them: contacts, sales opportunities and conversations. It is the business's sales memory.
 
 **Technical.** Customer Relationship Management: a system to manage relationships, opportunities and sales activity.
 

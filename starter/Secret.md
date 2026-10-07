@@ -3,9 +3,9 @@ en: "Secret"
 es: "Secreto"
 aliases: ["Secreto"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Nunca debería quedar expuesta en el repositorio."
+simple_es: "Es un dato sensible que un programa usa para acceder a algo, como una contraseña, un token o una clave. Nunca debe quedar expuesto en el repositorio."
 tecnica_es: "Credencial sensible utilizada por software: claves, tokens o contraseñas."
-simple_en: "It should never end up exposed in the repository."
+simple_en: "A sensitive piece of data a program uses to access something, such as a password, token or key. It should never be exposed in the repository."
 tecnica_en: "A sensitive credential used by software: keys, tokens or passwords."
 ejemplo_es: "Un secreto subido al repositorio obliga a rotarlo."
 ejemplo_en: "A secret pushed to the repository must be rotated."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Secret · Secreto
 
-**En simple.** Nunca debería quedar expuesta en el repositorio.
+**En simple.** Es un dato sensible que un programa usa para acceder a algo, como una contraseña, un token o una clave. Nunca debe quedar expuesto en el repositorio.
 
 **Técnica.** Credencial sensible utilizada por software: claves, tokens o contraseñas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** It should never end up exposed in the repository.
+**In simple.** A sensitive piece of data a program uses to access something, such as a password, token or key. It should never be exposed in the repository.
 
 **Technical.** A sensitive credential used by software: keys, tokens or passwords.
 

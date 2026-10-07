@@ -3,9 +3,9 @@ en: "Data Integrity"
 es: "Integridad de datos"
 aliases: ["Integridad de datos"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Evitar información contradictoria o corrupta."
+simple_es: "Es la garantía de que los datos sean correctos, consistentes y válidos, sin contradicciones ni corrupción."
 tecnica_es: "Propiedad de mantener datos correctos, consistentes y válidos."
-simple_en: "Avoiding contradictory or corrupt information."
+simple_en: "The guarantee that data is correct, consistent and valid, with no contradictions or corruption."
 tecnica_en: "The property of keeping data correct, consistent and valid."
 ejemplo_es: "La integridad de datos impide pedidos sin cliente."
 ejemplo_en: "Data integrity prevents orders with no customer."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Data Integrity · Integridad de datos
 
-**En simple.** Evitar información contradictoria o corrupta.
+**En simple.** Es la garantía de que los datos sean correctos, consistentes y válidos, sin contradicciones ni corrupción.
 
 **Técnica.** Propiedad de mantener datos correctos, consistentes y válidos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Avoiding contradictory or corrupt information.
+**In simple.** The guarantee that data is correct, consistent and valid, with no contradictions or corruption.
 
 **Technical.** The property of keeping data correct, consistent and valid.
 

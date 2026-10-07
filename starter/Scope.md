@@ -3,9 +3,9 @@ en: "Scope"
 es: "Alcance"
 aliases: ["Alcance"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Qué incluye exactamente un proyecto, y qué no."
+simple_es: "Es la lista de lo que un proyecto incluye exactamente, funciones, actividades y entregables, y por lo tanto de lo que no."
 tecnica_es: "Conjunto explícito de funcionalidades, actividades y resultados incluidos en un proyecto."
-simple_en: "What exactly a project includes, and what it doesn't."
+simple_en: "The list of exactly what a project includes, features, activities and deliverables, and therefore of what it does not."
 tecnica_en: "The explicit set of features, activities and results included in a project."
 ejemplo_es: "El alcance incluye el sitio y dos integraciones."
 ejemplo_en: "The scope covers the website and two integrations."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Scope · Alcance
 
-**En simple.** Qué incluye exactamente un proyecto, y qué no.
+**En simple.** Es la lista de lo que un proyecto incluye exactamente, funciones, actividades y entregables, y por lo tanto de lo que no.
 
 **Técnica.** Conjunto explícito de funcionalidades, actividades y resultados incluidos en un proyecto.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** What exactly a project includes, and what it doesn't.
+**In simple.** The list of exactly what a project includes, features, activities and deliverables, and therefore of what it does not.
 
 **Technical.** The explicit set of features, activities and results included in a project.
 

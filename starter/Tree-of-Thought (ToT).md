@@ -3,9 +3,9 @@ en: "Tree-of-Thought (ToT)"
 es: "Árbol de pensamiento"
 aliases: ["Árbol de pensamiento"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Evalúa alternativas en vez de comprometerse con la primera."
+simple_es: "Es una técnica en que el modelo explora varias ramas de razonamiento y las evalúa antes de elegir, en vez de seguir la primera que se le ocurre."
 tecnica_es: "Exploración de varias ramas de razonamiento antes de elegir."
-simple_en: "It weighs alternatives instead of committing to the first one."
+simple_en: "A technique where the model explores several branches of reasoning and evaluates them before choosing, instead of following the first one that occurs to it."
 tecnica_en: "Exploring several reasoning branches before choosing."
 ejemplo_es: "El árbol de pensamiento exploró tres alternativas."
 ejemplo_en: "Tree-of-thought explored three alternatives."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Tree-of-Thought (ToT) · Árbol de pensamiento
 
-**En simple.** Evalúa alternativas en vez de comprometerse con la primera.
+**En simple.** Es una técnica en que el modelo explora varias ramas de razonamiento y las evalúa antes de elegir, en vez de seguir la primera que se le ocurre.
 
 **Técnica.** Exploración de varias ramas de razonamiento antes de elegir.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** It weighs alternatives instead of committing to the first one.
+**In simple.** A technique where the model explores several branches of reasoning and evaluates them before choosing, instead of following the first one that occurs to it.
 
 **Technical.** Exploring several reasoning branches before choosing.
 

@@ -3,9 +3,9 @@ en: "Prompt Injection"
 es: "Inyección de instrucciones"
 aliases: ["Inyección de instrucciones"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Un correo, una página o una fila de base de datos pueden contener órdenes. Todo lo que el agente lee es dato, no instrucción."
+simple_es: "Es un ataque que mete instrucciones en datos que el modelo va a leer, como un correo, una página o una fila de base de datos. Todo lo que el agente lee es dato, no una orden."
 tecnica_es: "Ataque que introduce instrucciones en datos que el modelo va a leer."
-simple_en: "An email, a web page or a database row can contain orders. Everything the agent reads is data, not instruction."
+simple_en: "An attack that slips instructions into data the model is going to read, such as an email, a page or a database row. Everything the agent reads is data, not a command."
 tecnica_en: "An attack that plants instructions in data the model will read."
 ejemplo_es: "Un correo trajo una inyección de instrucciones para el agente."
 ejemplo_en: "An email carried a prompt injection aimed at the agent."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Prompt Injection · Inyección de instrucciones
 
-**En simple.** Un correo, una página o una fila de base de datos pueden contener órdenes. Todo lo que el agente lee es dato, no instrucción.
+**En simple.** Es un ataque que mete instrucciones en datos que el modelo va a leer, como un correo, una página o una fila de base de datos. Todo lo que el agente lee es dato, no una orden.
 
 **Técnica.** Ataque que introduce instrucciones en datos que el modelo va a leer.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An email, a web page or a database row can contain orders. Everything the agent reads is data, not instruction.
+**In simple.** An attack that slips instructions into data the model is going to read, such as an email, a page or a database row. Everything the agent reads is data, not a command.
 
 **Technical.** An attack that plants instructions in data the model will read.
 

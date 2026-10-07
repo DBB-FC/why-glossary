@@ -3,9 +3,9 @@ en: "Branch"
 es: "Rama"
 aliases: ["Rama"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Una línea de trabajo paralela para cambiar código sin afectar la versión principal."
+simple_es: "Es una línea de trabajo paralela dentro de un proyecto Git, donde se cambia el código sin afectar la versión principal hasta que se decide unirlo."
 tecnica_es: "Línea independiente de desarrollo dentro de Git."
-simple_en: "A parallel line of work for changing code without affecting the main version."
+simple_en: "A parallel line of work inside a Git project, where code is changed without affecting the main version until it is decided to merge it."
 tecnica_en: "An independent line of development within Git."
 ejemplo_es: "Abrí una rama para el módulo de reportes."
 ejemplo_en: "I opened a branch for the reports module."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Branch · Rama
 
-**En simple.** Una línea de trabajo paralela para cambiar código sin afectar la versión principal.
+**En simple.** Es una línea de trabajo paralela dentro de un proyecto Git, donde se cambia el código sin afectar la versión principal hasta que se decide unirlo.
 
 **Técnica.** Línea independiente de desarrollo dentro de Git.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A parallel line of work for changing code without affecting the main version.
+**In simple.** A parallel line of work inside a Git project, where code is changed without affecting the main version until it is decided to merge it.
 
 **Technical.** An independent line of development within Git.
 

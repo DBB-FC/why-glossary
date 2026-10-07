@@ -3,9 +3,9 @@ en: "Proof of Concept (PoC)"
 es: "Prueba de concepto"
 aliases: ["Prueba de concepto"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Demostrar que algo funciona antes de construirlo completo."
+simple_es: "Es una versión limitada que se construye solo para demostrar que una idea funciona técnicamente, antes de invertir en el sistema completo."
 tecnica_es: "Implementación limitada para demostrar viabilidad técnica o conceptual."
-simple_en: "Showing that something works before building it in full."
+simple_en: "A limited version built only to show that an idea works technically, before investing in the complete system."
 tecnica_en: "A limited implementation that demonstrates technical or conceptual feasibility."
 ejemplo_es: "La prueba de concepto duró una semana."
 ejemplo_en: "The proof of concept lasted one week."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Proof of Concept (PoC) · Prueba de concepto
 
-**En simple.** Demostrar que algo funciona antes de construirlo completo.
+**En simple.** Es una versión limitada que se construye solo para demostrar que una idea funciona técnicamente, antes de invertir en el sistema completo.
 
 **Técnica.** Implementación limitada para demostrar viabilidad técnica o conceptual.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Showing that something works before building it in full.
+**In simple.** A limited version built only to show that an idea works technically, before investing in the complete system.
 
 **Technical.** A limited implementation that demonstrates technical or conceptual feasibility.
 

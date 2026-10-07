@@ -3,9 +3,9 @@ en: "Multi-agent"
 es: "Multiagente"
 aliases: ["Multi-agente", "Multiagente"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Varias IA especializadas que se reparten el trabajo. Rinde en tareas grandes, pero gasta mucho más que un solo agente."
+simple_es: "Es un diseño con varias IA especializadas que se reparten el trabajo. Rinde en tareas grandes, pero gasta bastante más que un solo agente."
 tecnica_es: "Arquitectura con varios agentes especializados que colaboran."
-simple_en: "Several specialised AIs that split the work. It pays off on big tasks, but costs far more than a single agent."
+simple_en: "A design with several specialized AIs that share the work. It pays off on large tasks, but costs considerably more than a single agent."
 tecnica_en: "An architecture with several specialized agents collaborating."
 ejemplo_es: "Multiagente era excesivo: un solo agente bastaba."
 ejemplo_en: "Multi-agent was overkill: a single agent was enough."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Multi-agent · Multiagente
 
-**En simple.** Varias IA especializadas que se reparten el trabajo. Rinde en tareas grandes, pero gasta mucho más que un solo agente.
+**En simple.** Es un diseño con varias IA especializadas que se reparten el trabajo. Rinde en tareas grandes, pero gasta bastante más que un solo agente.
 
 **Técnica.** Arquitectura con varios agentes especializados que colaboran.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Several specialised AIs that split the work. It pays off on big tasks, but costs far more than a single agent.
+**In simple.** A design with several specialized AIs that share the work. It pays off on large tasks, but costs considerably more than a single agent.
 
 **Technical.** An architecture with several specialized agents collaborating.
 

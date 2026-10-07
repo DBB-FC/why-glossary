@@ -3,9 +3,9 @@ en: "Hallucination"
 es: "Alucinación"
 aliases: ["Alucinación"]
 dominio: "09 · IA y automatización"
-simple_es: "La IA inventa; por eso los procesos críticos requieren grounding y controles."
+simple_es: "Es cuando una IA inventa información falsa y la presenta con total seguridad, como si fuera verdad. Por eso los procesos críticos necesitan fuentes y controles."
 tecnica_es: "Generación de información incorrecta presentada como plausible."
-simple_en: "The AI makes things up; that's why critical processes need grounding and controls."
+simple_en: "When an AI makes up false information and presents it with full confidence, as if it were true. That is why critical processes need sources and controls."
 tecnica_en: "Generation of incorrect information presented as plausible."
 ejemplo_es: "Detectamos una alucinación: el agente inventó una cláusula."
 ejemplo_en: "We caught a hallucination: the agent invented a clause."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Hallucination · Alucinación
 
-**En simple.** La IA inventa; por eso los procesos críticos requieren grounding y controles.
+**En simple.** Es cuando una IA inventa información falsa y la presenta con total seguridad, como si fuera verdad. Por eso los procesos críticos necesitan fuentes y controles.
 
 **Técnica.** Generación de información incorrecta presentada como plausible.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The AI makes things up; that's why critical processes need grounding and controls.
+**In simple.** When an AI makes up false information and presents it with full confidence, as if it were true. That is why critical processes need sources and controls.
 
 **Technical.** Generation of incorrect information presented as plausible.
 

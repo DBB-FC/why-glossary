@@ -3,9 +3,9 @@ en: "RFP"
 es: "Solicitud de propuesta"
 aliases: ["Solicitud de propuesta"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Cliente pide una solución y varios proveedores compiten."
+simple_es: "Es el documento con que un cliente pide propuestas a varios proveedores para una solución que aún no tiene definida, y los proveedores compiten."
 tecnica_es: "Request for Proposal: solicitud formal para recibir propuestas de proveedores."
-simple_en: "A client wants a solution and several vendors compete."
+simple_en: "The document with which a client asks several suppliers for proposals for a solution it has not yet defined, and the suppliers compete."
 tecnica_en: "Request for Proposal: a formal request to receive proposals from vendors."
 ejemplo_es: "Nos invitaron a un RFP con cinco proveedores."
 ejemplo_en: "We were invited to an RFP with five vendors."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # RFP · Solicitud de propuesta
 
-**En simple.** Cliente pide una solución y varios proveedores compiten.
+**En simple.** Es el documento con que un cliente pide propuestas a varios proveedores para una solución que aún no tiene definida, y los proveedores compiten.
 
 **Técnica.** Request for Proposal: solicitud formal para recibir propuestas de proveedores.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A client wants a solution and several vendors compete.
+**In simple.** The document with which a client asks several suppliers for proposals for a solution it has not yet defined, and the suppliers compete.
 
 **Technical.** Request for Proposal: a formal request to receive proposals from vendors.
 

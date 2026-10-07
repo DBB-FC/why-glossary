@@ -3,9 +3,9 @@ en: "Episodic Memory"
 es: "Memoria episódica"
 aliases: ["Memoria episódica"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "El recuerdo de un hecho concreto ocurrido en un momento dado."
+simple_es: "Es el recuerdo de un hecho concreto que ocurrió en un momento dado, con su fecha, como «ayer el cliente aprobó la cotización»."
 tecnica_es: "Registro de eventos concretos con su cuándo."
-simple_en: "The memory of a specific event that happened at a given time."
+simple_en: "The memory of a specific event that happened at a given time, with its date, such as «yesterday the client approved the quote»."
 tecnica_en: "A record of specific events with their when."
 ejemplo_es: "La memoria episódica guarda qué pasó y cuándo."
 ejemplo_en: "Episodic memory stores what happened and when."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Episodic Memory · Memoria episódica
 
-**En simple.** El recuerdo de un hecho concreto ocurrido en un momento dado.
+**En simple.** Es el recuerdo de un hecho concreto que ocurrió en un momento dado, con su fecha, como «ayer el cliente aprobó la cotización».
 
 **Técnica.** Registro de eventos concretos con su cuándo.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The memory of a specific event that happened at a given time.
+**In simple.** The memory of a specific event that happened at a given time, with its date, such as «yesterday the client approved the quote».
 
 **Technical.** A record of specific events with their when.
 

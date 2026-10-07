@@ -3,9 +3,9 @@ en: "Observability"
 es: "Observabilidad"
 aliases: ["Observabilidad"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Saber qué está pasando antes de que el cliente lo explique a garabatos."
+simple_es: "Es la capacidad de entender qué pasa dentro de un sistema a partir de lo que emite: métricas, registros y trazas. Permite detectar un problema antes de que el cliente lo reporte."
 tecnica_es: "Capacidad de comprender el estado interno de un sistema mediante métricas, logs y trazas."
-simple_en: "Knowing what is happening before the customer explains it in scribbles."
+simple_en: "The ability to understand what is happening inside a system from what it emits: metrics, logs and traces. It lets you spot a problem before the customer reports it."
 tecnica_en: "The ability to understand a system's internal state through metrics, logs and traces."
 ejemplo_es: "La observabilidad nos mostró dónde se atascaba el pago."
 ejemplo_en: "Observability showed us where the payment was getting stuck."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Observability · Observabilidad
 
-**En simple.** Saber qué está pasando antes de que el cliente lo explique a garabatos.
+**En simple.** Es la capacidad de entender qué pasa dentro de un sistema a partir de lo que emite: métricas, registros y trazas. Permite detectar un problema antes de que el cliente lo reporte.
 
 **Técnica.** Capacidad de comprender el estado interno de un sistema mediante métricas, logs y trazas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Knowing what is happening before the customer explains it in scribbles.
+**In simple.** The ability to understand what is happening inside a system from what it emits: metrics, logs and traces. It lets you spot a problem before the customer reports it.
 
 **Technical.** The ability to understand a system's internal state through metrics, logs and traces.
 

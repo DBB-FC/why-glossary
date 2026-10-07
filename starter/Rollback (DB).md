@@ -3,9 +3,9 @@ en: "Rollback (DB)"
 es: "Reversión (base de datos)"
 aliases: ["Rollback (BD)", "Reversión (base de datos)"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Distinto del rollback de un despliegue: aquí se deshacen datos, no versiones."
+simple_es: "Es deshacer una transacción de la base de datos antes de confirmarla, para que no quede nada a medias. No es lo mismo que el rollback de un despliegue, que vuelve una versión."
 tecnica_es: "Reversión de una transacción antes de confirmarla."
-simple_en: "Unlike a deployment rollback: here data is undone, not versions."
+simple_en: "Undoing a database transaction before it is confirmed, so nothing is left half done. It is not the same as a deployment rollback, which returns a version."
 tecnica_en: "Reversal of a transaction before it is committed."
 ejemplo_es: "Ante el error, la base hizo rollback de la transacción."
 ejemplo_en: "On the error, the database rolled the transaction back."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Rollback (DB) · Reversión (base de datos)
 
-**En simple.** Distinto del rollback de un despliegue: aquí se deshacen datos, no versiones.
+**En simple.** Es deshacer una transacción de la base de datos antes de confirmarla, para que no quede nada a medias. No es lo mismo que el rollback de un despliegue, que vuelve una versión.
 
 **Técnica.** Reversión de una transacción antes de confirmarla.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Unlike a deployment rollback: here data is undone, not versions.
+**In simple.** Undoing a database transaction before it is confirmed, so nothing is left half done. It is not the same as a deployment rollback, which returns a version.
 
 **Technical.** Reversal of a transaction before it is committed.
 

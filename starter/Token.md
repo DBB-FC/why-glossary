@@ -3,9 +3,9 @@ en: "Token"
 es: "Token"
 aliases: []
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Una credencial temporal que da acceso limitado."
+simple_es: "Es un valor temporal que una persona o programa presenta para demostrar que tiene permiso de acceso, con un alcance y un plazo limitados."
 tecnica_es: "Valor emitido para representar autorización, sesión o identidad durante un periodo/alcance."
-simple_en: "A temporary credential that gives limited access."
+simple_en: "A temporary value a person or program presents to prove it has permission to access something, with limited scope and duration."
 tecnica_en: "A value issued to represent authorization, session or identity for a period or scope."
 ejemplo_es: "El token vence en una hora."
 ejemplo_en: "The token expires in one hour."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Token · Token
 
-**En simple.** Una credencial temporal que da acceso limitado.
+**En simple.** Es un valor temporal que una persona o programa presenta para demostrar que tiene permiso de acceso, con un alcance y un plazo limitados.
 
 **Técnica.** Valor emitido para representar autorización, sesión o identidad durante un periodo/alcance.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A temporary credential that gives limited access.
+**In simple.** A temporary value a person or program presents to prove it has permission to access something, with limited scope and duration.
 
 **Technical.** A value issued to represent authorization, session or identity for a period or scope.
 

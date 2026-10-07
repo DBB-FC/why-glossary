@@ -3,9 +3,9 @@ en: "Value Proposition"
 es: "Propuesta de valor"
 aliases: ["Propuesta de valor"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "La razón concreta por la que un cliente te elegiría a ti y no a otro."
+simple_es: "Es la razón concreta por la que un cliente te elegiría a ti y no a otro: el beneficio que prometes y que los demás no ofrecen igual."
 tecnica_es: "Beneficio diferencial que una solución promete entregar a un segmento."
-simple_en: "The concrete reason a customer would choose you over someone else."
+simple_en: "The concrete reason a customer would choose you over someone else: the benefit you promise that others do not offer in the same way."
 tecnica_en: "The distinctive benefit a solution promises to deliver to a segment."
 ejemplo_es: "Nuestra propuesta de valor es entregar rápido y sin sorpresas."
 ejemplo_en: "Our value proposition is fast delivery with no surprises."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Value Proposition · Propuesta de valor
 
-**En simple.** La razón concreta por la que un cliente te elegiría a ti y no a otro.
+**En simple.** Es la razón concreta por la que un cliente te elegiría a ti y no a otro: el beneficio que prometes y que los demás no ofrecen igual.
 
 **Técnica.** Beneficio diferencial que una solución promete entregar a un segmento.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The concrete reason a customer would choose you over someone else.
+**In simple.** The concrete reason a customer would choose you over someone else: the benefit you promise that others do not offer in the same way.
 
 **Technical.** The distinctive benefit a solution promises to deliver to a segment.
 

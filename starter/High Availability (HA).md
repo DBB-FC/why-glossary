@@ -3,9 +3,9 @@ en: "High Availability (HA)"
 es: "Alta disponibilidad"
 aliases: ["Alta Disponibilidad (HA)", "Alta disponibilidad"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Que la caída de una pieza no apague el sistema. No es lo mismo que backup: uno evita la caída, el otro recupera los datos."
+simple_es: "Es un diseño con piezas duplicadas para que, si una falla, el sistema siga funcionando. No es lo mismo que un backup: la alta disponibilidad evita la caída; el backup recupera los datos."
 tecnica_es: "Diseño con redundancia para que el servicio siga operando aunque falle un componente."
-simple_en: "One piece failing doesn't shut the system down. Not the same as a backup: one prevents the outage, the other recovers the data."
+simple_en: "A design with duplicated parts so that if one fails the system keeps working. It is not the same as a backup: high availability avoids the outage; a backup recovers the data."
 tecnica_en: "A design with redundancy so the service keeps running even if a component fails."
 ejemplo_es: "Con alta disponibilidad, caer un servidor no apaga el sitio."
 ejemplo_en: "With high availability, losing a server doesn't take the site down."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # High Availability (HA) · Alta disponibilidad
 
-**En simple.** Que la caída de una pieza no apague el sistema. No es lo mismo que backup: uno evita la caída, el otro recupera los datos.
+**En simple.** Es un diseño con piezas duplicadas para que, si una falla, el sistema siga funcionando. No es lo mismo que un backup: la alta disponibilidad evita la caída; el backup recupera los datos.
 
 **Técnica.** Diseño con redundancia para que el servicio siga operando aunque falle un componente.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** One piece failing doesn't shut the system down. Not the same as a backup: one prevents the outage, the other recovers the data.
+**In simple.** A design with duplicated parts so that if one fails the system keeps working. It is not the same as a backup: high availability avoids the outage; a backup recovers the data.
 
 **Technical.** A design with redundancy so the service keeps running even if a component fails.
 

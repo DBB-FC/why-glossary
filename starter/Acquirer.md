@@ -3,9 +3,9 @@ en: "Acquirer"
 es: "Adquirente"
 aliases: ["Adquirente"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "El banco o empresa que recibe los pagos con tarjeta en nombre del comercio."
+simple_es: "Es el banco o la empresa que recibe los pagos con tarjeta en nombre del comercio y le entrega después el dinero de sus ventas."
 tecnica_es: "Entidad que afilia al comercio y liquida los fondos de sus ventas."
-simple_en: "The bank or company that receives card payments on the merchant's behalf."
+simple_en: "The bank or company that receives card payments on behalf of a merchant and later passes the money from those sales on to them."
 tecnica_en: "The entity that onboards the merchant and settles the funds from its sales."
 ejemplo_es: "El adquirente nos liquida las ventas con tarjeta."
 ejemplo_en: "The acquirer settles our card sales."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Acquirer · Adquirente
 
-**En simple.** El banco o empresa que recibe los pagos con tarjeta en nombre del comercio.
+**En simple.** Es el banco o la empresa que recibe los pagos con tarjeta en nombre del comercio y le entrega después el dinero de sus ventas.
 
 **Técnica.** Entidad que afilia al comercio y liquida los fondos de sus ventas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The bank or company that receives card payments on the merchant's behalf.
+**In simple.** The bank or company that receives card payments on behalf of a merchant and later passes the money from those sales on to them.
 
 **Technical.** The entity that onboards the merchant and settles the funds from its sales.
 

@@ -3,9 +3,9 @@ en: "Frontend"
 es: "Capa visual (frontend)"
 aliases: ["Capa visual (frontend)"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "La parte del sistema que el usuario ve y utiliza."
+simple_es: "Es la parte de un sistema que el usuario ve y usa: pantallas, botones y formularios, que se muestran en su navegador o su celular."
 tecnica_es: "Capa de software ejecutada o presentada al usuario, responsable de interfaz e interacción."
-simple_en: "The part of a system that the user sees and uses."
+simple_en: "The part of a system the user sees and uses: screens, buttons and forms, shown in their browser or phone."
 tecnica_en: "The software layer run in or presented to the user, responsible for interface and interaction."
 ejemplo_es: "El frontend está hecho en React."
 ejemplo_en: "The frontend is built in React."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Frontend · Capa visual (frontend)
 
-**En simple.** La parte del sistema que el usuario ve y utiliza.
+**En simple.** Es la parte de un sistema que el usuario ve y usa: pantallas, botones y formularios, que se muestran en su navegador o su celular.
 
 **Técnica.** Capa de software ejecutada o presentada al usuario, responsable de interfaz e interacción.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The part of a system that the user sees and uses.
+**In simple.** The part of a system the user sees and uses: screens, buttons and forms, shown in their browser or phone.
 
 **Technical.** The software layer run in or presented to the user, responsible for interface and interaction.
 

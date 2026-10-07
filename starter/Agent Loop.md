@@ -3,9 +3,9 @@ en: "Agent Loop"
 es: "Ciclo del agente"
 aliases: ["Ciclo del agente"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Un chat responde una vez. Un agente da vueltas hasta terminar."
+simple_es: "Es el ciclo que repite un agente de IA: mira la situación, decide, actúa y observa el resultado, hasta cumplir el objetivo o detenerse. Un chat responde una vez; un agente da vueltas."
 tecnica_es: "Ciclo de percibir, decidir, actuar y observar que repite un agente hasta cumplir o detenerse."
-simple_en: "A chat answers once. An agent keeps looping until it's done."
+simple_en: "The cycle an AI agent repeats: it looks at the situation, decides, acts and observes the result, until it reaches the goal or stops. A chat answers once; an agent loops."
 tecnica_en: "The perceive, decide, act and observe cycle an agent repeats until it succeeds or stops."
 ejemplo_es: "El ciclo del agente consulta, actúa y revisa el resultado."
 ejemplo_en: "The agent loop queries, acts and checks the result."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Agent Loop · Ciclo del agente
 
-**En simple.** Un chat responde una vez. Un agente da vueltas hasta terminar.
+**En simple.** Es el ciclo que repite un agente de IA: mira la situación, decide, actúa y observa el resultado, hasta cumplir el objetivo o detenerse. Un chat responde una vez; un agente da vueltas.
 
 **Técnica.** Ciclo de percibir, decidir, actuar y observar que repite un agente hasta cumplir o detenerse.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A chat answers once. An agent keeps looping until it's done.
+**In simple.** The cycle an AI agent repeats: it looks at the situation, decides, acts and observes the result, until it reaches the goal or stops. A chat answers once; an agent loops.
 
 **Technical.** The perceive, decide, act and observe cycle an agent repeats until it succeeds or stops.
 

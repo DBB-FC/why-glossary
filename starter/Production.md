@@ -3,9 +3,9 @@ en: "Production"
 es: "Producción"
 aliases: ["Production / Prod", "Producción"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "La versión real: aquí no se juega a la ruleta."
+simple_es: "Es el entorno donde el software corre para los usuarios reales y donde un error afecta a clientes de verdad. Por eso se cambia con más cuidado."
 tecnica_es: "Entorno utilizado por usuarios reales."
-simple_en: "The real version: no playing roulette here."
+simple_en: "The environment where software runs for real users and where a mistake affects actual customers. That is why it is changed with more care."
 tecnica_en: "The environment used by real users."
 ejemplo_es: "El error ocurrió en producción, no en pruebas."
 ejemplo_en: "The error happened in production, not in testing."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Production · Producción
 
-**En simple.** La versión real: aquí no se juega a la ruleta.
+**En simple.** Es el entorno donde el software corre para los usuarios reales y donde un error afecta a clientes de verdad. Por eso se cambia con más cuidado.
 
 **Técnica.** Entorno utilizado por usuarios reales.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The real version: no playing roulette here.
+**In simple.** The environment where software runs for real users and where a mistake affects actual customers. That is why it is changed with more care.
 
 **Technical.** The environment used by real users.
 

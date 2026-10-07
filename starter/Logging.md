@@ -3,9 +3,9 @@ en: "Logging"
 es: "Registro de eventos"
 aliases: ["Registro de eventos"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "El registro técnico de lo que hizo un sistema."
+simple_es: "Es el registro que un sistema deja de lo que hizo y de los errores que tuvo, con fecha y hora. Sirve para entender qué pasó cuando algo falla."
 tecnica_es: "Registro estructurado de eventos de una aplicación."
-simple_en: "The technical record of what a system did."
+simple_en: "The record a system keeps of what it did and the errors it had, with date and time. It helps you understand what happened when something fails."
 tecnica_en: "Structured recording of an application's events."
 ejemplo_es: "Revisé el registro de eventos para ver el error."
 ejemplo_en: "I checked the logs to find the error."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Logging · Registro de eventos
 
-**En simple.** El registro técnico de lo que hizo un sistema.
+**En simple.** Es el registro que un sistema deja de lo que hizo y de los errores que tuvo, con fecha y hora. Sirve para entender qué pasó cuando algo falla.
 
 **Técnica.** Registro estructurado de eventos de una aplicación.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The technical record of what a system did.
+**In simple.** The record a system keeps of what it did and the errors it had, with date and time. It helps you understand what happened when something fails.
 
 **Technical.** Structured recording of an application's events.
 

@@ -3,9 +3,9 @@ en: "Infrastructure as Code (IaC)"
 es: "Infraestructura como código"
 aliases: ["Infraestructura como código"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Infraestructura reproducible, no configurada a puro clic y memoria."
+simple_es: "Es manejar los servidores y la red con archivos de código versionados en vez de configurarlos a mano. Así la infraestructura se puede repetir y revisar."
 tecnica_es: "Gestión de infraestructura mediante archivos declarativos versionados."
-simple_en: "Reproducible infrastructure, not configured by clicks and memory."
+simple_en: "Managing servers and networks with versioned code files instead of configuring them by hand. This way the infrastructure can be repeated and reviewed."
 tecnica_en: "Managing infrastructure through versioned declarative files."
 ejemplo_es: "Definimos los servidores como infraestructura como código."
 ejemplo_en: "We define the servers as infrastructure as code."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Infrastructure as Code (IaC) · Infraestructura como código
 
-**En simple.** Infraestructura reproducible, no configurada a puro clic y memoria.
+**En simple.** Es manejar los servidores y la red con archivos de código versionados en vez de configurarlos a mano. Así la infraestructura se puede repetir y revisar.
 
 **Técnica.** Gestión de infraestructura mediante archivos declarativos versionados.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Reproducible infrastructure, not configured by clicks and memory.
+**In simple.** Managing servers and networks with versioned code files instead of configuring them by hand. This way the infrastructure can be repeated and reviewed.
 
 **Technical.** Managing infrastructure through versioned declarative files.
 

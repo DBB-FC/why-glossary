@@ -3,9 +3,9 @@ en: "A2A (Agent-to-Agent)"
 es: "Agente a agente"
 aliases: ["A2A", "Agente a agente"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Un estándar para que agentes de IA de distintos sistemas se comuniquen entre sí."
+simple_es: "Es un estándar para que agentes de IA de distintos sistemas puedan comunicarse y repartirse el trabajo entre sí."
 tecnica_es: "Agent-to-Agent: protocolos para que agentes de distintos sistemas se comuniquen."
-simple_en: "A standard that lets AI agents from different systems talk to each other."
+simple_en: "A standard that lets AI agents from different systems communicate with each other and share work."
 tecnica_en: "Agent-to-Agent: protocols for agents from different systems to communicate."
 ejemplo_es: "A2A permite que agentes de distintos sistemas se hablen."
 ejemplo_en: "A2A lets agents from different systems talk to each other."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # A2A (Agent-to-Agent) · Agente a agente
 
-**En simple.** Un estándar para que agentes de IA de distintos sistemas se comuniquen entre sí.
+**En simple.** Es un estándar para que agentes de IA de distintos sistemas puedan comunicarse y repartirse el trabajo entre sí.
 
 **Técnica.** Agent-to-Agent: protocolos para que agentes de distintos sistemas se comuniquen.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A standard that lets AI agents from different systems talk to each other.
+**In simple.** A standard that lets AI agents from different systems communicate with each other and share work.
 
 **Technical.** Agent-to-Agent: protocols for agents from different systems to communicate.
 

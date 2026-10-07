@@ -3,9 +3,9 @@ en: "Context Engineering"
 es: "Ingeniería de contexto"
 aliases: ["Ingeniería de contexto"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Más contexto no es mejor contexto. Es la habilidad que reemplazó al *prompt engineering*."
+simple_es: "Es decidir qué información entra en la ventana de contexto del modelo y en qué orden, porque más contexto no es mejor contexto. Es la habilidad que fue reemplazando al prompt engineering."
 tecnica_es: "Disciplina de decidir qué información entra en la ventana de contexto y en qué orden."
-simple_en: "More context isn't better context. It's the skill that replaced prompt engineering."
+simple_en: "Deciding what information goes into the model's context window and in what order, because more context is not better context. It is the skill that has been replacing prompt engineering."
 tecnica_en: "The discipline of deciding what information enters the context window and in what order."
 ejemplo_es: "La ingeniería de contexto decide qué ve el agente en cada paso."
 ejemplo_en: "Context engineering decides what the agent sees at each step."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Context Engineering · Ingeniería de contexto
 
-**En simple.** Más contexto no es mejor contexto. Es la habilidad que reemplazó al *prompt engineering*.
+**En simple.** Es decidir qué información entra en la ventana de contexto del modelo y en qué orden, porque más contexto no es mejor contexto. Es la habilidad que fue reemplazando al prompt engineering.
 
 **Técnica.** Disciplina de decidir qué información entra en la ventana de contexto y en qué orden.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** More context isn't better context. It's the skill that replaced prompt engineering.
+**In simple.** Deciding what information goes into the model's context window and in what order, because more context is not better context. It is the skill that has been replacing prompt engineering.
 
 **Technical.** The discipline of deciding what information enters the context window and in what order.
 

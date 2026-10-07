@@ -3,9 +3,9 @@ en: "Working Memory"
 es: "Memoria de trabajo"
 aliases: ["Memoria de trabajo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Lo que un modelo tiene a mano en este momento para trabajar."
+simple_es: "Es lo que el modelo tiene presente en este momento de la interacción para trabajar, sin recurrir a un archivo o a otra sesión."
 tecnica_es: "Lo que el agente tiene presente en la interacción actual."
-simple_en: "What a model has at hand right now to work with."
+simple_en: "What the model has in view at this moment of the interaction in order to work, without turning to a file or another session."
 tecnica_en: "What the agent holds in mind during the current interaction."
 ejemplo_es: "La memoria de trabajo se vacía al terminar la sesión."
 ejemplo_en: "Working memory empties when the session ends."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Working Memory · Memoria de trabajo
 
-**En simple.** Lo que un modelo tiene a mano en este momento para trabajar.
+**En simple.** Es lo que el modelo tiene presente en este momento de la interacción para trabajar, sin recurrir a un archivo o a otra sesión.
 
 **Técnica.** Lo que el agente tiene presente en la interacción actual.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** What a model has at hand right now to work with.
+**In simple.** What the model has in view at this moment of the interaction in order to work, without turning to a file or another session.
 
 **Technical.** What the agent holds in mind during the current interaction.
 

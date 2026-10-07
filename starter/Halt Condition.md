@@ -3,9 +3,9 @@ en: "Halt Condition"
 es: "Condición de parada"
 aliases: ["Condición de parada"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "La regla que indica cuándo un agente debe detenerse: porque terminó o porque no puede seguir."
+simple_es: "Es la regla que indica cuándo un agente debe detenerse: porque terminó o porque no puede seguir."
 tecnica_es: "Condición explícita que detiene el bucle."
-simple_en: "The rule that says when an agent must stop: because it finished or because it can't go on."
+simple_en: "The rule that says when an agent must stop: because it has finished or because it cannot continue."
 tecnica_en: "An explicit condition that stops the loop."
 ejemplo_es: "Sin condición de parada el agente no termina."
 ejemplo_en: "Without a halt condition the agent doesn't finish."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Halt Condition · Condición de parada
 
-**En simple.** La regla que indica cuándo un agente debe detenerse: porque terminó o porque no puede seguir.
+**En simple.** Es la regla que indica cuándo un agente debe detenerse: porque terminó o porque no puede seguir.
 
 **Técnica.** Condición explícita que detiene el bucle.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The rule that says when an agent must stop: because it finished or because it can't go on.
+**In simple.** The rule that says when an agent must stop: because it has finished or because it cannot continue.
 
 **Technical.** An explicit condition that stops the loop.
 

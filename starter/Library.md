@@ -3,9 +3,9 @@ en: "Library"
 es: "Biblioteca de código (librería)"
 aliases: ["Biblioteca de código (librería)"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Piezas ya construidas que el software puede utilizar."
+simple_es: "Es un conjunto de piezas de código ya hechas, como funciones o componentes, que un programa puede reutilizar en vez de escribirlas de nuevo."
 tecnica_es: "Conjunto reutilizable de funciones o componentes consumidos por una aplicación."
-simple_en: "Ready-made pieces your software can use."
+simple_en: "A set of ready-made pieces of code, such as functions or components, that a program can reuse instead of writing them again."
 tecnica_en: "A reusable set of functions or components consumed by an application."
 ejemplo_es: "Usamos una librería para manejar fechas."
 ejemplo_en: "We use a library to handle dates."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Library · Biblioteca de código (librería)
 
-**En simple.** Piezas ya construidas que el software puede utilizar.
+**En simple.** Es un conjunto de piezas de código ya hechas, como funciones o componentes, que un programa puede reutilizar en vez de escribirlas de nuevo.
 
 **Técnica.** Conjunto reutilizable de funciones o componentes consumidos por una aplicación.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Ready-made pieces your software can use.
+**In simple.** A set of ready-made pieces of code, such as functions or components, that a program can reuse instead of writing them again.
 
 **Technical.** A reusable set of functions or components consumed by an application.
 

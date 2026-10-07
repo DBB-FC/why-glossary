@@ -3,9 +3,9 @@ en: "Step Budget"
 es: "Presupuesto de pasos"
 aliases: ["Presupuesto de pasos"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "El freno que impide que dé vueltas para siempre y te cueste una fortuna."
+simple_es: "Es el límite de pasos que se le permite dar a un agente. Impide que dé vueltas para siempre y te cueste una fortuna."
 tecnica_es: "Límite de pasos que se le permite a un agente."
-simple_en: "The brake that stops it looping forever and costing you a fortune."
+simple_en: "The limit on the steps an agent is allowed to take. It stops it from looping forever and costing you a fortune."
 tecnica_en: "A limit on the number of steps an agent is allowed."
 ejemplo_es: "Fijamos un presupuesto de veinte pasos por tarea."
 ejemplo_en: "We set a budget of twenty steps per task."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Step Budget · Presupuesto de pasos
 
-**En simple.** El freno que impide que dé vueltas para siempre y te cueste una fortuna.
+**En simple.** Es el límite de pasos que se le permite dar a un agente. Impide que dé vueltas para siempre y te cueste una fortuna.
 
 **Técnica.** Límite de pasos que se le permite a un agente.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The brake that stops it looping forever and costing you a fortune.
+**In simple.** The limit on the steps an agent is allowed to take. It stops it from looping forever and costing you a fortune.
 
 **Technical.** A limit on the number of steps an agent is allowed.
 

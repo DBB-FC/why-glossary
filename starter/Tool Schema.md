@@ -3,9 +3,9 @@ en: "Tool Schema"
 es: "Esquema de herramienta"
 aliases: ["Esquema de herramienta"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "La descripción de qué hace una herramienta y qué datos necesita; si es incorrecta, el agente la usa mal."
+simple_es: "Es la descripción estructurada de qué hace una herramienta, qué datos necesita y qué devuelve. Si es incorrecta, el agente la usa mal."
 tecnica_es: "Descripción estructurada de qué recibe y devuelve una herramienta."
-simple_en: "The description of what a tool does and what data it needs; if it's wrong, the agent misuses it."
+simple_en: "The structured description of what a tool does, what data it needs and what it returns. If it is wrong, the agent uses it wrongly."
 tecnica_en: "A structured description of what a tool receives and returns."
 ejemplo_es: "Corregimos el esquema porque la herramienta recibía un campo mal."
 ejemplo_en: "We fixed the schema because the tool was receiving a field wrong."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Tool Schema · Esquema de herramienta
 
-**En simple.** La descripción de qué hace una herramienta y qué datos necesita; si es incorrecta, el agente la usa mal.
+**En simple.** Es la descripción estructurada de qué hace una herramienta, qué datos necesita y qué devuelve. Si es incorrecta, el agente la usa mal.
 
 **Técnica.** Descripción estructurada de qué recibe y devuelve una herramienta.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The description of what a tool does and what data it needs; if it's wrong, the agent misuses it.
+**In simple.** The structured description of what a tool does, what data it needs and what it returns. If it is wrong, the agent uses it wrongly.
 
 **Technical.** A structured description of what a tool receives and returns.
 

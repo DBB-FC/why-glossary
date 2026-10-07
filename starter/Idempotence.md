@@ -3,9 +3,9 @@ en: "Idempotence"
 es: "Idempotencia"
 aliases: ["Idempotencia"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Lo que impide cobrar dos veces cuando el cliente aprieta el botón dos veces o la red reintenta. Imprescindible en pagos."
+simple_es: "Es la propiedad de una operación que da el mismo resultado se ejecute una vez o varias. Evita, por ejemplo, cobrar dos veces si el cliente aprieta el botón dos veces."
 tecnica_es: "Propiedad de una operación que produce el mismo resultado se ejecute una o muchas veces."
-simple_en: "What prevents charging twice when the customer presses the button twice or the network retries. Essential in payments."
+simple_en: "The property of an operation that gives the same result whether it runs once or many times. It prevents, for example, charging twice if the customer presses the button twice."
 tecnica_en: "A property of an operation that produces the same result whether it runs once or many times."
 ejemplo_es: "La idempotencia evitó un doble cobro por el reintento."
 ejemplo_en: "Idempotence prevented a double charge on the retry."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Idempotence · Idempotencia
 
-**En simple.** Lo que impide cobrar dos veces cuando el cliente aprieta el botón dos veces o la red reintenta. Imprescindible en pagos.
+**En simple.** Es la propiedad de una operación que da el mismo resultado se ejecute una vez o varias. Evita, por ejemplo, cobrar dos veces si el cliente aprieta el botón dos veces.
 
 **Técnica.** Propiedad de una operación que produce el mismo resultado se ejecute una o muchas veces.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** What prevents charging twice when the customer presses the button twice or the network retries. Essential in payments.
+**In simple.** The property of an operation that gives the same result whether it runs once or many times. It prevents, for example, charging twice if the customer presses the button twice.
 
 **Technical.** A property of an operation that produces the same result whether it runs once or many times.
 

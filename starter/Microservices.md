@@ -3,9 +3,9 @@ en: "Microservices"
 es: "Microservicios"
 aliases: ["Microservicios"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Dividir un sistema grande en servicios especializados."
+simple_es: "Es una forma de construir un sistema grande como varios servicios pequeños e independientes, cada uno con una tarea específica."
 tecnica_es: "Arquitectura basada en servicios independientes con responsabilidades acotadas."
-simple_en: "Breaking a big system into specialised services."
+simple_en: "A way of building a large system as several small, independent services, each with a specific job."
 tecnica_en: "An architecture based on independent services with narrow responsibilities."
 ejemplo_es: "Separamos facturación en un microservicio."
 ejemplo_en: "We split invoicing into a microservice."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Microservices · Microservicios
 
-**En simple.** Dividir un sistema grande en servicios especializados.
+**En simple.** Es una forma de construir un sistema grande como varios servicios pequeños e independientes, cada uno con una tarea específica.
 
 **Técnica.** Arquitectura basada en servicios independientes con responsabilidades acotadas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Breaking a big system into specialised services.
+**In simple.** A way of building a large system as several small, independent services, each with a specific job.
 
 **Technical.** An architecture based on independent services with narrow responsibilities.
 

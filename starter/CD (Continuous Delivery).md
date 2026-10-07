@@ -3,9 +3,9 @@ en: "CD (Continuous Delivery)"
 es: "Entrega continua"
 aliases: ["Entrega continua"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "El código está a un botón de producción. Alguien decide cuándo."
+simple_es: "Es una práctica en que cada cambio que pasa las pruebas queda listo para publicarse, pero una persona decide el momento de hacerlo con un clic."
 tecnica_es: "Automatización que deja cada cambio validado listo para desplegarse, pero la publicación la dispara una persona."
-simple_en: "The code is one button away from production. A person decides when."
+simple_en: "A practice where every change that passes the tests is ready to publish, but a person decides when to do it with one click."
 tecnica_en: "Automation that leaves every validated change ready to deploy, but a person triggers the release."
 ejemplo_es: "Con entrega continua, el despliegue es un clic aprobado por el equipo."
 ejemplo_en: "With continuous delivery, deployment is one click approved by the team."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # CD (Continuous Delivery) · Entrega continua
 
-**En simple.** El código está a un botón de producción. Alguien decide cuándo.
+**En simple.** Es una práctica en que cada cambio que pasa las pruebas queda listo para publicarse, pero una persona decide el momento de hacerlo con un clic.
 
 **Técnica.** Automatización que deja cada cambio validado listo para desplegarse, pero la publicación la dispara una persona.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The code is one button away from production. A person decides when.
+**In simple.** A practice where every change that passes the tests is ready to publish, but a person decides when to do it with one click.
 
 **Technical.** Automation that leaves every validated change ready to deploy, but a person triggers the release.
 

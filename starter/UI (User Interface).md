@@ -3,9 +3,9 @@ en: "UI (User Interface)"
 es: "Interfaz de usuario"
 aliases: ["UI", "Interfaz de usuario"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Botones, formularios, menús, tipografía y componentes."
+simple_es: "Es la parte de un producto que la persona ve y toca: botones, formularios, menús, colores y tipografía."
 tecnica_es: "User Interface: capa visual e interactiva de una aplicación."
-simple_en: "Buttons, forms, menus, typography and components."
+simple_en: "The part of a product that a person sees and touches: buttons, forms, menus, colors and typography."
 tecnica_en: "User Interface: the visual and interactive layer of an application."
 ejemplo_es: "La UI usa un solo estilo de botón en toda la app."
 ejemplo_en: "The UI uses a single button style across the app."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # UI (User Interface) · Interfaz de usuario
 
-**En simple.** Botones, formularios, menús, tipografía y componentes.
+**En simple.** Es la parte de un producto que la persona ve y toca: botones, formularios, menús, colores y tipografía.
 
 **Técnica.** User Interface: capa visual e interactiva de una aplicación.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Buttons, forms, menus, typography and components.
+**In simple.** The part of a product that a person sees and touches: buttons, forms, menus, colors and typography.
 
 **Technical.** User Interface: the visual and interactive layer of an application.
 

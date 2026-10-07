@@ -3,9 +3,9 @@ en: "Decode"
 es: "Decodificación"
 aliases: ["Decodificación"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "La fase en que un modelo genera su respuesta palabra por palabra, la más lenta."
+simple_es: "Es la fase en que el modelo genera su respuesta una pieza a la vez, token por token. Es la parte más lenta del proceso."
 tecnica_es: "Generación token por token de la salida."
-simple_en: "The phase where a model writes its answer word by word, the slowest one."
+simple_en: "The phase where the model produces its answer one piece at a time, token by token. It is the slowest part of the process."
 tecnica_en: "Token-by-token generation of the output."
 ejemplo_es: "La decodificación es la parte más lenta."
 ejemplo_en: "Decoding is the slowest part."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Decode · Decodificación
 
-**En simple.** La fase en que un modelo genera su respuesta palabra por palabra, la más lenta.
+**En simple.** Es la fase en que el modelo genera su respuesta una pieza a la vez, token por token. Es la parte más lenta del proceso.
 
 **Técnica.** Generación token por token de la salida.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The phase where a model writes its answer word by word, the slowest one.
+**In simple.** The phase where the model produces its answer one piece at a time, token by token. It is the slowest part of the process.
 
 **Technical.** Token-by-token generation of the output.
 

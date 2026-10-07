@@ -3,9 +3,9 @@ en: "Single-tenant"
 es: "Inquilino único"
 aliases: ["Inquilino único"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Un entorno dedicado a un solo cliente."
+simple_es: "Es un diseño donde cada cliente tiene su propio entorno dedicado, con recursos que no comparte con nadie."
 tecnica_es: "Arquitectura con instancia o recursos dedicados a un cliente."
-simple_en: "An environment dedicated to a single customer."
+simple_en: "A design where each customer has their own dedicated environment, with resources that are not shared with anyone."
 tecnica_en: "An architecture with an instance or resources dedicated to one customer."
 ejemplo_es: "El banco exigió un entorno de inquilino único."
 ejemplo_en: "The bank required a single-tenant environment."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Single-tenant · Inquilino único
 
-**En simple.** Un entorno dedicado a un solo cliente.
+**En simple.** Es un diseño donde cada cliente tiene su propio entorno dedicado, con recursos que no comparte con nadie.
 
 **Técnica.** Arquitectura con instancia o recursos dedicados a un cliente.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An environment dedicated to a single customer.
+**In simple.** A design where each customer has their own dedicated environment, with resources that are not shared with anyone.
 
 **Technical.** An architecture with an instance or resources dedicated to one customer.
 

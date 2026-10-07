@@ -3,9 +3,9 @@ en: "Column / Field"
 es: "Columna / campo"
 aliases: ["Column", "Columna / campo", "Field", "Columna", "campo"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Un dato que se guarda para cada registro de una tabla: nombre, correo, estado."
+simple_es: "Es un dato que se guarda para cada registro de una tabla, como el nombre, el correo o el estado de un cliente."
 tecnica_es: "Atributo definido dentro de una tabla."
-simple_en: "A piece of information stored for every record in a table: name, email, status."
+simple_en: "A piece of data stored for each record in a table, such as a customer's name, email or status."
 tecnica_en: "An attribute defined within a table."
 ejemplo_es: "Agregamos una columna para el teléfono."
 ejemplo_en: "We added a column for the phone number."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Column / Field · Columna / campo
 
-**En simple.** Un dato que se guarda para cada registro de una tabla: nombre, correo, estado.
+**En simple.** Es un dato que se guarda para cada registro de una tabla, como el nombre, el correo o el estado de un cliente.
 
 **Técnica.** Atributo definido dentro de una tabla.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A piece of information stored for every record in a table: name, email, status.
+**In simple.** A piece of data stored for each record in a table, such as a customer's name, email or status.
 
 **Technical.** An attribute defined within a table.
 

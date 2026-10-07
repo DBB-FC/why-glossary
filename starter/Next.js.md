@@ -3,9 +3,9 @@ en: "Next.js"
 es: "Next.js"
 aliases: []
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Herramienta para construir sitios y aplicaciones web modernas sobre React."
+simple_es: "Es un framework construido sobre React para crear sitios y aplicaciones web completos, con páginas, rutas y partes del servidor incluidas."
 tecnica_es: "Framework basado en React para aplicaciones web full-stack."
-simple_en: "A tool for building modern websites and web apps on top of React."
+simple_en: "A framework built on React for creating complete websites and web applications, with pages, routes and server parts included."
 tecnica_en: "A React-based framework for full-stack web applications."
 ejemplo_es: "El sitio nuevo está hecho en Next.js."
 ejemplo_en: "The new site is built with Next.js."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Next.js · Next.js
 
-**En simple.** Herramienta para construir sitios y aplicaciones web modernas sobre React.
+**En simple.** Es un framework construido sobre React para crear sitios y aplicaciones web completos, con páginas, rutas y partes del servidor incluidas.
 
 **Técnica.** Framework basado en React para aplicaciones web full-stack.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A tool for building modern websites and web apps on top of React.
+**In simple.** A framework built on React for creating complete websites and web applications, with pages, routes and server parts included.
 
 **Technical.** A React-based framework for full-stack web applications.
 

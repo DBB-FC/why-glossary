@@ -3,9 +3,9 @@ en: "PostgreSQL"
 es: "PostgreSQL"
 aliases: []
 dominio: "04 · Datos y bases de datos"
-simple_es: "Un motor de base de datos relacional de código abierto."
+simple_es: "Es un sistema de bases de datos relacionales de código abierto, muy usado y conocido por su solidez."
 tecnica_es: "Sistema de gestión de bases de datos relacional open source."
-simple_en: "An open-source relational database engine."
+simple_en: "An open-source relational database system, widely used and known for its robustness."
 tecnica_en: "An open-source relational database management system."
 ejemplo_es: "Nuestra base corre en PostgreSQL."
 ejemplo_en: "Our database runs on PostgreSQL."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # PostgreSQL · PostgreSQL
 
-**En simple.** Un motor de base de datos relacional de código abierto.
+**En simple.** Es un sistema de bases de datos relacionales de código abierto, muy usado y conocido por su solidez.
 
 **Técnica.** Sistema de gestión de bases de datos relacional open source.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An open-source relational database engine.
+**In simple.** An open-source relational database system, widely used and known for its robustness.
 
 **Technical.** An open-source relational database management system.
 

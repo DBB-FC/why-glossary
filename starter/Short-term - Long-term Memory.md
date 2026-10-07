@@ -3,9 +3,9 @@ en: "Short-term / Long-term Memory"
 es: "Memoria de corto / largo plazo"
 aliases: ["Short-term", "Memoria de corto / largo plazo", "Long-term Memory", "Memoria de corto", "largo plazo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "La segunda es la que hace que no te pregunte lo mismo mañana."
+simple_es: "Es la diferencia entre lo que recuerda una sesión (corto plazo) y lo que se conserva entre sesiones (largo plazo). La segunda hace que no te pregunte lo mismo mañana."
 tecnica_es: "Memoria de la sesión frente a memoria que persiste entre sesiones."
-simple_en: "The second kind is what stops it asking you the same thing tomorrow."
+simple_en: "The difference between what a session remembers (short term) and what is kept across sessions (long term). The second is what stops it asking you the same thing tomorrow."
 tecnica_en: "Session memory versus memory that persists across sessions."
 ejemplo_es: "La memoria de largo plazo recuerda tus preferencias."
 ejemplo_en: "Long-term memory remembers your preferences."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Short-term / Long-term Memory · Memoria de corto / largo plazo
 
-**En simple.** La segunda es la que hace que no te pregunte lo mismo mañana.
+**En simple.** Es la diferencia entre lo que recuerda una sesión (corto plazo) y lo que se conserva entre sesiones (largo plazo). La segunda hace que no te pregunte lo mismo mañana.
 
 **Técnica.** Memoria de la sesión frente a memoria que persiste entre sesiones.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The second kind is what stops it asking you the same thing tomorrow.
+**In simple.** The difference between what a session remembers (short term) and what is kept across sessions (long term). The second is what stops it asking you the same thing tomorrow.
 
 **Technical.** Session memory versus memory that persists across sessions.
 

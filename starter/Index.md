@@ -3,9 +3,9 @@ en: "Index"
 es: "Índice"
 aliases: ["Índice"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Una estructura que acelera las búsquedas en una base, como el índice de un libro."
+simple_es: "Es una estructura auxiliar que acelera las búsquedas en una tabla, como el índice de un libro que te lleva directo a la página."
 tecnica_es: "Estructura auxiliar que acelera determinadas consultas."
-simple_en: "A structure that speeds up searches in a database, like a book's index."
+simple_en: "An auxiliary structure that speeds up searches in a table, like a book's index that takes you straight to the page."
 tecnica_en: "An auxiliary structure that speeds up certain queries."
 ejemplo_es: "Agregamos un índice sobre el correo electrónico."
 ejemplo_en: "We added an index on the email address."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Index · Índice
 
-**En simple.** Una estructura que acelera las búsquedas en una base, como el índice de un libro.
+**En simple.** Es una estructura auxiliar que acelera las búsquedas en una tabla, como el índice de un libro que te lleva directo a la página.
 
 **Técnica.** Estructura auxiliar que acelera determinadas consultas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A structure that speeds up searches in a database, like a book's index.
+**In simple.** An auxiliary structure that speeds up searches in a table, like a book's index that takes you straight to the page.
 
 **Technical.** An auxiliary structure that speeds up certain queries.
 

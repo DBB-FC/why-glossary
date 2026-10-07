@@ -3,9 +3,9 @@ en: "Double-entry Bookkeeping"
 es: "Partida doble"
 aliases: ["Partida doble"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Un abono al cliente es un cargo a otra cuenta: nunca aparece dinero de la nada."
+simple_es: "Es una regla contable según la cual cada movimiento se anota en dos cuentas: lo que sale de una entra en otra. Así el dinero nunca aparece ni desaparece sin explicación."
 tecnica_es: "Principio contable donde todo movimiento tiene contrapartida."
-simple_en: "A credit to the customer is a debit to another account: money never appears from nowhere."
+simple_en: "An accounting rule where every movement is recorded in two accounts: what leaves one enters another. Money never appears or disappears without an explanation."
 tecnica_en: "An accounting principle where every movement has a counterpart."
 ejemplo_es: "La partida doble nos permitió ubicar el descuadre."
 ejemplo_en: "Double-entry let us locate the mismatch."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Double-entry Bookkeeping · Partida doble
 
-**En simple.** Un abono al cliente es un cargo a otra cuenta: nunca aparece dinero de la nada.
+**En simple.** Es una regla contable según la cual cada movimiento se anota en dos cuentas: lo que sale de una entra en otra. Así el dinero nunca aparece ni desaparece sin explicación.
 
 **Técnica.** Principio contable donde todo movimiento tiene contrapartida.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A credit to the customer is a debit to another account: money never appears from nowhere.
+**In simple.** An accounting rule where every movement is recorded in two accounts: what leaves one enters another. Money never appears or disappears without an explanation.
 
 **Technical.** An accounting principle where every movement has a counterpart.
 

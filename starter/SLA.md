@@ -3,9 +3,9 @@ en: "SLA"
 es: "Acuerdo de nivel de servicio"
 aliases: ["Acuerdo de nivel de servicio"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Por ejemplo, tiempo máximo de respuesta ante incidentes."
+simple_es: "Es el compromiso, medible y por escrito, sobre el nivel de servicio que se entregará, por ejemplo el tiempo máximo de respuesta ante un incidente."
 tecnica_es: "Service Level Agreement: compromiso medible sobre niveles de servicio."
-simple_en: "For example, the maximum response time for incidents."
+simple_en: "The written, measurable commitment on the level of service that will be delivered, for example the maximum response time to an incident."
 tecnica_en: "Service Level Agreement: a measurable commitment on service levels."
 ejemplo_es: "El SLA promete responder en menos de cuatro horas."
 ejemplo_en: "The SLA promises a response in under four hours."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # SLA · Acuerdo de nivel de servicio
 
-**En simple.** Por ejemplo, tiempo máximo de respuesta ante incidentes.
+**En simple.** Es el compromiso, medible y por escrito, sobre el nivel de servicio que se entregará, por ejemplo el tiempo máximo de respuesta ante un incidente.
 
 **Técnica.** Service Level Agreement: compromiso medible sobre niveles de servicio.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** For example, the maximum response time for incidents.
+**In simple.** The written, measurable commitment on the level of service that will be delivered, for example the maximum response time to an incident.
 
 **Technical.** Service Level Agreement: a measurable commitment on service levels.
 

@@ -3,9 +3,9 @@ en: "SSL/TLS Certificate"
 es: "Certificado SSL/TLS"
 aliases: ["Certificado SSL/TLS"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Permite HTTPS y protege el tránsito de información."
+simple_es: "Es un archivo digital que prueba que un sitio es quien dice ser y activa HTTPS, para que lo que viaja entre el visitante y el sitio vaya cifrado."
 tecnica_es: "Credencial criptográfica utilizada para autenticar un sitio y habilitar comunicación cifrada."
-simple_en: "Enables HTTPS and protects information in transit."
+simple_en: "A digital file that proves a site is who it says it is and enables HTTPS, so what travels between the visitor and the site is encrypted."
 tecnica_en: "A cryptographic credential used to authenticate a site and enable encrypted communication."
 ejemplo_es: "El certificado SSL vence en 30 días."
 ejemplo_en: "The SSL certificate expires in 30 days."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # SSL/TLS Certificate · Certificado SSL/TLS
 
-**En simple.** Permite HTTPS y protege el tránsito de información.
+**En simple.** Es un archivo digital que prueba que un sitio es quien dice ser y activa HTTPS, para que lo que viaja entre el visitante y el sitio vaya cifrado.
 
 **Técnica.** Credencial criptográfica utilizada para autenticar un sitio y habilitar comunicación cifrada.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Enables HTTPS and protects information in transit.
+**In simple.** A digital file that proves a site is who it says it is and enables HTTPS, so what travels between the visitor and the site is encrypted.
 
 **Technical.** A cryptographic credential used to authenticate a site and enable encrypted communication.
 

@@ -3,9 +3,9 @@ en: "Adjustment"
 es: "Ajuste"
 aliases: ["Ajuste"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Una corrección contable a un saldo por algo fuera del flujo normal."
+simple_es: "Es una corrección que se registra en la contabilidad para arreglar un saldo cuando algo ocurrió fuera del flujo normal, sin borrar el registro original."
 tecnica_es: "Asiento que corrige un saldo por una causa externa al flujo normal."
-simple_en: "An accounting correction to a balance for something outside the normal flow."
+simple_en: "A correction recorded in the books to fix a balance when something happened outside the normal flow, without deleting the original entry."
 tecnica_en: "An entry that corrects a balance for a cause outside the normal flow."
 ejemplo_es: "El ajuste de 90 dólares requiere doble aprobación."
 ejemplo_en: "The $90 adjustment requires dual approval."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Adjustment · Ajuste
 
-**En simple.** Una corrección contable a un saldo por algo fuera del flujo normal.
+**En simple.** Es una corrección que se registra en la contabilidad para arreglar un saldo cuando algo ocurrió fuera del flujo normal, sin borrar el registro original.
 
 **Técnica.** Asiento que corrige un saldo por una causa externa al flujo normal.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An accounting correction to a balance for something outside the normal flow.
+**In simple.** A correction recorded in the books to fix a balance when something happened outside the normal flow, without deleting the original entry.
 
 **Technical.** An entry that corrects a balance for a cause outside the normal flow.
 

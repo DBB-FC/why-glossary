@@ -3,9 +3,9 @@ en: "User Flow"
 es: "Flujo de usuario"
 aliases: ["Flujo de usuario"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "El recorrido de pantallas que sigue un usuario para lograr algo."
+simple_es: "Es la secuencia de pantallas y acciones que sigue una persona para lograr una tarea concreta, como comprar o registrarse."
 tecnica_es: "Secuencia específica de pantallas/acciones para completar una tarea."
-simple_en: "The sequence of screens a user follows to achieve something."
+simple_en: "The sequence of screens and actions a person follows to complete a specific task, such as buying or signing up."
 tecnica_en: "A specific sequence of screens or actions needed to complete a task."
 ejemplo_es: "Dibujamos el flujo de usuario antes de las pantallas."
 ejemplo_en: "We sketched the user flow before the screens."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # User Flow · Flujo de usuario
 
-**En simple.** El recorrido de pantallas que sigue un usuario para lograr algo.
+**En simple.** Es la secuencia de pantallas y acciones que sigue una persona para lograr una tarea concreta, como comprar o registrarse.
 
 **Técnica.** Secuencia específica de pantallas/acciones para completar una tarea.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The sequence of screens a user follows to achieve something.
+**In simple.** The sequence of screens and actions a person follows to complete a specific task, such as buying or signing up.
 
 **Technical.** A specific sequence of screens or actions needed to complete a task.
 

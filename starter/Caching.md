@@ -3,9 +3,9 @@ en: "Caching"
 es: "Almacenamiento en caché"
 aliases: ["Almacenamiento en caché"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Guardar algo frecuente para responder más rápido."
+simple_es: "Es guardar temporalmente un resultado que se pide seguido para responder más rápido sin volver a calcularlo o consultarlo."
 tecnica_es: "Almacenamiento temporal de resultados para evitar cálculos o consultas repetidas."
-simple_en: "Keeping something frequent on hand to respond faster."
+simple_en: "Temporarily storing a result that is requested often so you can answer faster without computing or querying it again."
 tecnica_en: "Temporary storage of results to avoid repeated calculations or queries."
 ejemplo_es: "El caché evita consultar la base en cada visita."
 ejemplo_en: "Caching avoids hitting the database on every visit."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Caching · Almacenamiento en caché
 
-**En simple.** Guardar algo frecuente para responder más rápido.
+**En simple.** Es guardar temporalmente un resultado que se pide seguido para responder más rápido sin volver a calcularlo o consultarlo.
 
 **Técnica.** Almacenamiento temporal de resultados para evitar cálculos o consultas repetidas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Keeping something frequent on hand to respond faster.
+**In simple.** Temporarily storing a result that is requested often so you can answer faster without computing or querying it again.
 
 **Technical.** Temporary storage of results to avoid repeated calculations or queries.
 

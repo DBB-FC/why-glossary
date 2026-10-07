@@ -3,9 +3,9 @@ en: "Lead"
 es: "Prospecto"
 aliases: ["Prospecto"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Una persona o empresa interesada que todavía no está calificada como cliente."
+simple_es: "Es una persona o empresa que mostró interés y puede llegar a ser cliente, pero que todavía no se sabe si realmente encaja."
 tecnica_es: "Persona u organización identificada como potencial cliente."
-simple_en: "An interested person or company not yet qualified as a customer."
+simple_en: "A person or company that showed interest and may become a customer, but it is not yet known whether they really fit."
 tecnica_en: "A person or organisation identified as a potential customer."
 ejemplo_es: "Llegaron diez leads esta semana."
 ejemplo_en: "Ten leads came in this week."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Lead · Prospecto
 
-**En simple.** Una persona o empresa interesada que todavía no está calificada como cliente.
+**En simple.** Es una persona o empresa que mostró interés y puede llegar a ser cliente, pero que todavía no se sabe si realmente encaja.
 
 **Técnica.** Persona u organización identificada como potencial cliente.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An interested person or company not yet qualified as a customer.
+**In simple.** A person or company that showed interest and may become a customer, but it is not yet known whether they really fit.
 
 **Technical.** A person or organisation identified as a potential customer.
 

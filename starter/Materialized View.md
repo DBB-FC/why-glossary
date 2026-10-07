@@ -3,9 +3,9 @@ en: "Materialized View"
 es: "Vista materializada"
 aliases: ["Vista materializada"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Rápida de leer, y desactualizada si nadie la refresca."
+simple_es: "Es una consulta cuyo resultado se guarda ya calculado, así que se lee muy rápido, pero queda desactualizada hasta que alguien la refresque."
 tecnica_es: "Vista cuyo resultado se almacena y hay que refrescar."
-simple_en: "Fast to read, and out of date if nobody refreshes it."
+simple_en: "A query whose result is stored already calculated, so it reads very fast, but it gets out of date until someone refreshes it."
 tecnica_en: "A view whose result is stored and must be refreshed."
 ejemplo_es: "La vista materializada se refresca cada hora."
 ejemplo_en: "The materialized view refreshes every hour."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Materialized View · Vista materializada
 
-**En simple.** Rápida de leer, y desactualizada si nadie la refresca.
+**En simple.** Es una consulta cuyo resultado se guarda ya calculado, así que se lee muy rápido, pero queda desactualizada hasta que alguien la refresque.
 
 **Técnica.** Vista cuyo resultado se almacena y hay que refrescar.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Fast to read, and out of date if nobody refreshes it.
+**In simple.** A query whose result is stored already calculated, so it reads very fast, but it gets out of date until someone refreshes it.
 
 **Technical.** A view whose result is stored and must be refreshed.
 

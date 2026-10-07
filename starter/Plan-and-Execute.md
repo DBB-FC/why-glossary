@@ -3,9 +3,9 @@ en: "Plan-and-Execute"
 es: "Planificar y ejecutar"
 aliases: ["Planificar y ejecutar"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Primero el plan completo, después manos a la obra."
+simple_es: "Es un patrón en que el agente primero arma el plan completo y después lo ejecuta paso a paso, en vez de decidir sobre la marcha."
 tecnica_es: "Patrón que separa la planificación del trabajo de su ejecución."
-simple_en: "First the whole plan, then hands to work."
+simple_en: "A pattern where the agent first builds the full plan and then carries it out step by step, instead of deciding as it goes."
 tecnica_en: "A pattern that separates planning from executing the work."
 ejemplo_es: "Planificar y ejecutar evita que el agente improvise."
 ejemplo_en: "Plan-and-execute keeps the agent from improvising."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Plan-and-Execute · Planificar y ejecutar
 
-**En simple.** Primero el plan completo, después manos a la obra.
+**En simple.** Es un patrón en que el agente primero arma el plan completo y después lo ejecuta paso a paso, en vez de decidir sobre la marcha.
 
 **Técnica.** Patrón que separa la planificación del trabajo de su ejecución.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** First the whole plan, then hands to work.
+**In simple.** A pattern where the agent first builds the full plan and then carries it out step by step, instead of deciding as it goes.
 
 **Technical.** A pattern that separates planning from executing the work.
 

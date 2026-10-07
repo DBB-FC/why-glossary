@@ -168,14 +168,17 @@ export function nombreArchivo(s: string): string {
   return s.replace(/[\\/:*?"<>|#^[\]]/g, " ").replace(/\s+/g, " ").trim().slice(0, 100) || "Término";
 }
 
+/** Datos que una edición conserva de la nota original (el formulario no los muestra). */
+export interface Conservado { aliases: string[]; ver_tambien: number[]; verificar: boolean; vinculos: string; }
+
 /** Nota con el mismo formato que las del glosario base; `n` sigue la numeración existente. */
-export function notaDeTermino(t: NuevoTermino, n: number): { nombre: string; contenido: string } {
+export function notaDeTermino(t: NuevoTermino, n: number, c?: Conservado): { nombre: string; contenido: string } {
   const j = JSON.stringify;
   const dominio = t.dominio.trim() || "Mis términos";
   const fm = [
-    "---", `en: ${j(t.en)}`, `es: ${j(t.es)}`, `aliases: []`, `dominio: ${j(dominio)}`,
+    "---", `en: ${j(t.en)}`, `es: ${j(t.es)}`, `aliases: ${j(c?.aliases ?? [])}`, `dominio: ${j(dominio)}`,
     `simple_es: ${j(t.simple_es)}`, `tecnica_es: ${j(t.tecnica_es)}`, `simple_en: ${j(t.simple_en)}`, `tecnica_en: ${j(t.tecnica_en)}`,
-    `ejemplo_es: ${j(t.ejemplo_es)}`, `ejemplo_en: ${j(t.ejemplo_en)}`, `ver_tambien: []`, `n: ${n}`, `verificar: false`, "---",
+    `ejemplo_es: ${j(t.ejemplo_es)}`, `ejemplo_en: ${j(t.ejemplo_en)}`, `ver_tambien: ${j(c?.ver_tambien ?? [])}`, `n: ${n}`, `verificar: ${c?.verificar ? "true" : "false"}`, "---",
   ];
   const cuerpo = [`# ${t.en} · ${t.es}`, ""];
   if (t.simple_es) cuerpo.push(`**En simple.** ${t.simple_es}`, "");
@@ -185,5 +188,6 @@ export function notaDeTermino(t: NuevoTermino, n: number): { nombre: string; con
   if (t.simple_en) cuerpo.push(`**In simple.** ${t.simple_en}`, "");
   if (t.tecnica_en) cuerpo.push(`**Technical.** ${t.tecnica_en}`, "");
   if (t.ejemplo_en) cuerpo.push(`**Example.** _${t.ejemplo_en}_`, "");
+  if (c?.vinculos) cuerpo.push(`**Ver también.** ${c.vinculos}`, "");
   return { nombre: nombreArchivo(t.en) + ".md", contenido: fm.join("\n") + "\n" + cuerpo.join("\n").trimEnd() + "\n" };
 }

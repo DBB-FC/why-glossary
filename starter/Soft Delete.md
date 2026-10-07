@@ -3,9 +3,9 @@ en: "Soft Delete"
 es: "Eliminación lógica"
 aliases: ["Eliminación lógica"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Reversible y auditable; a cambio, todas las consultas tienen que recordar filtrarla."
+simple_es: "Es marcar un registro como eliminado en vez de borrarlo de verdad. Se puede recuperar y deja rastro, a cambio de que cada consulta recuerde filtrarlo."
 tecnica_es: "Marcar una fila como eliminada en vez de borrarla."
-simple_en: "Reversible and auditable; in return every query must remember to filter it."
+simple_en: "Marking a record as deleted instead of actually erasing it. It can be recovered and leaves a trace, at the cost of every query having to remember to filter it out."
 tecnica_en: "Marking a row as deleted instead of removing it."
 ejemplo_es: "Con eliminación lógica pudimos recuperar el cliente."
 ejemplo_en: "With a soft delete we were able to recover the customer."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Soft Delete · Eliminación lógica
 
-**En simple.** Reversible y auditable; a cambio, todas las consultas tienen que recordar filtrarla.
+**En simple.** Es marcar un registro como eliminado en vez de borrarlo de verdad. Se puede recuperar y deja rastro, a cambio de que cada consulta recuerde filtrarlo.
 
 **Técnica.** Marcar una fila como eliminada en vez de borrarla.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Reversible and auditable; in return every query must remember to filter it.
+**In simple.** Marking a record as deleted instead of actually erasing it. It can be recovered and leaves a trace, at the cost of every query having to remember to filter it out.
 
 **Technical.** Marking a row as deleted instead of removing it.
 

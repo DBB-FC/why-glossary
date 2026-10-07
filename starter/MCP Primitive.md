@@ -3,9 +3,9 @@ en: "MCP Primitive"
 es: "Primitiva MCP"
 aliases: ["Primitiva MCP"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Herramientas que hacen, recursos que informan, prompts que guían."
+simple_es: "Es cada tipo de cosa que un servidor MCP puede ofrecer: herramientas que hacen, recursos que informan y prompts que guían."
 tecnica_es: "Tipo de cosa que un servidor puede exponer: *tool*, *resource* o *prompt*."
-simple_en: "Tools that do, resources that inform, prompts that guide."
+simple_en: "Each type of thing an MCP server can offer: tools that do, resources that inform and prompts that guide."
 tecnica_en: "A kind of thing a server can expose: tool, resource or prompt."
 ejemplo_es: "La primitiva \"herramienta\" ejecuta acciones."
 ejemplo_en: "The \"tool\" primitive executes actions."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # MCP Primitive · Primitiva MCP
 
-**En simple.** Herramientas que hacen, recursos que informan, prompts que guían.
+**En simple.** Es cada tipo de cosa que un servidor MCP puede ofrecer: herramientas que hacen, recursos que informan y prompts que guían.
 
 **Técnica.** Tipo de cosa que un servidor puede exponer: *tool*, *resource* o *prompt*.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Tools that do, resources that inform, prompts that guide.
+**In simple.** Each type of thing an MCP server can offer: tools that do, resources that inform and prompts that guide.
 
 **Technical.** A kind of thing a server can expose: tool, resource or prompt.
 

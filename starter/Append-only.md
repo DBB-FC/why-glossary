@@ -3,9 +3,9 @@ en: "Append-only"
 es: "Solo agregar (append-only)"
 aliases: ["Solo agregar (append-only)"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Un error no se edita: se corrige con un asiento nuevo. Es lo que hace auditable la contabilidad."
+simple_es: "Es una forma de registrar datos en la que solo se agregan líneas nuevas: nada se edita ni se borra. Un error se corrige con un registro nuevo, y así queda todo el historial."
 tecnica_es: "Tabla donde se inserta y nunca se modifica ni se borra."
-simple_en: "An error isn't edited: it's fixed with a new entry. That's what makes the books auditable."
+simple_en: "A way of storing data where you only add new lines: nothing is edited or deleted. A mistake is fixed with a new entry, so the full history stays."
 tecnica_en: "A table where rows are inserted and never modified or deleted."
 ejemplo_es: "El libro es solo agregar: corregimos con un asiento nuevo."
 ejemplo_en: "The ledger is append-only: we correct with a new entry."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Append-only · Solo agregar (append-only)
 
-**En simple.** Un error no se edita: se corrige con un asiento nuevo. Es lo que hace auditable la contabilidad.
+**En simple.** Es una forma de registrar datos en la que solo se agregan líneas nuevas: nada se edita ni se borra. Un error se corrige con un registro nuevo, y así queda todo el historial.
 
 **Técnica.** Tabla donde se inserta y nunca se modifica ni se borra.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An error isn't edited: it's fixed with a new entry. That's what makes the books auditable.
+**In simple.** A way of storing data where you only add new lines: nothing is edited or deleted. A mistake is fixed with a new entry, so the full history stays.
 
 **Technical.** A table where rows are inserted and never modified or deleted.
 

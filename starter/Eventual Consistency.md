@@ -3,9 +3,9 @@ en: "Eventual Consistency"
 es: "Consistencia eventual"
 aliases: ["Consistencia eventual"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Aceptable para un contador de visitas; inaceptable para un saldo."
+simple_es: "Es un modelo en que las copias de los datos no se actualizan al mismo instante y tardan un poco en coincidir. Sirve para un contador de visitas, no para un saldo."
 tecnica_es: "Modelo donde las réplicas converger toma tiempo."
-simple_en: "Acceptable for a visit counter; unacceptable for a balance."
+simple_en: "A model where copies of the data are not updated at the same instant and take a little while to match. It works for a visit counter, not for a balance."
 tecnica_en: "A model where replicas take time to converge."
 ejemplo_es: "La consistencia eventual basta para el contador de visitas."
 ejemplo_en: "Eventual consistency is enough for the visit counter."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Eventual Consistency · Consistencia eventual
 
-**En simple.** Aceptable para un contador de visitas; inaceptable para un saldo.
+**En simple.** Es un modelo en que las copias de los datos no se actualizan al mismo instante y tardan un poco en coincidir. Sirve para un contador de visitas, no para un saldo.
 
 **Técnica.** Modelo donde las réplicas converger toma tiempo.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Acceptable for a visit counter; unacceptable for a balance.
+**In simple.** A model where copies of the data are not updated at the same instant and take a little while to match. It works for a visit counter, not for a balance.
 
 **Technical.** A model where replicas take time to converge.
 

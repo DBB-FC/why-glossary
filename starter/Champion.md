@@ -3,9 +3,9 @@ en: "Champion"
 es: "Promotor interno (champion)"
 aliases: ["Promotor interno (champion)"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Una persona dentro de la organización cliente que impulsa tu propuesta."
+simple_es: "Es una persona dentro de la empresa cliente que apoya tu propuesta y ayuda a que se apruebe. Habla por ti cuando tú no estás en la sala."
 tecnica_es: "Persona dentro del cliente que impulsa activamente la solución."
-simple_en: "A person inside the client organisation who pushes your proposal forward."
+simple_en: "A person inside the client company who supports your proposal and helps get it approved. They speak for you when you are not in the room."
 tecnica_en: "A person within the client who actively pushes for the solution."
 ejemplo_es: "Su jefa de operaciones fue nuestro champion."
 ejemplo_en: "Their head of operations was our champion."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Champion · Promotor interno (champion)
 
-**En simple.** Una persona dentro de la organización cliente que impulsa tu propuesta.
+**En simple.** Es una persona dentro de la empresa cliente que apoya tu propuesta y ayuda a que se apruebe. Habla por ti cuando tú no estás en la sala.
 
 **Técnica.** Persona dentro del cliente que impulsa activamente la solución.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A person inside the client organisation who pushes your proposal forward.
+**In simple.** A person inside the client company who supports your proposal and helps get it approved. They speak for you when you are not in the room.
 
 **Technical.** A person within the client who actively pushes for the solution.
 

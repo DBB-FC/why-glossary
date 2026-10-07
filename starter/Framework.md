@@ -3,9 +3,9 @@ en: "Framework"
 es: "Marco de trabajo"
 aliases: ["Marco de trabajo"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Base organizada para construir más rápido y consistente."
+simple_es: "Es una base de código y convenciones ya armadas para construir aplicaciones más rápido y de forma consistente, sin partir desde cero."
 tecnica_es: "Estructura de software con convenciones y herramientas para desarrollar aplicaciones."
-simple_en: "An organised foundation to build faster and more consistently."
+simple_en: "A ready-made base of code and conventions for building applications faster and more consistently, without starting from scratch."
 tecnica_en: "A software structure with conventions and tools for developing applications."
 ejemplo_es: "Elegimos un framework para no partir de cero."
 ejemplo_en: "We chose a framework so we wouldn't start from scratch."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Framework · Marco de trabajo
 
-**En simple.** Base organizada para construir más rápido y consistente.
+**En simple.** Es una base de código y convenciones ya armadas para construir aplicaciones más rápido y de forma consistente, sin partir desde cero.
 
 **Técnica.** Estructura de software con convenciones y herramientas para desarrollar aplicaciones.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** An organised foundation to build faster and more consistently.
+**In simple.** A ready-made base of code and conventions for building applications faster and more consistently, without starting from scratch.
 
 **Technical.** A software structure with conventions and tools for developing applications.
 

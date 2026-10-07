@@ -3,9 +3,9 @@ en: "Development"
 es: "Desarrollo"
 aliases: ["Development / Dev", "Desarrollo"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "El entorno donde se construye y prueba el software."
+simple_es: "Es el entorno donde el equipo construye el software y lo prueba por primera vez, antes de pasar a preproducción o producción."
 tecnica_es: "Entorno destinado a construcción e integración temprana."
-simple_en: "The environment where software is built and tested."
+simple_en: "The environment where the team builds software and tries it out for the first time, before it moves to staging or production."
 tecnica_en: "An environment meant for building and early integration."
 ejemplo_es: "Los cambios van primero al entorno de desarrollo."
 ejemplo_en: "Changes go to the development environment first."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Development · Desarrollo
 
-**En simple.** El entorno donde se construye y prueba el software.
+**En simple.** Es el entorno donde el equipo construye el software y lo prueba por primera vez, antes de pasar a preproducción o producción.
 
 **Técnica.** Entorno destinado a construcción e integración temprana.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The environment where software is built and tested.
+**In simple.** The environment where the team builds software and tries it out for the first time, before it moves to staging or production.
 
 **Technical.** An environment meant for building and early integration.
 

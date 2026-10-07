@@ -3,9 +3,9 @@ en: "Primary Key"
 es: "Clave primaria"
 aliases: ["Clave primaria"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "El identificador único de cada registro de una tabla."
+simple_es: "Es el identificador único de cada registro de una tabla, que nunca se repite, como el número de un cliente."
 tecnica_es: "Identificador único de una fila."
-simple_en: "The unique identifier of each record in a table."
+simple_en: "The unique identifier of each record in a table, which is never repeated, like a customer's number."
 tecnica_en: "A unique identifier of a row."
 ejemplo_es: "El id es la clave primaria de la tabla."
 ejemplo_en: "The id is the table's primary key."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Primary Key · Clave primaria
 
-**En simple.** El identificador único de cada registro de una tabla.
+**En simple.** Es el identificador único de cada registro de una tabla, que nunca se repite, como el número de un cliente.
 
 **Técnica.** Identificador único de una fila.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The unique identifier of each record in a table.
+**In simple.** The unique identifier of each record in a table, which is never repeated, like a customer's number.
 
 **Technical.** A unique identifier of a row.
 

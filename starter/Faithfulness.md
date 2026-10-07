@@ -3,9 +3,9 @@ en: "Faithfulness"
 es: "Fidelidad"
 aliases: ["Fidelidad"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Mide si una respuesta se apoya en las fuentes dadas o si se inventó."
+simple_es: "Es el grado en que una respuesta se apoya en las fuentes entregadas, sin inventar nada que ellas no digan."
 tecnica_es: "Grado en que la respuesta se apega a las fuentes entregadas."
-simple_en: "Measures whether an answer is grounded in the given sources or was made up."
+simple_en: "The degree to which an answer sticks to the sources provided, without inventing anything they do not say."
 tecnica_en: "The degree to which the answer sticks to the sources provided."
 ejemplo_es: "La fidelidad cayó: el agente inventó una cifra."
 ejemplo_en: "Faithfulness dropped: the agent invented a figure."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Faithfulness · Fidelidad
 
-**En simple.** Mide si una respuesta se apoya en las fuentes dadas o si se inventó.
+**En simple.** Es el grado en que una respuesta se apoya en las fuentes entregadas, sin inventar nada que ellas no digan.
 
 **Técnica.** Grado en que la respuesta se apega a las fuentes entregadas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Measures whether an answer is grounded in the given sources or was made up.
+**In simple.** The degree to which an answer sticks to the sources provided, without inventing anything they do not say.
 
 **Technical.** The degree to which the answer sticks to the sources provided.
 

@@ -3,9 +3,9 @@ en: "Schema"
 es: "Esquema"
 aliases: ["Esquema"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "El plano que define cómo está organizada una base de datos."
+simple_es: "Es la definición de cómo se organiza una base de datos: qué tablas hay, qué campos tiene cada una y cómo se relacionan."
 tecnica_es: "Definición lógica de estructuras, relaciones y objetos de datos."
-simple_en: "The blueprint that defines how a database is organised."
+simple_en: "The definition of how a database is organized: which tables exist, which fields each one has and how they relate."
 tecnica_en: "The logical definition of data structures, relationships and objects."
 ejemplo_es: "El esquema separa facturación de usuarios."
 ejemplo_en: "The schema separates billing from users."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Schema · Esquema
 
-**En simple.** El plano que define cómo está organizada una base de datos.
+**En simple.** Es la definición de cómo se organiza una base de datos: qué tablas hay, qué campos tiene cada una y cómo se relacionan.
 
 **Técnica.** Definición lógica de estructuras, relaciones y objetos de datos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The blueprint that defines how a database is organised.
+**In simple.** The definition of how a database is organized: which tables exist, which fields each one has and how they relate.
 
 **Technical.** The logical definition of data structures, relationships and objects.
 

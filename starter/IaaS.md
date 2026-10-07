@@ -3,9 +3,9 @@ en: "IaaS"
 es: "Infraestructura como servicio"
 aliases: ["Infraestructura como servicio"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Arrendar infraestructura tecnológica bajo demanda."
+simple_es: "Es un servicio en que se alquila infraestructura tecnológica, como servidores, red y almacenamiento, y se paga según el uso. Tú instalas y administras el resto."
 tecnica_es: "Infrastructure as a Service: recursos virtualizados de cómputo, red y almacenamiento."
-simple_en: "Renting technology infrastructure on demand."
+simple_en: "A service where you rent technology infrastructure, such as servers, network and storage, and pay for what you use. You install and manage everything else."
 tecnica_en: "Infrastructure as a Service: virtualized compute, network and storage resources."
 ejemplo_es: "Con IaaS armamos los servidores a medida."
 ejemplo_en: "With IaaS we build the servers to order."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # IaaS · Infraestructura como servicio
 
-**En simple.** Arrendar infraestructura tecnológica bajo demanda.
+**En simple.** Es un servicio en que se alquila infraestructura tecnológica, como servidores, red y almacenamiento, y se paga según el uso. Tú instalas y administras el resto.
 
 **Técnica.** Infrastructure as a Service: recursos virtualizados de cómputo, red y almacenamiento.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Renting technology infrastructure on demand.
+**In simple.** A service where you rent technology infrastructure, such as servers, network and storage, and pay for what you use. You install and manage everything else.
 
 **Technical.** Infrastructure as a Service: virtualized compute, network and storage resources.
 

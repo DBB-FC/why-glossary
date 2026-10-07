@@ -3,9 +3,9 @@ en: "Build vs. Buy"
 es: "Construir vs. comprar"
 aliases: ["Construir vs. comprar"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Decidir entre desarrollar algo propio o comprar una solución que ya existe. Regla común: comprar lo estándar, construir lo que te diferencia."
+simple_es: "Es la decisión entre desarrollar algo propio o comprar una solución que ya existe. Una regla común: comprar lo estándar y construir lo que te diferencia."
 tecnica_es: "Evaluación entre desarrollar una solución propia y adquirir una existente."
-simple_en: "Choosing between building your own solution and buying an existing one. A common rule: buy what is standard, build what sets you apart."
+simple_en: "The decision between developing something of your own or buying a solution that already exists. A common rule: buy what is standard, build what sets you apart."
 tecnica_en: "An evaluation of developing a custom solution versus acquiring an existing one."
 ejemplo_es: "Aplicamos construir vs. comprar y compramos el sistema de facturación."
 ejemplo_en: "We ran a build vs. buy analysis and bought the invoicing system."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Build vs. Buy · Construir vs. comprar
 
-**En simple.** Decidir entre desarrollar algo propio o comprar una solución que ya existe. Regla común: comprar lo estándar, construir lo que te diferencia.
+**En simple.** Es la decisión entre desarrollar algo propio o comprar una solución que ya existe. Una regla común: comprar lo estándar y construir lo que te diferencia.
 
 **Técnica.** Evaluación entre desarrollar una solución propia y adquirir una existente.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Choosing between building your own solution and buying an existing one. A common rule: buy what is standard, build what sets you apart.
+**In simple.** The decision between developing something of your own or buying a solution that already exists. A common rule: buy what is standard, build what sets you apart.
 
 **Technical.** An evaluation of developing a custom solution versus acquiring an existing one.
 

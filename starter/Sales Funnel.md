@@ -3,9 +3,9 @@ en: "Sales Funnel"
 es: "Embudo de ventas"
 aliases: ["Embudo de ventas"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Las etapas por las que pasa un interesado hasta convertirse en cliente."
+simple_es: "Es el modelo que muestra las etapas por las que pasa un interesado hasta convertirse en cliente, y cuántos se pierden en cada una."
 tecnica_es: "Modelo de conversión desde audiencia/prospectos hasta clientes."
-simple_en: "The stages an interested person goes through until becoming a customer."
+simple_en: "The model that shows the stages a prospect goes through until becoming a customer, and how many are lost at each one."
 tecnica_en: "A model of conversion from audience and prospects to customers."
 ejemplo_es: "El embudo pierde la mitad entre propuesta y cierre."
 ejemplo_en: "The funnel loses half between proposal and close."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Sales Funnel · Embudo de ventas
 
-**En simple.** Las etapas por las que pasa un interesado hasta convertirse en cliente.
+**En simple.** Es el modelo que muestra las etapas por las que pasa un interesado hasta convertirse en cliente, y cuántos se pierden en cada una.
 
 **Técnica.** Modelo de conversión desde audiencia/prospectos hasta clientes.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The stages an interested person goes through until becoming a customer.
+**In simple.** The model that shows the stages a prospect goes through until becoming a customer, and how many are lost at each one.
 
 **Technical.** A model of conversion from audience and prospects to customers.
 

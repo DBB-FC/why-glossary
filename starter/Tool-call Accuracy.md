@@ -3,9 +3,9 @@ en: "Tool-call Accuracy"
 es: "Precisión de llamadas a herramientas"
 aliases: ["Precisión de llamadas a herramientas"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Elegir mal la herramienta es un fallo distinto de razonar mal."
+simple_es: "Es la proporción de veces que el agente elige y usa bien la herramienta que correspondía. Elegir mal la herramienta es un fallo distinto de razonar mal."
 tecnica_es: "Proporción de invocaciones de herramientas correctas."
-simple_en: "Picking the wrong tool is a different failure from reasoning wrong."
+simple_en: "The proportion of times the agent picks and uses the right tool correctly. Choosing the wrong tool is a different failure from reasoning badly."
 tecnica_en: "The share of correct tool invocations."
 ejemplo_es: "Medimos la precisión de llamadas a herramientas por separado."
 ejemplo_en: "We measure tool-call accuracy separately."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Tool-call Accuracy · Precisión de llamadas a herramientas
 
-**En simple.** Elegir mal la herramienta es un fallo distinto de razonar mal.
+**En simple.** Es la proporción de veces que el agente elige y usa bien la herramienta que correspondía. Elegir mal la herramienta es un fallo distinto de razonar mal.
 
 **Técnica.** Proporción de invocaciones de herramientas correctas.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Picking the wrong tool is a different failure from reasoning wrong.
+**In simple.** The proportion of times the agent picks and uses the right tool correctly. Choosing the wrong tool is a different failure from reasoning badly.
 
 **Technical.** The share of correct tool invocations.
 

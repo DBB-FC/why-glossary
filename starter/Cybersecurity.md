@@ -3,9 +3,9 @@ en: "Cybersecurity"
 es: "Ciberseguridad"
 aliases: ["Ciberseguridad"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Proteger sistemas, redes y datos frente a ataques y accesos no autorizados."
+simple_es: "Es el conjunto de prácticas y controles que protegen sistemas, redes y datos de ataques y de accesos no autorizados."
 tecnica_es: "Prácticas y controles para proteger sistemas, redes, software y datos."
-simple_en: "Protecting systems, networks and data from attacks and unauthorised access."
+simple_en: "The set of practices and controls that protect systems, networks and data from attacks and unauthorized access."
 tecnica_en: "Practices and controls to protect systems, networks, software and data."
 ejemplo_es: "El cliente pidió una revisión de ciberseguridad antes de lanzar."
 ejemplo_en: "The client asked for a cybersecurity review before launch."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Cybersecurity · Ciberseguridad
 
-**En simple.** Proteger sistemas, redes y datos frente a ataques y accesos no autorizados.
+**En simple.** Es el conjunto de prácticas y controles que protegen sistemas, redes y datos de ataques y de accesos no autorizados.
 
 **Técnica.** Prácticas y controles para proteger sistemas, redes, software y datos.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Protecting systems, networks and data from attacks and unauthorised access.
+**In simple.** The set of practices and controls that protect systems, networks and data from attacks and unauthorized access.
 
 **Technical.** Practices and controls to protect systems, networks, software and data.
 

@@ -3,9 +3,9 @@ en: "RAG (Retrieval-Augmented Generation)"
 es: "Generación aumentada por recuperación"
 aliases: ["RAG", "Generación aumentada por recuperación"]
 dominio: "09 · IA y automatización"
-simple_es: "La IA consulta documentación relevante y luego responde con ese contexto."
+simple_es: "Es una técnica en que la IA primero busca en tus documentos la información relevante y luego responde apoyándose en ella, en vez de contestar solo de memoria."
 tecnica_es: "Retrieval-Augmented Generation: recuperación de información externa antes de generar una respuesta."
-simple_en: "The AI looks up relevant documentation and then answers with that context."
+simple_en: "A technique where the AI first looks up the relevant information in your documents and then answers based on it, instead of replying from memory alone."
 tecnica_en: "Retrieval-Augmented Generation: retrieving external information before generating an answer."
 ejemplo_es: "Con RAG el agente responde usando el manual del cliente."
 ejemplo_en: "With RAG the agent answers using the client's manual."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # RAG (Retrieval-Augmented Generation) · Generación aumentada por recuperación
 
-**En simple.** La IA consulta documentación relevante y luego responde con ese contexto.
+**En simple.** Es una técnica en que la IA primero busca en tus documentos la información relevante y luego responde apoyándose en ella, en vez de contestar solo de memoria.
 
 **Técnica.** Retrieval-Augmented Generation: recuperación de información externa antes de generar una respuesta.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The AI looks up relevant documentation and then answers with that context.
+**In simple.** A technique where the AI first looks up the relevant information in your documents and then answers based on it, instead of replying from memory alone.
 
 **Technical.** Retrieval-Augmented Generation: retrieving external information before generating an answer.
 

@@ -3,9 +3,9 @@ en: "RLS (Row-Level Security)"
 es: "Seguridad a nivel de fila"
 aliases: ["RLS", "Seguridad a nivel de fila"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Un cliente ve sus registros, no los del vecino."
+simple_es: "Es una regla de la base de datos que decide qué filas puede ver o modificar cada usuario, de modo que un cliente vea solo sus registros y no los de otro."
 tecnica_es: "Row Level Security: políticas que restringen acceso a filas de una base según contexto/usuario."
-simple_en: "A customer sees their own records, not the neighbor's."
+simple_en: "A database rule that decides which rows each user can see or modify, so that a customer sees only their own records and not another's."
 tecnica_en: "Row Level Security: policies that restrict access to rows of a database by context or user."
 ejemplo_es: "Con RLS cada cliente solo ve sus pedidos."
 ejemplo_en: "With RLS each customer only sees their own orders."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # RLS (Row-Level Security) · Seguridad a nivel de fila
 
-**En simple.** Un cliente ve sus registros, no los del vecino.
+**En simple.** Es una regla de la base de datos que decide qué filas puede ver o modificar cada usuario, de modo que un cliente vea solo sus registros y no los de otro.
 
 **Técnica.** Row Level Security: políticas que restringen acceso a filas de una base según contexto/usuario.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A customer sees their own records, not the neighbor's.
+**In simple.** A database rule that decides which rows each user can see or modify, so that a customer sees only their own records and not another's.
 
 **Technical.** Row Level Security: policies that restrict access to rows of a database by context or user.
 

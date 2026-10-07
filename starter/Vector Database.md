@@ -3,9 +3,9 @@ en: "Vector Database"
 es: "Base de datos vectorial"
 aliases: ["Base de datos vectorial"]
 dominio: "09 · IA y automatización"
-simple_es: "Permite encontrar información semánticamente relacionada."
+simple_es: "Es una base de datos hecha para guardar embeddings y encontrar rápido los más parecidos a uno dado. Permite buscar por significado y no solo por palabras exactas."
 tecnica_es: "Base optimizada para almacenar y buscar vectores por similitud."
-simple_en: "Lets you find semantically related information."
+simple_en: "A database built to store embeddings and quickly find those most similar to a given one. It lets you search by meaning and not just by exact words."
 tecnica_en: "A database optimized for storing and searching vectors by similarity."
 ejemplo_es: "Guardamos las incrustaciones en una base vectorial."
 ejemplo_en: "We store the embeddings in a vector database."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Vector Database · Base de datos vectorial
 
-**En simple.** Permite encontrar información semánticamente relacionada.
+**En simple.** Es una base de datos hecha para guardar embeddings y encontrar rápido los más parecidos a uno dado. Permite buscar por significado y no solo por palabras exactas.
 
 **Técnica.** Base optimizada para almacenar y buscar vectores por similitud.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Lets you find semantically related information.
+**In simple.** A database built to store embeddings and quickly find those most similar to a given one. It lets you search by meaning and not just by exact words.
 
 **Technical.** A database optimized for storing and searching vectors by similarity.
 

@@ -1,15 +1,16 @@
-import { App, ItemView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, setIcon, WorkspaceLeaf } from "obsidian";
+import { App, ItemView, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, ViewStateResult, setIcon, WorkspaceLeaf } from "obsidian";
 import {
   ABC, Index, Lang, Session, Term, agrupaAZ, buildDeck, clave, dominioCorto, ejemplo, letra, norm,
-  NuevoTermino, nombreArchivo, notaDeTermino, parseFrontmatter, recorta, simple, summarize, tecnica, termFromFrontmatter,
+  Conservado, NuevoTermino, nombreArchivo, notaDeTermino, parseFrontmatter, recorta, simple, summarize, tecnica, termFromFrontmatter,
 } from "./lib";
 
 declare const __STARTER__: { file: string; content: string }[];
 
-interface Settings { carpeta: string; idioma: Lang; hover: boolean; abrirAlInicio: boolean; baseInstalada: boolean; mazo: number; historial: Session[]; falladas: string[]; }
-const DEFAULTS: Settings = { carpeta: "Why Glossary", idioma: "es", hover: true, abrirAlInicio: true, baseInstalada: false, mazo: 10, historial: [], falladas: [] };
+interface Settings { carpeta: string; idioma: Lang; hover: boolean; abrirAlInicio: boolean; tarjeta: boolean; baseInstalada: boolean; mazo: number; historial: Session[]; falladas: string[]; }
+const DEFAULTS: Settings = { carpeta: "Why Glossary", idioma: "es", hover: true, abrirAlInicio: true, tarjeta: true, baseInstalada: false, mazo: 10, historial: [], falladas: [] };
 const VIEW_PANEL = "why-glossary-panel";
 const VIEW_MAIN = "why-glossary-main";
+const VIEW_TERM = "why-glossary-term";
 
 export default class WhyGlossary extends Plugin {
   settings: Settings = { ...DEFAULTS };
@@ -24,13 +25,17 @@ export default class WhyGlossary extends Plugin {
     this.settings = Object.assign({}, DEFAULTS, saved, { historial: saved?.historial ?? [], falladas: saved?.falladas ?? [] });
     this.registerView(VIEW_PANEL, leaf => new PanelView(leaf, this));
     this.registerView(VIEW_MAIN, leaf => new MainView(leaf, this));
+    this.registerView(VIEW_TERM, leaf => new TermView(leaf, this));
     this.addRibbonIcon("book-a", "Abrir glosario", () => { void this.abrirGlosario(); });
     this.addCommand({ id: "glosario", name: "Abrir glosario", callback: () => { void this.abrirGlosario(); } });
     this.addCommand({ id: "buscar", name: "Buscar término", callback: () => this.buscar() });
     this.addCommand({ id: "panel", name: "Abrir panel del glosario", callback: () => { void this.abrirPanel(); } });
     this.addCommand({ id: "estudiar", name: "Modo estudio", callback: () => this.estudiar() });
     this.addCommand({ id: "agregar", name: "Ingresá tus términos (agregar uno nuevo)", callback: () => { void this.agregar(); } });
+    this.addCommand({ id: "tarjeta", name: "Ver la nota actual como tarjeta", callback: () => this.verComoTarjeta() });
     this.addCommand({ id: "base", name: "Instalar el glosario base", callback: () => { void this.instalarBase(true); } });
+    this.registerEvent(this.app.workspace.on("file-open", f => { void this.alAbrir(f); }));
+    this.app.workspace.onLayoutReady(() => { const f = this.app.workspace.getActiveFile(); if (f) window.setTimeout(() => { void this.alAbrir(f); }, 600); });
     this.addSettingTab(new SettingsTab(this.app, this));
     this.registerMarkdownPostProcessor(el => this.marcarTerminos(el));
 
@@ -111,7 +116,7 @@ export default class WhyGlossary extends Plugin {
     this.hoverMap = this.index.hoverMap();
     const keys = [...this.hoverMap.keys()].sort((a, b) => b.length - a.length).map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/ /g, "\\s+"));
     this.hoverRe = keys.length ? new RegExp("(^|[^\\p{L}\\p{N}])(" + keys.join("|") + ")(?![\\p{L}\\p{N}])", "giu") : null;
-    for (const type of [VIEW_PANEL, VIEW_MAIN]) this.app.workspace.getLeavesOfType(type).forEach(l => (l.view as unknown as GlossaryLeaf).refrescar());
+    for (const type of [VIEW_PANEL, VIEW_MAIN, VIEW_TERM]) this.app.workspace.getLeavesOfType(type).forEach(l => (l.view as unknown as GlossaryLeaf).refrescar());
   }
 
   private sinTerminos() {
@@ -132,9 +137,46 @@ export default class WhyGlossary extends Plugin {
     await this.app.workspace.revealLeaf(leaf);
   }
   ficha(t: Term) { new CardModal(this.app, this, t).open(); }
+  termPorRuta(ruta: string) { return this.byPath.get(ruta); }
+  /** Abre la nota como texto (sin convertirla en tarjeta). */
   abrirNota(t: Term) {
     const f = this.app.vault.getAbstractFileByPath(t.path);
-    if (f instanceof TFile) void this.app.workspace.getLeaf(false).openFile(f);
+    if (!(f instanceof TFile)) return;
+    this.comoTexto.add(f.path);
+    const leaf = this.app.workspace.getLeavesOfType(VIEW_TERM).find(l => (l.view as TermView).getState().file === f.path) ?? this.app.workspace.getLeaf(false);
+    void leaf.openFile(f);
+  }
+  private comoTexto = new Set<string>();
+  /** Nivel 3: al abrir la nota de un término, se muestra como tarjeta. */
+  private async alAbrir(f: TFile | null) {
+    if (!f) return;
+    if (this.comoTexto.delete(f.path)) return;
+    if (!this.settings.tarjeta || !this.byPath.has(f.path)) return;
+    await this.comoTarjeta(f);
+  }
+  /** Convierte en tarjeta la pestaña de texto que muestra esta nota (la activa si hay varias). */
+  private async comoTarjeta(f: TFile) {
+    const hojas = this.app.workspace.getLeavesOfType("markdown").filter(l => (l.view as MarkdownView).file?.path === f.path);
+    if (!hojas.length) return;
+    const activa = this.app.workspace.getMostRecentLeaf();
+    const hoja = hojas.find(l => l === activa) ?? hojas[0];
+    await hoja.setViewState({ type: VIEW_TERM, state: { file: f.path }, active: true });
+  }
+  /** Comando de respaldo: muestra como tarjeta la nota abierta. */
+  verComoTarjeta() {
+    const f = this.app.workspace.getActiveFile();
+    if (!f || !this.byPath.has(f.path)) { new Notice("Esta nota no es un término del glosario."); return; }
+    void this.comoTarjeta(f);
+  }
+  editar(t: Term) { new AddTermModal(this.app, this, t).open(); }
+  /** Reescribe la nota de un término conservando su numeración, alias y «ver también». */
+  async guardarEdicion(t: Term, v: NuevoTermino) {
+    const f = this.app.vault.getAbstractFileByPath(t.path);
+    if (!(f instanceof TFile)) throw new Error("Nota no encontrada");
+    const vinculos = this.index.relacionados(t).map(r => `[[${r.path.replace(/^.*\//, "").replace(/\.md$/, "")}|${r.en} ↔ ${r.es}]]`).join(" · ");
+    const c: Conservado = { aliases: t.aliases, ver_tambien: t.ver_tambien, verificar: t.verificar, vinculos };
+    await this.app.vault.modify(f, notaDeTermino(v, t.n, c).contenido);
+    await this.recargar();
   }
 
   // ---- Hover (modo lectura) ----
@@ -201,48 +243,95 @@ function verTambien(el: HTMLElement, rel: Term[], onPick?: (t: Term) => void) {
 }
 
 // ---------- Ficha ----------
+interface FichaEstado { lang: Lang; copiado: boolean; }
+interface FichaAcciones { redibujar(): void; ir(t: Term): void; pie(pie: HTMLElement, es: boolean): void; }
+
+/** La ficha completa de un término; la comparten la ventana emergente y la vista de tarjeta. */
+function pintaFicha(el: HTMLElement, p: WhyGlossary, t: Term, st: FichaEstado, a: FichaAcciones) {
+  const lang = st.lang, es = lang === "es"; el.empty();
+  const cab = el.createDiv({ cls: "wg-head" });
+  const fila = cab.createDiv({ cls: "wg-row-top" });
+  fila.createSpan({ cls: "wg-mono wg-mut", text: dominioCorto(t.dominio).toUpperCase() });
+  fila.createSpan({ cls: "wg-mono wg-mut wg-push", text: "DEFINICIONES EN" });
+  for (const l of ["es", "en"] as Lang[]) {
+    const b = fila.createEl("button", { cls: "wg-toggle wg-mono", text: l.toUpperCase() });
+    b.setAttr("aria-pressed", String(l === lang)); b.toggleClass("on", l === lang);
+    b.onclick = () => { st.lang = l; st.copiado = false; a.redibujar(); };
+  }
+  if (t.verificar) cab.createDiv({ cls: "wg-warn", text: "Traducción por verificar" });
+  const pares = cab.createDiv({ cls: "wg-terms" });
+  const lado = (tag: string, txt: string) => { const d = pares.createDiv({ cls: "wg-side" }); d.createSpan({ cls: "wg-tag", text: tag }); d.createDiv({ cls: "wg-big", text: txt }); };
+  lado("ES", t.es); pares.createDiv({ cls: "wg-big wg-arrow wg-mid", text: "↔" }); lado("EN", t.en);
+
+  const cuerpo = el.createDiv({ cls: "wg-body" });
+  const caja = cuerpo.createDiv({ cls: "wg-simple" });
+  caja.createDiv({ cls: "wg-lbl wg-acc", text: es ? "En simple" : "In plain words" });
+  caja.createDiv({ cls: "wg-simple-text", text: simple(t, lang) });
+  const acc = caja.createDiv({ cls: "wg-actions" });
+  const bc = acc.createEl("button", { cls: "wg-primary", text: st.copiado ? "Copiado ✓" : es ? "Copiar explicación simple" : "Copy simple explanation" });
+  bc.onclick = () => { copiar(simple(t, lang)); st.copiado = true; bc.setText("Copiado ✓"); };
+  acc.createSpan({ cls: "wg-hint", text: es ? "Pega el texto listo en tu nota o mensaje" : "Paste the ready text into your note or message" });
+
+  const sec = (h: string, txt: string, cls = "") => { if (!txt) return; const d = cuerpo.createDiv({ cls: "wg-sec" }); d.createDiv({ cls: "wg-lbl wg-mut", text: h }); d.createDiv({ cls: "wg-sec-text " + cls, text: txt }); };
+  sec(es ? "Técnica" : "Technical", tecnica(t, lang));
+  sec(es ? "Ejemplo de uso" : "Usage example", ejemplo(t, lang), "wg-ital");
+  const rel = p.index.relacionados(t);
+  if (rel.length) verTambien(cuerpo, rel, r => a.ir(r));
+
+  const pie = el.createDiv({ cls: "wg-foot" });
+  pie.createEl("button", { cls: "wg-ghost", text: es ? "Copiar técnica" : "Copy technical" }).onclick = () => copiar(tecnica(t, lang));
+  a.pie(pie, es);
+}
+
 class CardModal extends Modal {
-  private lang: Lang;
-  private copiado = false;
-  constructor(app: App, private p: WhyGlossary, private t: Term) { super(app); this.lang = p.settings.idioma; }
+  private st: FichaEstado;
+  constructor(app: App, private p: WhyGlossary, private t: Term) { super(app); this.st = { lang: p.settings.idioma, copiado: false }; }
   onOpen() { this.modalEl.addClass("wg-modal", "wg-ficha", "wg-scope"); this.pinta(); }
-  private ir(t: Term) { this.t = t; this.copiado = false; this.pinta(); }
   private pinta() {
-    const { t, lang } = this, es = lang === "es", el = this.contentEl; el.empty();
-    const cab = el.createDiv({ cls: "wg-head" });
-    const fila = cab.createDiv({ cls: "wg-row-top" });
-    fila.createSpan({ cls: "wg-mono wg-mut", text: dominioCorto(t.dominio).toUpperCase() });
-    fila.createSpan({ cls: "wg-mono wg-mut wg-push", text: "DEFINICIONES EN" });
-    for (const l of ["es", "en"] as Lang[]) {
-      const b = fila.createEl("button", { cls: "wg-toggle wg-mono", text: l.toUpperCase() });
-      b.setAttr("aria-pressed", String(l === lang)); b.toggleClass("on", l === lang);
-      b.onclick = () => { this.lang = l; this.copiado = false; this.pinta(); };
-    }
-    if (t.verificar) cab.createDiv({ cls: "wg-warn", text: "Traducción por verificar" });
-    const pares = cab.createDiv({ cls: "wg-terms" });
-    const lado = (tag: string, txt: string) => { const d = pares.createDiv({ cls: "wg-side" }); d.createSpan({ cls: "wg-tag", text: tag }); d.createDiv({ cls: "wg-big", text: txt }); };
-    lado("ES", t.es); pares.createDiv({ cls: "wg-big wg-arrow wg-mid", text: "↔" }); lado("EN", t.en);
+    pintaFicha(this.contentEl, this.p, this.t, this.st, {
+      redibujar: () => this.pinta(),
+      ir: r => { this.t = r; this.st.copiado = false; this.pinta(); },
+      pie: (pie, es) => {
+        pie.createEl("button", { cls: "wg-ghost", text: es ? "Abrir nota" : "Open note" }).onclick = () => { this.close(); this.p.abrirNota(this.t); };
+        const v = pie.createEl("button", { cls: "wg-link wg-mono wg-push", text: es ? "← VOLVER AL GLOSARIO" : "← BACK TO GLOSSARY" });
+        v.onclick = () => { this.close(); void this.p.abrirGlosario(); };
+      },
+    });
+  }
+}
 
-    const cuerpo = el.createDiv({ cls: "wg-body" });
-    const caja = cuerpo.createDiv({ cls: "wg-simple" });
-    caja.createDiv({ cls: "wg-lbl wg-acc", text: es ? "En simple" : "In plain words" });
-    caja.createDiv({ cls: "wg-simple-text", text: simple(t, lang) });
-    const acc = caja.createDiv({ cls: "wg-actions" });
-    const bc = acc.createEl("button", { cls: "wg-primary", text: this.copiado ? "Copiado ✓" : es ? "Copiar explicación simple" : "Copy simple explanation" });
-    bc.onclick = () => { copiar(simple(t, lang)); this.copiado = true; bc.setText("Copiado ✓"); };
-    acc.createSpan({ cls: "wg-hint", text: es ? "Pega el texto listo en tu nota o mensaje" : "Paste the ready text into your note or message" });
-
-    const sec = (h: string, txt: string, cls = "") => { if (!txt) return; const d = cuerpo.createDiv({ cls: "wg-sec" }); d.createDiv({ cls: "wg-lbl wg-mut", text: h }); d.createDiv({ cls: "wg-sec-text " + cls, text: txt }); };
-    sec(es ? "Técnica" : "Technical", tecnica(t, lang));
-    sec(es ? "Ejemplo de uso" : "Usage example", ejemplo(t, lang), "wg-ital");
-    const rel = this.p.index.relacionados(t);
-    if (rel.length) verTambien(cuerpo, rel, r => this.ir(r));
-
-    const pie = el.createDiv({ cls: "wg-foot" });
-    const bt = pie.createEl("button", { cls: "wg-ghost", text: es ? "Copiar técnica" : "Copy technical" }); bt.onclick = () => copiar(tecnica(t, lang));
-    pie.createEl("button", { cls: "wg-ghost", text: es ? "Abrir nota" : "Open note" }).onclick = () => { this.close(); this.p.abrirNota(t); };
-    const v = pie.createEl("button", { cls: "wg-link wg-mono wg-push", text: es ? "← VOLVER AL GLOSARIO" : "← BACK TO GLOSSARY" });
-    v.onclick = () => { this.close(); void this.p.abrirGlosario(); };
+/** Nivel 3: la nota del término se abre como tarjeta dentro de la pestaña, con edición. */
+class TermView extends ItemView implements GlossaryLeaf {
+  private ruta = "";
+  private st: FichaEstado;
+  constructor(leaf: WorkspaceLeaf, private p: WhyGlossary) { super(leaf); this.st = { lang: p.settings.idioma, copiado: false }; }
+  getViewType() { return VIEW_TERM; }
+  getIcon() { return "book-a"; }
+  getDisplayText() { const t = this.p.termPorRuta(this.ruta); return t ? t.en : "Término"; }
+  getState() { return { file: this.ruta }; }
+  async setState(state: unknown, result: ViewStateResult) {
+    this.ruta = (state as { file?: string } | null)?.file ?? "";
+    await super.setState(state, result);
+    this.pinta();
+  }
+  onOpen() { this.contentEl.addClass("wg-scope", "wg-termview"); this.pinta(); return Promise.resolve(); }
+  refrescar() { this.pinta(); }
+  private pinta() {
+    const el = this.contentEl; el.empty();
+    const t = this.p.termPorRuta(this.ruta);
+    const barra = el.createDiv({ cls: "wg-tv-bar" });
+    barra.createSpan({ cls: "wg-mono wg-mut wg-tv-path", text: this.ruta });
+    const cuando = (txt: string, fn: () => void) => barra.createEl("button", { cls: "wg-ghost", text: txt }).onclick = fn;
+    if (t) cuando("Editar", () => this.p.editar(t));
+    cuando("+ Nuevo término", () => this.p.agregar());
+    if (t) cuando("Abrir la nota en texto", () => this.p.abrirNota(t));
+    const tarjeta = el.createDiv({ cls: "wg-tv-card" });
+    if (!t) { tarjeta.createDiv({ cls: "wg-hint", text: "Esta nota no es un término del glosario, o el glosario aún se está cargando." }); return; }
+    pintaFicha(tarjeta, this.p, t, this.st, {
+      redibujar: () => this.pinta(),
+      ir: r => { this.st.copiado = false; void this.leaf.setViewState({ type: VIEW_TERM, state: { file: r.path }, active: true }); },
+      pie: (pie, es) => { pie.createSpan({ cls: "wg-mono wg-mut wg-push", text: es ? `Término ${t.n} · Why Glossary` : `Term ${t.n} · Why Glossary` }); },
+    });
   }
 }
 
@@ -554,17 +643,25 @@ class StudyModal extends Modal {
 }
 
 class AddTermModal extends Modal {
-  private v: NuevoTermino = { en: "", es: "", dominio: "", simple_es: "", simple_en: "", tecnica_es: "", tecnica_en: "", ejemplo_es: "", ejemplo_en: "" };
-  constructor(app: App, private p: WhyGlossary) { super(app); }
+  private v: NuevoTermino;
+  constructor(app: App, private p: WhyGlossary, private editando?: Term) {
+    super(app);
+    const t = editando;
+    this.v = t
+      ? { en: t.en, es: t.es, dominio: t.dominio, simple_es: t.simple_es, simple_en: t.simple_en, tecnica_es: t.tecnica_es, tecnica_en: t.tecnica_en, ejemplo_es: t.ejemplo_es, ejemplo_en: t.ejemplo_en }
+      : { en: "", es: "", dominio: "", simple_es: "", simple_en: "", tecnica_es: "", tecnica_en: "", ejemplo_es: "", ejemplo_en: "" };
+  }
   onOpen() {
     const el = this.contentEl; el.empty(); el.addClass("wg-scope", "wg-add");
-    this.titleEl.setText("Ingresá tus términos");
-    el.createDiv({ cls: "wg-hint", text: "Cada término es una nota en tu carpeta del glosario. Solo el nombre en inglés y en español es obligatorio." });
+    this.titleEl.setText(this.editando ? "Editar término" : "Ingresá tus términos");
+    el.createDiv({ cls: "wg-hint", text: this.editando
+      ? "Se guarda en la misma nota. Solo el nombre en inglés y en español es obligatorio; el resto es opcional."
+      : "Cada término es una nota en tu carpeta del glosario. Solo el nombre en inglés y en español es obligatorio." });
     const campo = (k: keyof NuevoTermino, etiqueta: string, ph: string, largo = false) => {
       const w = el.createDiv({ cls: "wg-field" });
       w.createEl("label", { cls: "wg-lbl wg-mut", text: etiqueta });
       const i = largo ? w.createEl("textarea", { cls: "wg-input", attr: { rows: "2", placeholder: ph } }) : w.createEl("input", { cls: "wg-input", type: "text", placeholder: ph });
-      i.oninput = () => { this.v[k] = i.value; };
+      i.value = this.v[k]; i.oninput = () => { this.v[k] = i.value; };
       return i;
     };
     const primero = campo("en", "Término en inglés", "Chargeback");
@@ -572,18 +669,28 @@ class AddTermModal extends Modal {
     const dl = el.createDiv({ cls: "wg-field" });
     dl.createEl("label", { cls: "wg-lbl wg-mut", text: "Dominio (opcional)" });
     const dom = dl.createEl("input", { cls: "wg-input", type: "text", placeholder: "Mis términos", attr: { list: "wg-dominios" } });
+    dom.value = this.v.dominio;
     const lista = dl.createEl("datalist", { attr: { id: "wg-dominios" } });
     for (const d of this.p.index.dominios()) lista.createEl("option", { value: d });
     dom.oninput = () => { this.v.dominio = dom.value; };
     campo("simple_es", "En simple (español)", "Una explicación que entienda cualquiera", true);
     campo("simple_en", "In plain words (English)", "Optional", true);
     campo("tecnica_es", "Técnica (español)", "Opcional", true);
+    campo("tecnica_en", "Technical (English)", "Optional", true);
     campo("ejemplo_es", "Ejemplo de uso (español)", "Opcional");
-    const btn = el.createEl("button", { cls: "wg-primary", text: "Guardar término" });
+    campo("ejemplo_en", "Example (English)", "Optional");
+    const acc = el.createDiv({ cls: "wg-actions" });
+    const btn = acc.createEl("button", { cls: "wg-primary", text: this.editando ? "Guardar cambios" : "Guardar término" });
+    acc.createEl("button", { cls: "wg-ghost", text: "Cancelar" }).onclick = () => this.close();
     btn.onclick = async () => {
       if (!this.v.en.trim() || !this.v.es.trim()) { new Notice("Escribe el término en inglés y en español."); return; }
-      const f = await this.p.crearTermino({ ...this.v, en: this.v.en.trim(), es: this.v.es.trim() });
-      new Notice(`«${nombreArchivo(this.v.en)}» agregado a tu glosario.`);
+      const v = { ...this.v, en: this.v.en.trim(), es: this.v.es.trim() };
+      if (this.editando) {
+        await this.p.guardarEdicion(this.editando, v);
+        new Notice(`«${v.en}» actualizado.`); this.close(); return;
+      }
+      const f = await this.p.crearTermino(v);
+      new Notice(`«${nombreArchivo(v.en)}» agregado a tu glosario.`);
       this.close(); void this.p.app.workspace.getLeaf(false).openFile(f);
     };
     window.setTimeout(() => primero.focus(), 50);
@@ -603,6 +710,8 @@ class SettingsTab extends PluginSettingTab {
       .addToggle(t => t.setValue(this.p.settings.hover).onChange(async v => { this.p.settings.hover = v; await this.p.saveSettings(); }));
     new Setting(el).setName("Abrir el glosario al iniciar Obsidian").setDesc("La pantalla del glosario aparece sola al abrir la bóveda.")
       .addToggle(t => t.setValue(this.p.settings.abrirAlInicio).onChange(async v => { this.p.settings.abrirAlInicio = v; await this.p.saveSettings(); }));
+    new Setting(el).setName("Abrir las notas del glosario como tarjeta").setDesc("Al abrir la nota de un término se ve como tarjeta, con cambio de idioma y botón para editar. «Abrir la nota en texto» siempre está disponible.")
+      .addToggle(t => t.setValue(this.p.settings.tarjeta).onChange(async v => { this.p.settings.tarjeta = v; await this.p.saveSettings(); }));
     new Setting(el).setName("Tus términos").setDesc("Agrega un término propio. Se guarda como una nota en «Mis términos», dentro de la carpeta del glosario.")
       .addButton(b => b.setButtonText("Ingresá tus términos").setCta().onClick(() => { void this.p.agregar(); }));
     new Setting(el).setName("Glosario base").setDesc("Instala o repone los términos generales (tecnología, negocio, diseño). No pisa tus notas ni tus cambios.")

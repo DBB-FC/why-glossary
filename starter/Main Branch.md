@@ -3,9 +3,9 @@ en: "Main Branch"
 es: "Rama principal"
 aliases: ["Main / Main Branch", "Main", "Rama principal"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "La línea principal del código, la versión estable."
+simple_es: "Es la rama central de un proyecto Git, que contiene la versión estable y es la base a la que se incorporan los demás cambios."
 tecnica_es: "Rama principal que representa el estado integrado del proyecto."
-simple_en: "The main line of the code, the stable version."
+simple_en: "The central branch of a Git project, holding the stable version and serving as the base into which other changes are merged."
 tecnica_en: "The primary branch that represents the integrated state of the project."
 ejemplo_es: "Nada se sube directo a la rama principal."
 ejemplo_en: "Nothing gets pushed straight to the main branch."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Main Branch · Rama principal
 
-**En simple.** La línea principal del código, la versión estable.
+**En simple.** Es la rama central de un proyecto Git, que contiene la versión estable y es la base a la que se incorporan los demás cambios.
 
 **Técnica.** Rama principal que representa el estado integrado del proyecto.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The main line of the code, the stable version.
+**In simple.** The central branch of a Git project, holding the stable version and serving as the base into which other changes are merged.
 
 **Technical.** The primary branch that represents the integrated state of the project.
 

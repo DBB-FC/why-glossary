@@ -3,9 +3,9 @@ en: "Qualified Lead"
 es: "Prospecto calificado"
 aliases: ["Prospecto calificado"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Hay problema, encaje y posibilidad real de compra."
+simple_es: "Es un prospecto que ya se revisó y cumple los criterios mínimos: tiene un problema real, encaja con lo que ofreces y puede comprar."
 tecnica_es: "Lead que cumple criterios mínimos comerciales."
-simple_en: "There is a problem, a fit and a real chance to buy."
+simple_en: "A lead that has been reviewed and meets the minimum criteria: it has a real problem, fits what you offer and can buy."
 tecnica_en: "A lead that meets the minimum commercial criteria."
 ejemplo_es: "Pasamos tres leads a calificados."
 ejemplo_en: "We moved three leads to qualified."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Qualified Lead · Prospecto calificado
 
-**En simple.** Hay problema, encaje y posibilidad real de compra.
+**En simple.** Es un prospecto que ya se revisó y cumple los criterios mínimos: tiene un problema real, encaja con lo que ofreces y puede comprar.
 
 **Técnica.** Lead que cumple criterios mínimos comerciales.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** There is a problem, a fit and a real chance to buy.
+**In simple.** A lead that has been reviewed and meets the minimum criteria: it has a real problem, fits what you offer and can buy.
 
 **Technical.** A lead that meets the minimum commercial criteria.
 

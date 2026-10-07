@@ -3,9 +3,9 @@ en: "Guardrail"
 es: "Barrera de protección"
 aliases: ["Barrera de protección"]
 dominio: "09 · IA y automatización"
-simple_es: "Una regla o control que mantiene a una IA dentro de límites seguros."
+simple_es: "Es una regla o control que mantiene a una IA dentro de límites seguros, por ejemplo impedir que responda ciertos temas o que ejecute acciones peligrosas."
 tecnica_es: "Restricción o control aplicado para limitar comportamientos no deseados."
-simple_en: "A rule or control that keeps an AI within safe limits."
+simple_en: "A rule or control that keeps an AI within safe limits, for example stopping it from answering certain topics or carrying out dangerous actions."
 tecnica_en: "A restriction or control applied to limit unwanted behavior."
 ejemplo_es: "Una barrera de protección impide enviar correos sin aprobación."
 ejemplo_en: "A guardrail prevents sending emails without approval."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Guardrail · Barrera de protección
 
-**En simple.** Una regla o control que mantiene a una IA dentro de límites seguros.
+**En simple.** Es una regla o control que mantiene a una IA dentro de límites seguros, por ejemplo impedir que responda ciertos temas o que ejecute acciones peligrosas.
 
 **Técnica.** Restricción o control aplicado para limitar comportamientos no deseados.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** A rule or control that keeps an AI within safe limits.
+**In simple.** A rule or control that keeps an AI within safe limits, for example stopping it from answering certain topics or carrying out dangerous actions.
 
 **Technical.** A restriction or control applied to limit unwanted behavior.
 

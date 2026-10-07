@@ -3,9 +3,9 @@ en: "UTC"
 es: "Tiempo universal coordinado"
 aliases: ["Tiempo universal coordinado"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Se guarda en UTC y se muestra en la zona del usuario. Mezclarlo produce datos corridos dos veces al año."
+simple_es: "Es la hora de referencia mundial, sin horario de verano. Se guarda siempre en UTC y se muestra en la zona del usuario, para evitar datos corridos."
 tecnica_es: "Tiempo universal coordinado, referencia sin horario de verano."
-simple_en: "Stored in UTC and displayed in the user's zone. Mixing them produces data shifted twice a year."
+simple_en: "The world reference time, with no daylight saving. It is always stored in UTC and shown in the user's time zone, to avoid shifted data."
 tecnica_en: "Coordinated Universal Time, a reference with no daylight saving."
 ejemplo_es: "Guardamos todas las fechas en UTC."
 ejemplo_en: "We store every date in UTC."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # UTC · Tiempo universal coordinado
 
-**En simple.** Se guarda en UTC y se muestra en la zona del usuario. Mezclarlo produce datos corridos dos veces al año.
+**En simple.** Es la hora de referencia mundial, sin horario de verano. Se guarda siempre en UTC y se muestra en la zona del usuario, para evitar datos corridos.
 
 **Técnica.** Tiempo universal coordinado, referencia sin horario de verano.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Stored in UTC and displayed in the user's zone. Mixing them produces data shifted twice a year.
+**In simple.** The world reference time, with no daylight saving. It is always stored in UTC and shown in the user's time zone, to avoid shifted data.
 
 **Technical.** Coordinated Universal Time, a reference with no daylight saving.
 

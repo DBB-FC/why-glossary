@@ -3,9 +3,9 @@ en: "Workflow Automation"
 es: "Automatización de flujos de trabajo"
 aliases: ["Automatización de flujos de trabajo"]
 dominio: "09 · IA y automatización"
-simple_es: "Si ocurre A → validar B → ejecutar C → avisar D."
+simple_es: "Es dejar que un sistema ejecute solo una secuencia de pasos definida, por ejemplo: si llega una solicitud, validarla, procesarla y avisar al equipo."
 tecnica_es: "Automatización de una secuencia definida de tareas y decisiones."
-simple_en: "If A happens → validate B → run C → notify D."
+simple_en: "Letting a system run a defined sequence of steps on its own, for example: when a request arrives, validate it, process it and notify the team."
 tecnica_en: "Automation of a defined sequence of tasks and decisions."
 ejemplo_es: "Automatizamos el flujo desde que llega el lead hasta la cotización."
 ejemplo_en: "We automated the flow from lead arrival to quote."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Workflow Automation · Automatización de flujos de trabajo
 
-**En simple.** Si ocurre A → validar B → ejecutar C → avisar D.
+**En simple.** Es dejar que un sistema ejecute solo una secuencia de pasos definida, por ejemplo: si llega una solicitud, validarla, procesarla y avisar al equipo.
 
 **Técnica.** Automatización de una secuencia definida de tareas y decisiones.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** If A happens → validate B → run C → notify D.
+**In simple.** Letting a system run a defined sequence of steps on its own, for example: when a request arrives, validate it, process it and notify the team.
 
 **Technical.** Automation of a defined sequence of tasks and decisions.
 

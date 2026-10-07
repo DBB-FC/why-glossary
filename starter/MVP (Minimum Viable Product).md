@@ -3,9 +3,9 @@ en: "MVP (Minimum Viable Product)"
 es: "Producto mínimo viable"
 aliases: ["MVP", "Producto mínimo viable"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Primera versión útil, no una versión mediocre."
+simple_es: "Es la primera versión de un producto, con lo mínimo para entregar valor real y comprobar si la idea funciona. Es útil, no una versión mediocre."
 tecnica_es: "Minimum Viable Product: versión mínima capaz de entregar valor y validar hipótesis."
-simple_en: "The first useful version, not a mediocre one."
+simple_en: "The first version of a product, with the minimum needed to deliver real value and check whether the idea works. It is useful, not a mediocre version."
 tecnica_en: "Minimum Viable Product: the minimum version able to deliver value and validate hypotheses."
 ejemplo_es: "El MVP incluye solo cotizar y facturar."
 ejemplo_en: "The MVP only includes quoting and invoicing."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # MVP (Minimum Viable Product) · Producto mínimo viable
 
-**En simple.** Primera versión útil, no una versión mediocre.
+**En simple.** Es la primera versión de un producto, con lo mínimo para entregar valor real y comprobar si la idea funciona. Es útil, no una versión mediocre.
 
 **Técnica.** Minimum Viable Product: versión mínima capaz de entregar valor y validar hipótesis.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The first useful version, not a mediocre one.
+**In simple.** The first version of a product, with the minimum needed to deliver real value and check whether the idea works. It is useful, not a mediocre version.
 
 **Technical.** Minimum Viable Product: the minimum version able to deliver value and validate hypotheses.
 

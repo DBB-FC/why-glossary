@@ -3,9 +3,9 @@ en: "Tool Risk Rating"
 es: "Clasificación de riesgo de herramientas"
 aliases: ["Clasificación de riesgo de herramientas"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Leer un archivo y borrar una tabla no merecen el mismo permiso."
+simple_es: "Es clasificar cada herramienta según el daño que puede causar, para darle el permiso adecuado. Leer un archivo y borrar una tabla no merecen el mismo."
 tecnica_es: "Clasificación de una herramienta según el daño que puede causar."
-simple_en: "Reading a file and dropping a table don't deserve the same permission."
+simple_en: "Classifying each tool by the damage it can cause, so it gets the right permission. Reading a file and deleting a table do not deserve the same one."
 tecnica_en: "A classification of a tool by the damage it can cause."
 ejemplo_es: "Clasificamos borrar datos como herramienta de alto riesgo."
 ejemplo_en: "We classify deleting data as a high-risk tool."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Tool Risk Rating · Clasificación de riesgo de herramientas
 
-**En simple.** Leer un archivo y borrar una tabla no merecen el mismo permiso.
+**En simple.** Es clasificar cada herramienta según el daño que puede causar, para darle el permiso adecuado. Leer un archivo y borrar una tabla no merecen el mismo.
 
 **Técnica.** Clasificación de una herramienta según el daño que puede causar.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Reading a file and dropping a table don't deserve the same permission.
+**In simple.** Classifying each tool by the damage it can cause, so it gets the right permission. Reading a file and deleting a table do not deserve the same one.
 
 **Technical.** A classification of a tool by the damage it can cause.
 

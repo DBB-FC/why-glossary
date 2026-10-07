@@ -3,9 +3,9 @@ en: "Payment Gateway"
 es: "Pasarela de pago"
 aliases: ["Pasarela de pago"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "El servicio que procesa los cobros online."
+simple_es: "Es el servicio que procesa los pagos en línea: toma los datos de la tarjeta, los envía de forma segura al banco y devuelve si el cobro fue aprobado."
 tecnica_es: "Servicio que procesa/autentica pagos electrónicos entre comercio y proveedores financieros."
-simple_en: "The service that processes online payments."
+simple_en: "The service that processes online payments: it takes the card details, sends them securely to the bank and returns whether the charge was approved."
 tecnica_en: "A service that processes and authenticates electronic payments between a merchant and financial providers."
 ejemplo_es: "Conectamos la pasarela de pago al checkout."
 ejemplo_en: "We connected the payment gateway to the checkout."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Payment Gateway · Pasarela de pago
 
-**En simple.** El servicio que procesa los cobros online.
+**En simple.** Es el servicio que procesa los pagos en línea: toma los datos de la tarjeta, los envía de forma segura al banco y devuelve si el cobro fue aprobado.
 
 **Técnica.** Servicio que procesa/autentica pagos electrónicos entre comercio y proveedores financieros.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The service that processes online payments.
+**In simple.** The service that processes online payments: it takes the card details, sends them securely to the bank and returns whether the charge was approved.
 
 **Technical.** A service that processes and authenticates electronic payments between a merchant and financial providers.
 

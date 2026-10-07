@@ -3,9 +3,9 @@ en: "Uptime"
 es: "Tiempo de disponibilidad"
 aliases: ["Tiempo de disponibilidad"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "El porcentaje de tiempo que un sistema está funcionando."
+simple_es: "Es el porcentaje del tiempo en que un sistema está funcionando y disponible. Un 99,9 % significa unas 8 horas de caída al año."
 tecnica_es: "Proporción de tiempo en que un servicio está disponible."
-simple_en: "The percentage of time a system is up and running."
+simple_en: "The percentage of time a system is up and available. 99.9% means about 8 hours of downtime a year."
 tecnica_en: "The proportion of time a service is available."
 ejemplo_es: "El tiempo de disponibilidad fue de 99,9 %."
 ejemplo_en: "Uptime was 99.9%."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Uptime · Tiempo de disponibilidad
 
-**En simple.** El porcentaje de tiempo que un sistema está funcionando.
+**En simple.** Es el porcentaje del tiempo en que un sistema está funcionando y disponible. Un 99,9 % significa unas 8 horas de caída al año.
 
 **Técnica.** Proporción de tiempo en que un servicio está disponible.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The percentage of time a system is up and running.
+**In simple.** The percentage of time a system is up and available. 99.9% means about 8 hours of downtime a year.
 
 **Technical.** The proportion of time a service is available.
 

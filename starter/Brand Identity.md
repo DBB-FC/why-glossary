@@ -3,9 +3,9 @@ en: "Brand Identity"
 es: "Identidad de marca"
 aliases: ["Identidad de marca"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "El conjunto de logo, tipografía, color, tono y reglas que hacen reconocible a una marca."
+simple_es: "Es el conjunto de elementos que hacen reconocible a una marca: logo, tipografía, colores, tono de voz y las reglas para usarlos."
 tecnica_es: "Sistema visual y conceptual que identifica una marca."
-simple_en: "The set of logo, typography, colour, tone and rules that make a brand recognisable."
+simple_en: "The set of elements that make a brand recognizable: logo, typography, colors, tone of voice and the rules for using them."
 tecnica_en: "The visual and conceptual system that identifies a brand."
 ejemplo_es: "La identidad de marca incluye logo y tono de voz."
 ejemplo_en: "The brand identity includes a logo and a tone of voice."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Brand Identity · Identidad de marca
 
-**En simple.** El conjunto de logo, tipografía, color, tono y reglas que hacen reconocible a una marca.
+**En simple.** Es el conjunto de elementos que hacen reconocible a una marca: logo, tipografía, colores, tono de voz y las reglas para usarlos.
 
 **Técnica.** Sistema visual y conceptual que identifica una marca.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The set of logo, typography, colour, tone and rules that make a brand recognisable.
+**In simple.** The set of elements that make a brand recognizable: logo, typography, colors, tone of voice and the rules for using them.
 
 **Technical.** The visual and conceptual system that identifies a brand.
 

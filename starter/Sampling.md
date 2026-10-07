@@ -3,9 +3,9 @@ en: "Sampling"
 es: "Muestreo"
 aliases: ["Muestreo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Cuando el servidor MCP le pide a la IA que genere algo."
+simple_es: "Es la capacidad de un servidor MCP de pedirle al cliente que consulte al modelo de IA, es decir, cuando el servidor le pide a la IA que genere algo."
 tecnica_es: "Capacidad de un servidor MCP de pedirle al cliente que consulte al modelo."
-simple_en: "When the MCP server asks the AI to generate something."
+simple_en: "An MCP server's ability to ask the client to query the AI model, that is, when the server asks the AI to generate something."
 tecnica_en: "A capability that lets an MCP server ask the client to query the model."
 ejemplo_es: "El servidor usa muestreo para pedir una respuesta al modelo."
 ejemplo_en: "The server uses sampling to request an answer from the model."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Sampling · Muestreo
 
-**En simple.** Cuando el servidor MCP le pide a la IA que genere algo.
+**En simple.** Es la capacidad de un servidor MCP de pedirle al cliente que consulte al modelo de IA, es decir, cuando el servidor le pide a la IA que genere algo.
 
 **Técnica.** Capacidad de un servidor MCP de pedirle al cliente que consulte al modelo.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** When the MCP server asks the AI to generate something.
+**In simple.** An MCP server's ability to ask the client to query the AI model, that is, when the server asks the AI to generate something.
 
 **Technical.** A capability that lets an MCP server ask the client to query the model.
 

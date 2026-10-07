@@ -3,9 +3,9 @@ en: "Edge"
 es: "Borde de la red (edge)"
 aliases: ["Borde de la red (edge)"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Menos latencia, más restricciones de lo que se puede correr ahí."
+simple_es: "Es ejecutar código en servidores cercanos al usuario en vez de en uno central. Se obtienen respuestas más rápidas, con más límites sobre lo que se puede ejecutar ahí."
 tecnica_es: "Ejecución de código en nodos cercanos al usuario."
-simple_en: "Less latency, but more limits on what can run there."
+simple_en: "Running code on servers close to the user instead of on a central one. You get faster responses, with more limits on what can run there."
 tecnica_en: "Execution of code on nodes close to the user."
 ejemplo_es: "Corremos el middleware en el edge."
 ejemplo_en: "We run the middleware at the edge."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Edge · Borde de la red (edge)
 
-**En simple.** Menos latencia, más restricciones de lo que se puede correr ahí.
+**En simple.** Es ejecutar código en servidores cercanos al usuario en vez de en uno central. Se obtienen respuestas más rápidas, con más límites sobre lo que se puede ejecutar ahí.
 
 **Técnica.** Ejecución de código en nodos cercanos al usuario.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Less latency, but more limits on what can run there.
+**In simple.** Running code on servers close to the user instead of on a central one. You get faster responses, with more limits on what can run there.
 
 **Technical.** Execution of code on nodes close to the user.
 

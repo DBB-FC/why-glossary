@@ -3,9 +3,9 @@ en: "LLM (Large Language Model)"
 es: "Modelo de lenguaje grande"
 aliases: ["LLM", "Modelo de lenguaje grande"]
 dominio: "09 · IA y automatización"
-simple_es: "Motor lingüístico detrás de muchos agentes y chats de IA."
+simple_es: "Es un modelo de IA entrenado con enormes cantidades de texto para entender y escribir lenguaje humano. Es el motor de los chats y asistentes de IA."
 tecnica_es: "Large Language Model: modelo entrenado sobre grandes corpus para procesar/generar lenguaje."
-simple_en: "The language engine behind many AI agents and chats."
+simple_en: "An AI model trained on huge amounts of text to understand and write human language. It is the engine behind AI chats and assistants."
 tecnica_en: "Large Language Model: a model trained on large corpora to process and generate language."
 ejemplo_es: "El agente corre sobre un modelo de lenguaje grande."
 ejemplo_en: "The agent runs on a large language model."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # LLM (Large Language Model) · Modelo de lenguaje grande
 
-**En simple.** Motor lingüístico detrás de muchos agentes y chats de IA.
+**En simple.** Es un modelo de IA entrenado con enormes cantidades de texto para entender y escribir lenguaje humano. Es el motor de los chats y asistentes de IA.
 
 **Técnica.** Large Language Model: modelo entrenado sobre grandes corpus para procesar/generar lenguaje.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The language engine behind many AI agents and chats.
+**In simple.** An AI model trained on huge amounts of text to understand and write human language. It is the engine behind AI chats and assistants.
 
 **Technical.** Large Language Model: a model trained on large corpora to process and generate language.
 

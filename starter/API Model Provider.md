@@ -3,9 +3,9 @@ en: "API Model Provider"
 es: "Proveedor de modelos por API"
 aliases: ["Proveedor de modelos por API"]
 dominio: "09 · IA y automatización"
-simple_es: "Permite incorporar IA dentro de software propio."
+simple_es: "Es una empresa que ofrece sus modelos de IA como servicio, para que cualquier programa los use enviándoles peticiones por una API. Anthropic y OpenAI son ejemplos."
 tecnica_es: "Servicio que expone modelos mediante APIs."
-simple_en: "Lets you build AI into your own software."
+simple_en: "A company that offers its AI models as a service, so any program can use them by sending requests through an API. Anthropic and OpenAI are examples."
 tecnica_en: "A service that exposes models through APIs."
 ejemplo_es: "Contratamos un proveedor de modelos por API."
 ejemplo_en: "We contracted an API model provider."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # API Model Provider · Proveedor de modelos por API
 
-**En simple.** Permite incorporar IA dentro de software propio.
+**En simple.** Es una empresa que ofrece sus modelos de IA como servicio, para que cualquier programa los use enviándoles peticiones por una API. Anthropic y OpenAI son ejemplos.
 
 **Técnica.** Servicio que expone modelos mediante APIs.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Lets you build AI into your own software.
+**In simple.** A company that offers its AI models as a service, so any program can use them by sending requests through an API. Anthropic and OpenAI are examples.
 
 **Technical.** A service that exposes models through APIs.
 

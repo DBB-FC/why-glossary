@@ -3,9 +3,9 @@ en: "ELT"
 es: "Extraer, cargar y transformar"
 aliases: ["Extraer, cargar y transformar"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Cargar los datos primero y transformarlos después, dentro del almacén de datos."
+simple_es: "Es un proceso en que los datos se cargan primero tal como vienen y se transforman después, dentro del almacén de datos. Es el orden inverso al ETL."
 tecnica_es: "Extract, Load, Transform: cargar datos y transformarlos posteriormente en destino."
-simple_en: "Loading data first and transforming it afterwards, inside the data warehouse."
+simple_en: "A process where data is loaded first as it comes and transformed afterward, inside the data warehouse. It is the reverse order of ETL."
 tecnica_en: "Extract, Load, Transform: data is loaded first and transformed later at the destination."
 ejemplo_es: "Con ELT cargamos todo y transformamos en el almacén."
 ejemplo_en: "With ELT we load everything and transform in the warehouse."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # ELT · Extraer, cargar y transformar
 
-**En simple.** Cargar los datos primero y transformarlos después, dentro del almacén de datos.
+**En simple.** Es un proceso en que los datos se cargan primero tal como vienen y se transforman después, dentro del almacén de datos. Es el orden inverso al ETL.
 
 **Técnica.** Extract, Load, Transform: cargar datos y transformarlos posteriormente en destino.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Loading data first and transforming it afterwards, inside the data warehouse.
+**In simple.** A process where data is loaded first as it comes and transformed afterward, inside the data warehouse. It is the reverse order of ETL.
 
 **Technical.** Extract, Load, Transform: data is loaded first and transformed later at the destination.
 

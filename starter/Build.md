@@ -3,9 +3,9 @@ en: "Build"
 es: "Compilación (build)"
 aliases: ["Compilación (build)"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Preparar técnicamente la aplicación para ejecutarse."
+simple_es: "Es el paso que convierte el código escrito en la versión lista para ejecutarse o publicarse, por ejemplo juntando y optimizando los archivos."
 tecnica_es: "Proceso que transforma código fuente en artefactos ejecutables/publicables."
-simple_en: "Technically preparing the application to run."
+simple_en: "The step that turns written code into the version ready to run or publish, for example by bundling and optimizing the files."
 tecnica_en: "The process that turns source code into executable or publishable artifacts."
 ejemplo_es: "La compilación tarda tres minutos."
 ejemplo_en: "The build takes three minutes."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Build · Compilación (build)
 
-**En simple.** Preparar técnicamente la aplicación para ejecutarse.
+**En simple.** Es el paso que convierte el código escrito en la versión lista para ejecutarse o publicarse, por ejemplo juntando y optimizando los archivos.
 
 **Técnica.** Proceso que transforma código fuente en artefactos ejecutables/publicables.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Technically preparing the application to run.
+**In simple.** The step that turns written code into the version ready to run or publish, for example by bundling and optimizing the files.
 
 **Technical.** The process that turns source code into executable or publishable artifacts.
 

@@ -3,9 +3,9 @@ en: "Acceptance Criteria"
 es: "Criterios de aceptación"
 aliases: ["Criterios de aceptación"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Las condiciones concretas que deben cumplirse para dar algo por terminado."
+simple_es: "Son las condiciones concretas que una funcionalidad debe cumplir para darla por terminada. Se acuerdan antes de construirla y se pueden comprobar una a una."
 tecnica_es: "Condiciones verificables que debe cumplir una funcionalidad."
-simple_en: "The concrete conditions that must be met to call something done."
+simple_en: "The specific conditions a feature must meet to be considered finished. They are agreed before building it and can be checked one by one."
 tecnica_en: "Verifiable conditions a feature must meet."
 ejemplo_es: "Los criterios de aceptación dicen cuándo se puede cerrar la tarea."
 ejemplo_en: "The acceptance criteria say when the task can be closed."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Acceptance Criteria · Criterios de aceptación
 
-**En simple.** Las condiciones concretas que deben cumplirse para dar algo por terminado.
+**En simple.** Son las condiciones concretas que una funcionalidad debe cumplir para darla por terminada. Se acuerdan antes de construirla y se pueden comprobar una a una.
 
 **Técnica.** Condiciones verificables que debe cumplir una funcionalidad.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** The concrete conditions that must be met to call something done.
+**In simple.** The specific conditions a feature must meet to be considered finished. They are agreed before building it and can be checked one by one.
 
 **Technical.** Verifiable conditions a feature must meet.
 

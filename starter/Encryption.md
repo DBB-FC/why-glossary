@@ -3,9 +3,9 @@ en: "Encryption"
 es: "Cifrado"
 aliases: ["Cifrado"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Información ilegible sin la clave correspondiente."
+simple_es: "Es convertir información en un formato ilegible con una clave, de modo que solo quien tenga la clave correcta pueda volver a leerla."
 tecnica_es: "Transformación criptográfica que protege datos frente a acceso no autorizado."
-simple_en: "Information unreadable without the matching key."
+simple_en: "Turning information into an unreadable format using a key, so that only whoever has the correct key can read it again."
 tecnica_en: "A cryptographic transformation that protects data from unauthorized access."
 ejemplo_es: "Todos los datos sensibles van cifrados."
 ejemplo_en: "All sensitive data is encrypted."
@@ -15,7 +15,7 @@ verificar: false
 ---
 # Encryption · Cifrado
 
-**En simple.** Información ilegible sin la clave correspondiente.
+**En simple.** Es convertir información en un formato ilegible con una clave, de modo que solo quien tenga la clave correcta pueda volver a leerla.
 
 **Técnica.** Transformación criptográfica que protege datos frente a acceso no autorizado.
 
@@ -23,7 +23,7 @@ verificar: false
 
 ---
 
-**In simple.** Information unreadable without the matching key.
+**In simple.** Turning information into an unreadable format using a key, so that only whoever has the correct key can read it again.
 
 **Technical.** A cryptographic transformation that protects data from unauthorized access.
 

@@ -65,3 +65,13 @@ test("al editar un término se conservan alias, vínculos y marca de verificaci�
   assert.deepEqual(r.aliases, ["CB"]); assert.deepEqual(r.ver_tambien, [3, 9]); assert.equal(r.verificar, true);
   assert.ok(contenido.includes("**Ver también.** [[Refund|Refund ↔ Reembolso]]"));
 });
+
+test("los dominios del glosario base se traducen al inglés y los propios no", () => {
+  const doms = new Set(readdirSync(PACK).filter(f => f.endsWith(".md")).map(f => readFileSync(join(PACK, f), "utf8").match(/^dominio: "(.*)"$/m)?.[1]));
+  for (const d of doms) {
+    const en = L.dominioNombre(d, "en");
+    assert.notEqual(en, L.dominioCorto(d), `sin traducción: ${d}`);
+    assert.equal(L.dominioNombre(d, "es"), L.dominioCorto(d));
+  }
+  assert.equal(L.dominioNombre("Mis términos", "en"), "Mis términos");
+});

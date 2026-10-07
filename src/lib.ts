@@ -90,6 +90,24 @@ export function recorta(s: string, max = 150): string {
   return (sp > max * 0.6 ? corte.slice(0, sp) : corte).replace(/[\s,;:.]+$/, "") + "…";
 }
 export function dominioCorto(d: string) { return d.replace(/^\d+\s*·\s*/, ""); }
+const DOMINIOS_EN: Record<string, string> = {
+  "01": "Sales, consulting and selling digital projects",
+  "02": "Product, UX, UI and design",
+  "03": "Web development and software architecture",
+  "04": "Data and databases",
+  "05": "Cloud, infrastructure and DevOps",
+  "06": "QA, testing and quality",
+  "07": "Cybersecurity, identity and privacy",
+  "08": "SaaS, platforms and integrations",
+  "09": "AI and automation",
+  "10": "Payments, money and reconciliation",
+  "11": "Fintech, compliance and Chilean regulation", "12": "AI agents, MCP and token economics",
+};
+/** Nombre del dominio para mostrar: los del glosario base se traducen; los que crea el usuario se dejan tal cual. */
+export function dominioNombre(d: string, lang: Lang) {
+  if (lang === "en") { const en = DOMINIOS_EN[d.match(/^(\d{2})/)?.[1] ?? ""]; if (en) return en; }
+  return dominioCorto(d);
+}
 
 /** Parsea el frontmatter simple que genera scripts/generar_notas.py (clave: valor JSON o booleano). */
 export function parseFrontmatter(text: string): Record<string, unknown> | null {

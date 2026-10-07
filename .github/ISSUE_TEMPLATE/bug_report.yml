@@ -1,0 +1,48 @@
+name: Bug report · Reportar un error
+description: Something in Why Glossary does not work as expected · Algo de Why Glossary no funciona como debería
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Write in English or Spanish. Please **do not paste private notes**.
+        Escribe en español o en inglés. Por favor, **no pegues notas privadas**.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened · Qué pasó
+      description: What did you expect, and what did you see instead? · ¿Qué esperabas y qué viste en cambio?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce · Pasos para reproducirlo
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Why Glossary version · Versión de Why Glossary
+      placeholder: "0.1.4"
+    validations:
+      required: true
+  - type: input
+    id: obsidian
+    attributes:
+      label: Obsidian version · Versión de Obsidian
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device · Dispositivo
+      multiple: true
+      options:
+        - Desktop (macOS) · Computador (macOS)
+        - Desktop (Windows) · Computador (Windows)
+        - Desktop (Linux) · Computador (Linux)
+        - Phone or tablet (iOS) · Teléfono o tablet (iOS)
+        - Phone or tablet (Android) · Teléfono o tablet (Android)
+    validations:
+      required: true

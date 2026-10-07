@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SaaS"
 es: "Software como servicio"
 aliases: ["Software como servicio"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Software que el cliente usa sin instalar/administrar toda la infraestructura."
+simple_es: "Es un software que se usa por internet pagando una suscripción, sin instalarlo ni administrar los servidores. El proveedor lo mantiene y lo actualiza."
 tecnica_es: "Software as a Service: software ofrecido como servicio accesible remotamente, normalmente por suscripción."
-simple_en: "Software the customer uses without installing or managing all the infrastructure."
+simple_en: "Software you use over the internet by paying a subscription, without installing it or managing the servers. The provider maintains and updates it."
 tecnica_en: "Software as a Service: software offered as a remotely accessible service, usually by subscription."
 ejemplo_es: "Vendemos la plataforma como SaaS con pago mensual."
 ejemplo_en: "We sell the platform as SaaS with monthly billing."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # SaaS · Software como servicio
 
-**En simple.** Software que el cliente usa sin instalar/administrar toda la infraestructura.
+**En simple.** Es un software que se usa por internet pagando una suscripción, sin instalarlo ni administrar los servidores. El proveedor lo mantiene y lo actualiza.
 
 **Técnica.** Software as a Service: software ofrecido como servicio accesible remotamente, normalmente por suscripción.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Software the customer uses without installing or managing all the infrastructure.
+**In simple.** Software you use over the internet by paying a subscription, without installing it or managing the servers. The provider maintains and updates it.
 
 **Technical.** Software as a Service: software offered as a remotely accessible service, usually by subscription.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Procurement"
 es: "Compras y adquisiciones"
 aliases: ["Compras y adquisiciones"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "El área de una empresa que se encarga de comprar y contratar proveedores."
+simple_es: "Es el área de una empresa que se encarga de comprar y de contratar proveedores, y que suele exigir condiciones y documentos antes de aprobar."
 tecnica_es: "Función empresarial de adquisición y contratación de bienes y servicios."
-simple_en: "The part of a company that buys goods and hires suppliers."
+simple_en: "The area of a company that handles buying and contracting suppliers, and that usually requires conditions and documents before approving."
 tecnica_en: "The business function that acquires and contracts goods and services."
 ejemplo_es: "Compras exige tres cotizaciones."
 ejemplo_en: "Procurement requires three quotes."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Procurement · Compras y adquisiciones
 
-**En simple.** El área de una empresa que se encarga de comprar y contratar proveedores.
+**En simple.** Es el área de una empresa que se encarga de comprar y de contratar proveedores, y que suele exigir condiciones y documentos antes de aprobar.
 
 **Técnica.** Función empresarial de adquisición y contratación de bienes y servicios.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The part of a company that buys goods and hires suppliers.
+**In simple.** The area of a company that handles buying and contracting suppliers, and that usually requires conditions and documents before approving.
 
 **Technical.** The business function that acquires and contracts goods and services.
 

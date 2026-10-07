@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Pilot"
 es: "Piloto"
 aliases: ["Piloto"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Probar una solución en una parte pequeña antes de extenderla."
+simple_es: "Es probar una solución con usuarios o en un entorno real, pero a pequeña escala, antes de extenderla a toda la organización."
 tecnica_es: "Implementación controlada con usuarios o entorno real antes del despliegue general."
-simple_en: "Trying a solution on a small part before rolling it out."
+simple_en: "Trying a solution with real users or in a real setting, but on a small scale, before rolling it out across the whole organization."
 tecnica_en: "A controlled implementation with real users or environment before general rollout."
 ejemplo_es: "Hicimos un piloto en una sola sucursal."
 ejemplo_en: "We ran a pilot in a single branch."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Pilot · Piloto
 
-**En simple.** Probar una solución en una parte pequeña antes de extenderla.
+**En simple.** Es probar una solución con usuarios o en un entorno real, pero a pequeña escala, antes de extenderla a toda la organización.
 
 **Técnica.** Implementación controlada con usuarios o entorno real antes del despliegue general.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Trying a solution on a small part before rolling it out.
+**In simple.** Trying a solution with real users or in a real setting, but on a small scale, before rolling it out across the whole organization.
 
 **Technical.** A controlled implementation with real users or environment before general rollout.
 

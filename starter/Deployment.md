@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Deployment"
 es: "Despliegue"
 aliases: ["Deployment / Deploy", "Despliegue"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Publicar una versión nueva de un sistema."
+simple_es: "Es el proceso de publicar una versión nueva del software en un entorno, como pruebas o producción, para que quede en funcionamiento."
 tecnica_es: "Proceso de publicar una versión de software en un entorno."
-simple_en: "Putting a new version of a system online."
+simple_en: "The process of publishing a new version of software to an environment, such as testing or production, so that it is up and running."
 tecnica_en: "The process of publishing a software version to an environment."
 ejemplo_es: "El despliegue de hoy salió sin incidentes."
 ejemplo_en: "Today's deployment went out without incidents."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Deployment · Despliegue
 
-**En simple.** Publicar una versión nueva de un sistema.
+**En simple.** Es el proceso de publicar una versión nueva del software en un entorno, como pruebas o producción, para que quede en funcionamiento.
 
 **Técnica.** Proceso de publicar una versión de software en un entorno.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Putting a new version of a system online.
+**In simple.** The process of publishing a new version of software to an environment, such as testing or production, so that it is up and running.
 
 **Technical.** The process of publishing a software version to an environment.
 

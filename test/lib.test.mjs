@@ -57,3 +57,11 @@ test("un término propio se guarda con el formato del glosario y se vuelve a lee
   assert.equal(r.es, "Tarifa"); assert.equal(r.dominio, "Mis términos"); assert.equal(r.n, 7);
   assert.ok(new L.Index([r]).search("tarifa").length);
 });
+test("al editar un término se conservan alias, vínculos y marca de verificación", () => {
+  const t = { en: "Chargeback", es: "Contracargo", dominio: "Pagos", simple_es: "Nuevo.", simple_en: "", tecnica_es: "", tecnica_en: "", ejemplo_es: "", ejemplo_en: "" };
+  const c = { aliases: ["CB"], ver_tambien: [3, 9], verificar: true, vinculos: "[[Refund|Refund ↔ Reembolso]]" };
+  const { contenido } = L.notaDeTermino(t, 5, c);
+  const r = L.termFromFrontmatter("Chargeback.md", L.parseFrontmatter(contenido));
+  assert.deepEqual(r.aliases, ["CB"]); assert.deepEqual(r.ver_tambien, [3, 9]); assert.equal(r.verificar, true);
+  assert.ok(contenido.includes("**Ver también.** [[Refund|Refund ↔ Reembolso]]"));
+});

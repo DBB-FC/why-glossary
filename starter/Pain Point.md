@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Pain Point"
 es: "Punto de dolor"
 aliases: ["Punto de dolor"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "El problema real que justifica un proyecto."
+simple_es: "Es el problema real del cliente, que le causa un costo, un riesgo o una pérdida y que justifica hacer un proyecto."
 tecnica_es: "Problema específico que genera fricción, costo, riesgo o pérdida de oportunidad."
-simple_en: "The real problem that justifies a project."
+simple_en: "The client's real problem, which causes them a cost, a risk or a loss and justifies doing a project."
 tecnica_en: "A specific problem that causes friction, cost, risk or a lost opportunity."
 ejemplo_es: "Su punto de dolor es que cuadrar las ventas les toma dos días."
 ejemplo_en: "Their pain point is that reconciling sales takes two days."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Pain Point · Punto de dolor
 
-**En simple.** El problema real que justifica un proyecto.
+**En simple.** Es el problema real del cliente, que le causa un costo, un riesgo o una pérdida y que justifica hacer un proyecto.
 
 **Técnica.** Problema específico que genera fricción, costo, riesgo o pérdida de oportunidad.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The real problem that justifies a project.
+**In simple.** The client's real problem, which causes them a cost, a risk or a loss and justifies doing a project.
 
 **Technical.** A specific problem that causes friction, cost, risk or a lost opportunity.
 

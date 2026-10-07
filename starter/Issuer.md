@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Issuer"
 es: "Emisor"
 aliases: ["Emisor"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "El banco que emitió la tarjeta del cliente."
+simple_es: "Es el banco o entidad que entregó la tarjeta al cliente y que decide si aprueba o rechaza cada pago hecho con ella."
 tecnica_es: "Entidad que emitió el medio de pago del comprador."
-simple_en: "The bank that issued the customer's card."
+simple_en: "The bank or institution that gave the card to the customer and decides whether to approve or decline each payment made with it."
 tecnica_en: "The entity that issued the buyer's payment instrument."
 ejemplo_es: "El emisor rechazó la tarjeta por falta de cupo."
 ejemplo_en: "The issuer declined the card for insufficient limit."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Issuer · Emisor
 
-**En simple.** El banco que emitió la tarjeta del cliente.
+**En simple.** Es el banco o entidad que entregó la tarjeta al cliente y que decide si aprueba o rechaza cada pago hecho con ella.
 
 **Técnica.** Entidad que emitió el medio de pago del comprador.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The bank that issued the customer's card.
+**In simple.** The bank or institution that gave the card to the customer and decides whether to approve or decline each payment made with it.
 
 **Technical.** The entity that issued the buyer's payment instrument.
 

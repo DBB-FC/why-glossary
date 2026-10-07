@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cold Start"
 es: "Arranque en frío"
 aliases: ["Arranque en frío"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "El primer usuario después de un rato espera más."
+simple_es: "Es la demora que se nota cuando una función que llevaba tiempo sin usarse tiene que despertarse para responder. Afecta solo a la primera persona en llegar."
 tecnica_es: "Demora de la primera ejecución de una función que estaba inactiva."
-simple_en: "The first user after a quiet period waits longer."
+simple_en: "The delay you notice when a function that had been unused for a while has to wake up to respond. It only affects the first person to arrive."
 tecnica_en: "The delay of the first execution of a function that was idle."
 ejemplo_es: "El cold start sumó dos segundos a la primera visita."
 ejemplo_en: "The cold start added two seconds to the first visit."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Cold Start · Arranque en frío
 
-**En simple.** El primer usuario después de un rato espera más.
+**En simple.** Es la demora que se nota cuando una función que llevaba tiempo sin usarse tiene que despertarse para responder. Afecta solo a la primera persona en llegar.
 
 **Técnica.** Demora de la primera ejecución de una función que estaba inactiva.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The first user after a quiet period waits longer.
+**In simple.** The delay you notice when a function that had been unused for a while has to wake up to respond. It only affects the first person to arrive.
 
 **Technical.** The delay of the first execution of a function that was idle.
 

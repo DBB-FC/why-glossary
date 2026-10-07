@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Backend"
 es: "Capa de servidor (backend)"
 aliases: ["Capa de servidor (backend)"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "La parte del sistema que trabaja detrás y que el usuario no ve."
+simple_es: "Es la parte de un sistema que trabaja en el servidor y que el usuario no ve: guarda datos, aplica reglas del negocio y se conecta con otros sistemas."
 tecnica_es: "Servicios, lógica de negocio, acceso a datos e integraciones ejecutados del lado servidor."
-simple_en: "The part of a system that works behind the scenes, unseen by the user."
+simple_en: "The part of a system that works on the server and that the user does not see: it stores data, applies business rules and connects to other systems."
 tecnica_en: "Services, business logic, data access and integrations running on the server side."
 ejemplo_es: "El backend valida el pago y guarda el pedido."
 ejemplo_en: "The backend validates the payment and saves the order."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Backend · Capa de servidor (backend)
 
-**En simple.** La parte del sistema que trabaja detrás y que el usuario no ve.
+**En simple.** Es la parte de un sistema que trabaja en el servidor y que el usuario no ve: guarda datos, aplica reglas del negocio y se conecta con otros sistemas.
 
 **Técnica.** Servicios, lógica de negocio, acceso a datos e integraciones ejecutados del lado servidor.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The part of a system that works behind the scenes, unseen by the user.
+**In simple.** The part of a system that works on the server and that the user does not see: it stores data, applies business rules and connects to other systems.
 
 **Technical.** Services, business logic, data access and integrations running on the server side.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Model Card / System Card"
 es: "Ficha de modelo / ficha de sistema"
 aliases: ["Model Card", "Ficha de modelo / ficha de sistema", "System Card", "Ficha de modelo", "ficha de sistema"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Un documento que describe para qué sirve un modelo de IA, sus límites y sus riesgos."
+simple_es: "Es un documento que describe para qué sirve un modelo o sistema de IA, qué no puede hacer y qué riesgos tiene."
 tecnica_es: "Documento que declara capacidades, límites y riesgos de un modelo o sistema."
-simple_en: "A document describing what an AI model is for, its limits and its risks."
+simple_en: "A document describing what an AI model or system is for, what it cannot do and what risks it carries."
 tecnica_en: "A document stating a model's or system's capabilities, limits and risks."
 ejemplo_es: "Leímos la ficha del modelo antes de integrarlo."
 ejemplo_en: "We read the model card before integrating it."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Model Card / System Card · Ficha de modelo / ficha de sistema
 
-**En simple.** Un documento que describe para qué sirve un modelo de IA, sus límites y sus riesgos.
+**En simple.** Es un documento que describe para qué sirve un modelo o sistema de IA, qué no puede hacer y qué riesgos tiene.
 
 **Técnica.** Documento que declara capacidades, límites y riesgos de un modelo o sistema.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A document describing what an AI model is for, its limits and its risks.
+**In simple.** A document describing what an AI model or system is for, what it cannot do and what risks it carries.
 
 **Technical.** A document stating a model's or system's capabilities, limits and risks.
 

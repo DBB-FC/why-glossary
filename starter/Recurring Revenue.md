@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Recurring Revenue"
 es: "Ingreso recurrente"
 aliases: ["Ingreso recurrente"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Ingresos que se repiten, como suscripciones o mantenimiento mensual."
+simple_es: "Es el ingreso que se repite de forma previsible cada cierto tiempo, como una suscripción o un mantenimiento mensual."
 tecnica_es: "Ingreso que se repite periódicamente de manera previsible."
-simple_en: "Income that repeats, like subscriptions or monthly maintenance."
+simple_en: "Income that repeats predictably at regular intervals, such as a subscription or monthly maintenance."
 tecnica_en: "Income that repeats periodically in a predictable way."
 ejemplo_es: "El ingreso recurrente cubre los costos fijos."
 ejemplo_en: "Recurring revenue covers the fixed costs."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Recurring Revenue · Ingreso recurrente
 
-**En simple.** Ingresos que se repiten, como suscripciones o mantenimiento mensual.
+**En simple.** Es el ingreso que se repite de forma previsible cada cierto tiempo, como una suscripción o un mantenimiento mensual.
 
 **Técnica.** Ingreso que se repite periódicamente de manera previsible.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Income that repeats, like subscriptions or monthly maintenance.
+**In simple.** Income that repeats predictably at regular intervals, such as a subscription or monthly maintenance.
 
 **Technical.** Income that repeats periodically in a predictable way.
 

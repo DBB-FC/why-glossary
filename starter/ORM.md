@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ORM"
 es: "Mapeo objeto-relacional"
 aliases: ["Mapeo objeto-relacional"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Cómodo hasta que esconde la consulta que hay que optimizar."
+simple_es: "Es una herramienta que traduce entre los objetos del código y las tablas de la base de datos, para trabajar con datos sin escribir SQL a mano. Puede esconder consultas lentas."
 tecnica_es: "Capa que traduce entre objetos del código y tablas de la base."
-simple_en: "Convenient until it hides the query you need to optimise."
+simple_en: "A tool that translates between code objects and database tables, so you can work with data without writing SQL by hand. It can hide slow queries."
 tecnica_en: "A layer that translates between code objects and database tables."
 ejemplo_es: "El ORM genera las consultas por nosotros."
 ejemplo_en: "The ORM generates the queries for us."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # ORM · Mapeo objeto-relacional
 
-**En simple.** Cómodo hasta que esconde la consulta que hay que optimizar.
+**En simple.** Es una herramienta que traduce entre los objetos del código y las tablas de la base de datos, para trabajar con datos sin escribir SQL a mano. Puede esconder consultas lentas.
 
 **Técnica.** Capa que traduce entre objetos del código y tablas de la base.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Convenient until it hides the query you need to optimise.
+**In simple.** A tool that translates between code objects and database tables, so you can work with data without writing SQL by hand. It can hide slow queries.
 
 **Technical.** A layer that translates between code objects and database tables.
 

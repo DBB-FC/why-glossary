@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Step"
 es: "Paso"
 aliases: ["Paso"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Una vuelta: pensó, usó una herramienta, miró el resultado."
+simple_es: "Es una vuelta del ciclo del agente: pensó, usó una herramienta y miró el resultado."
 tecnica_es: "Una iteración del bucle."
-simple_en: "One turn: it thought, used a tool, looked at the result."
+simple_en: "One turn of the agent's loop: it thought, used a tool and looked at the result."
 tecnica_en: "One iteration of the loop."
 ejemplo_es: "El agente tardó doce pasos en resolverlo."
 ejemplo_en: "The agent took twelve steps to solve it."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Step · Paso
 
-**En simple.** Una vuelta: pensó, usó una herramienta, miró el resultado.
+**En simple.** Es una vuelta del ciclo del agente: pensó, usó una herramienta y miró el resultado.
 
 **Técnica.** Una iteración del bucle.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** One turn: it thought, used a tool, looked at the result.
+**In simple.** One turn of the agent's loop: it thought, used a tool and looked at the result.
 
 **Technical.** One iteration of the loop.
 

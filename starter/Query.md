@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Query"
 es: "Consulta"
 aliases: ["Consulta"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Una consulta o pregunta a la base de datos."
+simple_es: "Es una instrucción que se le envía a la base de datos para pedirle datos o para modificarlos."
 tecnica_es: "Instrucción para consultar o modificar datos."
-simple_en: "A question put to the database."
+simple_en: "An instruction sent to the database to ask it for data or to modify it."
 tecnica_en: "An instruction to read or modify data."
 ejemplo_es: "La consulta tardaba diez segundos hasta que agregamos un índice."
 ejemplo_en: "The query took ten seconds until we added an index."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Query · Consulta
 
-**En simple.** Una consulta o pregunta a la base de datos.
+**En simple.** Es una instrucción que se le envía a la base de datos para pedirle datos o para modificarlos.
 
 **Técnica.** Instrucción para consultar o modificar datos.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A question put to the database.
+**In simple.** An instruction sent to the database to ask it for data or to modify it.
 
 **Technical.** An instruction to read or modify data.
 

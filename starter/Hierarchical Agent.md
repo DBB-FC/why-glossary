@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Hierarchical Agent"
 es: "Agente jerárquico"
 aliases: ["Agente jerárquico"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Un agente coordinador que reparte el trabajo entre agentes especialistas."
+simple_es: "Es un diseño en que un agente coordinador reparte el trabajo entre agentes especialistas, cada uno con una tarea acotada."
 tecnica_es: "Agente que coordina subagentes con tareas acotadas."
-simple_en: "A coordinating agent that hands out work to specialist agents."
+simple_en: "A design where a coordinating agent hands out work among specialist agents, each with a narrow task."
 tecnica_en: "An agent that coordinates sub-agents with bounded tasks."
 ejemplo_es: "El agente jerárquico delega en especialistas."
 ejemplo_en: "The hierarchical agent delegates to specialists."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Hierarchical Agent · Agente jerárquico
 
-**En simple.** Un agente coordinador que reparte el trabajo entre agentes especialistas.
+**En simple.** Es un diseño en que un agente coordinador reparte el trabajo entre agentes especialistas, cada uno con una tarea acotada.
 
 **Técnica.** Agente que coordina subagentes con tareas acotadas.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A coordinating agent that hands out work to specialist agents.
+**In simple.** A design where a coordinating agent hands out work among specialist agents, each with a narrow task.
 
 **Technical.** An agent that coordinates sub-agents with bounded tasks.
 

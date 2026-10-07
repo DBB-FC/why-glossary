@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Approval Gate"
 es: "Punto de aprobación"
 aliases: ["Punto de aprobación"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Un punto donde una persona debe aprobar antes de que algo se ejecute."
+simple_es: "Es un punto del proceso donde una persona debe aprobar de forma explícita antes de que una acción se ejecute."
 tecnica_es: "Punto donde una acción requiere aprobación humana explícita."
-simple_en: "A point where a person must approve before something runs."
+simple_en: "A point in the process where a person must explicitly approve before an action is carried out."
 tecnica_en: "A point where an action requires explicit human approval."
 ejemplo_es: "El punto de aprobación frena los envíos sin revisión."
 ejemplo_en: "The approval gate stops sends that haven't been reviewed."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Approval Gate · Punto de aprobación
 
-**En simple.** Un punto donde una persona debe aprobar antes de que algo se ejecute.
+**En simple.** Es un punto del proceso donde una persona debe aprobar de forma explícita antes de que una acción se ejecute.
 
 **Técnica.** Punto donde una acción requiere aprobación humana explícita.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A point where a person must approve before something runs.
+**In simple.** A point in the process where a person must explicitly approve before an action is carried out.
 
 **Technical.** A point where an action requires explicit human approval.
 

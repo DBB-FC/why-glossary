@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cache Hit / Miss"
 es: "Acierto / fallo de caché"
 aliases: ["Cache Hit", "Acierto / fallo de caché", "Miss", "Acierto", "fallo de caché"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "La diferencia de costo entre los dos es grande."
+simple_es: "Es si lo que se envía al modelo ya estaba guardado en la caché (acierto) o hubo que procesarlo de cero (fallo). Un acierto cuesta mucho menos."
 tecnica_es: "Que el prefijo estuviera en caché o no."
-simple_en: "The cost difference between the two is large."
+simple_en: "Whether what is sent to the model was already stored in the cache (hit) or had to be processed from scratch (miss). A hit costs much less."
 tecnica_en: "Whether the prefix was in the cache or not."
 ejemplo_es: "Un acierto de caché cuesta mucho menos que un fallo."
 ejemplo_en: "A cache hit costs far less than a miss."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Cache Hit / Miss · Acierto / fallo de caché
 
-**En simple.** La diferencia de costo entre los dos es grande.
+**En simple.** Es si lo que se envía al modelo ya estaba guardado en la caché (acierto) o hubo que procesarlo de cero (fallo). Un acierto cuesta mucho menos.
 
 **Técnica.** Que el prefijo estuviera en caché o no.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The cost difference between the two is large.
+**In simple.** Whether what is sent to the model was already stored in the cache (hit) or had to be processed from scratch (miss). A hit costs much less.
 
 **Technical.** Whether the prefix was in the cache or not.
 

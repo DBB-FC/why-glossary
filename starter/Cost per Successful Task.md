@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cost per Successful Task"
 es: "Costo por tarea exitosa"
 aliases: ["Costo por tarea exitosa"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "La única métrica de costo honesta: los intentos fallidos también se pagan."
+simple_es: "Es el costo total dividido por las tareas que de verdad se resolvieron. Es la medida de costo honesta, porque los intentos fallidos también se pagan."
 tecnica_es: "Costo total dividido por tareas efectivamente resueltas."
-simple_en: "The only honest cost metric: failed attempts get paid too."
+simple_en: "The total cost divided by the tasks that were actually solved. It is the honest cost measure, because failed attempts are paid for too."
 tecnica_en: "Total cost divided by tasks actually solved."
 ejemplo_es: "El costo por tarea exitosa incluye los reintentos fallidos."
 ejemplo_en: "Cost per successful task includes the failed retries."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Cost per Successful Task · Costo por tarea exitosa
 
-**En simple.** La única métrica de costo honesta: los intentos fallidos también se pagan.
+**En simple.** Es el costo total dividido por las tareas que de verdad se resolvieron. Es la medida de costo honesta, porque los intentos fallidos también se pagan.
 
 **Técnica.** Costo total dividido por tareas efectivamente resueltas.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The only honest cost metric: failed attempts get paid too.
+**In simple.** The total cost divided by the tasks that were actually solved. It is the honest cost measure, because failed attempts are paid for too.
 
 **Technical.** Total cost divided by tasks actually solved.
 

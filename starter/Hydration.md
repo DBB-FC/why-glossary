@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Hydration"
 es: "Hidratación"
 aliases: ["Hidratación"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Si el servidor y el cliente pintan distinto, aparece el error de hidratación."
+simple_es: "Es el paso en que el código del navegador toma el control de una página que el servidor ya armó, para que sus botones y formularios empiecen a funcionar. Si ambos arman la página distinto, aparece un error."
 tecnica_es: "Proceso en que el JavaScript del navegador toma control del HTML ya renderizado."
-simple_en: "If server and client render differently, a hydration error appears."
+simple_en: "The step where the browser's code takes over a page the server already built, so its buttons and forms start working. If the two build the page differently, an error appears."
 tecnica_en: "The process in which browser JavaScript takes over already-rendered HTML."
 ejemplo_es: "Un error de hidratación mostró el precio dos veces."
 ejemplo_en: "A hydration error showed the price twice."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Hydration · Hidratación
 
-**En simple.** Si el servidor y el cliente pintan distinto, aparece el error de hidratación.
+**En simple.** Es el paso en que el código del navegador toma el control de una página que el servidor ya armó, para que sus botones y formularios empiecen a funcionar. Si ambos arman la página distinto, aparece un error.
 
 **Técnica.** Proceso en que el JavaScript del navegador toma control del HTML ya renderizado.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** If server and client render differently, a hydration error appears.
+**In simple.** The step where the browser's code takes over a page the server already built, so its buttons and forms start working. If the two build the page differently, an error appears.
 
 **Technical.** The process in which browser JavaScript takes over already-rendered HTML.
 

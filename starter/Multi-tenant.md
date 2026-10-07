@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Multi-tenant"
 es: "Multiinquilino"
 aliases: ["Multiinquilino"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Una misma plataforma que atiende a muchos clientes con sus datos separados."
+simple_es: "Es un diseño donde una misma plataforma atiende a muchos clientes a la vez, manteniendo los datos de cada uno separados de los demás."
 tecnica_es: "Arquitectura donde una instancia sirve a múltiples clientes manteniendo aislamiento lógico."
-simple_en: "One platform serving many customers with their data kept separate."
+simple_en: "A design where one platform serves many customers at once while keeping each customer's data separate from the others."
 tecnica_en: "An architecture where a single instance serves multiple customers while keeping logical isolation."
 ejemplo_es: "La plataforma es multiinquilino: cada cliente ve solo sus datos."
 ejemplo_en: "The platform is multi-tenant: each customer sees only their own data."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Multi-tenant · Multiinquilino
 
-**En simple.** Una misma plataforma que atiende a muchos clientes con sus datos separados.
+**En simple.** Es un diseño donde una misma plataforma atiende a muchos clientes a la vez, manteniendo los datos de cada uno separados de los demás.
 
 **Técnica.** Arquitectura donde una instancia sirve a múltiples clientes manteniendo aislamiento lógico.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** One platform serving many customers with their data kept separate.
+**In simple.** A design where one platform serves many customers at once while keeping each customer's data separate from the others.
 
 **Technical.** An architecture where a single instance serves multiple customers while keeping logical isolation.
 

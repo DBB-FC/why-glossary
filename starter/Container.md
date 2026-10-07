@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Container"
 es: "Contenedor"
 aliases: ["Contenedor"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Ejecutar el software de forma consistente entre entornos."
+simple_es: "Es un paquete aislado que reúne una aplicación y todo lo que necesita para funcionar, de modo que corra igual en cualquier computador o servidor."
 tecnica_es: "Unidad aislada que empaqueta aplicación y dependencias."
-simple_en: "Running software consistently across environments."
+simple_en: "An isolated package that bundles an application with everything it needs to run, so that it works the same on any computer or server."
 tecnica_en: "An isolated unit that packages an application and its dependencies."
 ejemplo_es: "Empaquetamos la app en un contenedor."
 ejemplo_en: "We packaged the app in a container."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Container · Contenedor
 
-**En simple.** Ejecutar el software de forma consistente entre entornos.
+**En simple.** Es un paquete aislado que reúne una aplicación y todo lo que necesita para funcionar, de modo que corra igual en cualquier computador o servidor.
 
 **Técnica.** Unidad aislada que empaqueta aplicación y dependencias.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Running software consistently across environments.
+**In simple.** An isolated package that bundles an application with everything it needs to run, so that it works the same on any computer or server.
 
 **Technical.** An isolated unit that packages an application and its dependencies.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Authorization (AuthZ)"
 es: "Autorización"
 aliases: ["Authorization / AuthZ", "Authorization", "Autorización"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Decidir qué puede hacer cada persona una vez identificada."
+simple_es: "Es decidir qué puede hacer una persona ya identificada: qué ve, qué edita, qué borra. Responde «¿qué puedes hacer?» y va después de la autenticación."
 tecnica_es: "Proceso de determinar qué acciones puede realizar una identidad autenticada."
-simple_en: "Deciding what each person may do once identified."
+simple_en: "Deciding what an already identified person is allowed to do: what they see, edit or delete. It answers «what can you do?» and comes after authentication."
 tecnica_en: "The process of determining which actions an authenticated identity can perform."
 ejemplo_es: "La autorización impide que un vendedor vea la facturación."
 ejemplo_en: "Authorization stops a salesperson from seeing billing."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Authorization (AuthZ) · Autorización
 
-**En simple.** Decidir qué puede hacer cada persona una vez identificada.
+**En simple.** Es decidir qué puede hacer una persona ya identificada: qué ve, qué edita, qué borra. Responde «¿qué puedes hacer?» y va después de la autenticación.
 
 **Técnica.** Proceso de determinar qué acciones puede realizar una identidad autenticada.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Deciding what each person may do once identified.
+**In simple.** Deciding what an already identified person is allowed to do: what they see, edit or delete. It answers «what can you do?» and comes after authentication.
 
 **Technical.** The process of determining which actions an authenticated identity can perform.
 

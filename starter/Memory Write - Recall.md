@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Memory Write / Recall"
 es: "Escritura / recuperación de memoria"
 aliases: ["Memory Write", "Escritura / recuperación de memoria", "Recall", "Escritura", "recuperación de memoria"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Sin escritura no hay memoria; sin recuperación, no sirve."
+simple_es: "Son las dos operaciones de una memoria: guardar información para después y recuperarla cuando haga falta. Sin escritura no hay memoria; sin recuperación, no sirve."
 tecnica_es: "Escribir en la memoria persistente y recuperar de ella."
-simple_en: "Without writing there's no memory; without recall, it's useless."
+simple_en: "The two operations of a memory: saving information for later and retrieving it when needed. Without writing there is no memory; without retrieval, it is useless."
 tecnica_en: "Writing to persistent memory and retrieving from it."
 ejemplo_es: "El agente escribe en memoria y la recupera después."
 ejemplo_en: "The agent writes to memory and recalls it later."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Memory Write / Recall · Escritura / recuperación de memoria
 
-**En simple.** Sin escritura no hay memoria; sin recuperación, no sirve.
+**En simple.** Son las dos operaciones de una memoria: guardar información para después y recuperarla cuando haga falta. Sin escritura no hay memoria; sin recuperación, no sirve.
 
 **Técnica.** Escribir en la memoria persistente y recuperar de ella.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Without writing there's no memory; without recall, it's useless.
+**In simple.** The two operations of a memory: saving information for later and retrieving it when needed. Without writing there is no memory; without retrieval, it is useless.
 
 **Technical.** Writing to persistent memory and retrieving from it.
 

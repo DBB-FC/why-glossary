@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Chargeback"
 es: "Contracargo"
 aliases: ["Chargeback / Contracargo", "Contracargo"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "El cliente desconoce el cargo y el banco quita el dinero. Se pierde por defecto si no hay evidencia."
+simple_es: "Es cuando el cliente desconoce un cargo ante su banco y el banco devuelve el dinero quitándoselo al comercio. Si el comercio no presenta pruebas, normalmente lo pierde."
 tecnica_es: "Reverso forzado por el emisor a solicitud del titular."
-simple_en: "The customer disowns the charge and the bank takes the money back. You lose by default if you have no evidence."
+simple_en: "When a customer disputes a charge with their bank and the bank returns the money by taking it back from the merchant. Without evidence, the merchant usually loses."
 tecnica_en: "A reversal forced by the issuer at the cardholder's request."
 ejemplo_es: "Perdimos el contracargo por falta de evidencia."
 ejemplo_en: "We lost the chargeback for lack of evidence."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Chargeback · Contracargo
 
-**En simple.** El cliente desconoce el cargo y el banco quita el dinero. Se pierde por defecto si no hay evidencia.
+**En simple.** Es cuando el cliente desconoce un cargo ante su banco y el banco devuelve el dinero quitándoselo al comercio. Si el comercio no presenta pruebas, normalmente lo pierde.
 
 **Técnica.** Reverso forzado por el emisor a solicitud del titular.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The customer disowns the charge and the bank takes the money back. You lose by default if you have no evidence.
+**In simple.** When a customer disputes a charge with their bank and the bank returns the money by taking it back from the merchant. Without evidence, the merchant usually loses.
 
 **Technical.** A reversal forced by the issuer at the cardholder's request.
 

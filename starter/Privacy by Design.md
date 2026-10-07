@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Privacy by Design"
 es: "Privacidad desde el diseño"
 aliases: ["Privacidad desde el diseño"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "La privacidad se construye desde el principio, no se pega al final."
+simple_es: "Es el principio de pensar la protección de los datos personales desde el inicio del diseño de un sistema, en lugar de agregarla al final como un parche."
 tecnica_es: "Integración de privacidad desde el diseño del sistema y sus procesos."
-simple_en: "Privacy is built in from the start, not bolted on at the end."
+simple_en: "The principle of building personal data protection in from the start of a system's design, rather than adding it at the end as a patch."
 tecnica_en: "Integration of privacy into the design of the system and its processes."
 ejemplo_es: "Aplicamos privacidad desde el diseño en el nuevo módulo."
 ejemplo_en: "We applied privacy by design in the new module."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Privacy by Design · Privacidad desde el diseño
 
-**En simple.** La privacidad se construye desde el principio, no se pega al final.
+**En simple.** Es el principio de pensar la protección de los datos personales desde el inicio del diseño de un sistema, en lugar de agregarla al final como un parche.
 
 **Técnica.** Integración de privacidad desde el diseño del sistema y sus procesos.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Privacy is built in from the start, not bolted on at the end.
+**In simple.** The principle of building personal data protection in from the start of a system's design, rather than adding it at the end as a patch.
 
 **Technical.** Integration of privacy into the design of the system and its processes.
 

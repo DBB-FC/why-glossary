@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Ticket"
 es: "Ticket (solicitud de soporte)"
 aliases: ["Ticket (solicitud de soporte)"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Lo que factura un proyecto. El promedio de todos es el *ticket promedio*: no son lo mismo."
+simple_es: "Es el valor económico de una venta o contrato. El ticket promedio es el promedio de todos ellos, y no son lo mismo. Ojo: en soporte, «ticket» también es una solicitud de atención."
 tecnica_es: "Valor económico de una venta o contrato."
-simple_en: "What a single project or sale is worth; the average across all of them is the average ticket."
+simple_en: "The economic value of a sale or contract. The average ticket is the average of all of them, and they are not the same thing. Note: in support, «ticket» can also mean a service request."
 tecnica_en: "The economic value of a sale or contract."
 ejemplo_es: "El ticket promedio de este mes fue de dos millones."
 ejemplo_en: "This month's average ticket was two million."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Ticket · Ticket (solicitud de soporte)
 
-**En simple.** Lo que factura un proyecto. El promedio de todos es el *ticket promedio*: no son lo mismo.
+**En simple.** Es el valor económico de una venta o contrato. El ticket promedio es el promedio de todos ellos, y no son lo mismo. Ojo: en soporte, «ticket» también es una solicitud de atención.
 
 **Técnica.** Valor económico de una venta o contrato.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** What a single project or sale is worth; the average across all of them is the average ticket.
+**In simple.** The economic value of a sale or contract. The average ticket is the average of all of them, and they are not the same thing. Note: in support, «ticket» can also mean a service request.
 
 **Technical.** The economic value of a sale or contract.
 

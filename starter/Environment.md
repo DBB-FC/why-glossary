@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Environment"
 es: "Entorno"
 aliases: ["Entorno"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Cada lugar donde corre el software: local, pruebas y producción."
+simple_es: "Es cada lugar separado donde corre el software, como el computador del desarrollador, pruebas o producción. Cada uno tiene su propia configuración y sus propios datos."
 tecnica_es: "Instancia/configuración separada destinada a una etapa del ciclo de software."
-simple_en: "Each place where software runs: local, testing and production."
+simple_en: "Each separate place where software runs, such as the developer's computer, testing or production. Each has its own configuration and its own data."
 tecnica_en: "A separate instance or configuration meant for one stage of the software lifecycle."
 ejemplo_es: "Cada entorno tiene sus propias claves."
 ejemplo_en: "Each environment has its own keys."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Environment · Entorno
 
-**En simple.** Cada lugar donde corre el software: local, pruebas y producción.
+**En simple.** Es cada lugar separado donde corre el software, como el computador del desarrollador, pruebas o producción. Cada uno tiene su propia configuración y sus propios datos.
 
 **Técnica.** Instancia/configuración separada destinada a una etapa del ciclo de software.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Each place where software runs: local, testing and production.
+**In simple.** Each separate place where software runs, such as the developer's computer, testing or production. Each has its own configuration and its own data.
 
 **Technical.** A separate instance or configuration meant for one stage of the software lifecycle.
 

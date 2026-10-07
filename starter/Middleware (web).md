@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Middleware (web)"
 es: "Intermediario (middleware web)"
 aliases: ["Intermediario (middleware web)"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Donde vive la comprobación de sesión antes de llegar a la página."
+simple_es: "Es un código que se ejecuta entre que llega una petición y se entrega la respuesta. Se usa, por ejemplo, para comprobar la sesión antes de mostrar una página."
 tecnica_es: "Código que se ejecuta entre la petición y la respuesta."
-simple_en: "Where the session check lives before reaching the page."
+simple_en: "Code that runs between a request arriving and the response being delivered. It is used, for example, to check the session before showing a page."
 tecnica_en: "Code that runs between the request and the response."
 ejemplo_es: "El middleware redirige al login si no hay sesión."
 ejemplo_en: "The middleware redirects to login when there is no session."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Middleware (web) · Intermediario (middleware web)
 
-**En simple.** Donde vive la comprobación de sesión antes de llegar a la página.
+**En simple.** Es un código que se ejecuta entre que llega una petición y se entrega la respuesta. Se usa, por ejemplo, para comprobar la sesión antes de mostrar una página.
 
 **Técnica.** Código que se ejecuta entre la petición y la respuesta.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Where the session check lives before reaching the page.
+**In simple.** Code that runs between a request arriving and the response being delivered. It is used, for example, to check the session before showing a page.
 
 **Technical.** Code that runs between the request and the response.
 

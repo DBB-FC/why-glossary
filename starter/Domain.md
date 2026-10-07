@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Domain"
 es: "Dominio"
 aliases: ["Dominio"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "El nombre que se escribe en el navegador para llegar a un sitio, como ejemplo.cl."
+simple_es: "Es el nombre que se escribe en el navegador para llegar a un sitio, como ejemplo.cl. Se registra y se renueva, normalmente cada año."
 tecnica_es: "Nombre legible asociado a un servicio en Internet."
-simple_en: "The name you type in a browser to reach a site, like example.com."
+simple_en: "The name you type in the browser to reach a site, like example.com. It is registered and renewed, usually every year."
 tecnica_en: "A human-readable name associated with a service on the Internet."
 ejemplo_es: "Compramos el dominio y lo apuntamos al servidor."
 ejemplo_en: "We bought the domain and pointed it to the server."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Domain · Dominio
 
-**En simple.** El nombre que se escribe en el navegador para llegar a un sitio, como ejemplo.cl.
+**En simple.** Es el nombre que se escribe en el navegador para llegar a un sitio, como ejemplo.cl. Se registra y se renueva, normalmente cada año.
 
 **Técnica.** Nombre legible asociado a un servicio en Internet.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The name you type in a browser to reach a site, like example.com.
+**In simple.** The name you type in the browser to reach a site, like example.com. It is registered and renewed, usually every year.
 
 **Technical.** A human-readable name associated with a service on the Internet.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Seed"
 es: "Datos semilla"
 aliases: ["Datos semilla"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Distinto de una migración: la migración cambia la forma, el seed pone el contenido mínimo."
+simple_es: "Son los datos iniciales que una base necesita para funcionar, como una lista de países o un usuario administrador. La migración cambia la forma de la base; el seed pone el contenido mínimo."
 tecnica_es: "Datos iniciales que una base necesita para funcionar."
-simple_en: "Different from a migration: the migration changes the shape, the seed puts in the minimum content."
+simple_en: "The initial data a database needs in order to work, such as a list of countries or an admin user. A migration changes the database's shape; the seed puts in the minimum content."
 tecnica_en: "Initial data a database needs in order to work."
 ejemplo_es: "El seed crea los roles básicos."
 ejemplo_en: "The seed creates the basic roles."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Seed · Datos semilla
 
-**En simple.** Distinto de una migración: la migración cambia la forma, el seed pone el contenido mínimo.
+**En simple.** Son los datos iniciales que una base necesita para funcionar, como una lista de países o un usuario administrador. La migración cambia la forma de la base; el seed pone el contenido mínimo.
 
 **Técnica.** Datos iniciales que una base necesita para funcionar.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Different from a migration: the migration changes the shape, the seed puts in the minimum content.
+**In simple.** The initial data a database needs in order to work, such as a list of countries or an admin user. A migration changes the database's shape; the seed puts in the minimum content.
 
 **Technical.** Initial data a database needs in order to work.
 

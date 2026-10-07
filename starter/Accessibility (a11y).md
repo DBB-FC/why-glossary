@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Accessibility (a11y)"
 es: "Accesibilidad"
 aliases: ["Accesibilidad"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Que la plataforma no excluya usuarios por discapacidad."
+simple_es: "Es diseñar los productos para que puedan usarlos todas las personas, incluidas las que tienen alguna discapacidad visual, auditiva, motriz o cognitiva."
 tecnica_es: "Práctica de diseñar sistemas utilizables por personas con diversas capacidades."
-simple_en: "The platform does not exclude users with disabilities."
+simple_en: "Designing products so that everyone can use them, including people with a visual, hearing, motor or cognitive disability."
 tecnica_en: "The practice of designing systems usable by people with a wide range of abilities."
 ejemplo_es: "Cumplir con accesibilidad abrió el contrato con el Estado."
 ejemplo_en: "Meeting accessibility requirements opened the government contract."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Accessibility (a11y) · Accesibilidad
 
-**En simple.** Que la plataforma no excluya usuarios por discapacidad.
+**En simple.** Es diseñar los productos para que puedan usarlos todas las personas, incluidas las que tienen alguna discapacidad visual, auditiva, motriz o cognitiva.
 
 **Técnica.** Práctica de diseñar sistemas utilizables por personas con diversas capacidades.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The platform does not exclude users with disabilities.
+**In simple.** Designing products so that everyone can use them, including people with a visual, hearing, motor or cognitive disability.
 
 **Technical.** The practice of designing systems usable by people with a wide range of abilities.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "NDA"
 es: "Acuerdo de confidencialidad"
 aliases: ["Acuerdo de confidencialidad"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Protege información sensible compartida durante el proyecto."
+simple_es: "Es un acuerdo legal por el que las partes se comprometen a no revelar la información sensible que se comparten durante un proyecto."
 tecnica_es: "Non-Disclosure Agreement: acuerdo de confidencialidad."
-simple_en: "Protects sensitive information shared during the project."
+simple_en: "A legal agreement in which the parties commit not to disclose the sensitive information they share during a project."
 tecnica_en: "Non-Disclosure Agreement: a confidentiality agreement."
 ejemplo_es: "Firmamos un NDA antes de ver sus datos."
 ejemplo_en: "We signed an NDA before seeing their data."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # NDA · Acuerdo de confidencialidad
 
-**En simple.** Protege información sensible compartida durante el proyecto.
+**En simple.** Es un acuerdo legal por el que las partes se comprometen a no revelar la información sensible que se comparten durante un proyecto.
 
 **Técnica.** Non-Disclosure Agreement: acuerdo de confidencialidad.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Protects sensitive information shared during the project.
+**In simple.** A legal agreement in which the parties commit not to disclose the sensitive information they share during a project.
 
 **Technical.** Non-Disclosure Agreement: a confidentiality agreement.
 

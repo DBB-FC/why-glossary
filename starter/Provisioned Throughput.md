@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Provisioned Throughput"
 es: "Capacidad aprovisionada"
 aliases: ["Capacidad aprovisionada"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Capacidad reservada de un modelo, para carga constante y predecible."
+simple_es: "Es la capacidad de un modelo que se reserva por adelantado con rendimiento garantizado. Conviene para una carga constante y predecible."
 tecnica_es: "Capacidad reservada con rendimiento garantizado."
-simple_en: "Reserved model capacity, for constant and predictable load."
+simple_en: "Model capacity reserved in advance with guaranteed performance. It suits a constant, predictable load."
 tecnica_en: "Reserved capacity with guaranteed throughput."
 ejemplo_es: "Contratamos capacidad aprovisionada para la carga estable."
 ejemplo_en: "We contracted provisioned throughput for the steady load."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Provisioned Throughput · Capacidad aprovisionada
 
-**En simple.** Capacidad reservada de un modelo, para carga constante y predecible.
+**En simple.** Es la capacidad de un modelo que se reserva por adelantado con rendimiento garantizado. Conviene para una carga constante y predecible.
 
 **Técnica.** Capacidad reservada con rendimiento garantizado.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Reserved model capacity, for constant and predictable load.
+**In simple.** Model capacity reserved in advance with guaranteed performance. It suits a constant, predictable load.
 
 **Technical.** Reserved capacity with guaranteed throughput.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Subgoal"
 es: "Subobjetivo"
 aliases: ["Subobjetivo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Dividir un problema grande en pasos más pequeños."
+simple_es: "Es un objetivo intermedio que surge de dividir un problema grande en pasos más pequeños que se pueden resolver uno a uno."
 tecnica_es: "Objetivo intermedio derivado del objetivo principal."
-simple_en: "Splitting a big problem into smaller steps."
+simple_en: "An intermediate goal that comes from splitting a large problem into smaller steps that can be solved one at a time."
 tecnica_en: "An intermediate goal derived from the main goal."
 ejemplo_es: "Cada subobjetivo se resuelve por separado."
 ejemplo_en: "Each subgoal is solved separately."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Subgoal · Subobjetivo
 
-**En simple.** Dividir un problema grande en pasos más pequeños.
+**En simple.** Es un objetivo intermedio que surge de dividir un problema grande en pasos más pequeños que se pueden resolver uno a uno.
 
 **Técnica.** Objetivo intermedio derivado del objetivo principal.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Splitting a big problem into smaller steps.
+**In simple.** An intermediate goal that comes from splitting a large problem into smaller steps that can be solved one at a time.
 
 **Technical.** An intermediate goal derived from the main goal.
 

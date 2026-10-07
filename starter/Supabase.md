@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Supabase"
 es: "Supabase"
 aliases: []
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Servicio que ofrece base de datos, inicio de sesión y almacenamiento ya montados, para no armar el backend desde cero."
+simple_es: "Es un servicio que ya trae montados una base de datos, el inicio de sesión de usuarios y el almacenamiento de archivos, para no construir el backend desde cero."
 tecnica_es: "Plataforma backend que ofrece PostgreSQL, autenticación, almacenamiento y otros servicios."
-simple_en: "A service that provides a ready-made database, login and storage, so you don't build the backend from scratch."
+simple_en: "A service that comes with a database, user sign-in and file storage already set up, so you do not have to build the backend from scratch."
 tecnica_en: "A backend platform offering PostgreSQL, authentication, storage and other services."
 ejemplo_es: "El proyecto usa Supabase para la base y el login."
 ejemplo_en: "The project uses Supabase for the database and login."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Supabase · Supabase
 
-**En simple.** Servicio que ofrece base de datos, inicio de sesión y almacenamiento ya montados, para no armar el backend desde cero.
+**En simple.** Es un servicio que ya trae montados una base de datos, el inicio de sesión de usuarios y el almacenamiento de archivos, para no construir el backend desde cero.
 
 **Técnica.** Plataforma backend que ofrece PostgreSQL, autenticación, almacenamiento y otros servicios.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A service that provides a ready-made database, login and storage, so you don't build the backend from scratch.
+**In simple.** A service that comes with a database, user sign-in and file storage already set up, so you do not have to build the backend from scratch.
 
 **Technical.** A backend platform offering PostgreSQL, authentication, storage and other services.
 

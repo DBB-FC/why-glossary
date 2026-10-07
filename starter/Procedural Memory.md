@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Procedural Memory"
 es: "Memoria procedimental"
 aliases: ["Memoria procedimental"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "El conocimiento sobre cómo hacer tareas, como el manual de procedimientos de un agente."
+simple_es: "Es el conocimiento sobre cómo se hace algo, guardado para reutilizarlo, como el manual de procedimientos de un agente."
 tecnica_es: "Cómo se hace algo, aprendido y reutilizable."
-simple_en: "Knowledge about how to do tasks, like an agent's procedures manual."
+simple_en: "Knowledge about how to do something, stored for reuse, like an agent's procedures manual."
 tecnica_en: "How to do something, learned and reusable."
 ejemplo_es: "La memoria procedimental guarda cómo desplegar."
 ejemplo_en: "Procedural memory stores how to deploy."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Procedural Memory · Memoria procedimental
 
-**En simple.** El conocimiento sobre cómo hacer tareas, como el manual de procedimientos de un agente.
+**En simple.** Es el conocimiento sobre cómo se hace algo, guardado para reutilizarlo, como el manual de procedimientos de un agente.
 
 **Técnica.** Cómo se hace algo, aprendido y reutilizable.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Knowledge about how to do tasks, like an agent's procedures manual.
+**In simple.** Knowledge about how to do something, stored for reuse, like an agent's procedures manual.
 
 **Technical.** How to do something, learned and reusable.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Latency"
 es: "Latencia"
 aliases: ["Latencia"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "El tiempo de espera entre pedir algo y recibir la respuesta."
+simple_es: "Es el tiempo que pasa entre que pides algo a un sistema y empiezas a recibir la respuesta."
 tecnica_es: "Tiempo transcurrido entre una solicitud y su respuesta."
-simple_en: "The waiting time between asking for something and getting the answer."
+simple_en: "The time that passes between asking a system for something and starting to receive the answer."
 tecnica_en: "The time elapsed between a request and its response."
 ejemplo_es: "La latencia sube cuando el servidor está lejos."
 ejemplo_en: "Latency goes up when the server is far away."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Latency · Latencia
 
-**En simple.** El tiempo de espera entre pedir algo y recibir la respuesta.
+**En simple.** Es el tiempo que pasa entre que pides algo a un sistema y empiezas a recibir la respuesta.
 
 **Técnica.** Tiempo transcurrido entre una solicitud y su respuesta.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The waiting time between asking for something and getting the answer.
+**In simple.** The time that passes between asking a system for something and starting to receive the answer.
 
 **Technical.** The time elapsed between a request and its response.
 

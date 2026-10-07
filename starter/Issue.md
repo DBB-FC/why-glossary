@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Issue"
 es: "Incidencia"
 aliases: ["Incidencia"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "El registro de una tarea o problema que se puede seguir; no siempre es un bug."
+simple_es: "Es el registro de una tarea, problema o mejora que se puede seguir hasta cerrarla. No siempre es un error: también puede ser una idea o un pedido."
 tecnica_es: "Unidad registrada de trabajo, problema, mejora o defecto."
-simple_en: "A record of a task or problem that can be tracked; not always a bug."
+simple_en: "The record of a task, problem or improvement that can be tracked until it is closed. It is not always a bug: it can also be an idea or a request."
 tecnica_en: "A recorded unit of work, problem, improvement or defect."
 ejemplo_es: "Abrimos una incidencia para el ajuste del reporte."
 ejemplo_en: "We opened an issue for the report tweak."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Issue · Incidencia
 
-**En simple.** El registro de una tarea o problema que se puede seguir; no siempre es un bug.
+**En simple.** Es el registro de una tarea, problema o mejora que se puede seguir hasta cerrarla. No siempre es un error: también puede ser una idea o un pedido.
 
 **Técnica.** Unidad registrada de trabajo, problema, mejora o defecto.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A record of a task or problem that can be tracked; not always a bug.
+**In simple.** The record of a task, problem or improvement that can be tracked until it is closed. It is not always a bug: it can also be an idea or a request.
 
 **Technical.** A recorded unit of work, problem, improvement or defect.
 

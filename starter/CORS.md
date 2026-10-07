@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CORS"
 es: "Compartición de recursos entre orígenes"
 aliases: ["Compartición de recursos entre orígenes"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "El error clásico que parece del backend y es del navegador."
+simple_es: "Es una regla del navegador que decide qué sitios pueden pedir datos a una API de otro origen. Cuando falla, parece un error del servidor, pero lo bloquea el navegador."
 tecnica_es: "Cross-Origin Resource Sharing: control del navegador sobre qué orígenes pueden llamar a una API."
-simple_en: "The classic error that looks like the backend's fault but is the browser's."
+simple_en: "A browser rule that decides which sites may request data from an API on another origin. When it fails it looks like a server error, but the browser is what blocks it."
 tecnica_en: "Cross-Origin Resource Sharing: a browser control over which origins may call an API."
 ejemplo_es: "El navegador bloqueó la llamada por CORS."
 ejemplo_en: "The browser blocked the call because of CORS."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # CORS · Compartición de recursos entre orígenes
 
-**En simple.** El error clásico que parece del backend y es del navegador.
+**En simple.** Es una regla del navegador que decide qué sitios pueden pedir datos a una API de otro origen. Cuando falla, parece un error del servidor, pero lo bloquea el navegador.
 
 **Técnica.** Cross-Origin Resource Sharing: control del navegador sobre qué orígenes pueden llamar a una API.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The classic error that looks like the backend's fault but is the browser's.
+**In simple.** A browser rule that decides which sites may request data from an API on another origin. When it fails it looks like a server error, but the browser is what blocks it.
 
 **Technical.** Cross-Origin Resource Sharing: a browser control over which origins may call an API.
 

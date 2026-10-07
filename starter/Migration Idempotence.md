@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Migration Idempotence"
 es: "Idempotencia de migración"
 aliases: ["Idempotencia de migración"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Poder correr una migración de base de datos varias veces sin errores ni duplicados."
+simple_es: "Es la propiedad de una migración que se puede ejecutar varias veces sin dar error ni duplicar datos: la segunda vez no cambia nada."
 tecnica_es: "Que aplicar la misma migración dos veces no rompa."
-simple_en: "Being able to run a database migration several times without errors or duplicates."
+simple_en: "The property of a migration that can be run several times without errors or duplicated data: the second time it changes nothing."
 tecnica_en: "Applying the same migration twice must not break anything."
 ejemplo_es: "La migración es idempotente: la segunda vez no hace nada."
 ejemplo_en: "The migration is idempotent: the second time it does nothing."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Migration Idempotence · Idempotencia de migración
 
-**En simple.** Poder correr una migración de base de datos varias veces sin errores ni duplicados.
+**En simple.** Es la propiedad de una migración que se puede ejecutar varias veces sin dar error ni duplicar datos: la segunda vez no cambia nada.
 
 **Técnica.** Que aplicar la misma migración dos veces no rompa.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Being able to run a database migration several times without errors or duplicates.
+**In simple.** The property of a migration that can be run several times without errors or duplicated data: the second time it changes nothing.
 
 **Technical.** Applying the same migration twice must not break anything.
 

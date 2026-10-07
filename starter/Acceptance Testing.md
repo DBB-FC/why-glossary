@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Acceptance Testing"
 es: "Pruebas de aceptación"
 aliases: ["Pruebas de aceptación"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "¿Hace efectivamente lo que el cliente contrató?"
+simple_es: "Es la prueba que confirma que lo construido hace lo que el cliente pidió y contrató, comparándolo con los criterios acordados."
 tecnica_es: "Validación de que la solución cumple requerimientos y criterios acordados."
-simple_en: "Does it actually do what the client hired?"
+simple_en: "The test that confirms what was built does what the client asked for and paid for, checking it against the agreed criteria."
 tecnica_en: "Validation that the solution meets the agreed requirements and criteria."
 ejemplo_es: "Las pruebas de aceptación cubren los diez requisitos del contrato."
 ejemplo_en: "Acceptance testing covers the ten requirements in the contract."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Acceptance Testing · Pruebas de aceptación
 
-**En simple.** ¿Hace efectivamente lo que el cliente contrató?
+**En simple.** Es la prueba que confirma que lo construido hace lo que el cliente pidió y contrató, comparándolo con los criterios acordados.
 
 **Técnica.** Validación de que la solución cumple requerimientos y criterios acordados.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Does it actually do what the client hired?
+**In simple.** The test that confirms what was built does what the client asked for and paid for, checking it against the agreed criteria.
 
 **Technical.** Validation that the solution meets the agreed requirements and criteria.
 

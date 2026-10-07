@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "ERP"
 es: "Planificación de recursos empresariales"
 aliases: ["Planificación de recursos empresariales"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Un sistema que reúne finanzas, inventario, compras y ventas de una empresa."
+simple_es: "Es un sistema que reúne en un solo lugar las áreas de una empresa, como finanzas, inventario, compras y ventas, para gestionarlas con los mismos datos."
 tecnica_es: "Enterprise Resource Planning: sistema integrado para procesos operacionales/administrativos."
-simple_en: "A system that brings together a company's finance, inventory, purchasing and sales."
+simple_en: "A system that brings a company's areas together in one place, such as finance, inventory, purchasing and sales, so they are managed with the same data."
 tecnica_en: "Enterprise Resource Planning: an integrated system for operational and administrative processes."
 ejemplo_es: "El ERP controla el inventario y las compras."
 ejemplo_en: "The ERP controls inventory and purchasing."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # ERP · Planificación de recursos empresariales
 
-**En simple.** Un sistema que reúne finanzas, inventario, compras y ventas de una empresa.
+**En simple.** Es un sistema que reúne en un solo lugar las áreas de una empresa, como finanzas, inventario, compras y ventas, para gestionarlas con los mismos datos.
 
 **Técnica.** Enterprise Resource Planning: sistema integrado para procesos operacionales/administrativos.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A system that brings together a company's finance, inventory, purchasing and sales.
+**In simple.** A system that brings a company's areas together in one place, such as finance, inventory, purchasing and sales, so they are managed with the same data.
 
 **Technical.** Enterprise Resource Planning: an integrated system for operational and administrative processes.
 

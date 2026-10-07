@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "GitHub"
 es: "GitHub"
 aliases: []
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Sitio donde se guarda el código, se revisa en equipo y se automatizan las pruebas."
+simple_es: "Es un sitio web donde se guarda el código de un proyecto, se revisa en equipo y se automatizan tareas como las pruebas. Usa Git para llevar el historial de cambios."
 tecnica_es: "Plataforma para alojar repositorios Git y gestionar colaboración y automatización de software."
-simple_en: "A site where code is stored, reviewed as a team and tested automatically."
+simple_en: "A website where a project's code is stored, reviewed as a team and tasks like testing are automated. It uses Git to keep the history of changes."
 tecnica_en: "A platform for hosting Git repositories and managing software collaboration and automation."
 ejemplo_es: "El código está en GitHub y cada PR corre las pruebas."
 ejemplo_en: "The code is on GitHub and every PR runs the tests."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # GitHub · GitHub
 
-**En simple.** Sitio donde se guarda el código, se revisa en equipo y se automatizan las pruebas.
+**En simple.** Es un sitio web donde se guarda el código de un proyecto, se revisa en equipo y se automatizan tareas como las pruebas. Usa Git para llevar el historial de cambios.
 
 **Técnica.** Plataforma para alojar repositorios Git y gestionar colaboración y automatización de software.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A site where code is stored, reviewed as a team and tested automatically.
+**In simple.** A website where a project's code is stored, reviewed as a team and tasks like testing are automated. It uses Git to keep the history of changes.
 
 **Technical.** A platform for hosting Git repositories and managing software collaboration and automation.
 

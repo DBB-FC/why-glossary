@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Reasoning Effort / Thinking Budget"
 es: "Esfuerzo de razonamiento / presupuesto de pensamiento"
 aliases: ["Reasoning Effort", "Esfuerzo de razonamiento / presupuesto de pensamiento", "Thinking Budget", "Esfuerzo de razonamiento", "presupuesto de pensamiento"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Más razonamiento cuesta más y tarda más: se elige, no se maximiza."
+simple_es: "Es cuánto se le permite razonar al modelo antes de responder. Más razonamiento cuesta más y tarda más, así que se elige según la tarea y no se maximiza."
 tecnica_es: "Cuánto se le permite razonar antes de responder."
-simple_en: "More reasoning costs more and takes longer: you choose it, you don't maximize it."
+simple_en: "How much the model is allowed to reason before answering. More reasoning costs more and takes longer, so it is chosen to suit the task rather than maximized."
 tecnica_en: "How much the model is allowed to reason before answering."
 ejemplo_es: "Bajamos el esfuerzo de razonamiento para ahorrar costo."
 ejemplo_en: "We lowered the reasoning effort to save cost."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Reasoning Effort / Thinking Budget · Esfuerzo de razonamiento / presupuesto de pensamiento
 
-**En simple.** Más razonamiento cuesta más y tarda más: se elige, no se maximiza.
+**En simple.** Es cuánto se le permite razonar al modelo antes de responder. Más razonamiento cuesta más y tarda más, así que se elige según la tarea y no se maximiza.
 
 **Técnica.** Cuánto se le permite razonar antes de responder.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** More reasoning costs more and takes longer: you choose it, you don't maximize it.
+**In simple.** How much the model is allowed to reason before answering. More reasoning costs more and takes longer, so it is chosen to suit the task rather than maximized.
 
 **Technical.** How much the model is allowed to reason before answering.
 

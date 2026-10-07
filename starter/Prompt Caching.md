@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Prompt Caching"
 es: "Caché de instrucciones"
 aliases: ["Caché de instrucciones"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Abarata mucho un contexto grande que no cambia."
+simple_es: "Es reutilizar el procesamiento de la parte repetida de una instrucción entre llamadas, en vez de recalcularla. Abarata mucho un contexto grande que no cambia."
 tecnica_es: "Reutilización del procesamiento de un prefijo repetido entre llamadas."
-simple_en: "Makes a large, unchanging context much cheaper."
+simple_en: "Reusing the processing of the repeated part of an instruction across calls, instead of recalculating it. It makes a large, unchanging context much cheaper."
 tecnica_en: "Reusing the processing of a prefix repeated across calls."
 ejemplo_es: "El caché de instrucciones abarató el contexto fijo."
 ejemplo_en: "Prompt caching made the fixed context cheaper."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Prompt Caching · Caché de instrucciones
 
-**En simple.** Abarata mucho un contexto grande que no cambia.
+**En simple.** Es reutilizar el procesamiento de la parte repetida de una instrucción entre llamadas, en vez de recalcularla. Abarata mucho un contexto grande que no cambia.
 
 **Técnica.** Reutilización del procesamiento de un prefijo repetido entre llamadas.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Makes a large, unchanging context much cheaper.
+**In simple.** Reusing the processing of the repeated part of an instruction across calls, instead of recalculating it. It makes a large, unchanging context much cheaper.
 
 **Technical.** Reusing the processing of a prefix repeated across calls.
 

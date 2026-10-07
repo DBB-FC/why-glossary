@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Idempotence"
 es: "Idempotencia"
 aliases: ["Idempotencia"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Lo que impide cobrar dos veces si el cliente insiste o la red reintenta."
+simple_es: "Es la propiedad de una operación que da el mismo resultado se ejecute una vez o varias. Impide, por ejemplo, cobrar dos veces cuando la red reintenta."
 tecnica_es: "Propiedad de una operación que produce el mismo resultado se ejecute una o muchas veces."
-simple_en: "What prevents charging twice if the customer insists or the network retries."
+simple_en: "The property of an operation that gives the same result whether it runs once or many times. It prevents, for example, charging twice when the network retries."
 tecnica_en: "A property of an operation that yields the same result whether executed once or many times."
 ejemplo_es: "Hicimos el cobro idempotente para que un reintento no duplique."
 ejemplo_en: "We made the charge idempotent so a retry doesn't duplicate it."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Idempotence · Idempotencia
 
-**En simple.** Lo que impide cobrar dos veces si el cliente insiste o la red reintenta.
+**En simple.** Es la propiedad de una operación que da el mismo resultado se ejecute una vez o varias. Impide, por ejemplo, cobrar dos veces cuando la red reintenta.
 
 **Técnica.** Propiedad de una operación que produce el mismo resultado se ejecute una o muchas veces.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** What prevents charging twice if the customer insists or the network retries.
+**In simple.** The property of an operation that gives the same result whether it runs once or many times. It prevents, for example, charging twice when the network retries.
 
 **Technical.** A property of an operation that yields the same result whether executed once or many times.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Dual Approval / Four Eyes"
 es: "Doble aprobación / cuatro ojos"
 aliases: ["Doble aprobación / Cuatro ojos", "Doble aprobación", "Doble aprobación / cuatro ojos", "Dual Approval", "Four Eyes", "cuatro ojos"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Nadie mueve dinero solo, y nadie revisa su propia cuenta."
+simple_es: "Es un control en que una persona propone una operación y otra distinta debe confirmarla. Nadie mueve dinero solo ni revisa su propio trabajo."
 tecnica_es: "Control donde una persona propone y otra distinta confirma."
-simple_en: "Nobody moves money alone, and nobody reviews their own account."
+simple_en: "A control where one person proposes an operation and a different person must confirm it. Nobody moves money alone or reviews their own work."
 tecnica_en: "A control where one person proposes and a different one confirms."
 ejemplo_es: "Aplicamos cuatro ojos a todo retiro manual."
 ejemplo_en: "We apply four eyes to every manual withdrawal."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Dual Approval / Four Eyes · Doble aprobación / cuatro ojos
 
-**En simple.** Nadie mueve dinero solo, y nadie revisa su propia cuenta.
+**En simple.** Es un control en que una persona propone una operación y otra distinta debe confirmarla. Nadie mueve dinero solo ni revisa su propio trabajo.
 
 **Técnica.** Control donde una persona propone y otra distinta confirma.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Nobody moves money alone, and nobody reviews their own account.
+**In simple.** A control where one person proposes an operation and a different person must confirm it. Nobody moves money alone or reviews their own work.
 
 **Technical.** A control where one person proposes and a different one confirms.
 

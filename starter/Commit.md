@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Commit"
 es: "Confirmación de cambios (commit)"
 aliases: ["Confirmación de cambios (commit)"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Un punto guardado del avance, con una nota de qué cambió."
+simple_es: "Es un punto guardado del historial en Git, con los cambios hechos y una nota que explica qué se modificó y por qué."
 tecnica_es: "Registro versionado de un conjunto de cambios."
-simple_en: "A saved point of progress, with a note about what changed."
+simple_en: "A saved point in Git's history, with the changes made and a note explaining what was modified and why."
 tecnica_en: "A versioned record of a set of changes."
 ejemplo_es: "Cada confirmación explica qué cambió y por qué."
 ejemplo_en: "Each commit explains what changed and why."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Commit · Confirmación de cambios (commit)
 
-**En simple.** Un punto guardado del avance, con una nota de qué cambió.
+**En simple.** Es un punto guardado del historial en Git, con los cambios hechos y una nota que explica qué se modificó y por qué.
 
 **Técnica.** Registro versionado de un conjunto de cambios.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A saved point of progress, with a note about what changed.
+**In simple.** A saved point in Git's history, with the changes made and a note explaining what was modified and why.
 
 **Technical.** A versioned record of a set of changes.
 

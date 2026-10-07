@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Prompt"
 es: "Instrucción (prompt)"
 aliases: ["Instrucción (prompt)"]
 dominio: "09 · IA y automatización"
-simple_es: "El texto con instrucciones que le das a una IA."
+simple_es: "Es el texto con instrucciones que le escribes a una IA para pedirle algo. La calidad de la respuesta depende mucho de cómo está escrito."
 tecnica_es: "Instrucción/contexto entregado a un modelo para orientar su respuesta."
-simple_en: "The text with instructions that you give to an AI."
+simple_en: "The text with instructions you write to an AI to ask it for something. The quality of the answer depends a lot on how it is written."
 tecnica_en: "Instructions and context provided to a model to guide its response."
 ejemplo_es: "Mejoramos el prompt y las respuestas salieron más precisas."
 ejemplo_en: "We improved the prompt and the answers got more precise."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Prompt · Instrucción (prompt)
 
-**En simple.** El texto con instrucciones que le das a una IA.
+**En simple.** Es el texto con instrucciones que le escribes a una IA para pedirle algo. La calidad de la respuesta depende mucho de cómo está escrito.
 
 **Técnica.** Instrucción/contexto entregado a un modelo para orientar su respuesta.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The text with instructions that you give to an AI.
+**In simple.** The text with instructions you write to an AI to ask it for something. The quality of the answer depends a lot on how it is written.
 
 **Technical.** Instructions and context provided to a model to guide its response.
 

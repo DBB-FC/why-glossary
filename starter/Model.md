@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Model"
 es: "Modelo"
 aliases: ["Modelo"]
 dominio: "09 · IA y automatización"
-simple_es: "El sistema de IA entrenado que genera las respuestas."
+simple_es: "Es el sistema de IA ya entrenado que, al recibir una petición, genera la respuesta. Distintos modelos varían en calidad, velocidad y costo."
 tecnica_es: "Sistema matemático entrenado para realizar determinadas tareas."
-simple_en: "The trained AI system that produces the answers."
+simple_en: "The already-trained AI system that, when it receives a request, produces the answer. Different models vary in quality, speed and cost."
 tecnica_en: "A mathematical system trained to perform certain tasks."
 ejemplo_es: "Cambiamos el modelo por uno más barato."
 ejemplo_en: "We swapped the model for a cheaper one."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Model · Modelo
 
-**En simple.** El sistema de IA entrenado que genera las respuestas.
+**En simple.** Es el sistema de IA ya entrenado que, al recibir una petición, genera la respuesta. Distintos modelos varían en calidad, velocidad y costo.
 
 **Técnica.** Sistema matemático entrenado para realizar determinadas tareas.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The trained AI system that produces the answers.
+**In simple.** The already-trained AI system that, when it receives a request, produces the answer. Different models vary in quality, speed and cost.
 
 **Technical.** A mathematical system trained to perform certain tasks.
 

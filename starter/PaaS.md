@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "PaaS"
 es: "Plataforma como servicio"
 aliases: ["Plataforma como servicio"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Un servicio que entrega la infraestructura lista para desplegar aplicaciones."
+simple_es: "Es un servicio que entrega la infraestructura ya preparada para que solo subas y ejecutes tu aplicación, sin administrar servidores."
 tecnica_es: "Platform as a Service: plataforma administrada para desarrollar y ejecutar aplicaciones."
-simple_en: "A service that provides ready-made infrastructure for deploying applications."
+simple_en: "A service that provides ready-made infrastructure so you only upload and run your application, without managing servers."
 tecnica_en: "Platform as a Service: a managed platform to develop and run applications."
 ejemplo_es: "Desplegamos en una PaaS para no administrar servidores."
 ejemplo_en: "We deploy on a PaaS so we don't manage servers."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # PaaS · Plataforma como servicio
 
-**En simple.** Un servicio que entrega la infraestructura lista para desplegar aplicaciones.
+**En simple.** Es un servicio que entrega la infraestructura ya preparada para que solo subas y ejecutes tu aplicación, sin administrar servidores.
 
 **Técnica.** Platform as a Service: plataforma administrada para desarrollar y ejecutar aplicaciones.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A service that provides ready-made infrastructure for deploying applications.
+**In simple.** A service that provides ready-made infrastructure so you only upload and run your application, without managing servers.
 
 **Technical.** Platform as a Service: a managed platform to develop and run applications.
 

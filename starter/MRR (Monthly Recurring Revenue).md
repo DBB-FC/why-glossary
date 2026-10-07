@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MRR (Monthly Recurring Revenue)"
 es: "Ingreso mensual recurrente"
 aliases: ["MRR", "Ingreso mensual recurrente"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Lo que entra cada mes por servicios que se cobran de forma recurrente."
+simple_es: "Es el ingreso que entra cada mes por servicios que se cobran de forma recurrente, como suscripciones o mantenimiento."
 tecnica_es: "Monthly Recurring Revenue: ingreso recurrente mensual."
-simple_en: "The money that comes in each month from services billed on a recurring basis."
+simple_en: "The income that comes in each month from services billed on a recurring basis, such as subscriptions or maintenance."
 tecnica_en: "Monthly Recurring Revenue: recurring income measured per month."
 ejemplo_es: "El MRR subió 8% este mes."
 ejemplo_en: "MRR grew 8% this month."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # MRR (Monthly Recurring Revenue) · Ingreso mensual recurrente
 
-**En simple.** Lo que entra cada mes por servicios que se cobran de forma recurrente.
+**En simple.** Es el ingreso que entra cada mes por servicios que se cobran de forma recurrente, como suscripciones o mantenimiento.
 
 **Técnica.** Monthly Recurring Revenue: ingreso recurrente mensual.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The money that comes in each month from services billed on a recurring basis.
+**In simple.** The income that comes in each month from services billed on a recurring basis, such as subscriptions or maintenance.
 
 **Technical.** Monthly Recurring Revenue: recurring income measured per month.
 

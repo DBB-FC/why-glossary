@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "UX Research"
 es: "Investigación de usuarios"
 aliases: ["Investigación de usuarios"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Diseñar basándose en evidencia, no en \"a mí me gusta\"."
+simple_es: "Es estudiar a las personas que usarán un producto, con entrevistas, observación y pruebas, para diseñar con evidencia y no con gustos personales."
 tecnica_es: "Investigación sistemática de necesidades y comportamientos de usuarios."
-simple_en: "Designing from evidence, not from \"I like it\"."
+simple_en: "Studying the people who will use a product, through interviews, observation and testing, so that design rests on evidence rather than personal taste."
 tecnica_en: "Systematic research into users' needs and behaviours."
 ejemplo_es: "La UX research mostró que nadie encontraba el menú."
 ejemplo_en: "The UX research showed nobody could find the menu."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # UX Research · Investigación de usuarios
 
-**En simple.** Diseñar basándose en evidencia, no en "a mí me gusta".
+**En simple.** Es estudiar a las personas que usarán un producto, con entrevistas, observación y pruebas, para diseñar con evidencia y no con gustos personales.
 
 **Técnica.** Investigación sistemática de necesidades y comportamientos de usuarios.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Designing from evidence, not from "I like it".
+**In simple.** Studying the people who will use a product, through interviews, observation and testing, so that design rests on evidence rather than personal taste.
 
 **Technical.** Systematic research into users' needs and behaviours.
 

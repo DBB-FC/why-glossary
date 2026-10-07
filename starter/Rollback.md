@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Rollback"
 es: "Reversión"
 aliases: ["Reversión"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Si el deploy falla, volver atrás rápidamente."
+simple_es: "Es volver a una versión anterior que funcionaba bien cuando una publicación nueva falla, para restablecer el servicio rápido."
 tecnica_es: "Reversión a una versión estable anterior."
-simple_en: "If the deploy fails, quickly go back."
+simple_en: "Going back to an earlier version that worked well when a new release fails, to restore the service quickly."
 tecnica_en: "Reverting to a previous stable version."
 ejemplo_es: "Hicimos reversión a la versión anterior en cinco minutos."
 ejemplo_en: "We rolled back to the previous version in five minutes."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Rollback · Reversión
 
-**En simple.** Si el deploy falla, volver atrás rápidamente.
+**En simple.** Es volver a una versión anterior que funcionaba bien cuando una publicación nueva falla, para restablecer el servicio rápido.
 
 **Técnica.** Reversión a una versión estable anterior.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** If the deploy fails, quickly go back.
+**In simple.** Going back to an earlier version that worked well when a new release fails, to restore the service quickly.
 
 **Technical.** Reverting to a previous stable version.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Staging"
 es: "Preproducción"
 aliases: ["Preproducción"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Un entorno de ensayo igual al real, antes de publicar."
+simple_es: "Es un entorno de ensayo lo más parecido posible al real, donde se prueba una versión antes de publicarla a los usuarios."
 tecnica_es: "Entorno similar a producción usado para pruebas previas."
-simple_en: "A rehearsal environment identical to the real one, before going live."
+simple_en: "A rehearsal environment as close as possible to the real one, where a version is tried out before being published to users."
 tecnica_en: "A production-like environment used for pre-release testing."
 ejemplo_es: "Validamos con el cliente en preproducción."
 ejemplo_en: "We validated with the client in staging."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Staging · Preproducción
 
-**En simple.** Un entorno de ensayo igual al real, antes de publicar.
+**En simple.** Es un entorno de ensayo lo más parecido posible al real, donde se prueba una versión antes de publicarla a los usuarios.
 
 **Técnica.** Entorno similar a producción usado para pruebas previas.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A rehearsal environment identical to the real one, before going live.
+**In simple.** A rehearsal environment as close as possible to the real one, where a version is tried out before being published to users.
 
 **Technical.** A production-like environment used for pre-release testing.
 

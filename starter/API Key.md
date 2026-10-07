@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "API Key"
 es: "Clave de API"
 aliases: ["Clave de API"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Una clave secreta que identifica a tu aplicación ante un servicio."
+simple_es: "Es una clave secreta que identifica a tu aplicación ante un servicio para que este le permita usar su API. Quien la tenga puede actuar como tu aplicación."
 tecnica_es: "Credencial utilizada para identificar/autenticar acceso programático a una API."
-simple_en: "A secret key that identifies your application to a service."
+simple_en: "A secret key that identifies your application to a service so that it lets it use its API. Whoever holds it can act as your application."
 tecnica_en: "A credential used to identify or authenticate programmatic access to an API."
 ejemplo_es: "Generamos una clave de API para el proveedor de pagos."
 ejemplo_en: "We generated an API key for the payment provider."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # API Key · Clave de API
 
-**En simple.** Una clave secreta que identifica a tu aplicación ante un servicio.
+**En simple.** Es una clave secreta que identifica a tu aplicación ante un servicio para que este le permita usar su API. Quien la tenga puede actuar como tu aplicación.
 
 **Técnica.** Credencial utilizada para identificar/autenticar acceso programático a una API.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A secret key that identifies your application to a service.
+**In simple.** A secret key that identifies your application to a service so that it lets it use its API. Whoever holds it can act as your application.
 
 **Technical.** A credential used to identify or authenticate programmatic access to an API.
 

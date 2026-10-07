@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Dependency"
 es: "Dependencia"
 aliases: ["Dependencia"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Código de terceros que tu proyecto necesita."
+simple_es: "Es un programa o librería de terceros que tu proyecto necesita para funcionar. Si ese código cambia o falla, tu proyecto lo sufre."
 tecnica_es: "Paquete o software externo del cual depende una aplicación."
-simple_en: "Third-party code your project needs."
+simple_en: "A third-party program or library your project needs in order to work. If that code changes or fails, your project is affected."
 tecnica_en: "An external package or software an application relies on."
 ejemplo_es: "Actualizar una dependencia rompió el build."
 ejemplo_en: "Updating a dependency broke the build."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Dependency · Dependencia
 
-**En simple.** Código de terceros que tu proyecto necesita.
+**En simple.** Es un programa o librería de terceros que tu proyecto necesita para funcionar. Si ese código cambia o falla, tu proyecto lo sufre.
 
 **Técnica.** Paquete o software externo del cual depende una aplicación.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Third-party code your project needs.
+**In simple.** A third-party program or library your project needs in order to work. If that code changes or fails, your project is affected.
 
 **Technical.** An external package or software an application relies on.
 

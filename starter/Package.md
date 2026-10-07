@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Package"
 es: "Paquete"
 aliases: ["Paquete"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Un módulo de código listo para instalar."
+simple_es: "Es un módulo de código listo para instalar en un proyecto, que se descarga desde un registro como npm."
 tecnica_es: "Unidad distribuible de código reutilizable."
-simple_en: "A code module ready to install."
+simple_en: "A code module ready to install in a project, downloaded from a registry such as npm."
 tecnica_en: "A distributable unit of reusable code."
 ejemplo_es: "Instalamos el paquete con npm."
 ejemplo_en: "We installed the package with npm."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Package · Paquete
 
-**En simple.** Un módulo de código listo para instalar.
+**En simple.** Es un módulo de código listo para instalar en un proyecto, que se descarga desde un registro como npm.
 
 **Técnica.** Unidad distribuible de código reutilizable.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A code module ready to install.
+**In simple.** A code module ready to install in a project, downloaded from a registry such as npm.
 
 **Technical.** A distributable unit of reusable code.
 

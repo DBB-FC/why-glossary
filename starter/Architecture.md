@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Architecture"
 es: "Arquitectura"
 aliases: ["Arquitectura"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "La forma en que las partes de un sistema se organizan y se conectan."
+simple_es: "Es la forma en que las partes de un sistema se organizan, qué hace cada una y cómo se conectan entre sí."
 tecnica_es: "Estructura de alto nivel de componentes, responsabilidades e interacciones de un sistema."
-simple_en: "How the parts of a system are organised and connected."
+simple_en: "The way the parts of a system are organized, what each one does and how they connect to one another."
 tecnica_en: "The high-level structure of a system's components, responsibilities and interactions."
 ejemplo_es: "Revisamos la arquitectura antes de escalar."
 ejemplo_en: "We reviewed the architecture before scaling."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Architecture · Arquitectura
 
-**En simple.** La forma en que las partes de un sistema se organizan y se conectan.
+**En simple.** Es la forma en que las partes de un sistema se organizan, qué hace cada una y cómo se conectan entre sí.
 
 **Técnica.** Estructura de alto nivel de componentes, responsabilidades e interacciones de un sistema.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** How the parts of a system are organised and connected.
+**In simple.** The way the parts of a system are organized, what each one does and how they connect to one another.
 
 **Technical.** The high-level structure of a system's components, responsibilities and interactions.
 

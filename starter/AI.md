@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "AI"
 es: "Inteligencia artificial (IA)"
 aliases: ["AI / IA", "Inteligencia artificial (IA)"]
 dominio: "09 · IA y automatización"
-simple_es: "Tecnología que permite automatizar tareas cognitivas."
+simple_es: "Es la tecnología que hace que un computador realice tareas que normalmente requieren inteligencia humana, como entender lenguaje, reconocer imágenes o tomar decisiones."
 tecnica_es: "Sistemas capaces de realizar tareas asociadas a percepción, predicción, razonamiento o generación."
-simple_en: "Technology that lets you automate cognitive tasks."
+simple_en: "Technology that makes a computer do tasks that normally require human intelligence, such as understanding language, recognizing images or making decisions."
 tecnica_en: "Systems capable of performing tasks associated with perception, prediction, reasoning or generation."
 ejemplo_es: "Usamos IA para clasificar los correos entrantes."
 ejemplo_en: "We use AI to classify incoming emails."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # AI · Inteligencia artificial (IA)
 
-**En simple.** Tecnología que permite automatizar tareas cognitivas.
+**En simple.** Es la tecnología que hace que un computador realice tareas que normalmente requieren inteligencia humana, como entender lenguaje, reconocer imágenes o tomar decisiones.
 
 **Técnica.** Sistemas capaces de realizar tareas asociadas a percepción, predicción, razonamiento o generación.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Technology that lets you automate cognitive tasks.
+**In simple.** Technology that makes a computer do tasks that normally require human intelligence, such as understanding language, recognizing images or making decisions.
 
 **Technical.** Systems capable of performing tasks associated with perception, prediction, reasoning or generation.
 

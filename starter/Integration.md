@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Integration"
 es: "Integración"
 aliases: ["Integración"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Conectar dos sistemas para que intercambien datos, por ejemplo un CRM con un ERP."
+simple_es: "Es la conexión entre dos sistemas para que intercambien datos o coordinen un proceso, por ejemplo un CRM con un ERP."
 tecnica_es: "Conexión entre sistemas para intercambiar datos o ejecutar procesos coordinados."
-simple_en: "Connecting two systems so they exchange data, for example a CRM with an ERP."
+simple_en: "The connection between two systems so they exchange data or coordinate a process, for example a CRM with an ERP."
 tecnica_en: "A connection between systems to exchange data or run coordinated processes."
 ejemplo_es: "La integración sincroniza los clientes entre el CRM y el ERP."
 ejemplo_en: "The integration syncs customers between the CRM and the ERP."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Integration · Integración
 
-**En simple.** Conectar dos sistemas para que intercambien datos, por ejemplo un CRM con un ERP.
+**En simple.** Es la conexión entre dos sistemas para que intercambien datos o coordinen un proceso, por ejemplo un CRM con un ERP.
 
 **Técnica.** Conexión entre sistemas para intercambiar datos o ejecutar procesos coordinados.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Connecting two systems so they exchange data, for example a CRM with an ERP.
+**In simple.** The connection between two systems so they exchange data or coordinate a process, for example a CRM with an ERP.
 
 **Technical.** A connection between systems to exchange data or run coordinated processes.
 

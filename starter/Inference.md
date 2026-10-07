@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Inference"
 es: "Inferencia"
 aliases: ["Inferencia"]
 dominio: "09 · IA y automatización"
-simple_es: "Cada vez que un modelo procesa una petición y genera una respuesta."
+simple_es: "Es el momento en que un modelo de IA ya entrenado recibe una petición y genera una respuesta. Cada vez que usas una IA ocurre una inferencia."
 tecnica_es: "Ejecución de un modelo ya entrenado para producir una salida."
-simple_en: "Every time a model processes a request and produces an answer."
+simple_en: "The moment when an already-trained AI model receives a request and produces an answer. Every time you use an AI, an inference takes place."
 tecnica_en: "Running an already-trained model to produce an output."
 ejemplo_es: "Cada inferencia tiene un costo en tokens."
 ejemplo_en: "Each inference has a cost in tokens."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Inference · Inferencia
 
-**En simple.** Cada vez que un modelo procesa una petición y genera una respuesta.
+**En simple.** Es el momento en que un modelo de IA ya entrenado recibe una petición y genera una respuesta. Cada vez que usas una IA ocurre una inferencia.
 
 **Técnica.** Ejecución de un modelo ya entrenado para producir una salida.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Every time a model processes a request and produces an answer.
+**In simple.** The moment when an already-trained AI model receives a request and produces an answer. Every time you use an AI, an inference takes place.
 
 **Technical.** Running an already-trained model to produce an output.
 

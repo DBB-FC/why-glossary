@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Human-in-the-Loop (HITL)"
 es: "Humano en el circuito"
 aliases: ["Humano en el circuito"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Un modelo donde la IA prepara y una persona aprueba."
+simple_es: "Es un diseño en que la IA prepara el trabajo y una persona decide lo importante antes de que se ejecute."
 tecnica_es: "Diseño donde una persona decide lo sensible."
-simple_en: "A model where the AI prepares and a person approves."
+simple_en: "A design where the AI prepares the work and a person decides on what matters before it is carried out."
 tecnica_en: "A design where a person decides anything sensitive."
 ejemplo_es: "Con humano en el circuito, el reembolso lo aprueba una persona."
 ejemplo_en: "With a human in the loop, a person approves the refund."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Human-in-the-Loop (HITL) · Humano en el circuito
 
-**En simple.** Un modelo donde la IA prepara y una persona aprueba.
+**En simple.** Es un diseño en que la IA prepara el trabajo y una persona decide lo importante antes de que se ejecute.
 
 **Técnica.** Diseño donde una persona decide lo sensible.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A model where the AI prepares and a person approves.
+**In simple.** A design where the AI prepares the work and a person decides on what matters before it is carried out.
 
 **Technical.** A design where a person decides anything sensitive.
 

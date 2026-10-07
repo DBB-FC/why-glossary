@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Context Window"
 es: "Ventana de contexto"
 aliases: ["Ventana de contexto"]
 dominio: "09 · IA y automatización"
-simple_es: "La cantidad de texto que un modelo puede tener presente a la vez, como su mesa de trabajo."
+simple_es: "Es la cantidad máxima de texto que un modelo de IA puede tener presente a la vez en una conversación. Lo que queda fuera de esa ventana, el modelo no lo ve."
 tecnica_es: "Cantidad de información que un modelo puede considerar en una interacción."
-simple_en: "The amount of text a model can keep in mind at once, like its work desk."
+simple_en: "The maximum amount of text an AI model can keep in view at once during a conversation. What falls outside that window, the model cannot see."
 tecnica_en: "The amount of information a model can consider in a single interaction."
 ejemplo_es: "El documento no cabe en la ventana de contexto."
 ejemplo_en: "The document doesn't fit in the context window."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Context Window · Ventana de contexto
 
-**En simple.** La cantidad de texto que un modelo puede tener presente a la vez, como su mesa de trabajo.
+**En simple.** Es la cantidad máxima de texto que un modelo de IA puede tener presente a la vez en una conversación. Lo que queda fuera de esa ventana, el modelo no lo ve.
 
 **Técnica.** Cantidad de información que un modelo puede considerar en una interacción.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The amount of text a model can keep in mind at once, like its work desk.
+**In simple.** The maximum amount of text an AI model can keep in view at once during a conversation. What falls outside that window, the model cannot see.
 
 **Technical.** The amount of information a model can consider in a single interaction.
 

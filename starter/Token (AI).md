@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Token (AI)"
 es: "Token"
 aliases: ["Token"]
 dominio: "09 · IA y automatización"
-simple_es: "Fragmentos en los que la IA divide el contenido."
+simple_es: "Es el trozo de texto, una palabra o parte de ella, en que la IA divide lo que lee y escribe. Se usa para medir el largo de los textos y el costo de usar un modelo."
 tecnica_es: "Unidad de procesamiento de texto utilizada por modelos de lenguaje."
-simple_en: "The chunks the AI splits content into."
+simple_en: "The piece of text, a word or part of one, into which an AI splits what it reads and writes. It is used to measure the length of texts and the cost of using a model."
 tecnica_en: "A unit of text processing used by language models."
 ejemplo_es: "La respuesta consumió cinco mil tokens."
 ejemplo_en: "The answer used five thousand tokens."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Token (AI) · Token
 
-**En simple.** Fragmentos en los que la IA divide el contenido.
+**En simple.** Es el trozo de texto, una palabra o parte de ella, en que la IA divide lo que lee y escribe. Se usa para medir el largo de los textos y el costo de usar un modelo.
 
 **Técnica.** Unidad de procesamiento de texto utilizada por modelos de lenguaje.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The chunks the AI splits content into.
+**In simple.** The piece of text, a word or part of one, into which an AI splits what it reads and writes. It is used to measure the length of texts and the cost of using a model.
 
 **Technical.** A unit of text processing used by language models.
 

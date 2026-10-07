@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Component"
 es: "Componente"
 aliases: ["Componente"]
 dominio: "02 · Producto, UX, UI y diseño"
-simple_es: "Una pieza reutilizable de interfaz, como un botón, una tarjeta o una tabla."
+simple_es: "Es una pieza de interfaz que se puede reutilizar en muchos lugares, como un botón, una tarjeta o una tabla."
 tecnica_es: "Unidad reutilizable de interfaz o software."
-simple_en: "A reusable interface piece, like a button, a card or a table."
+simple_en: "A piece of interface that can be reused in many places, such as a button, a card or a table."
 tecnica_en: "A reusable unit of interface or software."
 ejemplo_es: "Reutilizamos el componente de tarjeta en cinco pantallas."
 ejemplo_en: "We reused the card component on five screens."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Component · Componente
 
-**En simple.** Una pieza reutilizable de interfaz, como un botón, una tarjeta o una tabla.
+**En simple.** Es una pieza de interfaz que se puede reutilizar en muchos lugares, como un botón, una tarjeta o una tabla.
 
 **Técnica.** Unidad reutilizable de interfaz o software.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A reusable interface piece, like a button, a card or a table.
+**In simple.** A piece of interface that can be reused in many places, such as a button, a card or a table.
 
 **Technical.** A reusable unit of interface or software.
 

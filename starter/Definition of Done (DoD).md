@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Definition of Done (DoD)"
 es: "Definición de terminado"
 aliases: ["Definición de terminado"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "La lista que define cuándo un trabajo está realmente terminado: probado, revisado y documentado."
+simple_es: "Es la lista de requisitos que un trabajo debe cumplir para considerarse realmente terminado, por ejemplo estar probado, revisado y documentado."
 tecnica_es: "Criterios comunes que determinan cuándo un trabajo se considera terminado."
-simple_en: "The checklist that defines when work is truly finished: tested, reviewed and documented."
+simple_en: "The list of requirements a piece of work must meet to count as truly finished, for example being tested, reviewed and documented."
 tecnica_en: "Common criteria that determine when a piece of work is considered finished."
 ejemplo_es: "La definición de terminado incluye prueba y revisión."
 ejemplo_en: "The definition of done includes testing and review."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Definition of Done (DoD) · Definición de terminado
 
-**En simple.** La lista que define cuándo un trabajo está realmente terminado: probado, revisado y documentado.
+**En simple.** Es la lista de requisitos que un trabajo debe cumplir para considerarse realmente terminado, por ejemplo estar probado, revisado y documentado.
 
 **Técnica.** Criterios comunes que determinan cuándo un trabajo se considera terminado.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The checklist that defines when work is truly finished: tested, reviewed and documented.
+**In simple.** The list of requirements a piece of work must meet to count as truly finished, for example being tested, reviewed and documented.
 
 **Technical.** Common criteria that determine when a piece of work is considered finished.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Capture"
 es: "Captura"
 aliases: ["Captura"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "El momento en que el dinero se compromete de verdad."
+simple_es: "Es el paso en que el comercio cobra de verdad un pago que el banco ya había autorizado. Recién ahí el dinero se compromete."
 tecnica_es: "Cobro efectivo de una autorización previamente aprobada."
-simple_en: "The moment the money is actually committed."
+simple_en: "The step where a merchant actually charges a payment the bank had already authorized. Only then is the money committed."
 tecnica_en: "The actual charge of a previously approved authorization."
 ejemplo_es: "Capturamos el pago al despachar el pedido."
 ejemplo_en: "We capture the payment when the order ships."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Capture · Captura
 
-**En simple.** El momento en que el dinero se compromete de verdad.
+**En simple.** Es el paso en que el comercio cobra de verdad un pago que el banco ya había autorizado. Recién ahí el dinero se compromete.
 
 **Técnica.** Cobro efectivo de una autorización previamente aprobada.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The moment the money is actually committed.
+**In simple.** The step where a merchant actually charges a payment the bank had already authorized. Only then is the money committed.
 
 **Technical.** The actual charge of a previously approved authorization.
 

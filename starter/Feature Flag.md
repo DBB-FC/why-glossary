@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Feature Flag"
 es: "Interruptor de funcionalidad"
 aliases: ["Interruptor de funcionalidad"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Interruptor que enciende o apaga una función sin subir código nuevo. Se prueba en ambos estados antes de activarla."
+simple_es: "Es un interruptor que enciende o apaga una función sin publicar código nuevo. Permite probar algo con pocas personas o desactivarlo rápido si falla."
 tecnica_es: "Interruptor que activa o desactiva una funcionalidad sin desplegar código nuevo."
-simple_en: "A switch that turns a feature on or off without shipping new code. It's tested in both states before going live."
+simple_en: "A switch that turns a feature on or off without publishing new code. It lets you try something with a few people or turn it off quickly if it fails."
 tecnica_en: "A switch that turns a feature on or off without deploying new code."
 ejemplo_es: "Dejamos el interruptor apagado hasta validar el pago."
 ejemplo_en: "We left the flag off until the payment was validated."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Feature Flag · Interruptor de funcionalidad
 
-**En simple.** Interruptor que enciende o apaga una función sin subir código nuevo. Se prueba en ambos estados antes de activarla.
+**En simple.** Es un interruptor que enciende o apaga una función sin publicar código nuevo. Permite probar algo con pocas personas o desactivarlo rápido si falla.
 
 **Técnica.** Interruptor que activa o desactiva una funcionalidad sin desplegar código nuevo.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A switch that turns a feature on or off without shipping new code. It's tested in both states before going live.
+**In simple.** A switch that turns a feature on or off without publishing new code. It lets you try something with a few people or turn it off quickly if it fails.
 
 **Technical.** A switch that turns a feature on or off without deploying new code.
 

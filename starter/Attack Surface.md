@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Attack Surface"
 es: "Superficie de ataque"
 aliases: ["Superficie de ataque"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Mientras más puertas innecesarias, más superficie para atacar."
+simple_es: "Es el conjunto de puntos por donde un atacante podría entrar o tocar un sistema: puertos abiertos, formularios, claves expuestas. Mientras menos hay, menos riesgo."
 tecnica_es: "Conjunto de puntos potenciales de entrada o exposición de un sistema."
-simple_en: "The more unnecessary doors, the more surface to attack."
+simple_en: "The set of points where an attacker could get into or touch a system: open ports, forms, exposed keys. The fewer there are, the lower the risk."
 tecnica_en: "The set of potential points of entry or exposure of a system."
 ejemplo_es: "Cerramos puertos y rutas para reducir la superficie de ataque."
 ejemplo_en: "We closed ports and routes to shrink the attack surface."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Attack Surface · Superficie de ataque
 
-**En simple.** Mientras más puertas innecesarias, más superficie para atacar.
+**En simple.** Es el conjunto de puntos por donde un atacante podría entrar o tocar un sistema: puertos abiertos, formularios, claves expuestas. Mientras menos hay, menos riesgo.
 
 **Técnica.** Conjunto de puntos potenciales de entrada o exposición de un sistema.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The more unnecessary doors, the more surface to attack.
+**In simple.** The set of points where an attacker could get into or touch a system: open ports, forms, exposed keys. The fewer there are, the lower the risk.
 
 **Technical.** The set of potential points of entry or exposure of a system.
 

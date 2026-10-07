@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "CI/CD Pipeline"
 es: "Canal de CI/CD"
 aliases: ["Canal de CI/CD"]
 dominio: "05 · Cloud, infraestructura y DevOps"
-simple_es: "Una cadena automática que prueba y publica el software, como una línea de montaje."
+simple_es: "Es una cadena automática de pasos que compila, prueba y publica el software cada vez que hay un cambio, como una línea de montaje."
 tecnica_es: "Flujo automatizado de compilación, pruebas y despliegue."
-simple_en: "An automatic chain that tests and releases software, like an assembly line."
+simple_en: "An automatic chain of steps that builds, tests and publishes software every time there is a change, like an assembly line."
 tecnica_en: "An automated flow of build, test and deployment."
 ejemplo_es: "El canal falló en la etapa de pruebas."
 ejemplo_en: "The pipeline failed at the testing stage."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # CI/CD Pipeline · Canal de CI/CD
 
-**En simple.** Una cadena automática que prueba y publica el software, como una línea de montaje.
+**En simple.** Es una cadena automática de pasos que compila, prueba y publica el software cada vez que hay un cambio, como una línea de montaje.
 
 **Técnica.** Flujo automatizado de compilación, pruebas y despliegue.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** An automatic chain that tests and releases software, like an assembly line.
+**In simple.** An automatic chain of steps that builds, tests and publishes software every time there is a change, like an assembly line.
 
 **Technical.** An automated flow of build, test and deployment.
 

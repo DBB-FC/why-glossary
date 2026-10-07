@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Priority"
 es: "Prioridad"
 aliases: ["Prioridad"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Qué se atiende primero."
+simple_es: "Es el orden en que se atiende un trabajo o un error: indica qué conviene resolver primero según su importancia para el negocio."
 tecnica_es: "Orden de atención de un trabajo o defecto."
-simple_en: "What gets dealt with first."
+simple_en: "The order in which a task or bug is handled: it says what to solve first, based on how important it is to the business."
 tecnica_en: "The order in which a piece of work or defect is handled."
 ejemplo_es: "Es de baja prioridad aunque sea molesto."
 ejemplo_en: "It's low priority even though it's annoying."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Priority · Prioridad
 
-**En simple.** Qué se atiende primero.
+**En simple.** Es el orden en que se atiende un trabajo o un error: indica qué conviene resolver primero según su importancia para el negocio.
 
 **Técnica.** Orden de atención de un trabajo o defecto.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** What gets dealt with first.
+**In simple.** The order in which a task or bug is handled: it says what to solve first, based on how important it is to the business.
 
 **Technical.** The order in which a piece of work or defect is handled.
 

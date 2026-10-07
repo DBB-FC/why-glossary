@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "OWASP"
 es: "OWASP (Proyecto Abierto de Seguridad en Aplicaciones Web)"
 aliases: ["OWASP (Proyecto Abierto de Seguridad en Aplicaciones Web)"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Referencia mundial para buenas prácticas de seguridad web; no es \"un certificado\"."
+simple_es: "Es una comunidad abierta que publica guías, listas y herramientas gratuitas de buenas prácticas de seguridad en aplicaciones web. No es un certificado."
 tecnica_es: "Open Worldwide Application Security Project: comunidad y recursos abiertos de seguridad de aplicaciones."
-simple_en: "A global reference for good web security practices; it is not \"a certificate\"."
+simple_en: "An open community that publishes free guides, lists and tools on good security practices for web applications. It is not a certification."
 tecnica_en: "Open Worldwide Application Security Project: an open community and set of application security resources."
 ejemplo_es: "Seguimos las guías de OWASP para el desarrollo."
 ejemplo_en: "We follow OWASP guidelines for development."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # OWASP · OWASP (Proyecto Abierto de Seguridad en Aplicaciones Web)
 
-**En simple.** Referencia mundial para buenas prácticas de seguridad web; no es "un certificado".
+**En simple.** Es una comunidad abierta que publica guías, listas y herramientas gratuitas de buenas prácticas de seguridad en aplicaciones web. No es un certificado.
 
 **Técnica.** Open Worldwide Application Security Project: comunidad y recursos abiertos de seguridad de aplicaciones.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** A global reference for good web security practices; it is not "a certificate".
+**In simple.** An open community that publishes free guides, lists and tools on good security practices for web applications. It is not a certification.
 
 **Technical.** Open Worldwide Application Security Project: an open community and set of application security resources.
 

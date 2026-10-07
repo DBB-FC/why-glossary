@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Authorization (payments)"
 es: "Autorización de pago"
 aliases: ["Autorización", "Autorización de pago"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "La confirmación del banco de que la tarjeta es válida y tiene saldo disponible."
+simple_es: "Es la respuesta del banco que confirma que la tarjeta es válida y tiene saldo, y que reserva ese monto para el comercio. Todavía no se cobra."
 tecnica_es: "Aprobación del emisor que reserva fondos sin cobrarlos aún."
-simple_en: "The bank's confirmation that the card is valid and has funds available."
+simple_en: "The bank's reply confirming that the card is valid and has funds, and setting that amount aside for the merchant. The customer has not been charged yet."
 tecnica_en: "The issuer's approval that reserves funds without charging them yet."
 ejemplo_es: "La autorización salió bien, pero aún no capturamos."
 ejemplo_en: "The authorization went through, but we haven't captured yet."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Authorization (payments) · Autorización de pago
 
-**En simple.** La confirmación del banco de que la tarjeta es válida y tiene saldo disponible.
+**En simple.** Es la respuesta del banco que confirma que la tarjeta es válida y tiene saldo, y que reserva ese monto para el comercio. Todavía no se cobra.
 
 **Técnica.** Aprobación del emisor que reserva fondos sin cobrarlos aún.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The bank's confirmation that the card is valid and has funds available.
+**In simple.** The bank's reply confirming that the card is valid and has funds, and setting that amount aside for the merchant. The customer has not been charged yet.
 
 **Technical.** The issuer's approval that reserves funds without charging them yet.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Middleware"
 es: "Software intermedio (middleware)"
 aliases: ["Software intermedio (middleware)"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Software intermedio que conecta o traduce entre aplicaciones."
+simple_es: "Es un software que se ubica entre dos aplicaciones y les sirve de intermediario: traduce y transmite los datos para que puedan entenderse."
 tecnica_es: "Capa intermedia que facilita comunicación y transformación entre sistemas."
-simple_en: "Intermediate software that connects or translates between applications."
+simple_en: "Software that sits between two applications and acts as a go-between: it translates and passes data along so they can understand each other."
 tecnica_en: "An intermediate layer that eases communication and transformation between systems."
 ejemplo_es: "Un middleware traduce los pedidos del sitio al formato del ERP."
 ejemplo_en: "A middleware translates the site's orders into the ERP's format."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Middleware · Software intermedio (middleware)
 
-**En simple.** Software intermedio que conecta o traduce entre aplicaciones.
+**En simple.** Es un software que se ubica entre dos aplicaciones y les sirve de intermediario: traduce y transmite los datos para que puedan entenderse.
 
 **Técnica.** Capa intermedia que facilita comunicación y transformación entre sistemas.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Intermediate software that connects or translates between applications.
+**In simple.** Software that sits between two applications and acts as a go-between: it translates and passes data along so they can understand each other.
 
 **Technical.** An intermediate layer that eases communication and transformation between systems.
 

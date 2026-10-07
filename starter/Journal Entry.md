@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Journal Entry"
 es: "Asiento contable"
 aliases: ["Asiento / Transaction", "Asiento", "Asiento contable"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Si a alguien se le acredita, de algún lado salió."
+simple_es: "Es un grupo de movimientos contables que se registran juntos y suman cero: lo que se carga en unas cuentas se abona en otras por el mismo monto."
 tecnica_es: "Conjunto de movimientos que se registran juntos y suman cero."
-simple_en: "If someone is credited, the money came from somewhere."
+simple_en: "A group of accounting movements recorded together that add up to zero: what is debited in some accounts is credited in others for the same amount."
 tecnica_en: "A set of movements recorded together that sum to zero."
 ejemplo_es: "Cada abono genera un asiento con su contrapartida."
 ejemplo_en: "Each credit generates an entry with its counterpart."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Journal Entry · Asiento contable
 
-**En simple.** Si a alguien se le acredita, de algún lado salió.
+**En simple.** Es un grupo de movimientos contables que se registran juntos y suman cero: lo que se carga en unas cuentas se abona en otras por el mismo monto.
 
 **Técnica.** Conjunto de movimientos que se registran juntos y suman cero.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** If someone is credited, the money came from somewhere.
+**In simple.** A group of accounting movements recorded together that add up to zero: what is debited in some accounts is credited in others for the same amount.
 
 **Technical.** A set of movements recorded together that sum to zero.
 

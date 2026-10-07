@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "QA (Quality Assurance)"
 es: "Aseguramiento de calidad"
 aliases: ["QA", "Aseguramiento de calidad"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "No esperar que el cliente encuentre los errores."
+simple_es: "Es el conjunto de procesos que se aplican durante todo el trabajo para prevenir errores, en vez de esperar a que el cliente los encuentre."
 tecnica_es: "Quality Assurance: procesos sistemáticos para prevenir y detectar defectos de calidad."
-simple_en: "Not waiting for the customer to find the errors."
+simple_en: "The set of processes applied throughout the work to prevent errors, instead of waiting for the client to find them."
 tecnica_en: "Quality Assurance: systematic processes to prevent and detect quality defects."
 ejemplo_es: "QA revisó el flujo de pago antes del lanzamiento."
 ejemplo_en: "QA reviewed the payment flow before launch."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # QA (Quality Assurance) · Aseguramiento de calidad
 
-**En simple.** No esperar que el cliente encuentre los errores.
+**En simple.** Es el conjunto de procesos que se aplican durante todo el trabajo para prevenir errores, en vez de esperar a que el cliente los encuentre.
 
 **Técnica.** Quality Assurance: procesos sistemáticos para prevenir y detectar defectos de calidad.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Not waiting for the customer to find the errors.
+**In simple.** The set of processes applied throughout the work to prevent errors, instead of waiting for the client to find them.
 
 **Technical.** Quality Assurance: systematic processes to prevent and detect quality defects.
 

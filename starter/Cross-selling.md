@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cross-selling"
 es: "Venta cruzada"
 aliases: ["Venta cruzada"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "Ofrecer a un cliente productos o servicios complementarios a lo que ya compra."
+simple_es: "Es ofrecerle a un cliente productos o servicios complementarios a lo que ya compra. Es distinta de la venta de mejora, que ofrece una versión superior de lo mismo."
 tecnica_es: "Venta de servicios complementarios."
-simple_en: "Offering a customer products or services that complement what they already buy."
+simple_en: "Offering a customer products or services that complement what they already buy. It differs from upselling, which offers a higher version of the same thing."
 tecnica_en: "Selling complementary services."
 ejemplo_es: "Con venta cruzada sumamos branding a la web."
 ejemplo_en: "Through cross-selling we added branding to the website."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Cross-selling · Venta cruzada
 
-**En simple.** Ofrecer a un cliente productos o servicios complementarios a lo que ya compra.
+**En simple.** Es ofrecerle a un cliente productos o servicios complementarios a lo que ya compra. Es distinta de la venta de mejora, que ofrece una versión superior de lo mismo.
 
 **Técnica.** Venta de servicios complementarios.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Offering a customer products or services that complement what they already buy.
+**In simple.** Offering a customer products or services that complement what they already buy. It differs from upselling, which offers a higher version of the same thing.
 
 **Technical.** Selling complementary services.
 

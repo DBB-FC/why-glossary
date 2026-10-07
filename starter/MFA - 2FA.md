@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "MFA / 2FA"
 es: "Autenticación multifactor / de dos factores"
 aliases: ["MFA", "Autenticación multifactor / de dos factores", "2FA", "Autenticación multifactor", "de dos factores"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Contraseña + aplicación/código/llave, por ejemplo."
+simple_es: "Es entrar con dos o más pruebas de identidad de tipos distintos, por ejemplo algo que sabes (contraseña) más algo que tienes (el celular). 2FA son exactamente dos; MFA son dos o más."
 tecnica_es: "Autenticación mediante dos o más factores independientes."
-simple_en: "Password plus an app, code or key, for example."
+simple_en: "Signing in with two or more proofs of identity of different types, for example something you know (a password) plus something you have (your phone). 2FA is exactly two; MFA is two or more."
 tecnica_en: "Authentication using two or more independent factors."
 ejemplo_es: "Activamos el segundo factor para todos los administradores."
 ejemplo_en: "We turned on two-factor for all administrators."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # MFA / 2FA · Autenticación multifactor / de dos factores
 
-**En simple.** Contraseña + aplicación/código/llave, por ejemplo.
+**En simple.** Es entrar con dos o más pruebas de identidad de tipos distintos, por ejemplo algo que sabes (contraseña) más algo que tienes (el celular). 2FA son exactamente dos; MFA son dos o más.
 
 **Técnica.** Autenticación mediante dos o más factores independientes.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Password plus an app, code or key, for example.
+**In simple.** Signing in with two or more proofs of identity of different types, for example something you know (a password) plus something you have (your phone). 2FA is exactly two; MFA is two or more.
 
 **Technical.** Authentication using two or more independent factors.
 

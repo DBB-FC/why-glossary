@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Product-Market Fit"
 es: "Ajuste producto-mercado"
 aliases: ["Ajuste producto-mercado"]
 dominio: "01 · Comercial, consultoría y venta de proyectos digitales"
-simple_es: "El mercado realmente quiere y paga por lo construido."
+simple_es: "Es el punto en que el mercado de verdad quiere el producto y paga por él, de forma repetida. Antes de eso conviene no escalar."
 tecnica_es: "Grado en que una solución satisface una necesidad fuerte y repetible del mercado."
-simple_en: "The market truly wants and pays for what was built."
+simple_en: "The point where the market really wants the product and pays for it, repeatedly. Before that point it is wise not to scale."
 tecnica_en: "The degree to which a solution meets a strong, repeatable market need."
 ejemplo_es: "Hay product-market fit: los clientes renuevan solos."
 ejemplo_en: "There is product-market fit: customers renew on their own."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Product-Market Fit · Ajuste producto-mercado
 
-**En simple.** El mercado realmente quiere y paga por lo construido.
+**En simple.** Es el punto en que el mercado de verdad quiere el producto y paga por él, de forma repetida. Antes de eso conviene no escalar.
 
 **Técnica.** Grado en que una solución satisface una necesidad fuerte y repetible del mercado.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The market truly wants and pays for what was built.
+**In simple.** The point where the market really wants the product and pays for it, repeatedly. Before that point it is wise not to scale.
 
 **Technical.** The degree to which a solution meets a strong, repeatable market need.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Scratchpad"
 es: "Borrador de trabajo"
 aliases: ["Borrador de trabajo"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "El borrador donde un modelo razona antes de responder."
+simple_es: "Es el espacio temporal donde un agente o un modelo anota su razonamiento antes de dar la respuesta final."
 tecnica_es: "Espacio de trabajo temporal donde el agente anota su razonamiento."
-simple_en: "The draft area where a model reasons before answering."
+simple_en: "The temporary space where an agent or model jots down its reasoning before giving the final answer."
 tecnica_en: "A temporary workspace where the agent jots down its reasoning."
 ejemplo_es: "El borrador de trabajo guarda los pasos intermedios."
 ejemplo_en: "The scratchpad holds the intermediate steps."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Scratchpad · Borrador de trabajo
 
-**En simple.** El borrador donde un modelo razona antes de responder.
+**En simple.** Es el espacio temporal donde un agente o un modelo anota su razonamiento antes de dar la respuesta final.
 
 **Técnica.** Espacio de trabajo temporal donde el agente anota su razonamiento.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The draft area where a model reasons before answering.
+**In simple.** The temporary space where an agent or model jots down its reasoning before giving the final answer.
 
 **Technical.** A temporary workspace where the agent jots down its reasoning.
 

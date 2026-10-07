@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Buffer / Reserve"
 es: "Colchón / reserva"
 aliases: ["Colchón / Reserva", "Colchón", "Colchón / reserva", "Buffer", "Reserve", "reserva"]
 dominio: "10 · Pagos, dinero y conciliación"
-simple_es: "Sin bitcoin en el custodio, la entrega queda «en camino» y no se abona."
+simple_es: "Es un fondo de respaldo que debe existir antes de dar por bueno un saldo al cliente. Si el respaldo no está, la operación queda pendiente y no se abona."
 tecnica_es: "Respaldo que debe existir antes de reconocer un saldo al cliente."
-simple_en: "Without bitcoin at the custodian, the delivery stays \"on its way\" and isn't credited."
+simple_en: "A backup amount that must exist before a customer's balance is treated as real. If the backup is not there, the operation stays pending and is not credited."
 tecnica_en: "A backing that must exist before a balance is recognized for the client."
 ejemplo_es: "Sin colchón en el custodio, no se abona el saldo."
 ejemplo_en: "With no buffer at the custodian, the balance isn't credited."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Buffer / Reserve · Colchón / reserva
 
-**En simple.** Sin bitcoin en el custodio, la entrega queda «en camino» y no se abona.
+**En simple.** Es un fondo de respaldo que debe existir antes de dar por bueno un saldo al cliente. Si el respaldo no está, la operación queda pendiente y no se abona.
 
 **Técnica.** Respaldo que debe existir antes de reconocer un saldo al cliente.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Without bitcoin at the custodian, the delivery stays "on its way" and isn't credited.
+**In simple.** A backup amount that must exist before a customer's balance is treated as real. If the backup is not there, the operation stays pending and is not credited.
 
 **Technical.** A backing that must exist before a balance is recognized for the client.
 

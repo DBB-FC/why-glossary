@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "GraphQL"
 es: "GraphQL"
 aliases: []
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "Alternativa a REST: una sola petición trae lo justo, a cambio de un servidor más complejo."
+simple_es: "Es una forma de pedir datos a una API en que el cliente indica exactamente qué campos necesita y recibe solo eso. Es una alternativa a REST, a cambio de un servidor más complejo."
 tecnica_es: "Lenguaje de consulta donde el cliente declara exactamente qué campos necesita."
-simple_en: "An alternative to REST: one request brings just what you need, at the cost of a more complex server."
+simple_en: "A way of requesting data from an API where the client states exactly which fields it needs and receives only those. It is an alternative to REST, at the cost of a more complex server."
 tecnica_en: "A query language where the client declares exactly which fields it needs."
 ejemplo_es: "Con GraphQL la app móvil pide solo nombre y saldo."
 ejemplo_en: "With GraphQL the mobile app asks only for name and balance."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # GraphQL · GraphQL
 
-**En simple.** Alternativa a REST: una sola petición trae lo justo, a cambio de un servidor más complejo.
+**En simple.** Es una forma de pedir datos a una API en que el cliente indica exactamente qué campos necesita y recibe solo eso. Es una alternativa a REST, a cambio de un servidor más complejo.
 
 **Técnica.** Lenguaje de consulta donde el cliente declara exactamente qué campos necesita.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** An alternative to REST: one request brings just what you need, at the cost of a more complex server.
+**In simple.** A way of requesting data from an API where the client states exactly which fields it needs and receives only those. It is an alternative to REST, at the cost of a more complex server.
 
 **Technical.** A query language where the client declares exactly which fields it needs.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Linting"
 es: "Análisis estático de código"
 aliases: ["Análisis estático de código"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Una revisión automática del estilo y de los errores comunes del código."
+simple_es: "Es una revisión automática del código que detecta errores comunes y problemas de estilo sin ejecutarlo, antes de que lleguen a las pruebas."
 tecnica_es: "Análisis automático de código para detectar errores y problemas de estilo."
-simple_en: "An automatic check of code style and common mistakes."
+simple_en: "An automatic check of code that spots common errors and style problems without running it, before they reach testing."
 tecnica_en: "Automatic analysis of code to detect errors and style problems."
 ejemplo_es: "El linting bloquea el PR si hay errores de estilo."
 ejemplo_en: "Linting blocks the PR if there are style errors."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Linting · Análisis estático de código
 
-**En simple.** Una revisión automática del estilo y de los errores comunes del código.
+**En simple.** Es una revisión automática del código que detecta errores comunes y problemas de estilo sin ejecutarlo, antes de que lleguen a las pruebas.
 
 **Técnica.** Análisis automático de código para detectar errores y problemas de estilo.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** An automatic check of code style and common mistakes.
+**In simple.** An automatic check of code that spots common errors and style problems without running it, before they reach testing.
 
 **Technical.** Automatic analysis of code to detect errors and style problems.
 

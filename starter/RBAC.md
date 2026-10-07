@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "RBAC"
 es: "Control de acceso basado en roles"
 aliases: ["Control de acceso basado en roles"]
 dominio: "07 · Ciberseguridad, identidad y privacidad"
-simple_es: "Dar permisos según el rol de cada persona, como administrador o vendedor."
+simple_es: "Es un modelo en que los permisos se asignan según el rol de cada persona, como administrador o vendedor, en lugar de dárselos uno por uno."
 tecnica_es: "Role-Based Access Control: permisos asignados según roles."
-simple_en: "Granting permissions by each person's role, such as administrator or salesperson."
+simple_en: "A model where permissions are assigned according to each person's role, such as administrator or salesperson, instead of granting them one by one."
 tecnica_en: "Role-Based Access Control: permissions assigned according to roles."
 ejemplo_es: "Definimos cuatro roles con RBAC."
 ejemplo_en: "We defined four roles with RBAC."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # RBAC · Control de acceso basado en roles
 
-**En simple.** Dar permisos según el rol de cada persona, como administrador o vendedor.
+**En simple.** Es un modelo en que los permisos se asignan según el rol de cada persona, como administrador o vendedor, en lugar de dárselos uno por uno.
 
 **Técnica.** Role-Based Access Control: permisos asignados según roles.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Granting permissions by each person's role, such as administrator or salesperson.
+**In simple.** A model where permissions are assigned according to each person's role, such as administrator or salesperson, instead of granting them one by one.
 
 **Technical.** Role-Based Access Control: permissions assigned according to roles.
 

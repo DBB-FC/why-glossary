@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Vercel"
 es: "Vercel"
 aliases: []
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Hosting/deploy especialmente cómodo para stacks como Next.js."
+simple_es: "Es una plataforma en la nube que publica y ejecuta sitios y aplicaciones web de forma automática cada vez que subes cambios. Es muy usada con Next.js."
 tecnica_es: "Plataforma cloud orientada al despliegue y operación de aplicaciones web modernas."
-simple_en: "Hosting and deploys that are especially convenient for stacks like Next.js."
+simple_en: "A cloud platform that publishes and runs websites and web apps automatically every time you push changes. It is widely used with Next.js."
 tecnica_en: "A cloud platform focused on deploying and operating modern web applications."
 ejemplo_es: "Desplegamos el sitio en Vercel."
 ejemplo_en: "We deploy the site on Vercel."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Vercel · Vercel
 
-**En simple.** Hosting/deploy especialmente cómodo para stacks como Next.js.
+**En simple.** Es una plataforma en la nube que publica y ejecuta sitios y aplicaciones web de forma automática cada vez que subes cambios. Es muy usada con Next.js.
 
 **Técnica.** Plataforma cloud orientada al despliegue y operación de aplicaciones web modernas.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Hosting and deploys that are especially convenient for stacks like Next.js.
+**In simple.** A cloud platform that publishes and runs websites and web apps automatically every time you push changes. It is widely used with Next.js.
 
 **Technical.** A cloud platform focused on deploying and operating modern web applications.
 

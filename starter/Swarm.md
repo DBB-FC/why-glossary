@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Swarm"
 es: "Enjambre"
 aliases: ["Enjambre"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Muchos agentes de IA trabajando a la vez en el mismo objetivo. Termina antes, pero consume muchos más tokens."
+simple_es: "Es un conjunto de muchos agentes de IA trabajando a la vez en el mismo objetivo. Termina antes, pero consume muchos más tokens."
 tecnica_es: "Múltiples agentes trabajando en paralelo sobre un mismo objetivo."
-simple_en: "Many AI agents working at once on the same goal. It finishes sooner but uses far more tokens."
+simple_en: "A group of many AI agents working at the same time on the same goal. It finishes sooner, but consumes many more tokens."
 tecnica_en: "Multiple agents working in parallel on one goal."
 ejemplo_es: "El enjambre terminó rápido pero costó mucho."
 ejemplo_en: "The swarm finished fast but cost a lot."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Swarm · Enjambre
 
-**En simple.** Muchos agentes de IA trabajando a la vez en el mismo objetivo. Termina antes, pero consume muchos más tokens.
+**En simple.** Es un conjunto de muchos agentes de IA trabajando a la vez en el mismo objetivo. Termina antes, pero consume muchos más tokens.
 
 **Técnica.** Múltiples agentes trabajando en paralelo sobre un mismo objetivo.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Many AI agents working at once on the same goal. It finishes sooner but uses far more tokens.
+**In simple.** A group of many AI agents working at the same time on the same goal. It finishes sooner, but consumes many more tokens.
 
 **Technical.** Multiple agents working in parallel on one goal.
 

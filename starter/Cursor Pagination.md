@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Cursor Pagination"
 es: "Paginación por cursor"
 aliases: ["Paginación por cursor"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "Estable cuando se insertan filas mientras se pagina; OFFSET no lo es."
+simple_es: "Es una forma de recorrer una lista larga por tramos usando un puntero a donde quedaste, en vez de un número de página. Es estable aunque se agreguen filas mientras tanto."
 tecnica_es: "Recorrer resultados usando un puntero en vez de un número de página."
-simple_en: "Stable when rows are inserted while paging; OFFSET isn't."
+simple_en: "A way of going through a long list in chunks using a pointer to where you left off, instead of a page number. It stays stable even if rows are added in the meantime."
 tecnica_en: "Walking through results using a pointer instead of a page number."
 ejemplo_es: "La paginación por cursor evita repetir filas."
 ejemplo_en: "Cursor pagination avoids repeating rows."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Cursor Pagination · Paginación por cursor
 
-**En simple.** Estable cuando se insertan filas mientras se pagina; OFFSET no lo es.
+**En simple.** Es una forma de recorrer una lista larga por tramos usando un puntero a donde quedaste, en vez de un número de página. Es estable aunque se agreguen filas mientras tanto.
 
 **Técnica.** Recorrer resultados usando un puntero en vez de un número de página.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Stable when rows are inserted while paging; OFFSET isn't.
+**In simple.** A way of going through a long list in chunks using a pointer to where you left off, instead of a page number. It stays stable even if rows are added in the meantime.
 
 **Technical.** Walking through results using a pointer instead of a page number.
 

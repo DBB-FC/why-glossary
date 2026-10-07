@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "SSO (Single Sign-On)"
 es: "Inicio de sesión único"
 aliases: ["SSO", "Inicio de sesión único"]
 dominio: "08 · SaaS, plataformas e integraciones"
-simple_es: "Un solo inicio de sesión para acceder a varios sistemas."
+simple_es: "Es un sistema que te deja iniciar sesión una sola vez para entrar a varias aplicaciones, sin tener que escribir tus datos en cada una."
 tecnica_es: "Single Sign-On: autenticación única para acceder a múltiples servicios."
-simple_en: "One sign-in to access several systems."
+simple_en: "A system that lets you sign in once to access several applications, without typing your details into each one."
 tecnica_en: "Single Sign-On: one authentication to access multiple services."
 ejemplo_es: "Con inicio de sesión único entran a todas las apps con una cuenta."
 ejemplo_en: "With single sign-on they get into every app with one account."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # SSO (Single Sign-On) · Inicio de sesión único
 
-**En simple.** Un solo inicio de sesión para acceder a varios sistemas.
+**En simple.** Es un sistema que te deja iniciar sesión una sola vez para entrar a varias aplicaciones, sin tener que escribir tus datos en cada una.
 
 **Técnica.** Single Sign-On: autenticación única para acceder a múltiples servicios.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** One sign-in to access several systems.
+**In simple.** A system that lets you sign in once to access several applications, without typing your details into each one.
 
 **Technical.** Single Sign-On: one authentication to access multiple services.
 

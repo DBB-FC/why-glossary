@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Code Review"
 es: "Revisión de código"
 aliases: ["Revisión de código"]
 dominio: "06 · QA, testing y calidad"
-simple_es: "Que otra persona revise el código antes de aceptarlo."
+simple_es: "Es el paso en que otra persona lee y revisa los cambios de código antes de aceptarlos, para detectar errores y mantener la calidad."
 tecnica_es: "Revisión técnica de cambios de código antes de integrarlos."
-simple_en: "Having another person check the code before it is accepted."
+simple_en: "The step where another person reads and reviews code changes before they are accepted, to catch mistakes and keep quality up."
 tecnica_en: "Technical review of code changes before they are integrated."
 ejemplo_es: "La revisión de código detectó un error de seguridad."
 ejemplo_en: "The code review caught a security flaw."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Code Review · Revisión de código
 
-**En simple.** Que otra persona revise el código antes de aceptarlo.
+**En simple.** Es el paso en que otra persona lee y revisa los cambios de código antes de aceptarlos, para detectar errores y mantener la calidad.
 
 **Técnica.** Revisión técnica de cambios de código antes de integrarlos.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Having another person check the code before it is accepted.
+**In simple.** The step where another person reads and reviews code changes before they are accepted, to catch mistakes and keep quality up.
 
 **Technical.** Technical review of code changes before they are integrated.
 

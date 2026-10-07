@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "LLM-as-Judge"
 es: "LLM como juez"
 aliases: ["LLM como juez"]
 dominio: "12 · Agentes de IA, MCP y economía de tokens"
-simple_es: "Usar un modelo de IA para evaluar respuestas: es barato, pero hereda sus sesgos."
+simple_es: "Es usar un modelo de IA para evaluar las respuestas de otro. Es barato y rápido, pero hereda sus sesgos."
 tecnica_es: "Usar un modelo para evaluar la salida de otro."
-simple_en: "Using an AI model to grade answers: cheap, but it inherits the judge's biases."
+simple_en: "Using one AI model to evaluate another's answers. It is cheap and fast, but it inherits its biases."
 tecnica_en: "Using one model to evaluate another model's output."
 ejemplo_es: "Usamos un LLM como juez para puntuar las respuestas."
 ejemplo_en: "We use an LLM as judge to score the answers."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # LLM-as-Judge · LLM como juez
 
-**En simple.** Usar un modelo de IA para evaluar respuestas: es barato, pero hereda sus sesgos.
+**En simple.** Es usar un modelo de IA para evaluar las respuestas de otro. Es barato y rápido, pero hereda sus sesgos.
 
 **Técnica.** Usar un modelo para evaluar la salida de otro.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** Using an AI model to grade answers: cheap, but it inherits the judge's biases.
+**In simple.** Using one AI model to evaluate another's answers. It is cheap and fast, but it inherits its biases.
 
 **Technical.** Using one model to evaluate another model's output.
 

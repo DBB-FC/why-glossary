@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Runtime"
 es: "Entorno de ejecución"
 aliases: ["Entorno de ejecución"]
 dominio: "03 · Desarrollo web y arquitectura de software"
-simple_es: "El entorno que ejecuta el código."
+simple_es: "Es el entorno que ejecuta el código de un programa, como el navegador o Node.js."
 tecnica_es: "Entorno donde se ejecuta un programa."
-simple_en: "The environment that runs the code."
+simple_en: "The environment that runs a program's code, such as the browser or Node.js."
 tecnica_en: "The environment in which a program executes."
 ejemplo_es: "Hay que actualizar el runtime a la versión 22."
 ejemplo_en: "The runtime has to be updated to version 22."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Runtime · Entorno de ejecución
 
-**En simple.** El entorno que ejecuta el código.
+**En simple.** Es el entorno que ejecuta el código de un programa, como el navegador o Node.js.
 
 **Técnica.** Entorno donde se ejecuta un programa.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** The environment that runs the code.
+**In simple.** The environment that runs a program's code, such as the browser or Node.js.
 
 **Technical.** The environment in which a program executes.
 

@@ -1,11 +1,12 @@
 ---
+cssclasses: ["wg-nota"]
 en: "Upsert"
 es: "Insertar o actualizar (upsert)"
 aliases: ["Insertar o actualizar (upsert)"]
 dominio: "04 · Datos y bases de datos"
-simple_es: "ON CONFLICT DO UPDATE: lo que permite reprocesar sin duplicar."
+simple_es: "Es una operación que inserta un registro si no existe o lo actualiza si ya existe. Permite reprocesar datos sin duplicarlos."
 tecnica_es: "Insertar o actualizar según si la fila ya existe."
-simple_en: "ON CONFLICT DO UPDATE: what lets you reprocess without duplicating."
+simple_en: "An operation that inserts a record if it does not exist or updates it if it already does. It lets you reprocess data without duplicating it."
 tecnica_en: "Insert or update depending on whether the row already exists."
 ejemplo_es: "Con upsert reprocesamos el archivo sin duplicar."
 ejemplo_en: "With an upsert we reprocess the file without duplicates."
@@ -15,7 +16,7 @@ verificar: false
 ---
 # Upsert · Insertar o actualizar (upsert)
 
-**En simple.** ON CONFLICT DO UPDATE: lo que permite reprocesar sin duplicar.
+**En simple.** Es una operación que inserta un registro si no existe o lo actualiza si ya existe. Permite reprocesar datos sin duplicarlos.
 
 **Técnica.** Insertar o actualizar según si la fila ya existe.
 
@@ -23,7 +24,7 @@ verificar: false
 
 ---
 
-**In simple.** ON CONFLICT DO UPDATE: what lets you reprocess without duplicating.
+**In simple.** An operation that inserts a record if it does not exist or updates it if it already does. It lets you reprocess data without duplicating it.
 
 **Technical.** Insert or update depending on whether the row already exists.
 

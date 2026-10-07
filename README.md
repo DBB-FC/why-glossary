@@ -92,7 +92,7 @@ BRAT installs it, enables it, and updates it on every release.
 
 Download `main.js`, `manifest.json` and `styles.css` from the
 [latest release](https://github.com/DBB-FC/why-glossary/releases/latest) into
-`<vault>/.obsidian/plugins/why-glossary/`, then enable it in Settings → Community plugins.
+`<vault>/.obsidian/plugins/why-glossary-bilingual/`, then enable it in Settings → Community plugins.
 Nothing else is needed: those three files are the whole plugin.
 
 </details>

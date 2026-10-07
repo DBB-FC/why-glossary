@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Why Glossary">
+<rect width="512" height="512" rx="112" fill="#0B1026"/>
+<text x="150" y="232" font-family="Georgia,serif" font-size="150" font-weight="700" fill="#1FC8B4" text-anchor="middle">A</text>
+<text x="362" y="404" font-family="Georgia,serif" font-size="150" font-weight="700" fill="#B79CFF" text-anchor="middle">Á</text>
+<path d="M236 300 L276 260 M236 300 L254 300 M236 300 L236 282 M276 260 L258 260 M276 260 L276 278" stroke="#F7F7FA" stroke-width="12" stroke-linecap="round" fill="none"/>
+</svg>

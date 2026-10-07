@@ -8,7 +8,7 @@
 
 casi 400 términos listos · agrega los tuyos · funciona con cualquier vault
 
-[![versión](https://img.shields.io/github/v/release/DBB-FC/why-glossary?label=versi%C3%B3n&color=1FC8B4&style=flat-square)](https://github.com/DBB-FC/why-glossary/releases/latest)
+[![versión](https://img.shields.io/github/v/release/DBB-FC/why-glossary-bilingual?label=versi%C3%B3n&color=1FC8B4&style=flat-square)](https://github.com/DBB-FC/why-glossary-bilingual/releases/latest)
 [![Obsidian 1.8.7+](https://img.shields.io/badge/Obsidian-1.8.7+-B79CFF?style=flat-square)](https://obsidian.md)
 [![escritorio y celular](https://img.shields.io/badge/escritorio-%2B%20celular-5B95FF?style=flat-square)](#instalar)
 [![MIT](https://img.shields.io/badge/licencia-MIT-F7931A?style=flat-square)](LICENSE)
@@ -85,14 +85,14 @@ escribes · **español e inglés**, un solo ajuste · **el celular**, mismas pan
 
 1. Instala **Obsidian42 - BRAT** desde los complementos de la comunidad.
 2. Paleta de comandos → **BRAT: Add a beta plugin for testing**.
-3. Pega `DBB-FC/why-glossary`.
+3. Pega `DBB-FC/why-glossary-bilingual`.
 
 BRAT lo instala, lo activa y lo actualiza en cada release.
 
 ### A mano
 
 Descarga `main.js`, `manifest.json` y `styles.css` desde el
-[último release](https://github.com/DBB-FC/why-glossary/releases/latest) a
+[último release](https://github.com/DBB-FC/why-glossary-bilingual/releases/latest) a
 `<vault>/.obsidian/plugins/why-glossary-bilingual/` y actívalo en Ajustes → Complementos de la comunidad.
 No hace falta nada más: esos tres archivos son todo el plugin.
 
@@ -149,7 +149,7 @@ DevOps, IA y automatización, producto y diseño, pagos, QA, y SaaS e integracio
 Las definiciones están escritas para valerse por sí solas, para público general, y **no reemplazan a
 un especialista**: la versión simple simplifica a propósito. Los términos con `verificar: true` en su
 frontmatter son aquellos cuya traducción merece una segunda mirada; si ves un error,
-[abre un issue](https://github.com/DBB-FC/why-glossary/issues).
+[abre un issue](https://github.com/DBB-FC/why-glossary-bilingual/issues).
 
 El glosario base nunca pisa tus notas: edita un término y se queda tu versión. *Instalar el
 glosario base* en los ajustes repone lo que hayas borrado.
@@ -202,7 +202,7 @@ redistribuirlo, conservando el aviso de copyright. El plugin no cobra nada y no 
 
 ## Soporte
 
-Errores e ideas: [issues de GitHub](https://github.com/DBB-FC/why-glossary/issues). Incluye tu
+Errores e ideas: [issues de GitHub](https://github.com/DBB-FC/why-glossary-bilingual/issues). Incluye tu
 versión de Obsidian y tu plataforma.
 
 [Cómo contribuir](CONTRIBUTING.es.md) · [Código de conducta](CODE_OF_CONDUCT.es.md) · [Seguridad](SECURITY.es.md) · [Licencia MIT](LICENSE)

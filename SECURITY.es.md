@@ -4,7 +4,7 @@
 
 ## Reportar una vulnerabilidad
 
-Abre un [aviso de seguridad privado](https://github.com/DBB-FC/why-glossary/security/advisories/new)
+Abre un [aviso de seguridad privado](https://github.com/DBB-FC/why-glossary-bilingual/security/advisories/new)
 en este repositorio. Por favor, no abras un issue público por una vulnerabilidad.
 
 La primera respuesta llega dentro de una semana. No hay programa de recompensas.

@@ -1,4 +1,4 @@
-import { App, ItemView, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, ViewStateResult, setIcon, WorkspaceLeaf } from "obsidian";
+import { App, ItemView, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, ViewStateResult, ViewState, setIcon, WorkspaceLeaf } from "obsidian";
 import {
   ABC, Index, Lang, Session, Term, agrupaAZ, buildDeck, clave, dominioCorto, ejemplo, letra, norm,
   Conservado, NuevoTermino, nombreArchivo, notaDeTermino, parseFrontmatter, recorta, simple, summarize, tecnica, termFromFrontmatter,
@@ -26,6 +26,7 @@ export default class WhyGlossary extends Plugin {
     this.registerView(VIEW_PANEL, leaf => new PanelView(leaf, this));
     this.registerView(VIEW_MAIN, leaf => new MainView(leaf, this));
     this.registerView(VIEW_TERM, leaf => new TermView(leaf, this));
+    this.interceptarApertura();
     this.addRibbonIcon("book-a", "Abrir glosario", () => { void this.abrirGlosario(); });
     this.addCommand({ id: "glosario", name: "Abrir glosario", callback: () => { void this.abrirGlosario(); } });
     this.addCommand({ id: "buscar", name: "Buscar término", callback: () => this.buscar() });
@@ -65,7 +66,7 @@ export default class WhyGlossary extends Plugin {
       this.registerEvent(this.app.vault.on(ev as "modify", (f: TAbstractFile) => { if (f instanceof TFile && dentro(f)) this.recargarPronto(); }));
   }
 
-  onunload() { this.ocultaTip(); }
+  onunload() { this.ocultaTip(); this.restaurarApertura?.(); }
   async saveSettings() { await this.saveData(this.settings); }
 
   private t: number | undefined;
@@ -147,17 +148,37 @@ export default class WhyGlossary extends Plugin {
     void leaf.openFile(f);
   }
   private comoTexto = new Set<string>();
+  private restaurarApertura?: () => void;
+  /** Abre las notas del glosario directo como tarjeta, sin pasar antes por la vista de texto. */
+  private interceptarApertura() {
+    const proto = WorkspaceLeaf.prototype;
+    const original = proto.setViewState;
+    const plugin = this;
+    proto.setViewState = function (this: WorkspaceLeaf, vs: ViewState, eState?: unknown) {
+      try {
+        const ruta = (vs?.state as { file?: string } | undefined)?.file;
+        if (vs?.type === "markdown" && ruta && plugin.settings.tarjeta && plugin.byPath.has(ruta) && !plugin.comoTexto.has(ruta))
+          vs = { ...vs, type: VIEW_TERM, state: { file: ruta } };
+      } catch { /* si algo falla, se abre como siempre */ }
+      return original.call(this, vs, eState);
+    };
+    this.restaurarApertura = () => { proto.setViewState = original; };
+  }
   /** Nivel 3: al abrir la nota de un término, se muestra como tarjeta. */
   private async alAbrir(f: TFile | null) {
     if (!f) return;
     if (this.comoTexto.delete(f.path)) return;
-    if (!this.settings.tarjeta || !this.byPath.has(f.path)) return;
-    await this.comoTarjeta(f);
+    if (!this.settings.tarjeta || !f.path.startsWith(this.settings.carpeta.replace(/\/$/, "") + "/")) return;
+    try {
+      if (!this.byPath.has(f.path)) { new Notice(`Why Glossary: «${f.basename}» no está en el índice (${this.byPath.size} términos cargados).`); return; }
+      await this.comoTarjeta(f);
+    } catch (e) { new Notice(`Why Glossary: la tarjeta falló: ${e instanceof Error ? e.message : String(e)}`); console.error(e); }
   }
   /** Convierte en tarjeta la pestaña de texto que muestra esta nota (la activa si hay varias). */
   private async comoTarjeta(f: TFile) {
     const hojas = this.app.workspace.getLeavesOfType("markdown").filter(l => (l.view as MarkdownView).file?.path === f.path);
-    if (!hojas.length) return;
+    if (!hojas.length && this.app.workspace.getLeavesOfType(VIEW_TERM).some(l => (l.view as TermView).getState().file === f.path)) return;
+    if (!hojas.length) { new Notice(`Why Glossary: no encontré la pestaña de «${f.basename}» (${this.app.workspace.getLeavesOfType("markdown").length} pestañas de texto).`); return; }
     const activa = this.app.workspace.getMostRecentLeaf();
     const hoja = hojas.find(l => l === activa) ?? hojas[0];
     await hoja.setViewState({ type: VIEW_TERM, state: { file: f.path }, active: true });

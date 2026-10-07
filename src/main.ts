@@ -149,6 +149,7 @@ export default class WhyGlossary extends Plugin {
   }
   private comoTexto = new Set<string>();
   private restaurarApertura?: () => void;
+  directo = new Set<string>();
   /** Abre las notas del glosario directo como tarjeta, sin pasar antes por la vista de texto. */
   private interceptarApertura() {
     const proto = WorkspaceLeaf.prototype;
@@ -158,7 +159,7 @@ export default class WhyGlossary extends Plugin {
       try {
         const ruta = (vs?.state as { file?: string } | undefined)?.file;
         if (vs?.type === "markdown" && ruta && plugin.settings.tarjeta && plugin.byPath.has(ruta) && !plugin.comoTexto.has(ruta))
-          vs = { ...vs, type: VIEW_TERM, state: { file: ruta } };
+          { vs = { ...vs, type: VIEW_TERM, state: { file: ruta } }; plugin.directo.add(ruta); }
       } catch { /* si algo falla, se abre como siempre */ }
       return original.call(this, vs, eState);
     };
@@ -331,11 +332,13 @@ class TermView extends ItemView implements GlossaryLeaf {
   getDisplayText() { const t = this.p.termPorRuta(this.ruta); return t ? t.en : "Término"; }
   getState() { return { file: this.ruta }; }
   async setState(state: unknown, result: ViewStateResult) {
+    const t0 = performance.now();
     this.ruta = (state as { file?: string } | null)?.file ?? "";
     await super.setState(state, result);
     this.pinta();
+    if (this.p.directo.delete(this.ruta)) new Notice(`Tarjeta directa · ${Math.round(performance.now() - t0)} ms`); else if (this.ruta) new Notice(`Tarjeta convertida (pasó antes por texto) · ${Math.round(performance.now() - t0)} ms`);
   }
-  onOpen() { this.contentEl.addClass("wg-scope", "wg-termview"); this.pinta(); return Promise.resolve(); }
+  onOpen() { this.contentEl.addClass("wg-scope", "wg-termview"); return Promise.resolve(); }
   refrescar() { this.pinta(); }
   private pinta() {
     const el = this.contentEl; el.empty();

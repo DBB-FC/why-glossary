@@ -14,7 +14,7 @@ almost 400 ready-made terms · add your own · works with any vault
 [![MIT](https://img.shields.io/badge/licence-MIT-F7931A?style=flat-square)](LICENSE)
 [![no telemetry](https://img.shields.io/badge/telemetry-none-2A3566?style=flat-square)](#everything-else)
 
-*English · [Leer en español](README.es.md)*
+*English · [Leer en español](README.es.md) · [Changelog](CHANGELOG.md)*
 
 <a href="https://www.buymeacoffee.com/DbbLabs" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&emoji=%F0%9F%8D%BA&slug=DbbLabs&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a beer" height="46"></a>
 

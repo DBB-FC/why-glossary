@@ -1,5 +1,5 @@
 import esbuild from "esbuild";
-import builtins from "builtin-modules";
+import { builtinModules as builtins } from "node:module";
 import { readdirSync, readFileSync } from "node:fs";
 const test = process.argv[2] === "test";
 // Glosario base: las notas de starter/ viajan dentro de main.js (no hay descarga ni carpeta aparte).

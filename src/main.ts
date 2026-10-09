@@ -1,4 +1,4 @@
-import { App, ItemView, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, SuggestModal, TAbstractFile, TFile, ViewStateResult, setIcon, WorkspaceLeaf } from "obsidian";
+import { App, ItemView, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, SettingDefinitionItem, SuggestModal, TAbstractFile, TFile, ViewStateResult, setIcon, WorkspaceLeaf } from "obsidian";
 import {
   ABC, Index, Lang, Session, Term, agrupaAZ, buildDeck, clave, dominioNombre, ejemplo, letra, norm,
   Conservado, NuevoTermino, nombreArchivo, notaDeTermino, parseFrontmatter, recorta, simple, summarize, tecnica, termFromFrontmatter,
@@ -708,12 +708,43 @@ class AddTermModal extends Modal {
 
 class SettingsTab extends PluginSettingTab {
   constructor(app: App, private p: WhyGlossary) { super(app, p); }
-  display() {
+  // Obsidian 1.13+: ajustes declarativos (salen en el buscador de ajustes). display() queda solo para versiones anteriores.
+  getSettingDefinitions(): SettingDefinitionItem[] {
+    const x = (es: string, en: string) => this.p.tx(es, en);
+    return [
+      { name: x("Carpeta del glosario", "Glossary folder"), desc: x("Carpeta de la bóveda con las notas de los términos.", "Vault folder with the term notes."),
+        control: { type: "text", key: "carpeta" } },
+      { name: x("Idioma", "Language"), desc: x("Idioma de toda la interfaz y de las definiciones. Si falta una definición en inglés, se muestra la de español.", "Language of the whole interface and the definitions. If an English definition is missing, the Spanish one is shown."),
+        control: { type: "dropdown", key: "idioma", options: { es: "Español", en: "English" } } },
+      { name: x("Ver definición al pasar el cursor", "Show definition on hover"), desc: x("Subraya los términos del glosario en modo lectura.", "Underlines glossary terms in reading mode."),
+        control: { type: "toggle", key: "hover" } },
+      { name: x("Abrir el glosario al iniciar Obsidian", "Open the glossary when Obsidian starts"), desc: x("La pantalla del glosario aparece sola al abrir la bóveda.", "The glossary screen opens by itself when you open the vault."),
+        control: { type: "toggle", key: "abrirAlInicio" } },
+      { name: x("Abrir las notas del glosario como tarjeta", "Open glossary notes as a card"), desc: x("Al abrir la nota de un término se ve como tarjeta, con cambio de idioma y botón para editar. «Abrir la nota en texto» siempre está disponible.", "Opening a term note shows it as a card, with a language switch and an edit button. \"Open the note as text\" is always available."),
+        control: { type: "toggle", key: "tarjeta" } },
+      { name: x("Tus términos", "Your terms"), desc: x("Agrega un término propio. Se guarda como una nota en «Mis términos», dentro de la carpeta del glosario.", "Add your own term. It is saved as a note in \"Mis términos\", inside the glossary folder."),
+        render: (setting: Setting) => { setting.addButton(b => b.setButtonText(x("Ingresá tus términos", "Add your terms")).setCta().onClick(() => { void this.p.agregar(); })); } },
+      { name: x("Glosario base", "Base glossary"), desc: x("Instala o repone los términos generales (tecnología, negocio, diseño). No pisa tus notas ni tus cambios.", "Installs or restores the general terms (technology, business, design). It never overwrites your notes or your changes."),
+        render: (setting: Setting) => { setting.addButton(b => b.setButtonText(x("Instalar glosario base", "Install base glossary")).onClick(() => { void this.p.instalarBase(true); })); } },
+      { name: x("Tarjetas por sesión de estudio", "Cards per study session"),
+        control: { type: "slider", key: "mazo", min: 5, max: 30, step: 5 } },
+    ];
+  }
+  getControlValue(key: string): unknown { return (this.p.settings as unknown as Record<string, unknown>)[key]; }
+  async setControlValue(key: string, value: unknown): Promise<void> {
+    const ajustes = this.p.settings as unknown as Record<string, unknown>;
+    ajustes[key] = key === "carpeta" ? (String(value).trim() || "Why Glossary") : value;
+    await this.p.saveSettings();
+    if (key === "carpeta" || key === "idioma") this.p.recargarPronto();
+    if (key === "idioma") (this as { update?: () => void }).update?.(); // update() existe desde 1.13
+  }
+  display() { this.dibujar(); }
+  private dibujar() {
     const el = this.containerEl; el.empty(); const x = (es: string, en: string) => this.p.tx(es, en);
     new Setting(el).setName(x("Carpeta del glosario", "Glossary folder")).setDesc(x("Carpeta de la bóveda con las notas de los términos.", "Vault folder with the term notes."))
       .addText(t => t.setValue(this.p.settings.carpeta).onChange(async v => { this.p.settings.carpeta = v.trim() || "Why Glossary"; await this.p.saveSettings(); this.p.recargarPronto(); }));
     new Setting(el).setName(x("Idioma", "Language")).setDesc(x("Idioma de toda la interfaz y de las definiciones. Si falta una definición en inglés, se muestra la de español.", "Language of the whole interface and the definitions. If an English definition is missing, the Spanish one is shown."))
-      .addDropdown(d => d.addOption("es", "Español").addOption("en", "English").setValue(this.p.settings.idioma).onChange(async v => { this.p.settings.idioma = v as Lang; await this.p.saveSettings(); this.p.recargarPronto(); this.display(); }));
+      .addDropdown(d => d.addOption("es", "Español").addOption("en", "English").setValue(this.p.settings.idioma).onChange(async v => { this.p.settings.idioma = v as Lang; await this.p.saveSettings(); this.p.recargarPronto(); this.dibujar(); }));
     new Setting(el).setName(x("Ver definición al pasar el cursor", "Show definition on hover")).setDesc(x("Subraya los términos del glosario en modo lectura.", "Underlines glossary terms in reading mode."))
       .addToggle(t => t.setValue(this.p.settings.hover).onChange(async v => { this.p.settings.hover = v; await this.p.saveSettings(); }));
     new Setting(el).setName(x("Abrir el glosario al iniciar Obsidian", "Open the glossary when Obsidian starts")).setDesc(x("La pantalla del glosario aparece sola al abrir la bóveda.", "The glossary screen opens by itself when you open the vault."))

@@ -206,7 +206,7 @@
 @media (max-width: 1150px) { .wg-preview { display: none; } }
 
 /* Ingresá tus términos */
-.wg-add-btn { margin-left: auto; min-height: 36px !important; padding: 6px 14px !important; font-size: 13px !important; }
+.wg-scope .wg-primary.wg-add-btn { margin-left: auto; min-height: 36px; padding: 6px 14px; font-size: 13px; }
 .wg-add { display: flex; flex-direction: column; gap: 12px; }
 .wg-add .wg-field { display: flex; flex-direction: column; gap: 4px; }
 .wg-add .wg-input { width: 100%; }

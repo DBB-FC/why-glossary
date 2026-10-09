@@ -173,6 +173,16 @@
   .wg-scope button.wg-dom-btn { white-space: nowrap; padding: 8px 14px; }
   .wg-main-head { padding: 16px; } .wg-az, .wg-entries { padding-left: 16px; padding-right: 16px; }
   .wg-entry { padding-left: 0; }
+  /* móvil: toda la columna se desplaza; la cabecera se apila */
+  .wg-col { min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .wg-entries { flex: none; overflow: visible; min-height: auto; padding-bottom: 80px; }
+  .wg-brand { flex-direction: column; align-items: stretch; gap: 12px; }
+  .wg-title { font-size: 24px; max-width: none; }
+  .wg-scope .wg-primary.wg-add-btn { margin-left: 0; width: 100%; min-height: 44px; }
+  .wg-order { margin-left: 0; }
+  .wg-scope .wg-searchbox .wg-input { height: 52px; font-size: 16px; }
+  .wg-kbd { display: none; }
+  .wg-today { padding: 16px; margin-top: 12px; }
 }
 
 /* iconos y color por dominio */
